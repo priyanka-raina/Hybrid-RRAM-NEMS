@@ -1,0 +1,11 @@
+Crossbar Size	Simulation time (s)	Simulation time (s)	Simulation time (s)
+	VTEAM (stp)	VTEAM (smoothed)	Analytical Model
+2x2	0.03	0.04	0.02
+4x4	0.08	0.12	0.03
+8x8	0.27	0.36	0.08
+16x16	1.09	1.39	0.34
+32x32	3.19	3.93	1.97
+64x64	18.61	20.77	9.91
+128x128	99.59	107.58	48.49
+256x256	426.62	465.8	231.7
+512x512	1955.59	2109.22	1233.63

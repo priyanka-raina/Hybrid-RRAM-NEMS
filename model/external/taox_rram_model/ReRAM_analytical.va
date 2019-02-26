@@ -1,0 +1,134 @@
+//////////////////////////////////////////////////
+// Analytical VerilogA model for    
+//
+// A Practical Verilog-A ReRAM Model
+//
+// I. Messaris, A. Serb, S. Stathopoulos, A. Khiat, S. Nikolaidis and T. Prodromakis
+// 
+// Nano Research Group, Electronics and Computer Science Department, 
+// University of Southampton
+// Department of Physics, Aristotle University of Thessaloniki
+//
+// June 2017
+//
+//////////////////////////////////////////////////
+
+
+`include "disciplines.vams"
+`include "constants.h"
+
+//Defines the Verilog-A module and device electrical terminals p,n.
+module ReRAM_analytical (p, n);
+	inout p, n;
+
+electrical p, n;
+
+//'Switching sensitivity' parameters 
+	// v>0
+		parameter real Ap = 743.47; 
+		parameter real tp = 6.51; 
+	// v<0
+		parameter real An = -68012.28374;
+		parameter real tn = 0.31645;
+
+//'Window function' parameters 
+	// v>0
+		parameter real kp = 5.11e-4;
+		//Function 'r' parameters
+			parameter real rp0 = 16719;
+			parameter real rp1 = 0; 
+	// v<0
+		parameter real kn = 1.17e-3;
+		//Function 'r' parameters for
+			parameter real rn0 = 29304.82557;
+			parameter real rn1 = 23692.77225;    
+
+//Initial resistive state  
+	parameter real Rinit = 16250; 
+
+//Switching direction parameter
+	parameter real eta = 1;
+
+//I-V relationship parameters
+	// v>0
+		parameter real ap=0.24;
+		parameter real bp=3;
+	// v<0
+		parameter real an=0.24;
+		parameter real bn=3;  
+
+real Rmp; 		// Function 'r' for v>0
+real Rmn; 		// Function 'r' for v<0
+real vin; 		// Variable that tracks the input voltage. 
+real RS;		// Variable that tracks the time-evolution of resistive state. 
+real IVp;		// Positive branch of the IV relationship 
+real IVn;		// Negative branch of the IV relationship  
+real IV;		// Full IV relationship 
+
+//Local variables
+real first_iteration; 
+real R0_last;		 
+real dt;
+real it; 
+
+//Implementation of the step function
+analog function integer stp; //Stp function
+	real arg; input arg;
+	stp = (arg >= 0 ? 1 : 0 );
+endfunction
+
+analog begin
+
+
+//For the first iteration use 'Rinit' for the initial device resistance.
+//'it' is a parameter that helps track each time-step duration.
+	if (first_iteration==0) begin
+	it=0;
+	R0_last=Rinit;
+	end
+
+////Tracks the timestep duration.
+	dt=$abstime-it;
+
+//Assigns the voltage applied at the terminals of the device on 'vin'
+	vin=V(p,n);
+
+//Implementations of function 'r'  
+	Rmp=rp0+rp1*vin;
+	Rmn=rn0+rn1*vin;
+
+//If vin>0 use the positive branch of the analytical RS response solution
+//If vin<0 use the negative branch of the analytical RS response solution
+	if (vin>0)
+	RS=(1/kp)*ln(exp(eta*kp*Rmp)+exp(-eta*kp*(Ap*(-1+exp(eta*tp*abs(vin))))*dt)*(exp(eta*kp*R0_last)-exp(eta*kp*Rmp)));
+	else
+	RS=-(1/kn)*ln(exp(-eta*kn*R0_last+eta*kn*(An*(-1+exp(tn*abs(vin))))*dt)-exp(-eta*kn*Rmn)*(-1+exp(eta*kn*(An*(-1+exp(tn*abs(vin))))*dt)));
+
+//Bounds the uper limit of device resistance to Rmp 
+	if (RS>=Rmp && vin>0)
+	RS=R0_last;
+
+//Bounds the lower limit of device resistance to Rmn
+	if (RS<=Rmn && vin<0)
+	RS=R0_last;
+ 
+//The two branches of the I-V expression
+	IVp=ap*(1/RS)*sinh(bp*vin);
+	IVn=an*(1/RS)*sinh(bn*vin);
+
+//Device I-V expression
+	IV=IVp*stp(vin)+IVn*stp(-vin);
+
+//Current flowing through the module's port
+	I(p, n)<+ IV; // Ohms law
+
+//Updates the initial resistance for the next iteration
+	R0_last=RS;
+
+//Local parameters update
+	first_iteration=1;
+	it=$abstime;
+
+end
+
+endmodule

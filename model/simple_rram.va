@@ -1,0 +1,46 @@
+/*******************************************************************
+    Simple lumped RRAM Model
+
+    Author: Akash Levy
+    Model name: simple_rram.va
+*******************************************************************/
+
+module SimpleRRAM(BE, TE);
+    // Input variable definition
+    parameter real Vset = 1.5;                  // SET voltage (HRS->LRS)
+    parameter real Vrst = -1.5;                 // RESET voltage (LRS->HRS)
+    parameter real Rl = 1000;                   // resistance (Ohms)
+    parameter real Rh = 10000;                  // resistance (Ohms)
+    parameter real on_i = 0;                    // initially LRS or HRS?
+
+    inout BE, TE;
+    electrical BE, TE;
+
+    real on_flg;                                // “1” when device is in LRS
+    real Rval;
+
+    analog begin
+        // Initialization
+        @(initial_step("tran","dc")) begin
+            on_flg = on_i;
+            if (on_flg) begin
+                Rval = Rl;
+            end
+            else begin
+                Rval = Rh;
+            end
+        end
+
+        // Switch resistance when below or above SET/RESET voltages
+        if (V(BE,TE) >= Vset) begin
+            on_flg = 1;
+            Rval = Rl;
+        end
+        else if (V(BE,TE) <= Vrst) begin
+            on_flg = 0;
+            Rval = Rh;
+        end
+        
+        I(BE,TE) <+ V(BE,TE) / Rval;
+    end // end of analog begin
+endmodule

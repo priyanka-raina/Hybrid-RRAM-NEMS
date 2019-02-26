@@ -1,0 +1,65 @@
+/*******************************************************************
+    Simple lumped 3T NEM Relay Model
+    
+    Adapted from:
+    Chong, Soogine, Kerem Akarvardar, Roozbeh Parsa, Jun-Bo Yoon,
+    Roger T. Howe, Subhasish Mitra, and H-S. Philip Wong.
+    "Nanoelectromechanical (NEM) relays integrated with CMOS SRAM
+    for improved stability and low leakage." In Proceedings of the
+    2009 International Conference on Computer-Aided Design, pp.
+    478-484. ACM, 2009.
+
+    Model name: nem_relay_3T.va
+*******************************************************************/
+
+module NEM_3T(drain, gate, source);
+    // Input variable definition
+    parameter real Vpi = 0.8;                   // pull-in voltage
+    parameter real Vpo = 0.2;                   // pull-out voltage
+    parameter real rch = 1e+3 from [0:inf);     // resistance
+    parameter real tdmec = 1e-9;                // mechanical delay
+    parameter real tr = 1e-18;                  // small nonzero value
+    parameter real tf = 1e-18;                  // small nonzero value
+    parameter real Cgson = 2e-17;               // on-capacitance
+    parameter real Cgsoff = 1.5e-17;            // off-capacitance
+
+    real Vgs;
+    real Cgs;
+    real on_flg;                                // “1” when device is on
+    real td;                                    // switching delay
+    inout drain, gate, source;
+    electrical drain, gate, source;
+    analog begin
+        // Initialization
+        @(initial_step("tran","dc")) begin
+            on_flg = 1;
+            td = tdmec;
+        end
+
+        Vgs = abs(V(gate,source));
+
+        if ((Vgs >= Vpi) && (on_flg == 0)) begin
+            on_flg = 1;
+            Cgs = Cgson;
+            td = tdmec;
+        end
+        else if ((Vgs > Vpo) && (on_flg == 1)) begin
+            on_flg = 1;
+            Cgs = Cgson;
+            td = tdmec;
+        end
+        else if ((Vgs <= Vpo) && (on_flg == 1)) begin
+            on_flg = 0;
+            Cgs = Cgsoff;
+            td = 0;
+        end
+        else if ((Vgs < Vpi) && (on_flg == 0)) begin
+            on_flg = 0;
+            Cgs = Cgsoff;
+            td = 0;
+        end
+        
+        I(drain,source) <+ transition(on_flg,td,tr,tf) * V(drain,source) / rch;
+        I(gate,source) <+ (transition(on_flg,0,td,tf) * (Cgson-Cgsoff)+Cgsoff) * ddt(V(gate,source));
+    end // end of analog begin
+endmodule

@@ -1,0 +1,135 @@
+//////////////////////////////////////////////////
+// Numerical VerilogA model for    
+//
+// A Practical Verilog-A ReRAM Model
+//
+// I. Messaris, A. Serb, S. Stathopoulos, A. Khiat, S. Nikolaidis and T. Prodromakis
+// 
+// Nano Research Group, Electronics and Computer Science Department, 
+// University of Southampton
+// Department of Physics, Aristotle University of Thessaloniki
+//
+// August 2017
+//
+//////////////////////////////////////////////////
+
+
+`include "disciplines.vams"
+`include "constants.h"
+
+module ReRAM_num(p, n);
+	inout p, n;
+
+electrical p, n, x;
+
+//'Switching sensitivity' parameters 
+	// v>0
+		parameter real Ap = 743.47; 
+		parameter real tp = 6.51; 
+	// v<0
+		parameter real An = -68012.28374;
+		parameter real tn = 0.31645;
+
+//'Window function' parameters 
+	// v>0
+		parameter real kp = 5.11e-4;
+		//Function 'r' parameters
+			parameter real rp0 = 16719;
+			parameter real rp1 = 0; 
+	// v<0
+		parameter real kn = 1.17e-3;
+		//Function 'r' parameters for
+			parameter real rn0 = 29304.82557;
+			parameter real rn1 = 23692.77225; 
+ 
+//Initial resistive state  
+	parameter real Rinit = 16250; 
+	
+//Switching direction parameter
+	parameter real eta = 1;
+
+//Stp function parameters
+	parameter real bv=1e-6; 
+    parameter real bR=1e-3;     
+
+//I-V relationship parameters
+	// v>0
+		parameter real ap=0.24;
+		parameter real bp=3;
+	// v<0
+		parameter real an=0.24;
+		parameter real bn=3;  
+
+real Rmp; 		// Function 'r' for v>0
+real Rmn; 		// Function 'r' for v<0
+real stpVp; 	// step function for v>0 
+real stpVn; 	// step function for v<0
+real stpWFp; 	// step function for R<Rmax
+real stpWFn; 	// step function for R>Rmin
+real Sp; 		// 'Switching sensitivity' function for v>0
+real Sn; 		// 'Switching sensitivity' function for v>0
+real WFp; 		// 'Window function' for v>0
+real WFn; 		// 'Window function' for v<0
+real dRdtp; 	// Switching rate function for v>0 
+real dRdtn; 	// Switching rate function for v<0
+real dRdt; 		// Switching rate function
+real RS; 		// Helping parameter that captures device RS evolution
+real vin; 		// Input voltage parameter 
+real IVp;		// Positive branch of the IV relationship 
+real IVn;		// Negative branch of the IV relationship  
+real IV;		// Full IV relationship
+
+analog begin
+
+//Assigns the voltage applied at the terminals of the device on 'vin'
+	vin=V(p,n);
+
+//Implementations of function 'r'  
+	Rmp=rp0+rp1*vin;
+	Rmn=rn0+rn1*vin;
+
+//Continuous approximations of the step functions which apply on the input voltage 'vin' 
+//'limexp' is used instead of 'exp' to prevent numerical overflows
+	stpVp=1/(1+limexp(-(vin)/bv)); 
+	stpVn=1/(1+limexp((vin)/bv)); 
+
+//Step functions for the window function expression 'f'
+	stpWFp=1/(1+limexp(-eta*(Rmp-V(x))/bR));
+	stpWFn=1/(1+limexp(-eta*(V(x)-Rmn)/bR));
+
+//The 'switching sensitivity' functions
+	Sp=Ap*(-1+exp(tp*(vin)));
+	Sn=An*(-1+exp(tn*(-vin)));
+
+//The 'window function' expressions
+	WFp=(-1+exp(eta*kp*(Rmp-V(x))))*stpWFp; 
+	WFn=(-1+exp(eta*kn*(V(x)-Rmn)))*stpWFn;
+
+//Switching rate functions for v>0 and v<0
+	dRdtp=Sp*WFp;
+	dRdtn=Sn*WFn;
+
+//Switching rate function
+	dRdt=dRdtp*stpVp+dRdtn*stpVn; 
+
+// device RS is assigned on an internal voltage node 'x', 
+// performed to implement recursive integration of internal state variable (RS)
+	V(x) <+ idt(dRdt,Rinit); 
+
+//device resistance assigned on parameter 'RS'
+	RS=V(x); 
+
+//The two branches of the I-V expression
+	IVp=ap*(1/RS)*sinh(bp*vin);
+	IVn=an*(1/RS)*sinh(bn*vin);
+
+//Device I-V expression
+	IV=IVp*stpVp+IVn*stpVn;
+
+//Current flowing through the module's port
+	I(p, n)<+ IV;
+
+
+end
+
+endmodule
