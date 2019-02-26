@@ -10,15 +10,15 @@
 .param vsweep_min=2V vsweep_max=-2V
 
 ** Create RRAM (choose a model) **
-* .hdl simple_rram.va
-* Xrram Vte gnd SimpleRRAM Vset=vset Vrst=vrst Rl=rl Rh=rh on_i=on_i
+* .hdl rram_simple.va
+* Xrram Vte gnd RRAM Vset=vset Vrst=vrst Rl=rl Rh=rh on_i=on_i
 * .hdl rram_v_1_0_0.va
 * Xrram Vte gnd rram_v_1_0_0
-.hdl rram_v_2_0.va
-Xrram Vte gnd RRAM_v_2_0_Beta
-* .hdl rram_nfil_analytical.va
+* .hdl rram_v_2_0.va
+* Xrram Vte gnd RRAM_v_2_0_Beta
+* .hdl rram_analytical.va
 * Xrram Vte gnd ReRAM_analytical
-* .hdl rram_nfil_numerical.va
+* .hdl rram_numerical.va
 * Xrram Vte gnd ReRAM_num
 
 ** Sweep voltage (bipolar mode) **

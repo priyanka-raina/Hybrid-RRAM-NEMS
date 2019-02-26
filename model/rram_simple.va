@@ -2,10 +2,10 @@
     Simple lumped RRAM Model
 
     Author: Akash Levy
-    Model name: simple_rram.va
+    Model name: rram_simple.va
 *******************************************************************/
 
-module SimpleRRAM(BE, TE);
+module RRAM(BE, TE);
     // Input variable definition
     parameter real Vset = 1.5;                  // SET voltage (HRS->LRS)
     parameter real Vrst = -1.5;                 // RESET voltage (LRS->HRS)
