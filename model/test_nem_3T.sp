@@ -17,7 +17,7 @@ Vg Vg gnd PWL(0s 0V 1s vsweep_max 2s 0V 3s vsweep_max 4s 0V)
 
 ** Generate I-V plot **
 .tran 1ms 4s
-.probe V(Vg) V(Vsrc) PAR('abs(I(Vsrc))') PAR('V(Vg) - V(Vsrc)') PAR('abs(V(Vg) - V(Vsrc))')
+.probe V(Vg) V(Vsrc) PAR('abs(I(Vsrc))') PAR('V(Vg,Vsrc)') PAR('abs(V(Vg,Vsrc))')
 .option post=2
 .option runlvl=5 accurate delmax=1ms
 
