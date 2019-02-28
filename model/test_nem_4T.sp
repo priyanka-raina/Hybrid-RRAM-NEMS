@@ -1,7 +1,7 @@
 .title <test_nem_4T.sp>
 
 ** Lumped 4T NEM relay device parameters **
-.param Vpi=0.8 Vpo=0.2 rch=1E3 tdmec=1E-9 Cgson=2E-17 Cgsoff=1.5E-17
+.param Vpi=0.8 Vpo=0.2 rch=1E3 tdmec=1E-9 Cgbon=2E-17 Cgboff=1.5E-17
 
 ** Sweep parameters **
 .param vsweep_max=1
@@ -9,7 +9,7 @@
 
 ** Create 4T NEM relay (choose a model) **
 .hdl nem_relay_4T.va
-Xnem gnd Vg Vsrc gnd NEM_4T Vpi=Vpi Vpo=Vpo rch=rch tdmec=tdmec Cgson=Cgson Cgsoff=Cgsoff
+Xnem gnd Vg Vsrc gnd NEM_4T Vpi=Vpi Vpo=Vpo rch=rch tdmec=tdmec Cgbon=Cgbon Cgboff=Cgboff
 
 ** Sweep voltage over 2 source voltages **
 Vsrc Vsrc gnd PWL(0s vsrc1 2s vsrc1 2.001s vsrc2 4s vsrc2)
