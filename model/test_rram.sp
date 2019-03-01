@@ -7,7 +7,7 @@
 * .param vsweep_min=-8V vsweep_max=8V vset=6V vrst=-6V rl=1E7 rh=1E8 on_i=0
 
 ** Real RRAM parameters **
-.param vsweep_min=2V vsweep_max=-2V
+* .param vsweep_min=2V vsweep_max=-2V
 
 ** Create RRAM (choose a model) **
 .hdl rram_simple.va
