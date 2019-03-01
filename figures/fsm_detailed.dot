@@ -1,0 +1,13 @@
+digraph G {
+"OFF\nR=RH"->"SET\nR=RH->RL"
+"SET\nR=RH->RL"->"OFF\nR=RL"
+"OFF\nR=RL"->"RESET\nR=RL->RH"
+"RESET\nR=RL->RH"->"OFF\nR=RH"
+"OFF\nR=RH"->"COPY\nR=RH"
+"COPY\nR=RH"->"HOLD\nR=RH"
+"HOLD\nR=RH"->"OFF\nR=RH"
+"OFF\nR=RL"->"COPY\nR=RL"
+"COPY\nR=RL"->"HOLD\nR=RL"
+"HOLD\nR=RL"->"OFF\nR=RL"
+{rank=same "OFF\nR=RL" "OFF\nR=RH"}
+}

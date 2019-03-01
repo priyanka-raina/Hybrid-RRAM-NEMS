@@ -1,0 +1,124 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      3274,        114]
+NotebookOptionsPosition[      2951,         97]
+NotebookOutlinePosition[      3303,        113]
+CellTagsIndexPosition[      3260,        110]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", " ", 
+   RowBox[{"COPY", " ", "Mode"}], " ", "*)"}], "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"constraint1", "=", 
+     RowBox[{
+      RowBox[{
+       FractionBox[
+        RowBox[{
+         RowBox[{"(", 
+          RowBox[{"Vrow", "-", "Vcol"}], ")"}], "RHmax"}], 
+        RowBox[{"R1max", "+", "RHmin"}]], "+", "Vcol"}], "\[Equal]", 
+      "Vpimax"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"constraint2", "=", 
+     RowBox[{
+      RowBox[{
+       FractionBox[
+        RowBox[{
+         RowBox[{"(", 
+          RowBox[{"Vrow", "-", "Vcol"}], ")"}], "RLmax"}], 
+        RowBox[{"R1min", "+", "RLmax"}]], "+", "Vcol"}], "\[Equal]", 
+      "Vpimin"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{"FullSimplify", "[", 
+    RowBox[{"Solve", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"constraint1", ",", "constraint2"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"Vrow", ",", "Vcol"}], "}"}]}], "]"}], "]"}]}]}]], "Input",
+ CellChangeTimes->{{3.760460889005595*^9, 3.760461053785761*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"Vrow", "\[Rule]", 
+     FractionBox[
+      RowBox[{
+       RowBox[{"R1min", " ", 
+        RowBox[{"(", 
+         RowBox[{"R1max", "+", "RHmin"}], ")"}], " ", "Vpimax"}], "-", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{"R1max", "-", "RHmax", "+", "RHmin"}], ")"}], " ", 
+        RowBox[{"(", 
+         RowBox[{"R1min", "+", "RLmax"}], ")"}], " ", "Vpimin"}]}], 
+      RowBox[{
+       RowBox[{"R1min", " ", "RHmax"}], "-", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{"R1max", "-", "RHmax", "+", "RHmin"}], ")"}], " ", 
+        "RLmax"}]}]]}], ",", 
+    RowBox[{"Vcol", "\[Rule]", 
+     FractionBox[
+      RowBox[{
+       RowBox[{
+        RowBox[{"-", 
+         RowBox[{"(", 
+          RowBox[{"R1max", "+", "RHmin"}], ")"}]}], " ", "RLmax", " ", 
+        "Vpimax"}], "+", 
+       RowBox[{"RHmax", " ", 
+        RowBox[{"(", 
+         RowBox[{"R1min", "+", "RLmax"}], ")"}], " ", "Vpimin"}]}], 
+      RowBox[{
+       RowBox[{"R1min", " ", "RHmax"}], "-", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{"R1max", "-", "RHmax", "+", "RHmin"}], ")"}], " ", 
+        "RLmax"}]}]]}]}], "}"}], "}"}]], "Output",
+ CellChangeTimes->{{3.7604610368664093`*^9, 3.7604610554304037`*^9}}]
+}, Open  ]]
+},
+WindowSize->{808, 755},
+WindowMargins->{{4, Automatic}, {Automatic, 4}},
+FrontEndVersion->"11.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (July 28, \
+2016)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 1077, 32, 136, "Input"],
+Cell[1660, 56, 1275, 38, 93, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
