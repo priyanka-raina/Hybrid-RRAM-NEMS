@@ -28,6 +28,9 @@ Vte Vte gnd 0V PWL(0s 0V 1ms vsweep_max 3ms vsweep_min 4ms 0V)
 .tran 1us 4ms
 .probe V(Vte) PAR('abs(I(Vte))') PAR('-I(Vte)')
 .option post=2
-.option runlvl=5 accurate delmax=1us
+.option converge = 0
+.option RUNLVL = 6
+.option METHOD=GEAR 
+.option INGOLD=1
 
 .end
