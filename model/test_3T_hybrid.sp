@@ -21,7 +21,7 @@
 ** Create hybrid design (choose models) **
 Rtfr Vrow Vg R=tfr tc1=tc1 dtemp=dtemp
 Xrram Vg Vcol RRAM Vset=vset Vrst=vrst Rl=rl Rh=rh on_i=on_i
-Xnem gnd Vg Vsrc Vb NEM_4T Vpi=Vpi Vpo=Vpo rch=rch tdmec=tdmec Cgson=Cgson Cgsoff=Cgsoff
+Xnem gnd Vg Vsrc Vb NEM_3T Vpi=Vpi Vpo=Vpo rch=rch tdmec=tdmec Cgson=Cgson Cgsoff=Cgsoff
 
 ** Test time trace: OFF->COPY->HOLD->OFF->SET->OFF->COPY->HOLD->OFF->RESET->OFF->COPY->HOLD **
 Vsrc Vsrc gnd 1V
