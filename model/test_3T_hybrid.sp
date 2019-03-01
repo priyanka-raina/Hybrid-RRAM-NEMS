@@ -13,7 +13,7 @@
 .param vset=6V vrst=-6V rl=1E7 rh=1E8 on_i=0
 
 ** Operational parameters **
-.param Vrcopy=8 Vccopy=0
+.param Vrcopy=7 Vccopy=0
 .param Vrhold=3.5
 .param Vrset=12 Vcset=0
 .param Vrrst=-30 Vcrst=0
