@@ -22,7 +22,7 @@ Xrram Vte gnd RRAM_v_2_0_Beta
 * Xrram Vte gnd ReRAM_num
 
 ** Sweep voltage (bipolar mode) **
-Vte Vte gnd PWL(0s 0V 1s vsweep_max 3s vsweep_min 4s 0V)
+Vte Vte gnd PWL(0s 0V 1ms vsweep_max 3ms vsweep_min 4ms 0V)
 
 ** Generate butterfly curve **
 .tran 1ms 4s
