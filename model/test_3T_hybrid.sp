@@ -26,7 +26,7 @@ Xnem gnd Vg Vsrc NEM_3T Vpi=Vpi Vpo=Vpo rch=rch tdmec=tdmec Cgson=Cgson Cgsoff=C
 ** Test time trace: OFF->COPY->HOLD->OFF->SET->OFF->COPY->HOLD->OFF->RESET->OFF->COPY->HOLD **
 Vsrc Vsrc gnd 1V
 Vrow Vrow gnd   PWLZ(0s 0   0.1s Vrcopy   1s Vrcopy   1.1s Vrhold   2s Vrhold   2.1s 0    3s 0    3.1s Vrset    4s Vrset    4.1s 0    5s 0    5.1s Vrcopy   6s Vrcopy   6.1s Vrhold   7s Vrhold   7.1s 0    8s 0    8.1s Vrrst    9s Vrrst    9.1s 0    10s 0   10.1s Vrcopy  11s Vrcopy  11.1s Vrhold  12s Vrhold)
-Vcol Vcol gnd   PWLZ(0s 0   0.1s Vccopy   1s Vccopy   1.1s z        2s 0        2.1s 0    3s 0    3.1s Vcset    4s Vcset    4.1s 0    5s 0    5.1s Vccopy   6s Vccopy   6.1s z        7s 0        7.1s 0    8s 0    8.1s Vcrst    9s Vcrst    9.1s 0    10s 0   10.1s Vccopy  11s z       11.1s z       12s z     )
+Vcol Vcol gnd   PWLZ(0s 0   0.1s Vccopy   1s z        1.1s z        2s 0        2.1s 0    3s 0    3.1s Vcset    4s Vcset    4.1s 0    5s 0    5.1s Vccopy   6s z        6.1s z        7s 0        7.1s 0    8s 0    8.1s Vcrst    9s Vcrst    9.1s 0    10s 0   10.1s Vccopy  11s z       11.1s z       12s z     )
 
 ** Generate I-V plot **
 .tran 1ms 12s
