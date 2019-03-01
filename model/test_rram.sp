@@ -22,10 +22,10 @@ Xrram Vte gnd RRAM_v_2_0_Beta
 * Xrram Vte gnd ReRAM_num
 
 ** Sweep voltage (bipolar mode) **
-Vte Vte gnd 0V *PWL(0s 0V 1ms vsweep_max 3ms vsweep_min 4ms 0V)
+Vte Vte gnd 0V PWL(0s 0V 1ms vsweep_max 3ms vsweep_min 4ms 0V)
 
 ** Generate butterfly curve **
-.tran 1us 4s
+.tran 1us 4us
 .probe V(Vte) PAR('abs(I(Vte))') PAR('-I(Vte)')
 .option post=2
 .option runlvl=5 accurate delmax=1us
