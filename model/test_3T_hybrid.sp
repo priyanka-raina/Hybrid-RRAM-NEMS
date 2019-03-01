@@ -24,7 +24,7 @@ Xrram Vg Vcol RRAM Vset=vset Vrst=vrst Rl=rl Rh=rh on_i=on_i
 Xnem gnd Vg Vsrc NEM_3T Vpi=Vpi Vpo=Vpo rch=rch tdmec=tdmec Cgson=Cgson Cgsoff=Cgsoff
 
 ** Test time trace: OFF->COPY->HOLD->OFF->SET->OFF->COPY->HOLD->OFF->RESET->OFF->COPY->HOLD **
-Vsrc Vsrc gnd 1V
+Vsrc Vsrc gnd   PWLZ(0s 1V                                                                3s z                                        5s 1V                                                                 8s z                                        10s 1V                                                    )
 Vrow Vrow gnd   PWLZ(0s 0   0.1s Vrcopy   1s Vrcopy   1.1s Vrhold   2s Vrhold   2.1s 0    3s 0    3.1s Vrset    4s Vrset    4.1s 0    5s 0    5.1s Vrcopy   6s Vrcopy   6.1s Vrhold   7s Vrhold   7.1s 0    8s 0    8.1s Vrrst    9s Vrrst    9.1s 0    10s 0   10.1s Vrcopy  11s Vrcopy  11.1s Vrhold  12s Vrhold)
 Vcol Vcol gnd   PWLZ(0s 0   0.1s Vccopy   1s Vccopy   1.1s z        2s 0        2.1s 0    3s 0    3.1s Vcset    4s Vcset    4.1s 0    5s 0    5.1s Vccopy   6s Vccopy   6.1s z        7s 0        7.1s 0    8s 0    8.1s Vcrst    9s Vcrst    9.1s 0    10s 0   10.1s Vccopy  11s Vccopy  11.1s z       12s z     )
 
