@@ -7,7 +7,7 @@
 .param tfr=3.1622E7 tc1=1/6000 dtemp=25
 
 ** NEM relay device parameters **
-.param Vpi=4 Vpo=2 rch=1E3 tdmec=1E-9 Cgson=2E-17 Cgsoff=1.5E-17
+.param Vpi=4 Vpo=1.5 rch=1E3 tdmec=1E-9 Cgson=2E-17 Cgsoff=1.5E-17
 
 ** RRAM parameters (IEDM 2014, HfO2) **
 .param vset=6V vrst=-6V rl=1E7 rh=1E8 on_i=0
