@@ -10,7 +10,7 @@
 .param Vpi=0.8 Vpo=0.2 rch=1E3 tdmec=1E-9 Cgbon=2E-17 Cgboff=1.5E-17
 
 ** RRAM parameters (IEDM 2014, HfO2) **
-.param vset=2.9V vrst=-2.9V rl=2E4 rh=2E5 on_i=0
+.param vset=2.5V vrst=-2.5V rl=2E4 rh=2E5 on_i=0
 
 ** Operational parameters **
 .param Vrcopy=0.985714 Vccopy=0.6 Vbcopy=0
