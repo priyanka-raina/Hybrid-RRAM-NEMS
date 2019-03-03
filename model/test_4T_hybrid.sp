@@ -4,19 +4,19 @@
 .hdl nem_relay_4T.va
 
 ** TFR device parameters **
-.param tfr=400000/7 tc1=1/6000 dtemp=25
+.param tfr=16000 tc1=1/6000 dtemp=25
 
 ** NEM relay device parameters **
 .param Vpi=0.8 Vpo=0.2 rch=1E3 tdmec=1E-9 Cgbon=2E-17 Cgboff=1.5E-17
 
 ** RRAM parameters (IEDM 2014, HfO2) **
-.param vset=2.5V vrst=-2.5V rl=2E4 rh=2E5 on_i=0
+.param vset=2.9V vrst=-2.9V rl=2E4 rh=2E5 on_i=0
 
 ** Operational parameters **
-.param Vrcopy=0.985714 Vccopy=0.6 Vbcopy=0
+.param Vrcopy=0.94 Vccopy=0.4 Vbcopy=0
 .param Vrhold=0.5 Vbhold=0
-.param Vrset=13/7 Vcset=-2 Vbset=0
-.param Vrrst=-13/7 Vcrst=2
+.param Vrset=13/7 Vcset=-4 Vbset=0
+.param Vrrst=-13/7 Vcrst=4
 
 ** Create hybrid design (choose models) **
 Rtfr Vrow Vg R=tfr tc1=tc1 dtemp=dtemp
@@ -34,5 +34,6 @@ Vcol Vcol gnd   PWLZ(0s 0   0.1s Vccopy   1s Vccopy   1.1s z        2s 0        
 .tran 1ms 12s
 .probe V(Vrow) V(Vcol) V(Vg) V(Vb) V(Vsrc) PAR('abs(I(Vsrc))') PAR('abs(V(Vg,Vb))') V(Vg,Vb) V(Vg,Vcol)
 .option post=2
+.option runlvl=5 accurate delmax=1ms
 
 .end
