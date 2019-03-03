@@ -32,7 +32,7 @@ Vcol Vcol gnd   PWLZ(0s 0   0.1s Vccopy   1s Vccopy   1.1s z        2s 0        
 
 ** Generate I-V plot **
 .tran 1ms 12s
-.probe V(Vrow) V(Vcol) V(Vg) V(Vb) V(Vsrc) PAR('abs(I(Vsrc))') PAR('abs(V(Vg,Vb))') PAR('V(Vg,Vb)')
+.probe V(Vrow) V(Vcol) V(Vg) V(Vb) V(Vsrc) PAR('abs(I(Vsrc))') PAR('abs(V(Vg,Vb))') V(Vg,Vb) V(Vg,Vcol)
 .option post=2
 
 .end
