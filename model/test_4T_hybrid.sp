@@ -15,8 +15,8 @@
 ** Operational parameters **
 .param Vrcopy=0.94 Vccopy=0.4 Vbcopy=0
 .param Vrhold=0.5 Vbhold=0
-.param Vrset=13/7 Vcset=-4 Vbset=0
-.param Vrrst=-13/7 Vcrst=4
+.param Vrset=7/5 Vcset=-4 Vbset=0
+.param Vrrst=-7/5 Vcrst=4
 
 ** Create hybrid design (choose models) **
 Rtfr Vrow Vg R=tfr tc1=tc1 dtemp=dtemp
