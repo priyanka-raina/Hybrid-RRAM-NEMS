@@ -13,7 +13,7 @@
 .param vset=5.9V vrst=-5.9V rl=1E7 rh=1E8 on_i=0
 
 ** Operational parameters **
-.param Vrcopy=5 Vccopy=3.07143
+.param Vrcopy=5 Vccopy=3.07
 .param Vrhold=3.5
 .param Vrset=14 Vcset=-13
 .param Vrrst=-14 Vcrst=13
@@ -36,6 +36,6 @@ Vsrc Vsrc gnd   PWLZ(0s 0   3s 0    3.1s 1  5s 1    5.1s 0  8s 0    8.1s 1  10s 
 .tran 1ms 12s
 .probe V(Vrow) V(Vcol) V(Vg) V(Vsrc) PAR('abs(I(Vsrc))') PAR('abs(V(Vg,Vsrc))') V(Vg,Vcol)
 .option post=2
-.option runlvl=5 accurate delmax=1ms
+* .option runlvl=5 accurate delmax=1ms
 
 .end
