@@ -34,7 +34,7 @@ Vsrc Vsrc gnd 1V
 
 ** Generate data **
 .tran 1ms 12s
-.probe V(Vrow) V(Vcol) V(Vg) V(Vsrc) PAR('abs(I(Vsrc))') PAR('abs(V(Vg,Vsrc))')
+.probe V(Vrow) V(Vcol) V(Vg) V(Vsrc) PAR('abs(I(Vsrc))') PAR('abs(V(Vg,Vsrc))')  V(Vg,Vcol)
 .option post=2
 .option runlvl=5 accurate delmax=1ms
 
