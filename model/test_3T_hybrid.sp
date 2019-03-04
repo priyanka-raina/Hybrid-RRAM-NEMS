@@ -27,7 +27,7 @@ Xnem gnd Vg Vsrc NEM_3T Vpi=Vpi Vpo=Vpo rch=rch tdmec=tdmec Cgson=Cgson Cgsoff=C
 .include test_row_col_tt.sp
 
 ** Option 1: do not float Vsrc during SET/RESET
-Vsrc Vsrc gnd   PWLZ(0s 0   3.1s 1  5s 1    5.1s 0  8s 0    8.1s 1  10s 1   10.1s 0 11s 0)
+Vsrc Vsrc gnd   PWLZ(0s 0   3s 0    3.1s 1  5s 1    5.1s 0  8s 0    8.1s 1  10s 1   10.1s 0 11s 0)
 
 ** Option 2: float Vsrc during SET/RESET
 * Vsrc Vsrc gnd   PWLZ(0s 0 1s z    2.1s 0  3s 0    3.1s 1  5s 1    5.1s 0  6s z    7.1s 0  8s 0    8.1s 1  10s 1   10.1s 0 11s 0)
