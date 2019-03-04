@@ -33,5 +33,6 @@ Vb Vb gnd 0V
 .tran 1ms 11s
 .probe V(Vrow) V(Vcol) V(Vg) V(Vb) V(Vsrc) PAR('abs(I(Vsrc))') PAR('abs(V(Vg,Vb))') V(Vg,Vb) V(Vg,Vcol)
 .option post=2
+.option runlvl=5 accurate delmax=1ms
 
 .end
