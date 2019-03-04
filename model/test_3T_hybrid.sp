@@ -32,9 +32,10 @@ Vsrc Vsrc gnd 1V
 ** Option 2: float Vsrc
 * Vsrc Vsrc gnd   PWLZ(0s 0   1s z    1.1s z      2s z        2.1s 0    3s 0    3.1s Vbcopy   4s Vbcopy   4.1s Vbhold   5s Vbhold   5.1s 0    6s z    6.1s z        7s z        7.1s 0    8s 0   8.1s Vbcopy  9s Vbcopy  9.1s Vbhold  10s Vbhold  10.1s 0 11s 0)
 
-** Generate I-V plot **
+** Generate data **
 .tran 1ms 12s
 .probe V(Vrow) V(Vcol) V(Vg) V(Vsrc) PAR('abs(I(Vsrc))') PAR('abs(V(Vg,Vsrc))')
 .option post=2
+.option runlvl=5 accurate delmax=1ms
 
 .end
