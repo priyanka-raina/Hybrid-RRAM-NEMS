@@ -37,6 +37,6 @@ Vsrc Vsrc gnd   PWLZ(0s 0   3s 0    3.1s 1  5s 1    5.1s 0  8s 0    8.1s 1  10s 
 .probe V(Vrow) V(Vcol) V(Vg) V(Vsrc) PAR('abs(I(Vsrc))') PAR('abs(V(Vg,Vsrc))') V(Vg,Vcol)
 .option post=2
 .option runlvl=5 accurate delmax=1ms
-.option trcon=0
+.option method=bdf
 
 .end
