@@ -4,19 +4,19 @@
 .hdl nem_relay_3T.va
 
 ** TFR device parameters **
-.param tfr=2E8/7 tc1=1/6000 dtemp=25
+.param tfr=3.5E7 tc1=1/6000 dtemp=25
 
 ** NEM relay device parameters **
 .param Vpi=4 Vpo=2 rch=1E3 tdmec=1E-9 Cgson=2E-17 Cgsoff=1.5E-17
 
 ** RRAM parameters (IEDM 2014, HfO2) **
-.param vset=6V vrst=-6V rl=1E7 rh=1E8 on_i=0
+.param vset=5.9V vrst=-5.9V rl=1E7 rh=1E8 on_i=0
 
 ** Operational parameters **
-.param Vrcopy=4.92857 Vccopy=3
+.param Vrcopy=5 Vccopy=3.07143
 .param Vrhold=3.5
-.param Vrset=78/7 Vcset=-12
-.param Vrrst=-78/7 Vcrst=12
+.param Vrset=14 Vcset=-13
+.param Vrrst=-14 Vcrst=13
 
 ** Create hybrid design (choose models) **
 Rtfr Vrow Vg R=tfr tc1=tc1 dtemp=dtemp
