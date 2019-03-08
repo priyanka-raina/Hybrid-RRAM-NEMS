@@ -10,7 +10,7 @@
 .param Vpi=0.8 Vpo=0.2 rch=1E3 tdmec=1E-9 Cgbon=2E-17 Cgboff=1.5E-17
 
 ** RRAM parameters **
-.param vset=0.7V vrst=-0.6V rl=2E4 rh=2E5 on_i=0
+.param vset=0.7V vrst=-0.6V rl=2E4 rh=2E5
 
 ** Operational parameters **
 .param Vrcopy=0.9444444 Vccopy=0.4555556 Vbcopy=0
@@ -21,8 +21,8 @@
 .param Vrrst2=0 Vcrst2=1.2
 
 ** Create hybrid design (choose models) **
-Xrram1 Vrow Vcol RRAM Vset=vset Vrst=vrst Rl=rl Rh=rh on_i=on_i
-Xrram2 Vg Vcol RRAM Vset=vset Vrst=vrst Rl=rl Rh=rh on_i=on_i
+Xrram1 Vrow Vcol RRAM Vset=vset Vrst=vrst Rl=rl Rh=rh on_i=1
+Xrram2 Vg Vcol RRAM Vset=vset Vrst=vrst Rl=rl Rh=rh on_i=
 Xnem gnd Vg Vsrc Vb NEM_4T Vpi=Vpi Vpo=Vpo rch=rch tdmec=tdmec Cgbon=Cgbon Cgboff=Cgboff
 
 ** Test time trace **
@@ -33,7 +33,7 @@ Vb   Vb   gnd   0V
 
 ** Generate data **
 .tran 1ms 11s
-.probe V(Vrow) V(Vcol) V(Vg) V(Vb) V(Vsrc) PAR('abs(I(Vsrc))') PAR('abs(V(Vg,Vb))') V(Vg,Vb) V(Vg,Vcol)
+.probe V(Vrow) V(Vcol) V(Vg) V(Vb) V(Vsrc) PAR('abs(I(Vsrc))') PAR('abs(V(Vg,Vb))') V(Vg,Vb) V(Vg,Vrow) V(Vg,Vcol)
 .option post=2
 .option runlvl=5 accurate delmax=1ms
 .option method=bdf
