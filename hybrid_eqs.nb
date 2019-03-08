@@ -10,25 +10,14 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     28494,        809]
-NotebookOptionsPosition[     27252,        766]
-NotebookOutlinePosition[     27606,        782]
-CellTagsIndexPosition[     27563,        779]
+NotebookDataLength[     23162,        658]
+NotebookOptionsPosition[     21959,        617]
+NotebookOutlinePosition[     22313,        633]
+CellTagsIndexPosition[     22270,        630]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
-Cell[BoxData[
- RowBox[{"(*", " ", 
-  RowBox[{
-   RowBox[{"OPTION", " ", "1"}], ":", " ", 
-   RowBox[{
-   "solve", " ", "problem", " ", "without", " ", "floating", " ", "gate"}]}], 
-  " ", "*)"}]], "Input",
- CellChangeTimes->{{3.76063118193703*^9, 3.760631197765767*^9}, {
-  3.760642282295205*^9, 3.760642290397238*^9}, {3.760642547676797*^9, 
-  3.760642548118598*^9}}],
-
 Cell[BoxData[
  RowBox[{
   RowBox[{"(*", " ", 
@@ -48,23 +37,30 @@ Cell[BoxData[
        RowBox[{"Vwmax", "\[Rule]", "3"}], ",", 
        RowBox[{"VNmax", "\[Rule]", "1"}], ",", 
        RowBox[{"Vpimin", "\[Rule]", "0.7"}], ",", 
-       RowBox[{"Vpimax", "\[Rule]", "0.9"}]}], "}"}]}], ";"}], 
-   "\[IndentingNewLine]", 
+       RowBox[{"Vpimax", "\[Rule]", "0.9"}], ",", " ", 
+       RowBox[{"Vsetmax", "\[Rule]", "0.7"}], ",", " ", 
+       RowBox[{"Vsetmin", "\[Rule]", "0.6"}], ",", " ", 
+       RowBox[{"Vrstmax", "\[Rule]", 
+        RowBox[{"-", "0.6"}]}], ",", " ", 
+       RowBox[{"Vrstmin", "\[Rule]", 
+        RowBox[{"-", "0.5"}]}]}], "}"}]}], ";"}], "\[IndentingNewLine]", 
    RowBox[{"(*", " ", 
     RowBox[{"Test", " ", "parameters", " ", "2"}], " ", "*)"}], 
    "\[IndentingNewLine]", 
-   RowBox[{
-    RowBox[{"testparams", "=", 
-     RowBox[{"{", 
-      RowBox[{
-       RowBox[{"RL", "\[Rule]", 
-        SuperscriptBox["10", "7"]}], ",", 
-       RowBox[{"RH", "\[Rule]", 
-        SuperscriptBox["10", "8"]}], ",", 
-       RowBox[{"Vwmax", "\[Rule]", "6"}], ",", 
-       RowBox[{"VNmax", "\[Rule]", "7"}], ",", 
-       RowBox[{"Vpimin", "\[Rule]", "3.5"}], ",", 
-       RowBox[{"Vpimax", "\[Rule]", "4.5"}]}], "}"}]}], ";"}]}]}]], "Input",
+   RowBox[{"(*", 
+    RowBox[{
+     RowBox[{"testparams", "=", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"RL", "\[Rule]", 
+         SuperscriptBox["10", "7"]}], ",", 
+        RowBox[{"RH", "\[Rule]", 
+         SuperscriptBox["10", "8"]}], ",", 
+        RowBox[{"Vwmax", "\[Rule]", "6"}], ",", 
+        RowBox[{"VNmax", "\[Rule]", "7"}], ",", 
+        RowBox[{"Vpimin", "\[Rule]", "3.5"}], ",", 
+        RowBox[{"Vpimax", "\[Rule]", "4.5"}]}], "}"}]}], ";"}], 
+    "*)"}]}]}]], "Input",
  CellChangeTimes->{{3.760460889005595*^9, 3.760461053785761*^9}, {
   3.76046243053403*^9, 3.7604624409398937`*^9}, {3.760473058424395*^9, 
   3.760473058948271*^9}, {3.760473382231745*^9, 3.7604733896566153`*^9}, {
@@ -74,477 +70,9 @@ Cell[BoxData[
   3.7606311783167543`*^9}, {3.7606424023653383`*^9, 3.760642415768918*^9}, {
   3.760642591632872*^9, 3.760642591912736*^9}, {3.760645395518846*^9, 
   3.760645403187162*^9}, {3.760645452342071*^9, 3.760645467900668*^9}, {
-  3.760651000267211*^9, 3.7606510004398537`*^9}}],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{
-  RowBox[{"(*", " ", 
-   RowBox[{"Determine", " ", "R1"}], " ", "*)"}], "\[IndentingNewLine]", 
-  RowBox[{
-   RowBox[{
-    RowBox[{"constraint1", "=", 
-     RowBox[{
-      FractionBox[
-       RowBox[{
-        RowBox[{"(", 
-         RowBox[{"Vrow", "-", "Vcol"}], ")"}], "RLmin"}], 
-       RowBox[{"R1", "+", "RLmin"}]], "\[Equal]", "Vwmax"}]}], ";"}], 
-   "\[IndentingNewLine]", 
-   RowBox[{
-    RowBox[{"constraint2", "=", 
-     RowBox[{
-      RowBox[{
-       FractionBox[
-        RowBox[{
-         RowBox[{"(", 
-          RowBox[{"Vrow", "-", "Vcol"}], ")"}], "RHmax"}], 
-        RowBox[{"R1", "+", "RHmax"}]], "+", "Vcol"}], "\[Equal]", "VNmax"}]}],
-     ";"}], "\[IndentingNewLine]", 
-   RowBox[{
-    RowBox[{"constraint3", "=", 
-     RowBox[{
-      RowBox[{"-", 
-       RowBox[{"(", 
-        RowBox[{
-         FractionBox[
-          RowBox[{
-           RowBox[{"(", 
-            RowBox[{"Vrow", "-", "Vcol"}], ")"}], "RLmin"}], 
-          RowBox[{"R1", "+", "RLmin"}]], "+", "Vcol"}], ")"}]}], "\[Equal]", 
-      "VNmax"}]}], ";"}], "\[IndentingNewLine]", 
-   RowBox[{"sol", "=", 
-    RowBox[{"FullSimplify", "[", 
-     RowBox[{"Solve", "[", 
-      RowBox[{
-       RowBox[{"{", 
-        RowBox[{"constraint1", ",", "constraint2", ",", "constraint3"}], 
-        "}"}], ",", 
-       RowBox[{"{", 
-        RowBox[{"Vrow", ",", "Vcol", ",", "R1"}], "}"}]}], "]"}], "]"}]}], 
-   "\[IndentingNewLine]", 
-   RowBox[{"simplesol", "=", 
-    RowBox[{"FullSimplify", "[", 
-     RowBox[{"sol", "/.", 
-      RowBox[{"{", 
-       RowBox[{
-        RowBox[{"R1min", "\[Rule]", "R1"}], ",", 
-        RowBox[{"R1max", "\[Rule]", "R1"}], ",", " ", 
-        RowBox[{"RLmax", "\[Rule]", "RL"}], ",", 
-        RowBox[{"RLmin", "\[Rule]", "RL"}], ",", 
-        RowBox[{"RHmax", "\[Rule]", "RH"}], ",", " ", 
-        RowBox[{"RHmin", "\[Rule]", "RH"}]}], "}"}]}], "]"}]}], 
-   "\[IndentingNewLine]", 
-   RowBox[{"testparams", "=", 
-    RowBox[{"Append", "[", 
-     RowBox[{"testparams", ",", 
-      RowBox[{
-       RowBox[{
-        RowBox[{"(", 
-         RowBox[{"simplesol", "/.", "testparams"}], ")"}], "[", 
-        RowBox[{"[", "1", "]"}], "]"}], "[", 
-       RowBox[{"[", "3", "]"}], "]"}]}], "]"}]}]}]}]], "Input",
- CellChangeTimes->{{3.7604789865539227`*^9, 3.760478990613305*^9}, {
-  3.760479912502062*^9, 3.760479916803598*^9}, {3.760486595492569*^9, 
-  3.760486651482168*^9}, {3.760486841357821*^9, 3.760486891510852*^9}, {
-  3.760486955880129*^9, 3.760486959215811*^9}, {3.760487011706032*^9, 
-  3.760487013439805*^9}, {3.760566421720883*^9, 3.7605664270335703`*^9}, {
-  3.760572193265785*^9, 3.760572194180887*^9}, {3.760573654887351*^9, 
-  3.760573679080844*^9}, {3.760574002290904*^9, 3.7605740336376963`*^9}, {
-  3.760630781111504*^9, 3.7606307834890537`*^9}, {3.760642305455964*^9, 
-  3.760642310731566*^9}, {3.760642434165142*^9, 3.760642452512635*^9}}],
-
-Cell[BoxData[
- RowBox[{"{", 
-  RowBox[{"{", 
-   RowBox[{
-    RowBox[{"Vrow", "\[Rule]", 
-     RowBox[{"-", 
-      FractionBox[
-       RowBox[{"VNmax", " ", 
-        RowBox[{"(", 
-         RowBox[{
-          RowBox[{"2", " ", "RLmin", " ", "VNmax"}], "+", 
-          RowBox[{
-           RowBox[{"(", 
-            RowBox[{"RHmax", "+", "RLmin"}], ")"}], " ", "Vwmax"}]}], ")"}]}], 
-       RowBox[{
-        RowBox[{
-         RowBox[{"-", "RHmax"}], " ", "Vwmax"}], "+", 
-        RowBox[{"RLmin", " ", 
-         RowBox[{"(", 
-          RowBox[{
-           RowBox[{"2", " ", "VNmax"}], "+", "Vwmax"}], ")"}]}]}]]}]}], ",", 
-    RowBox[{"Vcol", "\[Rule]", 
-     RowBox[{
-      RowBox[{"-", "VNmax"}], "-", "Vwmax"}]}], ",", 
-    RowBox[{"R1", "\[Rule]", 
-     FractionBox[
-      RowBox[{"2", " ", "RHmax", " ", "RLmin", " ", "VNmax"}], 
-      RowBox[{
-       RowBox[{"RHmax", " ", "Vwmax"}], "-", 
-       RowBox[{"RLmin", " ", 
-        RowBox[{"(", 
-         RowBox[{
-          RowBox[{"2", " ", "VNmax"}], "+", "Vwmax"}], ")"}]}]}]]}]}], "}"}], 
-  "}"}]], "Output",
- CellChangeTimes->{{3.760486869596307*^9, 3.760486893588616*^9}, 
-   3.760486962553331*^9, 3.760487022721366*^9, 3.7605664276520557`*^9, 
-   3.760572846194821*^9, 3.7605728940322247`*^9, 3.7605732788969793`*^9, {
-   3.7605736581049833`*^9, 3.760573681061483*^9}, {3.760574015347077*^9, 
-   3.760574038779389*^9}, 3.760626000842169*^9, 3.760626043964554*^9, 
-   3.7606261395556173`*^9, 3.760630785722651*^9, 3.760630846432104*^9, 
-   3.760630910264476*^9, {3.760631075331607*^9, 3.7606311051093082`*^9}, 
-   3.7606423344038*^9, {3.7606424382215147`*^9, 3.7606424543669577`*^9}, 
-   3.760642595965405*^9, 3.760645473904193*^9, 3.760651006697298*^9}],
-
-Cell[BoxData[
- RowBox[{"{", 
-  RowBox[{"{", 
-   RowBox[{
-    RowBox[{"Vrow", "\[Rule]", 
-     RowBox[{"-", 
-      FractionBox[
-       RowBox[{"VNmax", " ", 
-        RowBox[{"(", 
-         RowBox[{
-          RowBox[{"2", " ", "RL", " ", "VNmax"}], "+", 
-          RowBox[{
-           RowBox[{"(", 
-            RowBox[{"RH", "+", "RL"}], ")"}], " ", "Vwmax"}]}], ")"}]}], 
-       RowBox[{
-        RowBox[{
-         RowBox[{"-", "RH"}], " ", "Vwmax"}], "+", 
-        RowBox[{"RL", " ", 
-         RowBox[{"(", 
-          RowBox[{
-           RowBox[{"2", " ", "VNmax"}], "+", "Vwmax"}], ")"}]}]}]]}]}], ",", 
-    RowBox[{"Vcol", "\[Rule]", 
-     RowBox[{
-      RowBox[{"-", "VNmax"}], "-", "Vwmax"}]}], ",", 
-    RowBox[{"R1", "\[Rule]", 
-     FractionBox[
-      RowBox[{"2", " ", "RH", " ", "RL", " ", "VNmax"}], 
-      RowBox[{
-       RowBox[{"RH", " ", "Vwmax"}], "-", 
-       RowBox[{"RL", " ", 
-        RowBox[{"(", 
-         RowBox[{
-          RowBox[{"2", " ", "VNmax"}], "+", "Vwmax"}], ")"}]}]}]]}]}], "}"}], 
-  "}"}]], "Output",
- CellChangeTimes->{{3.760486869596307*^9, 3.760486893588616*^9}, 
-   3.760486962553331*^9, 3.760487022721366*^9, 3.7605664276520557`*^9, 
-   3.760572846194821*^9, 3.7605728940322247`*^9, 3.7605732788969793`*^9, {
-   3.7605736581049833`*^9, 3.760573681061483*^9}, {3.760574015347077*^9, 
-   3.760574038779389*^9}, 3.760626000842169*^9, 3.760626043964554*^9, 
-   3.7606261395556173`*^9, 3.760630785722651*^9, 3.760630846432104*^9, 
-   3.760630910264476*^9, {3.760631075331607*^9, 3.7606311051093082`*^9}, 
-   3.7606423344038*^9, {3.7606424382215147`*^9, 3.7606424543669577`*^9}, 
-   3.760642595965405*^9, 3.760645473904193*^9, 3.76065100671033*^9}],
-
-Cell[BoxData[
- RowBox[{"{", 
-  RowBox[{
-   RowBox[{"RL", "\[Rule]", "10000000"}], ",", 
-   RowBox[{"RH", "\[Rule]", "100000000"}], ",", 
-   RowBox[{"Vwmax", "\[Rule]", "6"}], ",", 
-   RowBox[{"VNmax", "\[Rule]", "7"}], ",", 
-   RowBox[{"Vpimin", "\[Rule]", "3.5`"}], ",", 
-   RowBox[{"Vpimax", "\[Rule]", "4.5`"}], ",", 
-   RowBox[{"R1", "\[Rule]", "35000000"}]}], "}"}]], "Output",
- CellChangeTimes->{{3.760486869596307*^9, 3.760486893588616*^9}, 
-   3.760486962553331*^9, 3.760487022721366*^9, 3.7605664276520557`*^9, 
-   3.760572846194821*^9, 3.7605728940322247`*^9, 3.7605732788969793`*^9, {
-   3.7605736581049833`*^9, 3.760573681061483*^9}, {3.760574015347077*^9, 
-   3.760574038779389*^9}, 3.760626000842169*^9, 3.760626043964554*^9, 
-   3.7606261395556173`*^9, 3.760630785722651*^9, 3.760630846432104*^9, 
-   3.760630910264476*^9, {3.760631075331607*^9, 3.7606311051093082`*^9}, 
-   3.7606423344038*^9, {3.7606424382215147`*^9, 3.7606424543669577`*^9}, 
-   3.760642595965405*^9, 3.760645473904193*^9, 3.760651006718314*^9}]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{
-  RowBox[{"(*", " ", 
-   RowBox[{"SET", " ", "mode"}], " ", "*)"}], "\[IndentingNewLine]", 
-  RowBox[{
-   RowBox[{
-    RowBox[{"constraint1", "=", 
-     RowBox[{
-      RowBox[{
-       FractionBox[
-        RowBox[{
-         RowBox[{"(", 
-          RowBox[{"Vrow", "-", "Vcol"}], ")"}], "RHmax"}], 
-        RowBox[{"R1min", "+", "RHmax"}]], "+", "Vcol"}], "\[Equal]", 
-      "VNmax"}]}], ";"}], "\[IndentingNewLine]", 
-   RowBox[{
-    RowBox[{"constraint2", "=", 
-     RowBox[{
-      RowBox[{"-", 
-       RowBox[{"(", 
-        RowBox[{
-         FractionBox[
-          RowBox[{
-           RowBox[{"(", 
-            RowBox[{"Vrow", "-", "Vcol"}], ")"}], "RLmin"}], 
-          RowBox[{"R1max", "+", "RLmin"}]], "+", "Vcol"}], ")"}]}], 
-      "\[Equal]", "VNmax"}]}], ";"}], "\[IndentingNewLine]", 
-   RowBox[{"sol", "=", 
-    RowBox[{"FullSimplify", "[", 
-     RowBox[{"Solve", "[", 
-      RowBox[{
-       RowBox[{"{", 
-        RowBox[{"constraint1", ",", "constraint2"}], "}"}], ",", 
-       RowBox[{"{", 
-        RowBox[{"Vrow", ",", "Vcol"}], "}"}]}], "]"}], "]"}]}], 
-   "\[IndentingNewLine]", 
-   RowBox[{"simplesol", "=", 
-    RowBox[{"FullSimplify", "[", 
-     RowBox[{"sol", "/.", 
-      RowBox[{"{", 
-       RowBox[{
-        RowBox[{"R1min", "\[Rule]", "R1"}], ",", 
-        RowBox[{"R1max", "\[Rule]", "R1"}], ",", " ", 
-        RowBox[{"RLmax", "\[Rule]", "RL"}], ",", 
-        RowBox[{"RLmin", "\[Rule]", "RL"}], ",", 
-        RowBox[{"RHmax", "\[Rule]", "RH"}], ",", " ", 
-        RowBox[{"RHmin", "\[Rule]", "RH"}]}], "}"}]}], "]"}]}], 
-   "\[IndentingNewLine]", 
-   RowBox[{"simplesol", "/.", "testparams"}]}]}]], "Input",
- CellChangeTimes->{{3.760566437791992*^9, 3.760566443808025*^9}, {
-   3.760566622721735*^9, 3.7605666780156717`*^9}, {3.760567991039341*^9, 
-   3.760567992863267*^9}, {3.760630918081654*^9, 3.760630944025114*^9}, {
-   3.760631014574437*^9, 3.760631057979475*^9}, {3.7606310915846577`*^9, 
-   3.760631097714532*^9}, {3.7606423171671247`*^9, 3.760642384107345*^9}, {
-   3.760642520099782*^9, 3.7606425202980127`*^9}, 3.7606455243339853`*^9}],
-
-Cell[BoxData[
- RowBox[{"{", 
-  RowBox[{"{", 
-   RowBox[{
-    RowBox[{"Vrow", "\[Rule]", 
-     FractionBox[
-      RowBox[{
-       RowBox[{"(", 
-        RowBox[{
-         RowBox[{"R1max", " ", 
-          RowBox[{"(", 
-           RowBox[{
-            RowBox[{"2", " ", "R1min"}], "+", "RHmax"}], ")"}]}], "+", 
-         RowBox[{"R1min", " ", "RLmin"}]}], ")"}], " ", "VNmax"}], 
-      RowBox[{
-       RowBox[{"R1max", " ", "RHmax"}], "-", 
-       RowBox[{"R1min", " ", "RLmin"}]}]]}], ",", 
-    RowBox[{"Vcol", "\[Rule]", 
-     RowBox[{"-", 
-      FractionBox[
-       RowBox[{
-        RowBox[{"(", 
-         RowBox[{
-          RowBox[{"R1max", " ", "RHmax"}], "+", 
-          RowBox[{
-           RowBox[{"(", 
-            RowBox[{"R1min", "+", 
-             RowBox[{"2", " ", "RHmax"}]}], ")"}], " ", "RLmin"}]}], ")"}], 
-        " ", "VNmax"}], 
-       RowBox[{
-        RowBox[{"R1max", " ", "RHmax"}], "-", 
-        RowBox[{"R1min", " ", "RLmin"}]}]]}]}]}], "}"}], "}"}]], "Output",
- CellChangeTimes->{
-  3.7605666789761677`*^9, 3.760568002040209*^9, 3.760626368009273*^9, {
-   3.760630860683823*^9, 3.760630871763173*^9}, {3.760630913643527*^9, 
-   3.76063091896002*^9}, {3.760631007024996*^9, 3.760631107458235*^9}, 
-   3.7606425206446867`*^9, 3.760642598381035*^9, 3.7606455263167048`*^9, 
-   3.760645765778571*^9, 3.76065102734872*^9}],
-
-Cell[BoxData[
- RowBox[{"{", 
-  RowBox[{"{", 
-   RowBox[{
-    RowBox[{"Vrow", "\[Rule]", 
-     FractionBox[
-      RowBox[{
-       RowBox[{"(", 
-        RowBox[{
-         RowBox[{"2", " ", "R1"}], "+", "RH", "+", "RL"}], ")"}], " ", 
-       "VNmax"}], 
-      RowBox[{"RH", "-", "RL"}]]}], ",", 
-    RowBox[{"Vcol", "\[Rule]", 
-     RowBox[{"-", 
-      FractionBox[
-       RowBox[{
-        RowBox[{"(", 
-         RowBox[{
-          RowBox[{"2", " ", "RH", " ", "RL"}], "+", 
-          RowBox[{"R1", " ", 
-           RowBox[{"(", 
-            RowBox[{"RH", "+", "RL"}], ")"}]}]}], ")"}], " ", "VNmax"}], 
-       RowBox[{"R1", " ", 
-        RowBox[{"(", 
-         RowBox[{"RH", "-", "RL"}], ")"}]}]]}]}]}], "}"}], "}"}]], "Output",
- CellChangeTimes->{
-  3.7605666789761677`*^9, 3.760568002040209*^9, 3.760626368009273*^9, {
-   3.760630860683823*^9, 3.760630871763173*^9}, {3.760630913643527*^9, 
-   3.76063091896002*^9}, {3.760631007024996*^9, 3.760631107458235*^9}, 
-   3.7606425206446867`*^9, 3.760642598381035*^9, 3.7606455263167048`*^9, 
-   3.760645765778571*^9, 3.760651027360663*^9}],
-
-Cell[BoxData[
- RowBox[{"{", 
-  RowBox[{"{", 
-   RowBox[{
-    RowBox[{"Vrow", "\[Rule]", "14"}], ",", 
-    RowBox[{"Vcol", "\[Rule]", 
-     RowBox[{"-", "13"}]}]}], "}"}], "}"}]], "Output",
- CellChangeTimes->{
-  3.7605666789761677`*^9, 3.760568002040209*^9, 3.760626368009273*^9, {
-   3.760630860683823*^9, 3.760630871763173*^9}, {3.760630913643527*^9, 
-   3.76063091896002*^9}, {3.760631007024996*^9, 3.760631107458235*^9}, 
-   3.7606425206446867`*^9, 3.760642598381035*^9, 3.7606455263167048`*^9, 
-   3.760645765778571*^9, 3.760651027369204*^9}]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{
-  RowBox[{"(*", " ", 
-   RowBox[{"RESET", " ", "mode"}], " ", "*)"}], "\[IndentingNewLine]", 
-  RowBox[{
-   RowBox[{
-    RowBox[{"constraint1", "=", 
-     RowBox[{
-      RowBox[{"-", 
-       RowBox[{"(", 
-        RowBox[{
-         FractionBox[
-          RowBox[{
-           RowBox[{"(", 
-            RowBox[{"Vrow", "-", "Vcol"}], ")"}], "RHmax"}], 
-          RowBox[{"R1min", "+", "RHmax"}]], "+", "Vcol"}], ")"}]}], 
-      "\[Equal]", "VNmax"}]}], ";"}], "\[IndentingNewLine]", 
-   RowBox[{
-    RowBox[{"constraint2", "=", 
-     RowBox[{
-      RowBox[{
-       FractionBox[
-        RowBox[{
-         RowBox[{"(", 
-          RowBox[{"Vrow", "-", "Vcol"}], ")"}], "RLmin"}], 
-        RowBox[{"R1max", "+", "RLmin"}]], "+", "Vcol"}], "\[Equal]", 
-      "VNmax"}]}], ";"}], "\[IndentingNewLine]", 
-   RowBox[{"sol2", "=", 
-    RowBox[{"FullSimplify", "[", 
-     RowBox[{"Solve", "[", 
-      RowBox[{
-       RowBox[{"{", 
-        RowBox[{"constraint1", ",", "constraint2"}], "}"}], ",", 
-       RowBox[{"{", 
-        RowBox[{"Vrow", ",", "Vcol"}], "}"}]}], "]"}], "]"}]}], 
-   "\[IndentingNewLine]", 
-   RowBox[{"simplesol2", "=", 
-    RowBox[{"FullSimplify", "[", 
-     RowBox[{"sol2", "/.", 
-      RowBox[{"{", 
-       RowBox[{
-        RowBox[{"R1min", "\[Rule]", "R1"}], ",", 
-        RowBox[{"R1max", "\[Rule]", "R1"}], ",", " ", 
-        RowBox[{"RLmax", "\[Rule]", "RL"}], ",", 
-        RowBox[{"RLmin", "\[Rule]", "RL"}], ",", 
-        RowBox[{"RHmax", "\[Rule]", "RH"}], ",", " ", 
-        RowBox[{"RHmin", "\[Rule]", "RH"}]}], "}"}]}], "]"}]}], 
-   "\[IndentingNewLine]", 
-   RowBox[{"simplesol2", "/.", "testparams"}]}]}]], "Input",
- CellChangeTimes->{{3.7605680087044992`*^9, 3.760568026201548*^9}, {
-  3.760571706864676*^9, 3.760571715866005*^9}, {3.760642476800557*^9, 
-  3.760642525943214*^9}}],
-
-Cell[BoxData[
- RowBox[{"{", 
-  RowBox[{"{", 
-   RowBox[{
-    RowBox[{"Vrow", "\[Rule]", 
-     RowBox[{"-", 
-      FractionBox[
-       RowBox[{
-        RowBox[{"(", 
-         RowBox[{
-          RowBox[{"R1max", " ", 
-           RowBox[{"(", 
-            RowBox[{
-             RowBox[{"2", " ", "R1min"}], "+", "RHmax"}], ")"}]}], "+", 
-          RowBox[{"R1min", " ", "RLmin"}]}], ")"}], " ", "VNmax"}], 
-       RowBox[{
-        RowBox[{"R1max", " ", "RHmax"}], "-", 
-        RowBox[{"R1min", " ", "RLmin"}]}]]}]}], ",", 
-    RowBox[{"Vcol", "\[Rule]", 
-     FractionBox[
-      RowBox[{
-       RowBox[{"(", 
-        RowBox[{
-         RowBox[{"R1max", " ", "RHmax"}], "+", 
-         RowBox[{
-          RowBox[{"(", 
-           RowBox[{"R1min", "+", 
-            RowBox[{"2", " ", "RHmax"}]}], ")"}], " ", "RLmin"}]}], ")"}], 
-       " ", "VNmax"}], 
-      RowBox[{
-       RowBox[{"R1max", " ", "RHmax"}], "-", 
-       RowBox[{"R1min", " ", "RLmin"}]}]]}]}], "}"}], "}"}]], "Output",
- CellChangeTimes->{
-  3.760571716392281*^9, 3.760626369429204*^9, 3.760630873755278*^9, 
-   3.760630923289896*^9, 3.760631120895074*^9, {3.760642488148518*^9, 
-   3.760642526409411*^9}, 3.760642600362625*^9, 3.7606457692951813`*^9, 
-   3.760651048147187*^9}],
-
-Cell[BoxData[
- RowBox[{"{", 
-  RowBox[{"{", 
-   RowBox[{
-    RowBox[{"Vrow", "\[Rule]", 
-     RowBox[{"-", 
-      FractionBox[
-       RowBox[{
-        RowBox[{"(", 
-         RowBox[{
-          RowBox[{"2", " ", "R1"}], "+", "RH", "+", "RL"}], ")"}], " ", 
-        "VNmax"}], 
-       RowBox[{"RH", "-", "RL"}]]}]}], ",", 
-    RowBox[{"Vcol", "\[Rule]", 
-     FractionBox[
-      RowBox[{
-       RowBox[{"(", 
-        RowBox[{
-         RowBox[{"2", " ", "RH", " ", "RL"}], "+", 
-         RowBox[{"R1", " ", 
-          RowBox[{"(", 
-           RowBox[{"RH", "+", "RL"}], ")"}]}]}], ")"}], " ", "VNmax"}], 
-      RowBox[{"R1", " ", 
-       RowBox[{"(", 
-        RowBox[{"RH", "-", "RL"}], ")"}]}]]}]}], "}"}], "}"}]], "Output",
- CellChangeTimes->{
-  3.760571716392281*^9, 3.760626369429204*^9, 3.760630873755278*^9, 
-   3.760630923289896*^9, 3.760631120895074*^9, {3.760642488148518*^9, 
-   3.760642526409411*^9}, 3.760642600362625*^9, 3.7606457692951813`*^9, 
-   3.7606510481594133`*^9}],
-
-Cell[BoxData[
- RowBox[{"{", 
-  RowBox[{"{", 
-   RowBox[{
-    RowBox[{"Vrow", "\[Rule]", 
-     RowBox[{"-", "14"}]}], ",", 
-    RowBox[{"Vcol", "\[Rule]", "13"}]}], "}"}], "}"}]], "Output",
- CellChangeTimes->{
-  3.760571716392281*^9, 3.760626369429204*^9, 3.760630873755278*^9, 
-   3.760630923289896*^9, 3.760631120895074*^9, {3.760642488148518*^9, 
-   3.760642526409411*^9}, 3.760642600362625*^9, 3.7606457692951813`*^9, 
-   3.760651048167973*^9}]
-}, Open  ]],
+  3.760651000267211*^9, 3.7606510004398537`*^9}, {3.760991784581358*^9, 
+  3.760991789905867*^9}, {3.7609941299746733`*^9, 3.7609942082218533`*^9}, {
+  3.760996454125525*^9, 3.760996458517218*^9}}],
 
 Cell[CellGroupData[{
 
@@ -561,7 +89,7 @@ Cell[BoxData[
         RowBox[{
          RowBox[{"(", 
           RowBox[{"Vrow", "-", "Vcol"}], ")"}], "RHmin"}], 
-        RowBox[{"R1max", "+", "RHmin"}]], "+", "Vcol"}], "\[Equal]", 
+        RowBox[{"RLmax", "+", "RHmin"}]], "+", "Vcol"}], "\[Equal]", 
       "Vpimax"}]}], ";"}], "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"constraint2", "=", 
@@ -571,18 +99,17 @@ Cell[BoxData[
         RowBox[{
          RowBox[{"(", 
           RowBox[{"Vrow", "-", "Vcol"}], ")"}], "RLmax"}], 
-        RowBox[{"R1min", "+", "RLmax"}]], "+", "Vcol"}], "\[Equal]", 
+        RowBox[{"RLmin", "+", "RLmax"}]], "+", "Vcol"}], "\[Equal]", 
       "Vpimin"}]}], ";"}], "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"constraint3", "=", 
      RowBox[{
-      RowBox[{
-       FractionBox[
-        RowBox[{
-         RowBox[{"(", 
-          RowBox[{"Vrow", "-", "Vcol"}], ")"}], "RHmax"}], 
-        RowBox[{"R1min", "+", "RHmax"}]], "+", "Vcol"}], "\[LessEqual]", 
-      "Vsetmin"}]}], ";"}], "\[IndentingNewLine]", 
+      FractionBox[
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{"Vrow", "-", "Vcol"}], ")"}], "RHmax"}], 
+       RowBox[{"RLmin", "+", "RHmax"}]], "\[LessEqual]", "Vsetmin"}]}], ";"}],
+    "\[IndentingNewLine]", 
    RowBox[{"sol", "=", 
     RowBox[{
      RowBox[{"FullSimplify", "[", 
@@ -601,8 +128,6 @@ Cell[BoxData[
      RowBox[{"sol", "/.", 
       RowBox[{"{", 
        RowBox[{
-        RowBox[{"R1min", "\[Rule]", "R1"}], ",", 
-        RowBox[{"R1max", "\[Rule]", "R1"}], ",", " ", 
         RowBox[{"RLmax", "\[Rule]", "RL"}], ",", 
         RowBox[{"RLmin", "\[Rule]", "RL"}], ",", 
         RowBox[{"RHmax", "\[Rule]", "RH"}], ",", " ", 
@@ -614,8 +139,6 @@ Cell[BoxData[
      RowBox[{"sol2", "/.", 
       RowBox[{"{", 
        RowBox[{
-        RowBox[{"R1min", "\[Rule]", "R1"}], ",", 
-        RowBox[{"R1max", "\[Rule]", "R1"}], ",", " ", 
         RowBox[{"RLmax", "\[Rule]", "RL"}], ",", 
         RowBox[{"RLmin", "\[Rule]", "RL"}], ",", 
         RowBox[{"RHmax", "\[Rule]", "RH"}], ",", " ", 
@@ -628,71 +151,71 @@ Cell[BoxData[
   3.760479864074604*^9, 3.7604798759550056`*^9}, {3.760626097083102*^9, 
   3.760626108951803*^9}, {3.760630762197938*^9, 3.760630764641494*^9}, {
   3.7606426196232147`*^9, 3.760642645325926*^9}, {3.7606427351564207`*^9, 
-  3.7606427479273977`*^9}, {3.760645657163269*^9, 3.760645659471601*^9}}],
+  3.7606427479273977`*^9}, {3.760645657163269*^9, 3.760645659471601*^9}, {
+  3.7609917457146683`*^9, 3.760991763965466*^9}, {3.760991819071412*^9, 
+  3.760991819350004*^9}, {3.760994924577924*^9, 3.760994940390737*^9}}],
 
 Cell[BoxData[
  RowBox[{"{", 
   RowBox[{
    RowBox[{"Vrow", "\[Rule]", 
-    FractionBox[
-     RowBox[{
-      RowBox[{
-       RowBox[{"-", "R1min"}], " ", 
-       RowBox[{"(", 
-        RowBox[{"R1max", "+", "RHmin"}], ")"}], " ", "Vpimax"}], "+", 
-      RowBox[{"R1max", " ", 
-       RowBox[{"(", 
-        RowBox[{"R1min", "+", "RLmax"}], ")"}], " ", "Vpimin"}]}], 
-     RowBox[{
-      RowBox[{
-       RowBox[{"-", "R1min"}], " ", "RHmin"}], "+", 
-      RowBox[{"R1max", " ", "RLmax"}]}]]}], ",", 
-   RowBox[{"Vcol", "\[Rule]", 
     FractionBox[
      RowBox[{
       RowBox[{
        RowBox[{"-", 
         RowBox[{"(", 
-         RowBox[{"R1max", "+", "RHmin"}], ")"}]}], " ", "RLmax", " ", 
+         RowBox[{"RHmin", "+", "RLmax"}], ")"}]}], " ", "RLmin", " ", 
        "Vpimax"}], "+", 
+      RowBox[{"RLmax", " ", 
+       RowBox[{"(", 
+        RowBox[{"RLmax", "+", "RLmin"}], ")"}], " ", "Vpimin"}]}], 
+     RowBox[{
+      SuperscriptBox["RLmax", "2"], "-", 
+      RowBox[{"RHmin", " ", "RLmin"}]}]]}], ",", 
+   RowBox[{"Vcol", "\[Rule]", 
+    FractionBox[
+     RowBox[{
+      RowBox[{"RLmax", " ", 
+       RowBox[{"(", 
+        RowBox[{"RHmin", "+", "RLmax"}], ")"}], " ", "Vpimax"}], "-", 
       RowBox[{"RHmin", " ", 
        RowBox[{"(", 
-        RowBox[{"R1min", "+", "RLmax"}], ")"}], " ", "Vpimin"}]}], 
+        RowBox[{"RLmax", "+", "RLmin"}], ")"}], " ", "Vpimin"}]}], 
      RowBox[{
-      RowBox[{"R1min", " ", "RHmin"}], "-", 
-      RowBox[{"R1max", " ", "RLmax"}]}]]}]}], "}"}]], "Output",
+      SuperscriptBox["RLmax", "2"], "-", 
+      RowBox[{"RHmin", " ", "RLmin"}]}]]}]}], "}"}]], "Output",
  CellChangeTimes->{
   3.7606426635312634`*^9, 3.760642751012065*^9, {3.760645645163221*^9, 
-   3.760645659825447*^9}, 3.7606510630593843`*^9}],
+   3.760645659825447*^9}, 3.7606510630593843`*^9, {3.76099182545401*^9, 
+   3.76099183029987*^9}, {3.760994140885001*^9, 3.760994158993352*^9}, 
+   3.760994670497142*^9, {3.760994928090477*^9, 3.760994942407071*^9}, 
+   3.760996460974844*^9}],
 
 Cell[BoxData[
  RowBox[{
   FractionBox[
-   RowBox[{
-    RowBox[{"R1min", " ", 
-     RowBox[{"(", 
-      RowBox[{"R1max", "+", "RHmin"}], ")"}], " ", 
-     RowBox[{"(", 
-      RowBox[{"RHmax", "-", "RLmax"}], ")"}], " ", "Vpimax"}], "+", 
-    RowBox[{
-     RowBox[{"(", 
-      RowBox[{
-       RowBox[{
-        RowBox[{"-", "R1max"}], " ", "RHmax"}], "+", 
-       RowBox[{"R1min", " ", "RHmin"}]}], ")"}], " ", 
-     RowBox[{"(", 
-      RowBox[{"R1min", "+", "RLmax"}], ")"}], " ", "Vpimin"}]}], 
+   RowBox[{"RHmax", " ", 
+    RowBox[{"(", 
+     RowBox[{"RHmin", "+", "RLmax"}], ")"}], " ", 
+    RowBox[{"(", 
+     RowBox[{"RLmax", "+", "RLmin"}], ")"}], " ", 
+    RowBox[{"(", 
+     RowBox[{"Vpimax", "-", "Vpimin"}], ")"}]}], 
    RowBox[{
     RowBox[{"(", 
-     RowBox[{"R1min", "+", "RHmax"}], ")"}], " ", 
+     RowBox[{"RHmax", "+", "RLmin"}], ")"}], " ", 
     RowBox[{"(", 
      RowBox[{
-      RowBox[{"R1min", " ", "RHmin"}], "-", 
-      RowBox[{"R1max", " ", "RLmax"}]}], ")"}]}]], "\[LessEqual]", 
+      RowBox[{"-", 
+       SuperscriptBox["RLmax", "2"]}], "+", 
+      RowBox[{"RHmin", " ", "RLmin"}]}], ")"}]}]], "\[LessEqual]", 
   "Vsetmin"}]], "Output",
  CellChangeTimes->{
   3.7606426635312634`*^9, 3.760642751012065*^9, {3.760645645163221*^9, 
-   3.760645659825447*^9}, 3.760651063068761*^9}],
+   3.760645659825447*^9}, 3.7606510630593843`*^9, {3.76099182545401*^9, 
+   3.76099183029987*^9}, {3.760994140885001*^9, 3.760994158993352*^9}, 
+   3.760994670497142*^9, {3.760994928090477*^9, 3.760994942407071*^9}, 
+   3.760996460986949*^9}],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -702,10 +225,8 @@ Cell[BoxData[
      RowBox[{
       RowBox[{
        RowBox[{"(", 
-        RowBox[{"R1", "+", "RH"}], ")"}], " ", "Vpimax"}], "-", 
-      RowBox[{
-       RowBox[{"(", 
-        RowBox[{"R1", "+", "RL"}], ")"}], " ", "Vpimin"}]}], 
+        RowBox[{"RH", "+", "RL"}], ")"}], " ", "Vpimax"}], "-", 
+      RowBox[{"2", " ", "RL", " ", "Vpimin"}]}], 
      RowBox[{"RH", "-", "RL"}]]}], ",", 
    RowBox[{"Vcol", "\[Rule]", 
     FractionBox[
@@ -713,56 +234,386 @@ Cell[BoxData[
       RowBox[{
        RowBox[{"-", 
         RowBox[{"(", 
-         RowBox[{"R1", "+", "RH"}], ")"}]}], " ", "RL", " ", "Vpimax"}], "+", 
-      
-      RowBox[{"RH", " ", 
-       RowBox[{"(", 
-        RowBox[{"R1", "+", "RL"}], ")"}], " ", "Vpimin"}]}], 
-     RowBox[{
-      RowBox[{"R1", " ", "RH"}], "-", 
-      RowBox[{"R1", " ", "RL"}]}]]}]}], "}"}]], "Output",
+         RowBox[{"RH", "+", "RL"}], ")"}]}], " ", "Vpimax"}], "+", 
+      RowBox[{"2", " ", "RH", " ", "Vpimin"}]}], 
+     RowBox[{"RH", "-", "RL"}]]}]}], "}"}]], "Output",
  CellChangeTimes->{
   3.7606426635312634`*^9, 3.760642751012065*^9, {3.760645645163221*^9, 
-   3.760645659825447*^9}, 3.760651063075605*^9}],
+   3.760645659825447*^9}, 3.7606510630593843`*^9, {3.76099182545401*^9, 
+   3.76099183029987*^9}, {3.760994140885001*^9, 3.760994158993352*^9}, 
+   3.760994670497142*^9, {3.760994928090477*^9, 3.760994942407071*^9}, 
+   3.760996460996058*^9}],
 
 Cell[BoxData[
  RowBox[{"{", 
   RowBox[{
-   RowBox[{"Vrow", "\[Rule]", "5.`"}], ",", 
-   RowBox[{"Vcol", "\[Rule]", "3.0714285714285716`"}]}], "}"}]], "Output",
+   RowBox[{"Vrow", "\[Rule]", "0.9444444444444445`"}], ",", 
+   RowBox[{"Vcol", "\[Rule]", "0.4555555555555556`"}]}], "}"}]], "Output",
  CellChangeTimes->{
   3.7606426635312634`*^9, 3.760642751012065*^9, {3.760645645163221*^9, 
-   3.760645659825447*^9}, 3.760651063084466*^9}],
+   3.760645659825447*^9}, 3.7606510630593843`*^9, {3.76099182545401*^9, 
+   3.76099183029987*^9}, {3.760994140885001*^9, 3.760994158993352*^9}, 
+   3.760994670497142*^9, {3.760994928090477*^9, 3.760994942407071*^9}, 
+   3.760996461004416*^9}],
 
 Cell[BoxData[
- RowBox[{"Vpimax", "\[LessEqual]", "Vsetmin"}]], "Output",
+ RowBox[{
+  FractionBox[
+   RowBox[{"2", " ", "RH", " ", 
+    RowBox[{"(", 
+     RowBox[{"Vpimax", "-", "Vpimin"}], ")"}]}], 
+   RowBox[{"RH", "-", "RL"}]], "\[LessEqual]", "Vsetmin"}]], "Output",
  CellChangeTimes->{
   3.7606426635312634`*^9, 3.760642751012065*^9, {3.760645645163221*^9, 
-   3.760645659825447*^9}, 3.760651063093309*^9}],
+   3.760645659825447*^9}, 3.7606510630593843`*^9, {3.76099182545401*^9, 
+   3.76099183029987*^9}, {3.760994140885001*^9, 3.760994158993352*^9}, 
+   3.760994670497142*^9, {3.760994928090477*^9, 3.760994942407071*^9}, 
+   3.760996461012766*^9}],
 
-Cell[BoxData[
- RowBox[{"4.5`", "\[LessEqual]", "Vsetmin"}]], "Output",
+Cell[BoxData["True"], "Output",
  CellChangeTimes->{
   3.7606426635312634`*^9, 3.760642751012065*^9, {3.760645645163221*^9, 
-   3.760645659825447*^9}, 3.760651063101797*^9}]
+   3.760645659825447*^9}, 3.7606510630593843`*^9, {3.76099182545401*^9, 
+   3.76099183029987*^9}, {3.760994140885001*^9, 3.760994158993352*^9}, 
+   3.760994670497142*^9, {3.760994928090477*^9, 3.760994942407071*^9}, 
+   3.760996461020919*^9}]
 }, Open  ]],
+
+Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{
   RowBox[{"(*", " ", 
-   RowBox[{"HOLD", " ", "mode"}], " ", "*)"}], "\n", 
+   RowBox[{"SET", " ", "Mode", " ", "Step", " ", "1"}], " ", "*)"}], 
+  "\[IndentingNewLine]", 
   RowBox[{
    RowBox[{
     RowBox[{"constraint1", "=", 
-     RowBox[{"Vrow", "\[Equal]", 
-      RowBox[{"Vpomax", "+", "Vdd"}]}]}], ";"}], "\[IndentingNewLine]", 
+     RowBox[{
+      FractionBox[
+       RowBox[{"Vrow", " ", "RHmin"}], 
+       RowBox[{"RLmax", "+", "RHmin"}]], "\[Equal]", "Vsetmax"}]}], ";"}], 
+   "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"constraint2", "=", 
      RowBox[{
-      RowBox[{"Vpomax", "+", "Vdd"}], "\[LessEqual]", "Vpimin"}]}], 
-    ";"}]}]}]], "Input",
- CellChangeTimes->{{3.760626328897938*^9, 3.760626333937882*^9}, {
-  3.760630809182632*^9, 3.760630827553042*^9}}]
+      RowBox[{"Abs", "[", 
+       FractionBox[
+        RowBox[{"Vrow", " ", "RLmin"}], 
+        RowBox[{"RHmax", "+", "RLmin"}]], "]"}], "\[LessEqual]", "VNmax"}]}], 
+    ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"constraint3", "=", 
+     RowBox[{
+      RowBox[{"Abs", "[", 
+       FractionBox[
+        RowBox[{"Vrow", " ", "RLmax"}], 
+        RowBox[{"RLmax", "+", "RLmin"}]], "]"}], "\[LessEqual]", "VNmax"}]}], 
+    ";"}], "\[IndentingNewLine]", 
+   RowBox[{"sol", "=", 
+    RowBox[{
+     RowBox[{"FullSimplify", "[", 
+      RowBox[{"Solve", "[", 
+       RowBox[{
+        RowBox[{"{", "constraint1", "}"}], ",", 
+        RowBox[{"{", "Vrow", "}"}]}], "]"}], "]"}], "[", 
+     RowBox[{"[", "1", "]"}], "]"}]}], "\[IndentingNewLine]", 
+   RowBox[{"simplesol", "=", " ", 
+    RowBox[{"FullSimplify", "[", 
+     RowBox[{"sol", "/.", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"RLmax", "\[Rule]", "RL"}], ",", 
+        RowBox[{"RLmin", "\[Rule]", "RL"}], ",", 
+        RowBox[{"RHmax", "\[Rule]", "RH"}], ",", " ", 
+        RowBox[{"RHmin", "\[Rule]", "RH"}]}], "}"}]}], "]"}]}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"simplesol", "/.", "testparams"}], "\[IndentingNewLine]", 
+   RowBox[{"sol2", "=", 
+    RowBox[{"FullSimplify", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"constraint2", ",", "constraint3"}], "}"}], "/.", "sol"}], 
+     "]"}]}], "\[IndentingNewLine]", 
+   RowBox[{"simplesol2", "=", 
+    RowBox[{"FullSimplify", "[", 
+     RowBox[{"sol2", "/.", 
+      RowBox[{"{", " ", 
+       RowBox[{
+        RowBox[{"RLmax", "\[Rule]", "RL"}], ",", 
+        RowBox[{"RLmin", "\[Rule]", "RL"}], ",", 
+        RowBox[{"RHmax", "\[Rule]", "RH"}], ",", " ", 
+        RowBox[{"RHmin", "\[Rule]", "RH"}]}], "}"}]}], "]"}]}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"simplesol2", "/.", "testparams"}]}]}]], "Input",
+ CellChangeTimes->{{3.7609918572274313`*^9, 3.7609919442319813`*^9}, {
+  3.760993942466646*^9, 3.7609939809942913`*^9}, {3.7609940252133837`*^9, 
+  3.760994087221306*^9}, {3.760994688686748*^9, 3.760994765183887*^9}, {
+  3.760994850650626*^9, 3.760994880754422*^9}, {3.760994914840026*^9, 
+  3.760994919246414*^9}, {3.7609949710388412`*^9, 3.760994972630684*^9}, {
+  3.760995081619075*^9, 3.7609951321463757`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"Vrow", "\[Rule]", 
+   FractionBox[
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{"RHmin", "+", "RLmax"}], ")"}], " ", "Vsetmax"}], "RHmin"]}], 
+  "}"}]], "Output",
+ CellChangeTimes->{
+  3.760994052942067*^9, 3.760994124852045*^9, 3.760994674020729*^9, {
+   3.7609947546909533`*^9, 3.760994766273466*^9}, {3.760994876226768*^9, 
+   3.760994881376315*^9}, 3.760994955017065*^9, 3.760995132900586*^9, 
+   3.760996463186431*^9}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"Vrow", "\[Rule]", 
+   FractionBox[
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{"RH", "+", "RL"}], ")"}], " ", "Vsetmax"}], "RH"]}], 
+  "}"}]], "Output",
+ CellChangeTimes->{
+  3.760994052942067*^9, 3.760994124852045*^9, 3.760994674020729*^9, {
+   3.7609947546909533`*^9, 3.760994766273466*^9}, {3.760994876226768*^9, 
+   3.760994881376315*^9}, 3.760994955017065*^9, 3.760995132900586*^9, 
+   3.7609964632008457`*^9}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"Vrow", "\[Rule]", "0.77`"}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.760994052942067*^9, 3.760994124852045*^9, 3.760994674020729*^9, {
+   3.7609947546909533`*^9, 3.760994766273466*^9}, {3.760994876226768*^9, 
+   3.760994881376315*^9}, 3.760994955017065*^9, 3.760995132900586*^9, 
+   3.760996463210024*^9}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"Abs", "[", 
+     FractionBox[
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"RHmin", "+", "RLmax"}], ")"}], " ", "RLmin", " ", 
+       "Vsetmax"}], 
+      RowBox[{"RHmin", " ", 
+       RowBox[{"(", 
+        RowBox[{"RHmax", "+", "RLmin"}], ")"}]}]], "]"}], "\[LessEqual]", 
+    "VNmax"}], ",", 
+   RowBox[{
+    RowBox[{"Abs", "[", 
+     FractionBox[
+      RowBox[{"RLmax", " ", 
+       RowBox[{"(", 
+        RowBox[{"RHmin", "+", "RLmax"}], ")"}], " ", "Vsetmax"}], 
+      RowBox[{"RHmin", " ", 
+       RowBox[{"(", 
+        RowBox[{"RLmax", "+", "RLmin"}], ")"}]}]], "]"}], "\[LessEqual]", 
+    "VNmax"}]}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.760994052942067*^9, 3.760994124852045*^9, 3.760994674020729*^9, {
+   3.7609947546909533`*^9, 3.760994766273466*^9}, {3.760994876226768*^9, 
+   3.760994881376315*^9}, 3.760994955017065*^9, 3.760995132900586*^9, 
+   3.760996463536593*^9}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"Abs", "[", 
+     FractionBox[
+      RowBox[{"RL", " ", "Vsetmax"}], "RH"], "]"}], "\[LessEqual]", "VNmax"}],
+    ",", 
+   RowBox[{
+    RowBox[{"Abs", "[", 
+     FractionBox[
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"RH", "+", "RL"}], ")"}], " ", "Vsetmax"}], "RH"], "]"}], 
+    "\[LessEqual]", 
+    RowBox[{"2", " ", "VNmax"}]}]}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.760994052942067*^9, 3.760994124852045*^9, 3.760994674020729*^9, {
+   3.7609947546909533`*^9, 3.760994766273466*^9}, {3.760994876226768*^9, 
+   3.760994881376315*^9}, 3.760994955017065*^9, 3.760995132900586*^9, 
+   3.760996463667741*^9}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"True", ",", "True"}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.760994052942067*^9, 3.760994124852045*^9, 3.760994674020729*^9, {
+   3.7609947546909533`*^9, 3.760994766273466*^9}, {3.760994876226768*^9, 
+   3.760994881376315*^9}, 3.760994955017065*^9, 3.760995132900586*^9, 
+   3.760996463680071*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", " ", 
+   RowBox[{"SET", " ", "Mode", " ", "Step", " ", "2"}], " ", "*)"}], 
+  "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"constraint1", "=", 
+     RowBox[{
+      FractionBox[
+       RowBox[{"Vrow", " ", "RLmin"}], 
+       RowBox[{"RLmax", "+", "RLmin"}]], "\[Equal]", 
+      RowBox[{"-", "Vrstmax"}]}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"constraint2", "=", 
+     RowBox[{
+      RowBox[{"Abs", "[", 
+       FractionBox[
+        RowBox[{"Vrow", " ", "RLmin"}], 
+        RowBox[{"RLmax", "+", "RLmin"}]], "]"}], "\[LessEqual]", "VNmax"}]}], 
+    ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"constraint3", "=", 
+     RowBox[{
+      RowBox[{"Abs", "[", 
+       FractionBox[
+        RowBox[{"Vrow", " ", "RLmax"}], 
+        RowBox[{"RLmax", "+", "RHmin"}]], "]"}], "\[LessEqual]", "VNmax"}]}], 
+    ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"constraint4", "=", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"Abs", "[", 
+        FractionBox[
+         RowBox[{"Vrow", " ", "RHmax"}], 
+         RowBox[{"RHmax", "+", "RLmin"}]], "]"}], "/", "2"}], "\[LessEqual]", 
+      "Vsetmin"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{"sol", "=", 
+    RowBox[{
+     RowBox[{"FullSimplify", "[", 
+      RowBox[{"Solve", "[", 
+       RowBox[{
+        RowBox[{"{", "constraint1", "}"}], ",", 
+        RowBox[{"{", "Vrow", "}"}]}], "]"}], "]"}], "[", 
+     RowBox[{"[", "1", "]"}], "]"}]}], "\[IndentingNewLine]", 
+   RowBox[{"simplesol", "=", " ", 
+    RowBox[{"FullSimplify", "[", 
+     RowBox[{"sol", "/.", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"RLmax", "\[Rule]", "RL"}], ",", 
+        RowBox[{"RLmin", "\[Rule]", "RL"}], ",", 
+        RowBox[{"RHmax", "\[Rule]", "RH"}], ",", " ", 
+        RowBox[{"RHmin", "\[Rule]", "RH"}]}], "}"}]}], "]"}]}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"simplesol", "/.", "testparams"}], "\[IndentingNewLine]", 
+   RowBox[{"sol2", "=", 
+    RowBox[{"FullSimplify", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"constraint2", ",", "constraint3", ",", "constraint4"}], "}"}],
+       "/.", "sol"}], "]"}]}], "\[IndentingNewLine]", 
+   RowBox[{"simplesol2", "=", 
+    RowBox[{"FullSimplify", "[", 
+     RowBox[{"sol2", "/.", 
+      RowBox[{"{", " ", 
+       RowBox[{
+        RowBox[{"RLmax", "\[Rule]", "RL"}], ",", 
+        RowBox[{"RLmin", "\[Rule]", "RL"}], ",", 
+        RowBox[{"RHmax", "\[Rule]", "RH"}], ",", " ", 
+        RowBox[{"RHmin", "\[Rule]", "RH"}]}], "}"}]}], "]"}]}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"simplesol2", "/.", "testparams"}]}]}]], "Input",
+ CellChangeTimes->{{3.760994981672041*^9, 3.7609950062384357`*^9}, 
+   3.760995384432642*^9, {3.760995922406941*^9, 3.76099595792519*^9}, {
+   3.760995991774062*^9, 3.7609960056145773`*^9}, {3.760996036983713*^9, 
+   3.760996097255677*^9}, {3.760996145635407*^9, 3.7609961458321657`*^9}, {
+   3.760996383548765*^9, 3.76099638393993*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"Vrow", "\[Rule]", 
+   RowBox[{"-", 
+    FractionBox[
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"RLmax", "+", "RLmin"}], ")"}], " ", "Vrstmax"}], "RLmin"]}]}],
+   "}"}]], "Output",
+ CellChangeTimes->{{3.76099636030928*^9, 3.760996385207444*^9}, 
+   3.760996467341969*^9}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"Vrow", "\[Rule]", 
+   RowBox[{
+    RowBox[{"-", "2"}], " ", "Vrstmax"}]}], "}"}]], "Output",
+ CellChangeTimes->{{3.76099636030928*^9, 3.760996385207444*^9}, 
+   3.7609964673484497`*^9}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"Vrow", "\[Rule]", "1.2`"}], "}"}]], "Output",
+ CellChangeTimes->{{3.76099636030928*^9, 3.760996385207444*^9}, 
+   3.760996467352242*^9}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"Abs", "[", "Vrstmax", "]"}], "\[LessEqual]", "VNmax"}], ",", 
+   RowBox[{
+    RowBox[{"Abs", "[", 
+     FractionBox[
+      RowBox[{"RLmax", " ", 
+       RowBox[{"(", 
+        RowBox[{"RLmax", "+", "RLmin"}], ")"}], " ", "Vrstmax"}], 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"RHmin", "+", "RLmax"}], ")"}], " ", "RLmin"}]], "]"}], 
+    "\[LessEqual]", "VNmax"}], ",", 
+   RowBox[{
+    RowBox[{"Abs", "[", 
+     FractionBox[
+      RowBox[{"RHmax", " ", 
+       RowBox[{"(", 
+        RowBox[{"RLmax", "+", "RLmin"}], ")"}], " ", "Vrstmax"}], 
+      RowBox[{"RLmin", " ", 
+       RowBox[{"(", 
+        RowBox[{"RHmax", "+", "RLmin"}], ")"}]}]], "]"}], "\[LessEqual]", 
+    RowBox[{"2", " ", "Vsetmin"}]}]}], "}"}]], "Output",
+ CellChangeTimes->{{3.76099636030928*^9, 3.760996385207444*^9}, 
+   3.760996467356488*^9}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"Abs", "[", "Vrstmax", "]"}], "\[LessEqual]", "VNmax"}], ",", 
+   RowBox[{
+    RowBox[{"2", " ", 
+     RowBox[{"Abs", "[", 
+      FractionBox[
+       RowBox[{"RL", " ", "Vrstmax"}], 
+       RowBox[{"RH", "+", "RL"}]], "]"}]}], "\[LessEqual]", "VNmax"}], ",", 
+   RowBox[{
+    RowBox[{"Abs", "[", 
+     FractionBox[
+      RowBox[{"RH", " ", "Vrstmax"}], 
+      RowBox[{"RH", "+", "RL"}]], "]"}], "\[LessEqual]", "Vsetmin"}]}], 
+  "}"}]], "Output",
+ CellChangeTimes->{{3.76099636030928*^9, 3.760996385207444*^9}, 
+   3.7609964673604107`*^9}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"True", ",", "True", ",", "True"}], "}"}]], "Output",
+ CellChangeTimes->{{3.76099636030928*^9, 3.760996385207444*^9}, 
+   3.760996467367424*^9}]
+}, Open  ]]
 },
 WindowSize->{Full, Full},
 WindowMargins->{{4, Automatic}, {Automatic, 0}},
@@ -781,36 +632,34 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 368, 9, 32, "Input"],
-Cell[929, 31, 1949, 45, 100, "Input"],
+Cell[558, 20, 2412, 54, 100, "Input"],
 Cell[CellGroupData[{
-Cell[2903, 80, 2875, 75, 217, "Input"],
-Cell[5781, 157, 1708, 42, 51, "Output"],
-Cell[7492, 201, 1680, 42, 50, "Output"],
-Cell[9175, 245, 1030, 18, 32, "Output"]
+Cell[2995, 78, 3075, 77, 282, "Input"],
+Cell[6073, 157, 1235, 34, 51, "Output"],
+Cell[7311, 193, 877, 24, 56, "Output"],
+Cell[8191, 219, 921, 25, 49, "Output"],
+Cell[9115, 246, 510, 10, 32, "Output"],
+Cell[9628, 258, 545, 12, 49, "Output"],
+Cell[10176, 272, 366, 6, 32, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[10242, 268, 2096, 54, 178, "Input"],
-Cell[12341, 324, 1338, 37, 50, "Output"],
-Cell[13682, 363, 1084, 30, 50, "Output"],
-Cell[14769, 395, 546, 12, 32, "Output"]
+Cell[10579, 283, 2694, 70, 281, "Input"],
+Cell[13276, 355, 464, 12, 49, "Output"],
+Cell[13743, 369, 457, 12, 48, "Output"],
+Cell[14203, 383, 347, 7, 32, "Output"],
+Cell[14553, 392, 958, 28, 51, "Output"],
+Cell[15514, 422, 686, 20, 48, "Output"],
+Cell[16203, 444, 340, 7, 32, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[15352, 412, 1828, 51, 178, "Input"],
-Cell[17183, 465, 1239, 36, 50, "Output"],
-Cell[18425, 503, 983, 29, 50, "Output"],
-Cell[19411, 534, 447, 11, 32, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[19895, 550, 3177, 80, 282, "Input"],
-Cell[23075, 632, 1095, 33, 50, "Output"],
-Cell[24173, 667, 886, 27, 51, "Output"],
-Cell[25062, 696, 908, 29, 49, "Output"],
-Cell[25973, 727, 300, 7, 32, "Output"],
-Cell[26276, 736, 213, 4, 32, "Output"],
-Cell[26492, 742, 211, 4, 32, "Output"]
-}, Open  ]],
-Cell[26718, 749, 530, 15, 75, "Input"]
+Cell[16580, 456, 2952, 78, 321, "Input"],
+Cell[19535, 536, 317, 10, 49, "Output"],
+Cell[19855, 548, 225, 6, 32, "Output"],
+Cell[20083, 556, 176, 4, 32, "Output"],
+Cell[20262, 562, 889, 26, 51, "Output"],
+Cell[21154, 590, 603, 18, 48, "Output"],
+Cell[21760, 610, 183, 4, 32, "Output"]
+}, Open  ]]
 }
 ]
 *)
