@@ -21,7 +21,7 @@
 .param Vrrst2=0 Vcrst2=1.2
 
 ** Create hybrid design (choose models) **
-Xrram1 Vrow Vcol RRAM Vset=vset Vrst=vrst Rl=rl Rh=rh on_i=1
+Xrram1 Vrow Vg RRAM Vset=vset Vrst=vrst Rl=rl Rh=rh on_i=1
 Xrram2 Vg Vcol RRAM Vset=vset Vrst=vrst Rl=rl Rh=rh on_i=0
 Xnem gnd Vg Vsrc Vb NEM_4T Vpi=Vpi Vpo=Vpo rch=rch tdmec=tdmec Cgbon=Cgbon Cgboff=Cgboff
 
