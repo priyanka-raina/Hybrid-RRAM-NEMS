@@ -33,7 +33,7 @@ Vb   Vb   gnd   0V
 
 ** Generate data **
 .tran 1ms 11s
-.probe V(Vrow) V(Vcol) V(Vg) V(Vb) V(Vsrc) PAR('abs(I(Vsrc))') PAR('abs(V(Vg,Vb))') V(Vg,Vb) V(Vg,Vrow) V(Vg,Vcol)
+.probe V(Vrow) V(Vcol) V(Vg) V(Vb) V(Vsrc) PAR('abs(I(Vsrc))') PAR('abs(V(Vg,Vb))') V(Vg,Vb) V(Vrow,Vg) V(Vg,Vcol)
 .option post=2
 .option runlvl=5 accurate delmax=1ms
 .option method=bdf
