@@ -20,7 +20,7 @@
 .param Vrrst2=0 Vcrst2=1.2
 
 ** Create crossbar array **
-Xnem Vrow1 Vrow2 Vrow3 Vcol1 Vcol2 Vcol3 Vsrc1 Vsrc2 Vsrc3 Vsrc4 Vsrc5 Vsrc6 Vsrc7 Vsrc8 Vsrc9 gnd gnd gnd gnd gnd gnd gnd gnd gnd Hybrid_4T_Xbar Vpi=Vpi Vpo=Vpo rch=rch tdmec=tdmec Cgbon=Cgbon Cgboff=Cgboff Vset=vset Vrst=vrst Rl=rl Rh=rh on_i=1 nrows=nrows ncols=ncols
+Xxbar Vrow1 Vrow2 Vrow3 Vcol1 Vcol2 Vcol3 Vsrc1 Vsrc2 Vsrc3 Vsrc4 Vsrc5 Vsrc6 Vsrc7 Vsrc8 Vsrc9 gnd gnd gnd gnd gnd gnd gnd gnd gnd Hybrid_4T_Xbar Vpi=Vpi Vpo=Vpo rch=rch tdmec=tdmec Cgbon=Cgbon Cgboff=Cgboff Vset=vset Vrst=vrst Rl=rl Rh=rh on_i=1 nrows=nrows ncols=ncols
 
 ** Test time trace **
 Vsrc1 Vsrc1 gnd   1V

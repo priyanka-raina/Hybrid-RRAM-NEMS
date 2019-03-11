@@ -33,11 +33,9 @@ module Hybrid_4T_Xbar(rows, cols, sources, drains);
     electrical rows, cols, sources, drains;
 
     // Create crossbar array
-    analog begin
-        generate r (0,nrows-1) begin
-            generate c (0,ncols-1) begin
-                Hybrid_4T #(.Vpi(0.8), .Vpo(0.2), .rch(1e+3), .tdmec(1e-9), .tr(1e-18), .tf(1e-18), .Cgbon(2e-17), .Cgboff(1.5e-17), .Vset(1.5), .Vrst(-1.5), .Rl(1000), .Rh(10000), .on_i(0)) pswitch(rows[r], cols[c], sources[r][c], drains[r][c]);
-            end
+    generate r (0,nrows-1) begin
+        generate c (0,ncols-1) begin
+            Hybrid_4T #(.Vpi(0.8), .Vpo(0.2), .rch(1e+3), .tdmec(1e-9), .tr(1e-18), .tf(1e-18), .Cgbon(2e-17), .Cgboff(1.5e-17), .Vset(1.5), .Vrst(-1.5), .Rl(1000), .Rh(10000), .on_i(0)) pswitch(rows[r], cols[c], sources[r][c], drains[r][c]);
         end
     end
 
