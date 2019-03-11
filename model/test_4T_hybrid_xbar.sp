@@ -36,7 +36,15 @@ Xpswitch8 Vrow3 Vcol2 Vsrc8 gnd PSwitch
 Xpswitch9 Vrow3 Vcol3 Vsrc9 gnd PSwitch
 
 ** Test time trace **
+Vsrc1 Vsrc1 gnd   1V
+Vsrc2 Vsrc2 gnd   1V
+Vsrc3 Vsrc3 gnd   1V
+Vsrc4 Vsrc4 gnd   1V
 Vsrc5 Vsrc5 gnd   1V
+Vsrc6 Vsrc6 gnd   1V
+Vsrc7 Vsrc7 gnd   1V
+Vsrc8 Vsrc8 gnd   1V
+Vsrc9 Vsrc9 gnd   1V
 Vrow5 Vrow5 gnd   PWLZ(0s 0   1s 0    1.1s Vrset1 1.5s Vrset2 2s Vrset2   2.1s 0  3s 0    3.1s Vrcopy 4s Vrcopy   4.1s Vrhold 5s Vrhold   5.1s 0  6s 0    6.1s Vrrst1 6.5s Vrrst2 7s Vrrst2   7.1s 0  8s 0    8.1s Vrcopy 9s Vrcopy   9.1s Vrhold 10s Vrhold  10.1s 0 11s 0)
 Vcol5 Vcol5 gnd   PWLZ(0s 0   1s 0    1.1s Vcset1 1.5s Vcset2 2s Vcset2   2.1s 0  3s 0    3.1s Vccopy 4s Vccopy   4.1s z      5s z        5.1s 0  6s 0    6.1s Vcrst1 6.5s Vcrst2 7s Vcrst2   7.1s 0  8s 0    8.1s Vccopy 9s Vccopy   9.1s z      10s z       10.1s 0 11s 0)
 
