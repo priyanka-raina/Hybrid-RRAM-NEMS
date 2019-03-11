@@ -17,10 +17,13 @@
 .param Vrrst1=0 Vcrst1=0.77
 .param Vrrst2=0 Vcrst2=1.2
 
-** Create hybrid design (choose models) **
+** Create hybrid design **
+.subckt PSwitch Vrow Vcol Vsrc Vdrn
 Xrram1 Vrow Vg RRAM Vset=vset Vrst=vrst Rl=rl Rh=rh on_i=0
 Xrram2 Vcol Vg RRAM Vset=vset Vrst=vrst Rl=rl Rh=rh on_i=1
 Xnem gnd Vg Vsrc Vb NEM_4T Vpi=Vpi Vpo=Vpo rch=rch tdmec=tdmec Cgbon=Cgbon Cgboff=Cgboff
+.ends PSwitch
+Xpswitch Vrow Vcol Vsrc gnd PSwitch
 
 ** Test time trace **
 Vsrc Vsrc gnd   1V
