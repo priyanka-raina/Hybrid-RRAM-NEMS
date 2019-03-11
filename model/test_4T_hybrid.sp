@@ -3,9 +3,6 @@
 .hdl rram_simple.va
 .hdl nem_relay_4T.va
 
-** TFR device parameters **
-.param tfr=16000 tc1=1/6000 dtemp=25
-
 ** NEM relay device parameters **
 .param Vpi=0.8 Vpo=0.2 rch=1E3 tdmec=1E-9 Cgbon=2E-17 Cgboff=1.5E-17
 

@@ -1,0 +1,44 @@
+/*******************************************************************
+    RRAM-actuated 4T NEM relay crossbar array
+
+    Author: Akash Levy
+    Model name: 4T_hybrid_xbar.va
+*******************************************************************/
+
+`include "4T_hybrid.va"
+
+module Hybrid_4T_Xbar(rows, cols, sources, drains);
+    // Crossbar array parameters
+    parameter real nrows = 5;
+    parameter real ncols = 5;
+
+    // NEM relay input variable definition
+    parameter real Vpi = 0.8;                   // pull-in voltage
+    parameter real Vpo = 0.2;                   // pull-out voltage
+    parameter real rch = 1e+3 from [0:inf);     // resistance
+    parameter real tdmec = 1e-9;                // mechanical delay
+    parameter real tr = 1e-18;                  // small nonzero value
+    parameter real tf = 1e-18;                  // small nonzero value
+    parameter real Cgbon = 2e-17;               // on-capacitance
+    parameter real Cgboff = 1.5e-17;            // off-capacitance
+
+    // RRAM input variable definition
+    parameter real Vset = 1.5;                  // SET voltage (HRS->LRS)
+    parameter real Vrst = -1.5;                 // RESET voltage (LRS->HRS)
+    parameter real Rl = 1000;                   // resistance (Ohms)
+    parameter real Rh = 10000;                  // resistance (Ohms)
+    parameter real on_i = 0;                    // initially LRS or HRS?
+
+    inout rows[0:nrows-1], cols[0:ncols-1], sources[0:nrows-1][0:ncols-1], drains[0:nrows-1][0:ncols-1];
+    electrical rows, cols, sources, drains;
+
+    // Create crossbar array
+    analog begin
+        generate r (0,nrows-1) begin
+            generate c (0,ncols-1) begin
+                Hybrid_4T #(.Vpi(0.8), .Vpo(0.2), .rch(1e+3), .tdmec(1e-9), .tr(1e-18), .tf(1e-18), .Cgbon(2e-17), .Cgboff(1.5e-17), .Vset(1.5), .Vrst(-1.5), .Rl(1000), .Rh(10000), .on_i(0)) pswitch(rows[r], cols[c], sources[r][c], drains[r][c]);
+            end
+        end
+    end
+
+endmodule
