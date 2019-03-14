@@ -1,0 +1,10 @@
+genesis_synth/test_opt_reg.sv
+genesis_synth/test_opt_reg_file.sv
+genesis_synth/test_full_add.sv
+genesis_synth/test_cmpr.sv
+genesis_synth/test_mult_add.sv
+genesis_synth/test_shifter_unq1.sv
+genesis_synth/test_pe_comp_unq1.sv
+genesis_synth/test_lut.sv
+genesis_synth/test_debug_reg.sv
+genesis_synth/test_pe.sv

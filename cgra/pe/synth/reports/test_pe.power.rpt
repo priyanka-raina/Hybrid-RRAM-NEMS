@@ -1,0 +1,105 @@
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : test_pe
+Version: L-2016.03-SP5-5
+Date   : Thu Mar 14 00:14:34 2019
+****************************************
+
+
+Library(s) Used:
+
+    saed32hvt_ss0p95v125c (File: /cad/synopsys_EDK3/SAED32_EDK/lib/stdcell_hvt/db_nldm/saed32hvt_ss0p95v125c.db)
+
+
+Operating Conditions: ss0p95v125c   Library: saed32hvt_ss0p95v125c
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+test_pe                8000              saed32hvt_ss0p95v125c
+test_opt_reg_DataWidth16_2
+                       8000              saed32hvt_ss0p95v125c
+test_opt_reg_file_DataWidth16_0
+                       8000              saed32hvt_ss0p95v125c
+test_opt_reg_DataWidth16_3
+                       8000              saed32hvt_ss0p95v125c
+test_opt_reg_DataWidth1_3
+                       ForQA             saed32hvt_ss0p95v125c
+test_opt_reg_DataWidth1_4
+                       ForQA             saed32hvt_ss0p95v125c
+test_opt_reg_DataWidth1_5
+                       ForQA             saed32hvt_ss0p95v125c
+test_pe_comp_unq1_0    8000              saed32hvt_ss0p95v125c
+test_lut_DataWidth1_0  ForQA             saed32hvt_ss0p95v125c
+test_debug_reg_DataWidth16_0
+                       8000              saed32hvt_ss0p95v125c
+test_debug_reg_DataWidth1_0
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_test_pe_0
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_test_opt_reg_DataWidth16_0_2
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_test_opt_reg_file_DataWidth16_0
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_test_opt_reg_DataWidth16_0_3
+                       ForQA             saed32hvt_ss0p95v125c
+test_full_add_DataWidth16_2
+                       ForQA             saed32hvt_ss0p95v125c
+test_full_add_DataWidth16_3
+                       ForQA             saed32hvt_ss0p95v125c
+test_cmpr_0            ForQA             saed32hvt_ss0p95v125c
+test_mult_add_DataWidth16_0
+                       8000              saed32hvt_ss0p95v125c
+test_shifter_unq1_DataWidth16_0
+                       8000              saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_test_lut_DataWidth1_0
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_test_debug_reg_DataWidth16_0
+                       ForQA             saed32hvt_ss0p95v125c
+
+
+Global Operating Voltage = 0.95 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+test_pe                                   2.645   32.664 6.68e+07  102.112 100.0
+  test_debug_bit (test_debug_reg_DataWidth1_0)
+                                       1.73e-03    0.233 2.68e+05    0.503   0.5
+  test_debug_data (test_debug_reg_DataWidth16_0)
+                                       1.12e-02    3.886 3.31e+06    7.209   7.1
+  test_lut (test_lut_DataWidth1_0)     3.47e-02    2.193 1.71e+06    3.940   3.9
+  test_pe_comp (test_pe_comp_unq1_0)   5.24e-02    0.113 3.76e+07   37.806  37.0
+    test_shifter (test_shifter_unq1_DataWidth16_0)
+                                       3.47e-03 4.86e-03 3.62e+06    3.627   3.6
+    test_mult_add (test_mult_add_DataWidth16_0)
+                                       2.54e-02 6.12e-02 2.29e+07   22.956  22.5
+    cmpr (test_cmpr_0)                 2.50e-04 3.70e-04 9.25e+04 9.31e-02   0.1
+    GEN_ADD[1].full_add (test_full_add_DataWidth16_3)
+                                       1.23e-03 7.62e-03 1.11e+06    1.121   1.1
+    GEN_ADD[0].full_add (test_full_add_DataWidth16_2)
+                                       1.30e-03 3.78e-03 1.11e+06    1.117   1.1
+  test_opt_reg_f (test_opt_reg_DataWidth1_5)
+                                       3.86e-02    0.366 3.44e+05    0.748   0.7
+  test_opt_reg_e (test_opt_reg_DataWidth1_4)
+                                       3.90e-02    0.367 3.44e+05    0.750   0.7
+  test_opt_reg_d (test_opt_reg_DataWidth1_3)
+                                       3.94e-02    0.368 3.44e+05    0.751   0.7
+  test_opt_reg_c (test_opt_reg_DataWidth16_3)
+                                          0.446    5.444 4.01e+06    9.898   9.7
+  test_opt_reg_file (test_opt_reg_file_DataWidth16_0)
+                                          0.457    5.465 4.23e+06   10.154   9.9
+  test_opt_reg_a (test_opt_reg_DataWidth16_2)
+                                          0.432    5.379 4.04e+06    9.853   9.6
+1
