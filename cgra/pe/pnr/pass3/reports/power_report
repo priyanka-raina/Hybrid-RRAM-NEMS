@@ -1,0 +1,85 @@
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : test_pe
+Version: M-2016.12-SP2
+Date   : Thu Mar 14 17:01:25 2019
+****************************************
+
+
+Library(s) Used:
+
+    saed32lvt_ss0p95v125c (File: /cad/synopsys_EDK3/SAED32_EDK/lib/stdcell_lvt/db_nldm/saed32lvt_ss0p95v125c.db)
+    saed32hvt_ss0p95v125c (File: /cad/synopsys_EDK3/SAED32_EDK/lib/stdcell_hvt/db_nldm/saed32hvt_ss0p95v125c.db)
+    saed32rvt_ss0p95v125c (File: /cad/synopsys_EDK3/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ss0p95v125c.db)
+
+
+Operating Conditions: ss0p95v125c   Library: saed32hvt_ss0p95v125c
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+test_pe                8000              saed32hvt_ss0p95v125c
+test_opt_reg_file_DataWidth16_0
+                       8000              saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_test_pe_0
+                       ForQA             saed32hvt_ss0p95v125c
+test_debug_reg_DataWidth1_0
+                       ForQA             saed32hvt_ss0p95v125c
+test_lut_DataWidth1_0  ForQA             saed32hvt_ss0p95v125c
+test_opt_reg_DataWidth1_5
+                       ForQA             saed32hvt_ss0p95v125c
+test_opt_reg_DataWidth1_4
+                       ForQA             saed32hvt_ss0p95v125c
+test_opt_reg_DataWidth1_3
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_test_opt_reg_DataWidth16_0_3
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_test_opt_reg_file_DataWidth16_0
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_test_opt_reg_DataWidth16_0_2
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_test_debug_reg_DataWidth16_0
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_test_lut_DataWidth1_0
+                       ForQA             saed32hvt_ss0p95v125c
+test_full_add_DataWidth16_3
+                       ForQA             saed32hvt_ss0p95v125c
+test_full_add_DataWidth16_2
+                       ForQA             saed32hvt_ss0p95v125c
+
+
+Global Operating Voltage = 0.95 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+  Cell Internal Power  =   3.2577 uW   (72%)
+  Net Switching Power  =   1.2575 uW   (28%)
+                         ---------
+Total Dynamic Power    =   4.5152 uW  (100%)
+
+Cell Leakage Power     = 296.7934 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      2.2989            0.9542        2.8281e+07           31.5337  (  10.47%)
+register           0.6928        4.4052e-03        4.1207e+07           41.9038  (  13.91%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational      0.2660            0.2989        2.2731e+08          227.8710  (  75.63%)
+--------------------------------------------------------------------------------------------------
+Total              3.2577 uW         1.2575 uW     2.9679e+08 pW       301.3086 uW
+1

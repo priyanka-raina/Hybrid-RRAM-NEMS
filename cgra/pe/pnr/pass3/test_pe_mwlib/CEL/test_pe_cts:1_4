@@ -1,0 +1,3 @@
+set_object_boundary -boundary {  { 10.0000 89.4200 } { 47.3920 89.4200 } { 47.3920 25.8840 } { 10.0000 25.8840 } } [get_plan_groups { test_pe_comp/test_mult_add } ]
+set_object_boundary -boundary {  { 10.0000 25.8840 } { 47.3920 25.8840 } { 47.3920 10.8360 } { 10.0000 10.8360 } } [get_plan_groups { test_pe_comp/test_shifter } ]
+

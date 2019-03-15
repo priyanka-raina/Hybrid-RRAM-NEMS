@@ -1,0 +1,418 @@
+Information: Updating graph... (UID-83)
+Information: Updating design information... (UID-85)
+Information: Input delay ('rise') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('fall') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : test_pe
+Version: M-2016.12-SP2
+Date   : Thu Mar 14 17:01:25 2019
+****************************************
+
+ * Some/all delay information is back-annotated.
+
+Operating Conditions: ss0p95v125c   Library: saed32hvt_ss0p95v125c
+	Parasitic source    : LPE
+	Parasitic mode      : RealRC
+	Extraction mode     : MIN_MAX
+	Extraction derating : -40/25/125
+
+Information: Percent of Arnoldi-based delays = 15.35%
+
+  Startpoint: data0[2] (input port clocked by clk)
+  Endpoint: irq (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.0000     0.0000
+  input external delay                                  5.0000     5.0000 r
+  data0[2] (in)                                         0.0000 @   5.0000 r
+  test_opt_reg_a/data_in[2] (test_opt_reg_DataWidth16_2)
+                                                        0.0000     5.0000 r
+  test_opt_reg_a/U9/Y (AO22X1_HVT)                      0.1176 @   5.1176 r
+  test_opt_reg_a/res[2] (test_opt_reg_DataWidth16_2)    0.0000     5.1176 r
+  test_pe_comp/op_a[2] (test_pe_comp_unq1_0)            0.0000     5.1176 r
+  test_pe_comp/U55/Y (NBUFFX8_HVT)                      0.1153 @   5.2329 r
+  test_pe_comp/U58/Y (INVX2_RVT)                        0.0866 @   5.3195 f
+  test_pe_comp/test_mult_add/a[2] (test_mult_add_DataWidth16_0)
+                                                        0.0000     5.3195 f
+  test_pe_comp/test_mult_add/U465/Y (AO221X1_HVT)       0.1871 &   5.5066 f
+  test_pe_comp/test_mult_add/U5/Y (NBUFFX2_LVT)         0.0452 &   5.5519 f
+  test_pe_comp/test_mult_add/U40/Y (NBUFFX4_LVT)        0.0623 @   5.6141 f
+  test_pe_comp/test_mult_add/U560/Y (OA222X1_HVT)       0.1513 @   5.7655 f
+  test_pe_comp/test_mult_add/U561/SO (HADDX1_HVT)       0.1909 &   5.9564 r
+  test_pe_comp/test_mult_add/U656/CO (FADDX1_HVT)       0.1692 &   6.1255 r
+  test_pe_comp/test_mult_add/U655/CO (FADDX1_HVT)       0.1986 &   6.3241 r
+  test_pe_comp/test_mult_add/U654/CO (FADDX1_HVT)       0.1866 &   6.5107 r
+  test_pe_comp/test_mult_add/U653/CO (FADDX1_HVT)       0.1744 &   6.6851 r
+  test_pe_comp/test_mult_add/U652/CO (FADDX1_HVT)       0.1739 &   6.8589 r
+  test_pe_comp/test_mult_add/U651/CO (FADDX1_HVT)       0.1750 &   7.0339 r
+  test_pe_comp/test_mult_add/U650/CO (FADDX1_HVT)       0.1741 &   7.2080 r
+  test_pe_comp/test_mult_add/U649/CO (FADDX1_HVT)       0.1764 &   7.3844 r
+  test_pe_comp/test_mult_add/U648/CO (FADDX1_HVT)       0.1965 &   7.5810 r
+  test_pe_comp/test_mult_add/U647/CO (FADDX1_HVT)       0.1912 &   7.7721 r
+  test_pe_comp/test_mult_add/U646/CO (FADDX1_HVT)       0.1847 &   7.9569 r
+  test_pe_comp/test_mult_add/U645/CO (FADDX1_HVT)       0.1740 &   8.1308 r
+  test_pe_comp/test_mult_add/U644/CO (FADDX2_LVT)       0.0810 &   8.2119 r
+  test_pe_comp/test_mult_add/U643/CO (FADDX2_LVT)       0.0767 &   8.2885 r
+  test_pe_comp/test_mult_add/U642/CO (FADDX1_HVT)       0.1529 &   8.4414 r
+  test_pe_comp/test_mult_add/U641/CO (FADDX1_HVT)       0.1664 &   8.6079 r
+  test_pe_comp/test_mult_add/U640/CO (FADDX2_LVT)       0.0834 &   8.6913 r
+  test_pe_comp/test_mult_add/U639/CO (FADDX1_HVT)       0.1457 &   8.8370 r
+  test_pe_comp/test_mult_add/U638/CO (FADDX1_HVT)       0.1665 &   9.0035 r
+  test_pe_comp/test_mult_add/U637/CO (FADDX1_HVT)       0.1588 &   9.1622 r
+  test_pe_comp/test_mult_add/U636/CO (FADDX1_HVT)       0.1515 &   9.3138 r
+  test_pe_comp/test_mult_add/U635/CO (FADDX1_HVT)       0.1531 &   9.4668 r
+  test_pe_comp/test_mult_add/U634/CO (FADDX1_HVT)       0.1577 &   9.6245 r
+  test_pe_comp/test_mult_add/U633/CO (FADDX1_HVT)       0.1540 &   9.7785 r
+  test_pe_comp/test_mult_add/U632/CO (FADDX1_HVT)       0.1531 &   9.9316 r
+  test_pe_comp/test_mult_add/U631/CO (FADDX1_HVT)       0.1563 &  10.0880 r
+  test_pe_comp/test_mult_add/U630/CO (FADDX1_HVT)       0.1548 &  10.2428 r
+  test_pe_comp/test_mult_add/U629/CO (FADDX1_HVT)       0.1551 &  10.3978 r
+  test_pe_comp/test_mult_add/U628/CO (FADDX1_HVT)       0.1498 &  10.5476 r
+  test_pe_comp/test_mult_add/U627/CO (FADDX1_HVT)       0.1613 &  10.7089 r
+  test_pe_comp/test_mult_add/U626/S (FADDX1_HVT)        0.2639 &  10.9728 f
+  test_pe_comp/test_mult_add/res[31] (test_mult_add_DataWidth16_0)
+                                                        0.0000    10.9728 f
+  test_pe_comp/U333/Y (AO22X1_HVT)                      0.1000 &  11.0728 f
+  test_pe_comp/U338/Y (OR3X1_HVT)                       0.1033 &  11.1762 f
+  test_pe_comp/U339/Y (AO22X2_HVT)                      0.1387 &  11.3148 f
+  test_pe_comp/res[15] (test_pe_comp_unq1_0)            0.0000    11.3148 f
+  U291/Y (NOR4X1_HVT)                                   0.2050 &  11.5199 r
+  U295/Y (NAND4X0_HVT)                                  0.3018 &  11.8217 f
+  U296/Y (INVX0_HVT)                                    0.1245 &  11.9462 r
+  U299/Y (NAND2X0_HVT)                                  0.1531 &  12.0993 f
+  U304/Y (OA222X1_HVT)                                  0.1682 &  12.2675 f
+  U305/Y (AO22X1_HVT)                                   0.0845 &  12.3521 f
+  U306/Y (OA222X1_HVT)                                  0.1131 &  12.4652 f
+  U56/Y (NBUFFX4_HVT)                                   0.1236 &  12.5888 f
+  test_debug_bit/data_in[0] (test_debug_reg_DataWidth1_0)
+                                                        0.0000    12.5888 f
+  test_debug_bit/U2/SO (HADDX1_HVT)                     0.1789 &  12.7678 r
+  test_debug_bit/debug_irq (test_debug_reg_DataWidth1_0)
+                                                        0.0000    12.7678 r
+  U311/Y (AO22X1_HVT)                                   0.1377 &  12.9055 r
+  U57/Y (NBUFFX4_HVT)                                   0.1148 &  13.0204 r
+  irq (out)                                             0.0015 &  13.0219 r
+  data arrival time                                               13.0219
+
+  clock clk (rise edge)                                50.0000    50.0000
+  clock network delay (ideal)                           0.0000    50.0000
+  clock uncertainty                                    -0.1000    49.9000
+  output external delay                                -5.0000    44.9000
+  data required time                                              44.9000
+  --------------------------------------------------------------------------
+  data required time                                              44.9000
+  data arrival time                                              -13.0219
+  --------------------------------------------------------------------------
+  slack (MET)                                                     31.8781
+
+
+  Startpoint: data0[2] (input port clocked by clk)
+  Endpoint: test_opt_reg_file/data_in_reg_reg_0__13_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: in2reg
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.0000     0.0000
+  input external delay                                  5.0000     5.0000 r
+  data0[2] (in)                                         0.0000 @   5.0000 r
+  test_opt_reg_a/data_in[2] (test_opt_reg_DataWidth16_2)
+                                                        0.0000     5.0000 r
+  test_opt_reg_a/U9/Y (AO22X1_HVT)                      0.1176 @   5.1176 r
+  test_opt_reg_a/res[2] (test_opt_reg_DataWidth16_2)    0.0000     5.1176 r
+  test_pe_comp/op_a[2] (test_pe_comp_unq1_0)            0.0000     5.1176 r
+  test_pe_comp/U55/Y (NBUFFX8_HVT)                      0.1153 @   5.2329 r
+  test_pe_comp/U58/Y (INVX2_RVT)                        0.0866 @   5.3195 f
+  test_pe_comp/test_mult_add/a[2] (test_mult_add_DataWidth16_0)
+                                                        0.0000     5.3195 f
+  test_pe_comp/test_mult_add/U465/Y (AO221X1_HVT)       0.1871 &   5.5066 f
+  test_pe_comp/test_mult_add/U5/Y (NBUFFX2_LVT)         0.0452 &   5.5519 f
+  test_pe_comp/test_mult_add/U40/Y (NBUFFX4_LVT)        0.0623 @   5.6141 f
+  test_pe_comp/test_mult_add/U560/Y (OA222X1_HVT)       0.1513 @   5.7655 f
+  test_pe_comp/test_mult_add/U561/SO (HADDX1_HVT)       0.1909 &   5.9564 r
+  test_pe_comp/test_mult_add/U656/CO (FADDX1_HVT)       0.1692 &   6.1255 r
+  test_pe_comp/test_mult_add/U655/CO (FADDX1_HVT)       0.1986 &   6.3241 r
+  test_pe_comp/test_mult_add/U654/CO (FADDX1_HVT)       0.1866 &   6.5107 r
+  test_pe_comp/test_mult_add/U653/CO (FADDX1_HVT)       0.1744 &   6.6851 r
+  test_pe_comp/test_mult_add/U652/CO (FADDX1_HVT)       0.1739 &   6.8589 r
+  test_pe_comp/test_mult_add/U651/CO (FADDX1_HVT)       0.1750 &   7.0339 r
+  test_pe_comp/test_mult_add/U650/CO (FADDX1_HVT)       0.1741 &   7.2080 r
+  test_pe_comp/test_mult_add/U649/CO (FADDX1_HVT)       0.1764 &   7.3844 r
+  test_pe_comp/test_mult_add/U648/CO (FADDX1_HVT)       0.1965 &   7.5810 r
+  test_pe_comp/test_mult_add/U647/CO (FADDX1_HVT)       0.1912 &   7.7721 r
+  test_pe_comp/test_mult_add/U646/CO (FADDX1_HVT)       0.1847 &   7.9569 r
+  test_pe_comp/test_mult_add/U645/CO (FADDX1_HVT)       0.1740 &   8.1308 r
+  test_pe_comp/test_mult_add/U644/CO (FADDX2_LVT)       0.0810 &   8.2119 r
+  test_pe_comp/test_mult_add/U643/CO (FADDX2_LVT)       0.0767 &   8.2885 r
+  test_pe_comp/test_mult_add/U642/CO (FADDX1_HVT)       0.1529 &   8.4414 r
+  test_pe_comp/test_mult_add/U641/CO (FADDX1_HVT)       0.1664 &   8.6079 r
+  test_pe_comp/test_mult_add/U640/CO (FADDX2_LVT)       0.0834 &   8.6913 r
+  test_pe_comp/test_mult_add/U639/CO (FADDX1_HVT)       0.1457 &   8.8370 r
+  test_pe_comp/test_mult_add/U638/CO (FADDX1_HVT)       0.1665 &   9.0035 r
+  test_pe_comp/test_mult_add/U637/CO (FADDX1_HVT)       0.1588 &   9.1622 r
+  test_pe_comp/test_mult_add/U636/CO (FADDX1_HVT)       0.1515 &   9.3138 r
+  test_pe_comp/test_mult_add/U635/CO (FADDX1_HVT)       0.1531 &   9.4668 r
+  test_pe_comp/test_mult_add/U634/CO (FADDX1_HVT)       0.1577 &   9.6245 r
+  test_pe_comp/test_mult_add/U633/CO (FADDX1_HVT)       0.1540 &   9.7785 r
+  test_pe_comp/test_mult_add/U632/CO (FADDX1_HVT)       0.1531 &   9.9316 r
+  test_pe_comp/test_mult_add/U631/CO (FADDX1_HVT)       0.1563 &  10.0880 r
+  test_pe_comp/test_mult_add/U630/CO (FADDX1_HVT)       0.1548 &  10.2428 r
+  test_pe_comp/test_mult_add/U629/CO (FADDX1_HVT)       0.1551 &  10.3978 r
+  test_pe_comp/test_mult_add/U628/CO (FADDX1_HVT)       0.1498 &  10.5476 r
+  test_pe_comp/test_mult_add/U627/CO (FADDX1_HVT)       0.1613 &  10.7089 r
+  test_pe_comp/test_mult_add/U660/Y (INVX0_HVT)         0.0487 &  10.7577 f
+  test_pe_comp/test_mult_add/U661/Y (AND2X1_HVT)        0.0879 &  10.8455 f
+  test_pe_comp/test_mult_add/U662/Y (AO222X1_HVT)       0.1577 &  11.0032 f
+  test_pe_comp/test_mult_add/c_out (test_mult_add_DataWidth16_0)
+                                                        0.0000    11.0032 f
+  test_pe_comp/U189/Y (NAND2X0_HVT)                     0.0746 &  11.0778 r
+  test_pe_comp/U190/Y (AND3X1_HVT)                      0.1294 &  11.2073 r
+  test_pe_comp/U196/Y (NAND3X0_HVT)                     0.0831 &  11.2904 f
+  test_pe_comp/U197/Y (AO221X1_HVT)                     0.1108 &  11.4012 f
+  test_pe_comp/U198/Y (AO22X1_HVT)                      0.1042 &  11.5054 f
+  test_pe_comp/res_p (test_pe_comp_unq1_0)              0.0000    11.5054 f
+  U345/Y (AOI22X1_HVT)                                  0.1621 &  11.6675 r
+  U346/Y (AND2X2_HVT)                                   0.1525 &  11.8201 r
+  U360/Y (AO22X1_HVT)                                   0.1758 &  11.9959 r
+  test_opt_reg_file/val[13] (test_opt_reg_file_DataWidth16_0)
+                                                        0.0000    11.9959 r
+  test_opt_reg_file/U41/Y (AO22X1_HVT)                  0.1441 &  12.1400 r
+  test_opt_reg_file/data_in_reg_reg_0__13_/D (SDFFARX1_HVT)
+                                                        0.0000 &  12.1400 r
+  data arrival time                                               12.1400
+
+  clock clk (rise edge)                                50.0000    50.0000
+  clock network delay (propagated)                      0.1859    50.1859
+  clock uncertainty                                    -0.1000    50.0859
+  test_opt_reg_file/data_in_reg_reg_0__13_/CLK (SDFFARX1_HVT)
+                                                        0.0000    50.0859 r
+  library setup time                                   -0.1332    49.9526
+  data required time                                              49.9526
+  --------------------------------------------------------------------------
+  data required time                                              49.9526
+  data arrival time                                              -12.1400
+  --------------------------------------------------------------------------
+  slack (MET)                                                     37.8126
+
+
+  Startpoint: op_code_reg_3_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: irq (output port clocked by clk)
+  Path Group: reg2out
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (propagated)                      0.1797     0.1797
+  op_code_reg_3_/CLK (SDFFARX1_HVT)                     0.0000     0.1797 r
+  op_code_reg_3_/Q (SDFFARX1_HVT)                       0.3063     0.4860 f
+  test_pe_comp/op_code_3_ (test_pe_comp_unq1_0)         0.0000     0.4860 f
+  test_pe_comp/U5/Y (INVX0_HVT)                         0.1213 &   0.6073 r
+  test_pe_comp/U6/Y (NAND3X0_HVT)                       0.2232 &   0.8305 f
+  test_pe_comp/U7/Y (INVX0_HVT)                         0.1317 &   0.9622 r
+  test_pe_comp/U9/Y (AND3X1_HVT)                        0.1771 &   1.1393 r
+  test_pe_comp/U78/Y (OA21X1_LVT)                       0.0602 &   1.1995 r
+  test_pe_comp/U362/Y (NBUFFX4_HVT)                     0.1040 &   1.3034 r
+  test_pe_comp/U83/Y (OA221X1_HVT)                      0.1897 &   1.4931 r
+  test_pe_comp/GEN_ADD_0__full_add/c_in (test_full_add_DataWidth16_2)
+                                                        0.0000     1.4931 r
+  test_pe_comp/GEN_ADD_0__full_add/U16/CO (FADDX1_HVT)
+                                                        0.1813 &   1.6745 r
+  test_pe_comp/GEN_ADD_0__full_add/U15/CO (FADDX1_HVT)
+                                                        0.1604 &   1.8349 r
+  test_pe_comp/GEN_ADD_0__full_add/U14/CO (FADDX1_HVT)
+                                                        0.1602 &   1.9951 r
+  test_pe_comp/GEN_ADD_0__full_add/U13/CO (FADDX1_HVT)
+                                                        0.1624 &   2.1575 r
+  test_pe_comp/GEN_ADD_0__full_add/U12/CO (FADDX1_HVT)
+                                                        0.1570 &   2.3144 r
+  test_pe_comp/GEN_ADD_0__full_add/U11/CO (FADDX1_HVT)
+                                                        0.1509 &   2.4653 r
+  test_pe_comp/GEN_ADD_0__full_add/U10/CO (FADDX1_HVT)
+                                                        0.1482 &   2.6135 r
+  test_pe_comp/GEN_ADD_0__full_add/U9/CO (FADDX1_HVT)   0.1531 &   2.7667 r
+  test_pe_comp/GEN_ADD_0__full_add/U8/CO (FADDX1_HVT)   0.1533 &   2.9200 r
+  test_pe_comp/GEN_ADD_0__full_add/U7/CO (FADDX1_HVT)   0.1537 &   3.0737 r
+  test_pe_comp/GEN_ADD_0__full_add/U6/CO (FADDX1_HVT)   0.1484 &   3.2221 r
+  test_pe_comp/GEN_ADD_0__full_add/U5/CO (FADDX1_HVT)   0.1584 &   3.3805 r
+  test_pe_comp/GEN_ADD_0__full_add/U4/CO (FADDX1_HVT)   0.1568 &   3.5373 r
+  test_pe_comp/GEN_ADD_0__full_add/U3/CO (FADDX1_HVT)   0.1486 &   3.6859 r
+  test_pe_comp/GEN_ADD_0__full_add/U2/CO (FADDX1_HVT)   0.1555 &   3.8414 r
+  test_pe_comp/GEN_ADD_0__full_add/U1/S (FADDX1_HVT)    0.2151 &   4.0565 f
+  test_pe_comp/GEN_ADD_0__full_add/U17/Y (NBUFFX2_LVT)
+                                                        0.0606 &   4.1171 f
+  test_pe_comp/GEN_ADD_0__full_add/res[15] (test_full_add_DataWidth16_2)
+                                                        0.0000     4.1171 f
+  test_pe_comp/U340/Y (NAND2X2_HVT)                     0.1475 &   4.2645 r
+  test_pe_comp/U342/Y (AO22X1_HVT)                      0.1599 &   4.4245 r
+  test_pe_comp/GEN_ADD_1__full_add/a[0] (test_full_add_DataWidth16_3)
+                                                        0.0000     4.4245 r
+  test_pe_comp/GEN_ADD_1__full_add/U16/CO (FADDX1_HVT)
+                                                        0.1460 &   4.5705 r
+  test_pe_comp/GEN_ADD_1__full_add/U15/CO (FADDX1_HVT)
+                                                        0.1513 &   4.7217 r
+  test_pe_comp/GEN_ADD_1__full_add/U14/CO (FADDX1_HVT)
+                                                        0.1523 &   4.8740 r
+  test_pe_comp/GEN_ADD_1__full_add/U13/CO (FADDX1_HVT)
+                                                        0.1509 &   5.0248 r
+  test_pe_comp/GEN_ADD_1__full_add/U12/CO (FADDX1_HVT)
+                                                        0.1519 &   5.1768 r
+  test_pe_comp/GEN_ADD_1__full_add/U11/CO (FADDX1_HVT)
+                                                        0.1514 &   5.3282 r
+  test_pe_comp/GEN_ADD_1__full_add/U10/CO (FADDX1_HVT)
+                                                        0.1521 &   5.4803 r
+  test_pe_comp/GEN_ADD_1__full_add/U9/CO (FADDX1_HVT)   0.1567 &   5.6369 r
+  test_pe_comp/GEN_ADD_1__full_add/U8/CO (FADDX1_HVT)   0.1576 &   5.7945 r
+  test_pe_comp/GEN_ADD_1__full_add/U7/CO (FADDX1_HVT)   0.1512 &   5.9457 r
+  test_pe_comp/GEN_ADD_1__full_add/U6/CO (FADDX1_HVT)   0.1477 &   6.0934 r
+  test_pe_comp/GEN_ADD_1__full_add/U5/CO (FADDX1_HVT)   0.1516 &   6.2450 r
+  test_pe_comp/GEN_ADD_1__full_add/U4/CO (FADDX1_HVT)   0.1519 &   6.3969 r
+  test_pe_comp/GEN_ADD_1__full_add/U3/CO (FADDX1_HVT)   0.1506 &   6.5475 r
+  test_pe_comp/GEN_ADD_1__full_add/U2/CO (FADDX1_HVT)   0.1511 &   6.6986 r
+  test_pe_comp/GEN_ADD_1__full_add/U1/S (FADDX1_HVT)    0.2428 &   6.9413 f
+  test_pe_comp/GEN_ADD_1__full_add/res[15] (test_full_add_DataWidth16_3)
+                                                        0.0000     6.9413 f
+  test_pe_comp/U336/Y (NAND2X0_HVT)                     0.0937 &   7.0350 r
+  test_pe_comp/U337/Y (NAND3X0_HVT)                     0.1177 &   7.1527 f
+  test_pe_comp/U338/Y (OR3X1_HVT)                       0.1023 &   7.2550 f
+  test_pe_comp/U339/Y (AO22X2_HVT)                      0.1387 &   7.3936 f
+  test_pe_comp/res[15] (test_pe_comp_unq1_0)            0.0000     7.3936 f
+  U291/Y (NOR4X1_HVT)                                   0.2050 &   7.5987 r
+  U295/Y (NAND4X0_HVT)                                  0.3018 &   7.9005 f
+  U296/Y (INVX0_HVT)                                    0.1245 &   8.0250 r
+  U299/Y (NAND2X0_HVT)                                  0.1531 &   8.1781 f
+  U304/Y (OA222X1_HVT)                                  0.1682 &   8.3464 f
+  U305/Y (AO22X1_HVT)                                   0.0845 &   8.4309 f
+  U306/Y (OA222X1_HVT)                                  0.1131 &   8.5440 f
+  U56/Y (NBUFFX4_HVT)                                   0.1236 &   8.6676 f
+  test_debug_bit/data_in[0] (test_debug_reg_DataWidth1_0)
+                                                        0.0000     8.6676 f
+  test_debug_bit/U2/SO (HADDX1_HVT)                     0.1789 &   8.8466 r
+  test_debug_bit/debug_irq (test_debug_reg_DataWidth1_0)
+                                                        0.0000     8.8466 r
+  U311/Y (AO22X1_HVT)                                   0.1377 &   8.9843 r
+  U57/Y (NBUFFX4_HVT)                                   0.1148 &   9.0992 r
+  irq (out)                                             0.0015 &   9.1007 r
+  data arrival time                                                9.1007
+
+  clock clk (rise edge)                                50.0000    50.0000
+  clock network delay (ideal)                           0.0000    50.0000
+  clock uncertainty                                    -0.1000    49.9000
+  output external delay                                -5.0000    44.9000
+  data required time                                              44.9000
+  --------------------------------------------------------------------------
+  data required time                                              44.9000
+  data arrival time                                               -9.1007
+  --------------------------------------------------------------------------
+  slack (MET)                                                     35.7993
+
+
+  Startpoint: inp_code_reg_4_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: test_opt_reg_file/data_in_reg_reg_0__13_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: reg2reg
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (propagated)                      0.1819     0.1819
+  inp_code_reg_4_/CLK (SDFFARX1_HVT)                    0.0000     0.1819 r
+  inp_code_reg_4_/Q (SDFFARX1_HVT)                      0.2638     0.4457 r
+  U19/Y (NBUFFX2_HVT)                                   0.0998 &   0.5455 r
+  test_opt_reg_file/mode[2] (test_opt_reg_file_DataWidth16_0)
+                                                        0.0000     0.5455 r
+  test_opt_reg_file/U1/Y (INVX0_HVT)                    0.0668 &   0.6123 f
+  test_opt_reg_file/U4/Y (NAND3X4_HVT)                  0.2074 &   0.8197 r
+  test_opt_reg_file/U2/Y (INVX2_HVT)                    0.1243 &   0.9439 f
+  test_opt_reg_file/U6/Y (AO22X1_LVT)                   0.0878 &   1.0318 f
+  test_opt_reg_file/res[0] (test_opt_reg_file_DataWidth16_0)
+                                                        0.0000     1.0318 f
+  U22/Y (NBUFFX4_HVT)                                   0.1216 @   1.1534 f
+  test_pe_comp/op_b[0] (test_pe_comp_unq1_0)            0.0000     1.1534 f
+  test_pe_comp/U21/Y (INVX4_HVT)                        0.1159 @   1.2693 r
+  test_pe_comp/test_mult_add/b[0] (test_mult_add_DataWidth16_0)
+                                                        0.0000     1.2693 r
+  test_pe_comp/test_mult_add/U302/Y (NAND2X0_HVT)       0.1039 @   1.3732 f
+  test_pe_comp/test_mult_add/U303/SO (HADDX1_HVT)       0.2098 &   1.5829 r
+  test_pe_comp/test_mult_add/U562/Y (OA22X1_HVT)        0.1396 &   1.7225 r
+  test_pe_comp/test_mult_add/U564/Y (NAND2X0_HVT)       0.1022 &   1.8247 f
+  test_pe_comp/test_mult_add/U565/SO (HADDX1_HVT)       0.2165 &   2.0413 r
+  test_pe_comp/test_mult_add/U655/CO (FADDX1_HVT)       0.1846 &   2.2258 r
+  test_pe_comp/test_mult_add/U654/CO (FADDX1_HVT)       0.1866 &   2.4124 r
+  test_pe_comp/test_mult_add/U653/CO (FADDX1_HVT)       0.1744 &   2.5868 r
+  test_pe_comp/test_mult_add/U652/CO (FADDX1_HVT)       0.1739 &   2.7607 r
+  test_pe_comp/test_mult_add/U651/CO (FADDX1_HVT)       0.1750 &   2.9356 r
+  test_pe_comp/test_mult_add/U650/CO (FADDX1_HVT)       0.1741 &   3.1097 r
+  test_pe_comp/test_mult_add/U649/CO (FADDX1_HVT)       0.1764 &   3.2861 r
+  test_pe_comp/test_mult_add/U648/CO (FADDX1_HVT)       0.1965 &   3.4827 r
+  test_pe_comp/test_mult_add/U647/CO (FADDX1_HVT)       0.1912 &   3.6739 r
+  test_pe_comp/test_mult_add/U646/CO (FADDX1_HVT)       0.1847 &   3.8586 r
+  test_pe_comp/test_mult_add/U645/CO (FADDX1_HVT)       0.1740 &   4.0325 r
+  test_pe_comp/test_mult_add/U644/CO (FADDX2_LVT)       0.0810 &   4.1136 r
+  test_pe_comp/test_mult_add/U643/CO (FADDX2_LVT)       0.0767 &   4.1902 r
+  test_pe_comp/test_mult_add/U642/CO (FADDX1_HVT)       0.1529 &   4.3431 r
+  test_pe_comp/test_mult_add/U641/CO (FADDX1_HVT)       0.1665 &   4.5096 r
+  test_pe_comp/test_mult_add/U640/CO (FADDX2_LVT)       0.0834 &   4.5930 r
+  test_pe_comp/test_mult_add/U639/CO (FADDX1_HVT)       0.1457 &   4.7387 r
+  test_pe_comp/test_mult_add/U638/CO (FADDX1_HVT)       0.1665 &   4.9052 r
+  test_pe_comp/test_mult_add/U637/CO (FADDX1_HVT)       0.1588 &   5.0639 r
+  test_pe_comp/test_mult_add/U636/CO (FADDX1_HVT)       0.1515 &   5.2155 r
+  test_pe_comp/test_mult_add/U635/CO (FADDX1_HVT)       0.1531 &   5.3686 r
+  test_pe_comp/test_mult_add/U634/CO (FADDX1_HVT)       0.1577 &   5.5262 r
+  test_pe_comp/test_mult_add/U633/CO (FADDX1_HVT)       0.1540 &   5.6802 r
+  test_pe_comp/test_mult_add/U632/CO (FADDX1_HVT)       0.1531 &   5.8333 r
+  test_pe_comp/test_mult_add/U631/CO (FADDX1_HVT)       0.1563 &   5.9897 r
+  test_pe_comp/test_mult_add/U630/CO (FADDX1_HVT)       0.1548 &   6.1445 r
+  test_pe_comp/test_mult_add/U629/CO (FADDX1_HVT)       0.1551 &   6.2995 r
+  test_pe_comp/test_mult_add/U628/CO (FADDX1_HVT)       0.1498 &   6.4493 r
+  test_pe_comp/test_mult_add/U627/CO (FADDX1_HVT)       0.1613 &   6.6107 r
+  test_pe_comp/test_mult_add/U660/Y (INVX0_HVT)         0.0487 &   6.6594 f
+  test_pe_comp/test_mult_add/U661/Y (AND2X1_HVT)        0.0879 &   6.7473 f
+  test_pe_comp/test_mult_add/U662/Y (AO222X1_HVT)       0.1577 &   6.9049 f
+  test_pe_comp/test_mult_add/c_out (test_mult_add_DataWidth16_0)
+                                                        0.0000     6.9049 f
+  test_pe_comp/U189/Y (NAND2X0_HVT)                     0.0746 &   6.9795 r
+  test_pe_comp/U190/Y (AND3X1_HVT)                      0.1295 &   7.1090 r
+  test_pe_comp/U196/Y (NAND3X0_HVT)                     0.0831 &   7.1921 f
+  test_pe_comp/U197/Y (AO221X1_HVT)                     0.1108 &   7.3029 f
+  test_pe_comp/U198/Y (AO22X1_HVT)                      0.1042 &   7.4071 f
+  test_pe_comp/res_p (test_pe_comp_unq1_0)              0.0000     7.4071 f
+  U345/Y (AOI22X1_HVT)                                  0.1621 &   7.5692 r
+  U346/Y (AND2X2_HVT)                                   0.1525 &   7.7218 r
+  U360/Y (AO22X1_HVT)                                   0.1758 &   7.8976 r
+  test_opt_reg_file/val[13] (test_opt_reg_file_DataWidth16_0)
+                                                        0.0000     7.8976 r
+  test_opt_reg_file/U41/Y (AO22X1_HVT)                  0.1441 &   8.0417 r
+  test_opt_reg_file/data_in_reg_reg_0__13_/D (SDFFARX1_HVT)
+                                                        0.0000 &   8.0417 r
+  data arrival time                                                8.0417
+
+  clock clk (rise edge)                                50.0000    50.0000
+  clock network delay (propagated)                      0.1859    50.1859
+  clock uncertainty                                    -0.1000    50.0859
+  test_opt_reg_file/data_in_reg_reg_0__13_/CLK (SDFFARX1_HVT)
+                                                        0.0000    50.0859 r
+  library setup time                                   -0.1332    49.9526
+  data required time                                              49.9526
+  --------------------------------------------------------------------------
+  data required time                                              49.9526
+  data arrival time                                               -8.0417
+  --------------------------------------------------------------------------
+  slack (MET)                                                     41.9109
+
+
+1

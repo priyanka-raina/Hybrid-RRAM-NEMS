@@ -1,0 +1,566 @@
+
+Warning: Pin VSS of reference cell SRAM2RW128x16 has no physical location. (APL-028)
+Warning: Pin VDD of reference cell SRAM2RW128x16 has no physical location. (APL-028)
+Warning: Pin VSS of reference cell SRAM2RW128x32 has no physical location. (APL-028)
+Warning: Pin VDD of reference cell SRAM2RW128x32 has no physical location. (APL-028)
+Warning: Pin VDD of reference cell SRAM2RW128x4 has no physical location. (APL-028)
+Warning: Pin VSS of reference cell SRAM2RW128x4 has no physical location. (APL-028)
+Warning: Pin VDD of reference cell SRAM2RW128x8 has no physical location. (APL-028)
+Warning: Pin VSS of reference cell SRAM2RW128x8 has no physical location. (APL-028)
+Warning: Pin VDD of reference cell SRAM2RW16x16 has no physical location. (APL-028)
+Warning: Pin VSS of reference cell SRAM2RW16x16 has no physical location. (APL-028)
+Warning: Pin VSS of reference cell SRAM2RW16x32 has no physical location. (APL-028)
+Warning: Pin VDD of reference cell SRAM2RW16x32 has no physical location. (APL-028)
+Warning: Pin VDD of reference cell SRAM2RW16x4 has no physical location. (APL-028)
+Warning: Pin VSS of reference cell SRAM2RW16x4 has no physical location. (APL-028)
+Warning: Pin VDD of reference cell SRAM2RW16x8 has no physical location. (APL-028)
+Warning: Pin VSS of reference cell SRAM2RW16x8 has no physical location. (APL-028)
+Warning: Pin VSS of reference cell SRAM2RW32x16 has no physical location. (APL-028)
+Warning: Pin VDD of reference cell SRAM2RW32x16 has no physical location. (APL-028)
+Warning: Pin VSS of reference cell SRAM2RW32x22 has no physical location. (APL-028)
+Warning: Pin VDD of reference cell SRAM2RW32x22 has no physical location. (APL-028)
+Warning: Pin VSS of reference cell SRAM2RW32x32 has no physical location. (APL-028)
+Warning: Pin VDD of reference cell SRAM2RW32x32 has no physical location. (APL-028)
+Warning: Pin VSS of reference cell SRAM2RW32x39 has no physical location. (APL-028)
+Warning: Pin VDD of reference cell SRAM2RW32x39 has no physical location. (APL-028)
+Warning: Pin VDD of reference cell SRAM2RW32x4 has no physical location. (APL-028)
+Warning: Pin VSS of reference cell SRAM2RW32x4 has no physical location. (APL-028)
+Warning: Pin VDD of reference cell SRAM2RW32x8 has no physical location. (APL-028)
+Warning: Pin VSS of reference cell SRAM2RW32x8 has no physical location. (APL-028)
+Warning: Pin VSS of reference cell SRAM2RW64x16 has no physical location. (APL-028)
+Warning: Pin VDD of reference cell SRAM2RW64x16 has no physical location. (APL-028)
+Warning: Pin VSS of reference cell SRAM2RW64x32 has no physical location. (APL-028)
+Warning: Pin VDD of reference cell SRAM2RW64x32 has no physical location. (APL-028)
+Warning: Pin VDD of reference cell SRAM2RW64x4 has no physical location. (APL-028)
+Warning: Pin VSS of reference cell SRAM2RW64x4 has no physical location. (APL-028)
+Warning: Pin VDD of reference cell SRAM2RW64x8 has no physical location. (APL-028)
+Warning: Pin VSS of reference cell SRAM2RW64x8 has no physical location. (APL-028)
+Warning: Pin VSS of reference cell SRAM1RW1024x8 has no physical location. (APL-028)
+Warning: Pin VDD of reference cell SRAM1RW1024x8 has no physical location. (APL-028)
+Warning: Pin VDD of reference cell SRAM1RW128x46 has no physical location. (APL-028)
+Warning: Pin VSS of reference cell SRAM1RW128x46 has no physical location. (APL-028)
+Warning: Pin VSS of reference cell SRAM1RW128x48 has no physical location. (APL-028)
+Warning: Pin VDD of reference cell SRAM1RW128x48 has no physical location. (APL-028)
+Warning: Pin VDD of reference cell SRAM1RW128x8 has no physical location. (APL-028)
+Warning: Pin VSS of reference cell SRAM1RW128x8 has no physical location. (APL-028)
+Warning: Pin VSS of reference cell SRAM1RW256x128 has no physical location. (APL-028)
+Warning: Pin VDD of reference cell SRAM1RW256x128 has no physical location. (APL-028)
+Warning: Pin VDD of reference cell SRAM1RW256x32 has no physical location. (APL-028)
+Warning: Pin VSS of reference cell SRAM1RW256x32 has no physical location. (APL-028)
+Warning: Pin VSS of reference cell SRAM1RW256x46 has no physical location. (APL-028)
+Warning: Pin VDD of reference cell SRAM1RW256x46 has no physical location. (APL-028)
+Warning: Pin VDD of reference cell SRAM1RW256x48 has no physical location. (APL-028)
+Warning: Pin VSS of reference cell SRAM1RW256x48 has no physical location. (APL-028)
+Warning: Pin VDD of reference cell SRAM1RW256x8 has no physical location. (APL-028)
+Warning: Pin VSS of reference cell SRAM1RW256x8 has no physical location. (APL-028)
+Warning: Pin VSS of reference cell SRAM1RW32x50 has no physical location. (APL-028)
+Warning: Pin VDD of reference cell SRAM1RW32x50 has no physical location. (APL-028)
+Warning: Pin VSS of reference cell SRAM1RW512x128 has no physical location. (APL-028)
+Warning: Pin VDD of reference cell SRAM1RW512x128 has no physical location. (APL-028)
+Warning: Pin VDD of reference cell SRAM1RW512x32 has no physical location. (APL-028)
+Warning: Pin VSS of reference cell SRAM1RW512x32 has no physical location. (APL-028)
+Warning: Pin VDD of reference cell SRAM1RW512x8 has no physical location. (APL-028)
+Warning: Pin VSS of reference cell SRAM1RW512x8 has no physical location. (APL-028)
+Warning: Pin VSS of reference cell SRAM1RW64x128 has no physical location. (APL-028)
+Warning: Pin VDD of reference cell SRAM1RW64x128 has no physical location. (APL-028)
+Warning: Pin VDD of reference cell SRAM1RW64x32 has no physical location. (APL-028)
+Warning: Pin VSS of reference cell SRAM1RW64x32 has no physical location. (APL-028)
+Warning: Pin VDD of reference cell SRAM1RW64x34 has no physical location. (APL-028)
+Warning: Pin VSS of reference cell SRAM1RW64x34 has no physical location. (APL-028)
+Warning: Pin VDD of reference cell SRAM1RW64x8 has no physical location. (APL-028)
+Warning: Pin VSS of reference cell SRAM1RW64x8 has no physical location. (APL-028)
+  Loading design 'test_pe'
+
+
+
+
+Information: Library Manufacturing Grid(GridResolution) : 1
+Information: Time Unit from Milkyway design library: 'ns' 
+Information: Design Library and main library timing units are matched - 1.000 ns. 
+Information: Resistance Unit from Milkyway design library: 'kohm' 
+Warning: Mismatch in the main library and the Milkyway library resistance units. In the main library it is 1000.000 kohm and in the Milkyway design library it is 1.000 kohm. Check and correct the resistance units in the .tf and .db files. (PSYN-476)
+Information: Capacitance Unit from Milkyway design library: 'pf' 
+Warning: Mismatch in the main and the Milkyway library capacitance units. In the main library it is 0.001 pf and in the Milkyway design library it is 1.000 pf. Check and correct the capacitance units in the .tf and .db files. (PSYN-477)
+Warning: Inconsistent library data found for layer PO. (RCEX-018)
+Information: Layer M1 is ignored for resistance and capacitance computation. (RCEX-019)
+Information: Layer M8 is ignored for resistance and capacitance computation. (RCEX-019)
+Information: Layer M9 is ignored for resistance and capacitance computation. (RCEX-019)
+Information: Layer MRDL is ignored for resistance and capacitance computation. (RCEX-019)
+Information: The distance unit in Capacitance and Resistance is 1 micron. (RCEX-007)
+Information: The RC model used is detail route TLU+. (RCEX-015)
+Information: Start mixed mode parasitic extraction. (RCEX-023)
+Information: Start rc extraction...
+Information: extraction with 2 threads (RCEX-208)
+Warning: Net 'SNPS_LOGIC0' is not fully connected and will be estimated. (RCEX-060)
+Warning: Net 'test_opt_reg_c/SNPS_LOGIC0' is not fully connected and will be estimated. (RCEX-060)
+Warning: Net 'test_opt_reg_file/SNPS_LOGIC0' is not fully connected and will be estimated. (RCEX-060)
+Warning: Net 'test_opt_reg_a/SNPS_LOGIC0' is not fully connected and will be estimated. (RCEX-060)
+Warning: Net 'test_debug_bit/SNPS_LOGIC0' is not fully connected and will be estimated. (RCEX-060)
+Warning: Net 'test_debug_data/SNPS_LOGIC0' is not fully connected and will be estimated. (RCEX-060)
+Warning: Net 'test_lut/SNPS_LOGIC0' is not fully connected and will be estimated. (RCEX-060)
+Warning: Net 'test_opt_reg_f/SNPS_LOGIC0' is not fully connected and will be estimated. (RCEX-060)
+Warning: Net 'test_opt_reg_e/SNPS_LOGIC0' is not fully connected and will be estimated. (RCEX-060)
+Warning: Net 'test_opt_reg_d/SNPS_LOGIC0' is not fully connected and will be estimated. (RCEX-060)
+Information: Parasitic source is LPE. (RCEX-040)
+Information: Parasitic mode is RealRC. (RCEX-041)
+Information: Using virtual shield extraction. (RCEX-081)
+Information: Extraction mode is MIN_MAX. (RCEX-042)
+Information: Extraction derate is -40/25/125. (RCEX-043)
+Information: Coupling capacitances are lumped to ground. (RCEX-044)
+Information: Start back annotation for parasitic extraction. (RCEX-023)
+Information: End back annotation for parasitic extraction. (RCEX-023)
+Information: Start timing update for parasitic extraction. (RCEX-023)
+Information: End timing update for parasitic extraction. (RCEX-023)
+Information: End parasitic extraction. (RCEX-023)
+Information: Start rc update...
+****************************************************************
+Information: TLUPlus based RC computation is enabled. (RCEX-141)
+****************************************************************
+Information: The distance unit in Capacitance and Resistance is 1 micron. (RCEX-007)
+Information: The RC model used is TLU+. (RCEX-015)
+Information: Library Derived Cap for layer M1 : 0.18 0.16 (RCEX-011)
+Information: Library Derived Res for layer M1 : 2e-06 2e-06 (RCEX-011)
+Information: Library Derived Cap for layer M2 : 0.16 0.14 (RCEX-011)
+Information: Library Derived Res for layer M2 : 1.8e-06 1.8e-06 (RCEX-011)
+Information: Library Derived Cap for layer M3 : 0.16 0.14 (RCEX-011)
+Information: Library Derived Res for layer M3 : 1.8e-06 1.8e-06 (RCEX-011)
+Information: Library Derived Cap for layer M4 : 0.16 0.14 (RCEX-011)
+Information: Library Derived Res for layer M4 : 1.8e-06 1.8e-06 (RCEX-011)
+Information: Library Derived Cap for layer M5 : 0.16 0.14 (RCEX-011)
+Information: Library Derived Res for layer M5 : 1.8e-06 1.8e-06 (RCEX-011)
+Information: Library Derived Cap for layer M6 : 0.16 0.14 (RCEX-011)
+Information: Library Derived Res for layer M6 : 1.8e-06 1.8e-06 (RCEX-011)
+Information: Library Derived Cap for layer M7 : 0.16 0.14 (RCEX-011)
+Information: Library Derived Res for layer M7 : 1.8e-06 1.8e-06 (RCEX-011)
+Information: Library Derived Cap for layer M8 : 0.16 0.14 (RCEX-011)
+Information: Library Derived Res for layer M8 : 1.8e-06 1.8e-06 (RCEX-011)
+Information: Library Derived Cap for layer M9 : 0.11 0.088 (RCEX-011)
+Information: Library Derived Res for layer M9 : 1.8e-06 1.8e-06 (RCEX-011)
+Information: Library Derived Cap for layer MRDL : 0.11 0.11 (RCEX-011)
+Information: Library Derived Res for layer MRDL : 1.8e-07 1.8e-07 (RCEX-011)
+Information: Library Derived Horizontal Cap : 0.16 0.14 (RCEX-011)
+Information: Library Derived Horizontal Res : 1.8e-06 1.8e-06 (RCEX-011)
+Information: Library Derived Vertical Cap : 0.16 0.14 (RCEX-011)
+Information: Library Derived Vertical Res : 1.8e-06 1.8e-06 (RCEX-011)
+Information: Using derived R and C coefficients. (RCEX-008)
+Information: Using region-based R and C coefficients. (RCEX-013)
+Information: Library Derived Via Res : 4.8e-07 4.8e-07 (RCEX-011)
+Information: End rc update.
+Information: Updating graph... (UID-83)
+Information: Updating design information... (UID-85)
+Information: Input delay ('rise') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('fall') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : test_pe
+Version: M-2016.12-SP2
+Date   : Thu Mar 14 17:01:24 2019
+****************************************
+
+ * Some/all delay information is back-annotated.
+
+Operating Conditions: ss0p95v125c   Library: saed32hvt_ss0p95v125c
+	Parasitic source    : LPE
+	Parasitic mode      : RealRC
+	Extraction mode     : MIN_MAX
+	Extraction derating : -40/25/125
+
+Information: Percent of Arnoldi-based delays = 15.35%
+
+  Startpoint: data0[2] (input port clocked by clk)
+  Endpoint: irq (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.0000     0.0000
+  input external delay                                  5.0000     5.0000 r
+  data0[2] (in)                                         0.0000 @   5.0000 r
+  test_opt_reg_a/data_in[2] (test_opt_reg_DataWidth16_2)
+                                                        0.0000     5.0000 r
+  test_opt_reg_a/U9/Y (AO22X1_HVT)                      0.1176 @   5.1176 r
+  test_opt_reg_a/res[2] (test_opt_reg_DataWidth16_2)    0.0000     5.1176 r
+  test_pe_comp/op_a[2] (test_pe_comp_unq1_0)            0.0000     5.1176 r
+  test_pe_comp/U55/Y (NBUFFX8_HVT)                      0.1153 @   5.2329 r
+  test_pe_comp/U58/Y (INVX2_RVT)                        0.0866 @   5.3195 f
+  test_pe_comp/test_mult_add/a[2] (test_mult_add_DataWidth16_0)
+                                                        0.0000     5.3195 f
+  test_pe_comp/test_mult_add/U465/Y (AO221X1_HVT)       0.1871 &   5.5066 f
+  test_pe_comp/test_mult_add/U5/Y (NBUFFX2_LVT)         0.0452 &   5.5519 f
+  test_pe_comp/test_mult_add/U40/Y (NBUFFX4_LVT)        0.0623 @   5.6141 f
+  test_pe_comp/test_mult_add/U560/Y (OA222X1_HVT)       0.1513 @   5.7655 f
+  test_pe_comp/test_mult_add/U561/SO (HADDX1_HVT)       0.1909 &   5.9564 r
+  test_pe_comp/test_mult_add/U656/CO (FADDX1_HVT)       0.1692 &   6.1255 r
+  test_pe_comp/test_mult_add/U655/CO (FADDX1_HVT)       0.1986 &   6.3241 r
+  test_pe_comp/test_mult_add/U654/CO (FADDX1_HVT)       0.1866 &   6.5107 r
+  test_pe_comp/test_mult_add/U653/CO (FADDX1_HVT)       0.1744 &   6.6851 r
+  test_pe_comp/test_mult_add/U652/CO (FADDX1_HVT)       0.1739 &   6.8589 r
+  test_pe_comp/test_mult_add/U651/CO (FADDX1_HVT)       0.1750 &   7.0339 r
+  test_pe_comp/test_mult_add/U650/CO (FADDX1_HVT)       0.1741 &   7.2080 r
+  test_pe_comp/test_mult_add/U649/CO (FADDX1_HVT)       0.1764 &   7.3844 r
+  test_pe_comp/test_mult_add/U648/CO (FADDX1_HVT)       0.1965 &   7.5810 r
+  test_pe_comp/test_mult_add/U647/CO (FADDX1_HVT)       0.1912 &   7.7721 r
+  test_pe_comp/test_mult_add/U646/CO (FADDX1_HVT)       0.1847 &   7.9569 r
+  test_pe_comp/test_mult_add/U645/CO (FADDX1_HVT)       0.1740 &   8.1308 r
+  test_pe_comp/test_mult_add/U644/CO (FADDX2_LVT)       0.0810 &   8.2119 r
+  test_pe_comp/test_mult_add/U643/CO (FADDX2_LVT)       0.0767 &   8.2885 r
+  test_pe_comp/test_mult_add/U642/CO (FADDX1_HVT)       0.1529 &   8.4414 r
+  test_pe_comp/test_mult_add/U641/CO (FADDX1_HVT)       0.1664 &   8.6079 r
+  test_pe_comp/test_mult_add/U640/CO (FADDX2_LVT)       0.0834 &   8.6913 r
+  test_pe_comp/test_mult_add/U639/CO (FADDX1_HVT)       0.1457 &   8.8370 r
+  test_pe_comp/test_mult_add/U638/CO (FADDX1_HVT)       0.1665 &   9.0035 r
+  test_pe_comp/test_mult_add/U637/CO (FADDX1_HVT)       0.1588 &   9.1622 r
+  test_pe_comp/test_mult_add/U636/CO (FADDX1_HVT)       0.1515 &   9.3138 r
+  test_pe_comp/test_mult_add/U635/CO (FADDX1_HVT)       0.1531 &   9.4668 r
+  test_pe_comp/test_mult_add/U634/CO (FADDX1_HVT)       0.1577 &   9.6245 r
+  test_pe_comp/test_mult_add/U633/CO (FADDX1_HVT)       0.1540 &   9.7785 r
+  test_pe_comp/test_mult_add/U632/CO (FADDX1_HVT)       0.1531 &   9.9316 r
+  test_pe_comp/test_mult_add/U631/CO (FADDX1_HVT)       0.1563 &  10.0880 r
+  test_pe_comp/test_mult_add/U630/CO (FADDX1_HVT)       0.1548 &  10.2428 r
+  test_pe_comp/test_mult_add/U629/CO (FADDX1_HVT)       0.1551 &  10.3978 r
+  test_pe_comp/test_mult_add/U628/CO (FADDX1_HVT)       0.1498 &  10.5476 r
+  test_pe_comp/test_mult_add/U627/CO (FADDX1_HVT)       0.1613 &  10.7089 r
+  test_pe_comp/test_mult_add/U626/S (FADDX1_HVT)        0.2639 &  10.9728 f
+  test_pe_comp/test_mult_add/res[31] (test_mult_add_DataWidth16_0)
+                                                        0.0000    10.9728 f
+  test_pe_comp/U333/Y (AO22X1_HVT)                      0.1000 &  11.0728 f
+  test_pe_comp/U338/Y (OR3X1_HVT)                       0.1033 &  11.1762 f
+  test_pe_comp/U339/Y (AO22X2_HVT)                      0.1387 &  11.3148 f
+  test_pe_comp/res[15] (test_pe_comp_unq1_0)            0.0000    11.3148 f
+  U291/Y (NOR4X1_HVT)                                   0.2050 &  11.5199 r
+  U295/Y (NAND4X0_HVT)                                  0.3018 &  11.8217 f
+  U296/Y (INVX0_HVT)                                    0.1245 &  11.9462 r
+  U299/Y (NAND2X0_HVT)                                  0.1531 &  12.0993 f
+  U304/Y (OA222X1_HVT)                                  0.1682 &  12.2675 f
+  U305/Y (AO22X1_HVT)                                   0.0845 &  12.3521 f
+  U306/Y (OA222X1_HVT)                                  0.1131 &  12.4652 f
+  U56/Y (NBUFFX4_HVT)                                   0.1236 &  12.5888 f
+  test_debug_bit/data_in[0] (test_debug_reg_DataWidth1_0)
+                                                        0.0000    12.5888 f
+  test_debug_bit/U2/SO (HADDX1_HVT)                     0.1789 &  12.7678 r
+  test_debug_bit/debug_irq (test_debug_reg_DataWidth1_0)
+                                                        0.0000    12.7678 r
+  U311/Y (AO22X1_HVT)                                   0.1377 &  12.9055 r
+  U57/Y (NBUFFX4_HVT)                                   0.1148 &  13.0204 r
+  irq (out)                                             0.0015 &  13.0219 r
+  data arrival time                                               13.0219
+
+  clock clk (rise edge)                                50.0000    50.0000
+  clock network delay (ideal)                           0.0000    50.0000
+  clock uncertainty                                    -0.1000    49.9000
+  output external delay                                -5.0000    44.9000
+  data required time                                              44.9000
+  --------------------------------------------------------------------------
+  data required time                                              44.9000
+  data arrival time                                              -13.0219
+  --------------------------------------------------------------------------
+  slack (MET)                                                     31.8781
+
+
+  Startpoint: data0[2] (input port clocked by clk)
+  Endpoint: test_opt_reg_file/data_in_reg_reg_0__13_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: in2reg
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.0000     0.0000
+  input external delay                                  5.0000     5.0000 r
+  data0[2] (in)                                         0.0000 @   5.0000 r
+  test_opt_reg_a/data_in[2] (test_opt_reg_DataWidth16_2)
+                                                        0.0000     5.0000 r
+  test_opt_reg_a/U9/Y (AO22X1_HVT)                      0.1176 @   5.1176 r
+  test_opt_reg_a/res[2] (test_opt_reg_DataWidth16_2)    0.0000     5.1176 r
+  test_pe_comp/op_a[2] (test_pe_comp_unq1_0)            0.0000     5.1176 r
+  test_pe_comp/U55/Y (NBUFFX8_HVT)                      0.1153 @   5.2329 r
+  test_pe_comp/U58/Y (INVX2_RVT)                        0.0866 @   5.3195 f
+  test_pe_comp/test_mult_add/a[2] (test_mult_add_DataWidth16_0)
+                                                        0.0000     5.3195 f
+  test_pe_comp/test_mult_add/U465/Y (AO221X1_HVT)       0.1871 &   5.5066 f
+  test_pe_comp/test_mult_add/U5/Y (NBUFFX2_LVT)         0.0452 &   5.5519 f
+  test_pe_comp/test_mult_add/U40/Y (NBUFFX4_LVT)        0.0623 @   5.6141 f
+  test_pe_comp/test_mult_add/U560/Y (OA222X1_HVT)       0.1513 @   5.7655 f
+  test_pe_comp/test_mult_add/U561/SO (HADDX1_HVT)       0.1909 &   5.9564 r
+  test_pe_comp/test_mult_add/U656/CO (FADDX1_HVT)       0.1692 &   6.1255 r
+  test_pe_comp/test_mult_add/U655/CO (FADDX1_HVT)       0.1986 &   6.3241 r
+  test_pe_comp/test_mult_add/U654/CO (FADDX1_HVT)       0.1866 &   6.5107 r
+  test_pe_comp/test_mult_add/U653/CO (FADDX1_HVT)       0.1744 &   6.6851 r
+  test_pe_comp/test_mult_add/U652/CO (FADDX1_HVT)       0.1739 &   6.8589 r
+  test_pe_comp/test_mult_add/U651/CO (FADDX1_HVT)       0.1750 &   7.0339 r
+  test_pe_comp/test_mult_add/U650/CO (FADDX1_HVT)       0.1741 &   7.2080 r
+  test_pe_comp/test_mult_add/U649/CO (FADDX1_HVT)       0.1764 &   7.3844 r
+  test_pe_comp/test_mult_add/U648/CO (FADDX1_HVT)       0.1965 &   7.5810 r
+  test_pe_comp/test_mult_add/U647/CO (FADDX1_HVT)       0.1912 &   7.7721 r
+  test_pe_comp/test_mult_add/U646/CO (FADDX1_HVT)       0.1847 &   7.9569 r
+  test_pe_comp/test_mult_add/U645/CO (FADDX1_HVT)       0.1740 &   8.1308 r
+  test_pe_comp/test_mult_add/U644/CO (FADDX2_LVT)       0.0810 &   8.2119 r
+  test_pe_comp/test_mult_add/U643/CO (FADDX2_LVT)       0.0767 &   8.2885 r
+  test_pe_comp/test_mult_add/U642/CO (FADDX1_HVT)       0.1529 &   8.4414 r
+  test_pe_comp/test_mult_add/U641/CO (FADDX1_HVT)       0.1664 &   8.6079 r
+  test_pe_comp/test_mult_add/U640/CO (FADDX2_LVT)       0.0834 &   8.6913 r
+  test_pe_comp/test_mult_add/U639/CO (FADDX1_HVT)       0.1457 &   8.8370 r
+  test_pe_comp/test_mult_add/U638/CO (FADDX1_HVT)       0.1665 &   9.0035 r
+  test_pe_comp/test_mult_add/U637/CO (FADDX1_HVT)       0.1588 &   9.1622 r
+  test_pe_comp/test_mult_add/U636/CO (FADDX1_HVT)       0.1515 &   9.3138 r
+  test_pe_comp/test_mult_add/U635/CO (FADDX1_HVT)       0.1531 &   9.4668 r
+  test_pe_comp/test_mult_add/U634/CO (FADDX1_HVT)       0.1577 &   9.6245 r
+  test_pe_comp/test_mult_add/U633/CO (FADDX1_HVT)       0.1540 &   9.7785 r
+  test_pe_comp/test_mult_add/U632/CO (FADDX1_HVT)       0.1531 &   9.9316 r
+  test_pe_comp/test_mult_add/U631/CO (FADDX1_HVT)       0.1563 &  10.0880 r
+  test_pe_comp/test_mult_add/U630/CO (FADDX1_HVT)       0.1548 &  10.2428 r
+  test_pe_comp/test_mult_add/U629/CO (FADDX1_HVT)       0.1551 &  10.3978 r
+  test_pe_comp/test_mult_add/U628/CO (FADDX1_HVT)       0.1498 &  10.5476 r
+  test_pe_comp/test_mult_add/U627/CO (FADDX1_HVT)       0.1613 &  10.7089 r
+  test_pe_comp/test_mult_add/U660/Y (INVX0_HVT)         0.0487 &  10.7577 f
+  test_pe_comp/test_mult_add/U661/Y (AND2X1_HVT)        0.0879 &  10.8455 f
+  test_pe_comp/test_mult_add/U662/Y (AO222X1_HVT)       0.1577 &  11.0032 f
+  test_pe_comp/test_mult_add/c_out (test_mult_add_DataWidth16_0)
+                                                        0.0000    11.0032 f
+  test_pe_comp/U189/Y (NAND2X0_HVT)                     0.0746 &  11.0778 r
+  test_pe_comp/U190/Y (AND3X1_HVT)                      0.1294 &  11.2073 r
+  test_pe_comp/U196/Y (NAND3X0_HVT)                     0.0831 &  11.2904 f
+  test_pe_comp/U197/Y (AO221X1_HVT)                     0.1108 &  11.4012 f
+  test_pe_comp/U198/Y (AO22X1_HVT)                      0.1042 &  11.5054 f
+  test_pe_comp/res_p (test_pe_comp_unq1_0)              0.0000    11.5054 f
+  U345/Y (AOI22X1_HVT)                                  0.1621 &  11.6675 r
+  U346/Y (AND2X2_HVT)                                   0.1525 &  11.8201 r
+  U360/Y (AO22X1_HVT)                                   0.1758 &  11.9959 r
+  test_opt_reg_file/val[13] (test_opt_reg_file_DataWidth16_0)
+                                                        0.0000    11.9959 r
+  test_opt_reg_file/U41/Y (AO22X1_HVT)                  0.1441 &  12.1400 r
+  test_opt_reg_file/data_in_reg_reg_0__13_/D (SDFFARX1_HVT)
+                                                        0.0000 &  12.1400 r
+  data arrival time                                               12.1400
+
+  clock clk (rise edge)                                50.0000    50.0000
+  clock network delay (propagated)                      0.1859    50.1859
+  clock uncertainty                                    -0.1000    50.0859
+  test_opt_reg_file/data_in_reg_reg_0__13_/CLK (SDFFARX1_HVT)
+                                                        0.0000    50.0859 r
+  library setup time                                   -0.1332    49.9526
+  data required time                                              49.9526
+  --------------------------------------------------------------------------
+  data required time                                              49.9526
+  data arrival time                                              -12.1400
+  --------------------------------------------------------------------------
+  slack (MET)                                                     37.8126
+
+
+  Startpoint: op_code_reg_3_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: irq (output port clocked by clk)
+  Path Group: reg2out
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (propagated)                      0.1977     0.1977
+  op_code_reg_3_/CLK (SDFFARX1_HVT)                     0.0000     0.1977 r
+  op_code_reg_3_/Q (SDFFARX1_HVT)                       0.3063     0.5040 f
+  test_pe_comp/op_code_3_ (test_pe_comp_unq1_0)         0.0000     0.5040 f
+  test_pe_comp/U5/Y (INVX0_HVT)                         0.1213 &   0.6253 r
+  test_pe_comp/U6/Y (NAND3X0_HVT)                       0.2232 &   0.8485 f
+  test_pe_comp/U7/Y (INVX0_HVT)                         0.1317 &   0.9802 r
+  test_pe_comp/U9/Y (AND3X1_HVT)                        0.1771 &   1.1572 r
+  test_pe_comp/U78/Y (OA21X1_LVT)                       0.0602 &   1.2175 r
+  test_pe_comp/U362/Y (NBUFFX4_HVT)                     0.1040 &   1.3214 r
+  test_pe_comp/U83/Y (OA221X1_HVT)                      0.1897 &   1.5111 r
+  test_pe_comp/GEN_ADD_0__full_add/c_in (test_full_add_DataWidth16_2)
+                                                        0.0000     1.5111 r
+  test_pe_comp/GEN_ADD_0__full_add/U16/CO (FADDX1_HVT)
+                                                        0.1813 &   1.6925 r
+  test_pe_comp/GEN_ADD_0__full_add/U15/CO (FADDX1_HVT)
+                                                        0.1604 &   1.8529 r
+  test_pe_comp/GEN_ADD_0__full_add/U14/CO (FADDX1_HVT)
+                                                        0.1602 &   2.0131 r
+  test_pe_comp/GEN_ADD_0__full_add/U13/CO (FADDX1_HVT)
+                                                        0.1624 &   2.1754 r
+  test_pe_comp/GEN_ADD_0__full_add/U12/CO (FADDX1_HVT)
+                                                        0.1570 &   2.3324 r
+  test_pe_comp/GEN_ADD_0__full_add/U11/CO (FADDX1_HVT)
+                                                        0.1509 &   2.4833 r
+  test_pe_comp/GEN_ADD_0__full_add/U10/CO (FADDX1_HVT)
+                                                        0.1482 &   2.6315 r
+  test_pe_comp/GEN_ADD_0__full_add/U9/CO (FADDX1_HVT)   0.1531 &   2.7847 r
+  test_pe_comp/GEN_ADD_0__full_add/U8/CO (FADDX1_HVT)   0.1533 &   2.9380 r
+  test_pe_comp/GEN_ADD_0__full_add/U7/CO (FADDX1_HVT)   0.1537 &   3.0916 r
+  test_pe_comp/GEN_ADD_0__full_add/U6/CO (FADDX1_HVT)   0.1484 &   3.2401 r
+  test_pe_comp/GEN_ADD_0__full_add/U5/CO (FADDX1_HVT)   0.1584 &   3.3985 r
+  test_pe_comp/GEN_ADD_0__full_add/U4/CO (FADDX1_HVT)   0.1568 &   3.5553 r
+  test_pe_comp/GEN_ADD_0__full_add/U3/CO (FADDX1_HVT)   0.1486 &   3.7039 r
+  test_pe_comp/GEN_ADD_0__full_add/U2/CO (FADDX1_HVT)   0.1555 &   3.8594 r
+  test_pe_comp/GEN_ADD_0__full_add/U1/S (FADDX1_HVT)    0.2151 &   4.0744 f
+  test_pe_comp/GEN_ADD_0__full_add/U17/Y (NBUFFX2_LVT)
+                                                        0.0606 &   4.1350 f
+  test_pe_comp/GEN_ADD_0__full_add/res[15] (test_full_add_DataWidth16_2)
+                                                        0.0000     4.1350 f
+  test_pe_comp/U340/Y (NAND2X2_HVT)                     0.1475 &   4.2825 r
+  test_pe_comp/U342/Y (AO22X1_HVT)                      0.1599 &   4.4424 r
+  test_pe_comp/GEN_ADD_1__full_add/a[0] (test_full_add_DataWidth16_3)
+                                                        0.0000     4.4424 r
+  test_pe_comp/GEN_ADD_1__full_add/U16/CO (FADDX1_HVT)
+                                                        0.1460 &   4.5884 r
+  test_pe_comp/GEN_ADD_1__full_add/U15/CO (FADDX1_HVT)
+                                                        0.1513 &   4.7397 r
+  test_pe_comp/GEN_ADD_1__full_add/U14/CO (FADDX1_HVT)
+                                                        0.1523 &   4.8920 r
+  test_pe_comp/GEN_ADD_1__full_add/U13/CO (FADDX1_HVT)
+                                                        0.1509 &   5.0428 r
+  test_pe_comp/GEN_ADD_1__full_add/U12/CO (FADDX1_HVT)
+                                                        0.1519 &   5.1947 r
+  test_pe_comp/GEN_ADD_1__full_add/U11/CO (FADDX1_HVT)
+                                                        0.1514 &   5.3462 r
+  test_pe_comp/GEN_ADD_1__full_add/U10/CO (FADDX1_HVT)
+                                                        0.1521 &   5.4982 r
+  test_pe_comp/GEN_ADD_1__full_add/U9/CO (FADDX1_HVT)   0.1567 &   5.6549 r
+  test_pe_comp/GEN_ADD_1__full_add/U8/CO (FADDX1_HVT)   0.1576 &   5.8125 r
+  test_pe_comp/GEN_ADD_1__full_add/U7/CO (FADDX1_HVT)   0.1512 &   5.9637 r
+  test_pe_comp/GEN_ADD_1__full_add/U6/CO (FADDX1_HVT)   0.1477 &   6.1113 r
+  test_pe_comp/GEN_ADD_1__full_add/U5/CO (FADDX1_HVT)   0.1516 &   6.2630 r
+  test_pe_comp/GEN_ADD_1__full_add/U4/CO (FADDX1_HVT)   0.1519 &   6.4149 r
+  test_pe_comp/GEN_ADD_1__full_add/U3/CO (FADDX1_HVT)   0.1506 &   6.5655 r
+  test_pe_comp/GEN_ADD_1__full_add/U2/CO (FADDX1_HVT)   0.1511 &   6.7165 r
+  test_pe_comp/GEN_ADD_1__full_add/U1/S (FADDX1_HVT)    0.2428 &   6.9593 f
+  test_pe_comp/GEN_ADD_1__full_add/res[15] (test_full_add_DataWidth16_3)
+                                                        0.0000     6.9593 f
+  test_pe_comp/U336/Y (NAND2X0_HVT)                     0.0937 &   7.0530 r
+  test_pe_comp/U337/Y (NAND3X0_HVT)                     0.1177 &   7.1707 f
+  test_pe_comp/U338/Y (OR3X1_HVT)                       0.1023 &   7.2729 f
+  test_pe_comp/U339/Y (AO22X2_HVT)                      0.1387 &   7.4116 f
+  test_pe_comp/res[15] (test_pe_comp_unq1_0)            0.0000     7.4116 f
+  U291/Y (NOR4X1_HVT)                                   0.2050 &   7.6166 r
+  U295/Y (NAND4X0_HVT)                                  0.3018 &   7.9185 f
+  U296/Y (INVX0_HVT)                                    0.1245 &   8.0430 r
+  U299/Y (NAND2X0_HVT)                                  0.1531 &   8.1961 f
+  U304/Y (OA222X1_HVT)                                  0.1682 &   8.3643 f
+  U305/Y (AO22X1_HVT)                                   0.0845 &   8.4489 f
+  U306/Y (OA222X1_HVT)                                  0.1131 &   8.5620 f
+  U56/Y (NBUFFX4_HVT)                                   0.1236 &   8.6856 f
+  test_debug_bit/data_in[0] (test_debug_reg_DataWidth1_0)
+                                                        0.0000     8.6856 f
+  test_debug_bit/U2/SO (HADDX1_HVT)                     0.1789 &   8.8646 r
+  test_debug_bit/debug_irq (test_debug_reg_DataWidth1_0)
+                                                        0.0000     8.8646 r
+  U311/Y (AO22X1_HVT)                                   0.1377 &   9.0023 r
+  U57/Y (NBUFFX4_HVT)                                   0.1148 &   9.1171 r
+  irq (out)                                             0.0015 &   9.1187 r
+  data arrival time                                                9.1187
+
+  clock clk (rise edge)                                50.0000    50.0000
+  clock network delay (ideal)                           0.0000    50.0000
+  clock uncertainty                                    -0.1000    49.9000
+  output external delay                                -5.0000    44.9000
+  data required time                                              44.9000
+  --------------------------------------------------------------------------
+  data required time                                              44.9000
+  data arrival time                                               -9.1187
+  --------------------------------------------------------------------------
+  slack (MET)                                                     35.7813
+
+
+  Startpoint: inp_code_reg_4_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: test_opt_reg_file/data_in_reg_reg_0__13_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: reg2reg
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (propagated)                      0.2001     0.2001
+  inp_code_reg_4_/CLK (SDFFARX1_HVT)                    0.0000     0.2001 r
+  inp_code_reg_4_/Q (SDFFARX1_HVT)                      0.2638     0.4639 r
+  U19/Y (NBUFFX2_HVT)                                   0.0998 &   0.5637 r
+  test_opt_reg_file/mode[2] (test_opt_reg_file_DataWidth16_0)
+                                                        0.0000     0.5637 r
+  test_opt_reg_file/U1/Y (INVX0_HVT)                    0.0668 &   0.6305 f
+  test_opt_reg_file/U4/Y (NAND3X4_HVT)                  0.2074 &   0.8379 r
+  test_opt_reg_file/U2/Y (INVX2_HVT)                    0.1243 &   0.9621 f
+  test_opt_reg_file/U6/Y (AO22X1_LVT)                   0.0878 &   1.0500 f
+  test_opt_reg_file/res[0] (test_opt_reg_file_DataWidth16_0)
+                                                        0.0000     1.0500 f
+  U22/Y (NBUFFX4_HVT)                                   0.1216 @   1.1716 f
+  test_pe_comp/op_b[0] (test_pe_comp_unq1_0)            0.0000     1.1716 f
+  test_pe_comp/U21/Y (INVX4_HVT)                        0.1159 @   1.2875 r
+  test_pe_comp/test_mult_add/b[0] (test_mult_add_DataWidth16_0)
+                                                        0.0000     1.2875 r
+  test_pe_comp/test_mult_add/U302/Y (NAND2X0_HVT)       0.1039 @   1.3914 f
+  test_pe_comp/test_mult_add/U303/SO (HADDX1_HVT)       0.2098 &   1.6011 r
+  test_pe_comp/test_mult_add/U562/Y (OA22X1_HVT)        0.1396 &   1.7407 r
+  test_pe_comp/test_mult_add/U564/Y (NAND2X0_HVT)       0.1022 &   1.8429 f
+  test_pe_comp/test_mult_add/U565/SO (HADDX1_HVT)       0.2165 &   2.0595 r
+  test_pe_comp/test_mult_add/U655/CO (FADDX1_HVT)       0.1846 &   2.2440 r
+  test_pe_comp/test_mult_add/U654/CO (FADDX1_HVT)       0.1866 &   2.4306 r
+  test_pe_comp/test_mult_add/U653/CO (FADDX1_HVT)       0.1744 &   2.6050 r
+  test_pe_comp/test_mult_add/U652/CO (FADDX1_HVT)       0.1739 &   2.7788 r
+  test_pe_comp/test_mult_add/U651/CO (FADDX1_HVT)       0.1750 &   2.9538 r
+  test_pe_comp/test_mult_add/U650/CO (FADDX1_HVT)       0.1741 &   3.1279 r
+  test_pe_comp/test_mult_add/U649/CO (FADDX1_HVT)       0.1764 &   3.3043 r
+  test_pe_comp/test_mult_add/U648/CO (FADDX1_HVT)       0.1965 &   3.5009 r
+  test_pe_comp/test_mult_add/U647/CO (FADDX1_HVT)       0.1912 &   3.6921 r
+  test_pe_comp/test_mult_add/U646/CO (FADDX1_HVT)       0.1847 &   3.8768 r
+  test_pe_comp/test_mult_add/U645/CO (FADDX1_HVT)       0.1740 &   4.0507 r
+  test_pe_comp/test_mult_add/U644/CO (FADDX2_LVT)       0.0810 &   4.1318 r
+  test_pe_comp/test_mult_add/U643/CO (FADDX2_LVT)       0.0767 &   4.2084 r
+  test_pe_comp/test_mult_add/U642/CO (FADDX1_HVT)       0.1529 &   4.3613 r
+  test_pe_comp/test_mult_add/U641/CO (FADDX1_HVT)       0.1665 &   4.5278 r
+  test_pe_comp/test_mult_add/U640/CO (FADDX2_LVT)       0.0834 &   4.6112 r
+  test_pe_comp/test_mult_add/U639/CO (FADDX1_HVT)       0.1457 &   4.7569 r
+  test_pe_comp/test_mult_add/U638/CO (FADDX1_HVT)       0.1665 &   4.9234 r
+  test_pe_comp/test_mult_add/U637/CO (FADDX1_HVT)       0.1588 &   5.0821 r
+  test_pe_comp/test_mult_add/U636/CO (FADDX1_HVT)       0.1515 &   5.2337 r
+  test_pe_comp/test_mult_add/U635/CO (FADDX1_HVT)       0.1531 &   5.3868 r
+  test_pe_comp/test_mult_add/U634/CO (FADDX1_HVT)       0.1577 &   5.5444 r
+  test_pe_comp/test_mult_add/U633/CO (FADDX1_HVT)       0.1540 &   5.6984 r
+  test_pe_comp/test_mult_add/U632/CO (FADDX1_HVT)       0.1531 &   5.8515 r
+  test_pe_comp/test_mult_add/U631/CO (FADDX1_HVT)       0.1563 &   6.0079 r
+  test_pe_comp/test_mult_add/U630/CO (FADDX1_HVT)       0.1548 &   6.1627 r
+  test_pe_comp/test_mult_add/U629/CO (FADDX1_HVT)       0.1551 &   6.3177 r
+  test_pe_comp/test_mult_add/U628/CO (FADDX1_HVT)       0.1498 &   6.4675 r
+  test_pe_comp/test_mult_add/U627/CO (FADDX1_HVT)       0.1613 &   6.6288 r
+  test_pe_comp/test_mult_add/U660/Y (INVX0_HVT)         0.0487 &   6.6776 f
+  test_pe_comp/test_mult_add/U661/Y (AND2X1_HVT)        0.0879 &   6.7655 f
+  test_pe_comp/test_mult_add/U662/Y (AO222X1_HVT)       0.1577 &   6.9231 f
+  test_pe_comp/test_mult_add/c_out (test_mult_add_DataWidth16_0)
+                                                        0.0000     6.9231 f
+  test_pe_comp/U189/Y (NAND2X0_HVT)                     0.0746 &   6.9977 r
+  test_pe_comp/U190/Y (AND3X1_HVT)                      0.1295 &   7.1272 r
+  test_pe_comp/U196/Y (NAND3X0_HVT)                     0.0831 &   7.2103 f
+  test_pe_comp/U197/Y (AO221X1_HVT)                     0.1108 &   7.3211 f
+  test_pe_comp/U198/Y (AO22X1_HVT)                      0.1042 &   7.4253 f
+  test_pe_comp/res_p (test_pe_comp_unq1_0)              0.0000     7.4253 f
+  U345/Y (AOI22X1_HVT)                                  0.1621 &   7.5874 r
+  U346/Y (AND2X2_HVT)                                   0.1525 &   7.7400 r
+  U360/Y (AO22X1_HVT)                                   0.1758 &   7.9158 r
+  test_opt_reg_file/val[13] (test_opt_reg_file_DataWidth16_0)
+                                                        0.0000     7.9158 r
+  test_opt_reg_file/U41/Y (AO22X1_HVT)                  0.1441 &   8.0599 r
+  test_opt_reg_file/data_in_reg_reg_0__13_/D (SDFFARX1_HVT)
+                                                        0.0000 &   8.0599 r
+  data arrival time                                                8.0599
+
+  clock clk (rise edge)                                50.0000    50.0000
+  clock network delay (propagated)                      0.1859    50.1859
+  clock uncertainty                                    -0.1000    50.0859
+  test_opt_reg_file/data_in_reg_reg_0__13_/CLK (SDFFARX1_HVT)
+                                                        0.0000    50.0859 r
+  library setup time                                   -0.1332    49.9526
+  data required time                                              49.9526
+  --------------------------------------------------------------------------
+  data required time                                              49.9526
+  data arrival time                                               -8.0599
+  --------------------------------------------------------------------------
+  slack (MET)                                                     41.8927
+
+
+1
