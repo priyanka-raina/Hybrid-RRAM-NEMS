@@ -1,0 +1,89 @@
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : test_pe
+Version: M-2016.12-SP2
+Date   : Sun Mar 17 16:26:55 2019
+****************************************
+
+
+Library(s) Used:
+
+    saed32hvt_ss0p95v125c (File: /cad/synopsys_EDK3/SAED32_EDK/lib/stdcell_hvt/db_nldm/saed32hvt_ss0p95v125c.db)
+    saed32lvt_ss0p95v125c (File: /cad/synopsys_EDK3/SAED32_EDK/lib/stdcell_lvt/db_nldm/saed32lvt_ss0p95v125c.db)
+    saed32rvt_ss0p95v125c (File: /cad/synopsys_EDK3/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ss0p95v125c.db)
+
+
+Operating Conditions: ss0p95v125c   Library: saed32hvt_ss0p95v125c
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+test_pe                8000              saed32hvt_ss0p95v125c
+test_opt_reg_DataWidth16_3
+                       8000              saed32hvt_ss0p95v125c
+test_opt_reg_file_DataWidth16_0
+                       8000              saed32hvt_ss0p95v125c
+test_opt_reg_DataWidth16_2
+                       8000              saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_test_pe_0
+                       ForQA             saed32hvt_ss0p95v125c
+test_debug_reg_DataWidth1_0
+                       ForQA             saed32hvt_ss0p95v125c
+test_lut_DataWidth1_0  ForQA             saed32hvt_ss0p95v125c
+test_opt_reg_DataWidth1_5
+                       ForQA             saed32hvt_ss0p95v125c
+test_opt_reg_DataWidth1_4
+                       ForQA             saed32hvt_ss0p95v125c
+test_opt_reg_DataWidth1_3
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_test_opt_reg_DataWidth16_0_3
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_test_opt_reg_file_DataWidth16_0
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_test_opt_reg_DataWidth16_0_2
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_test_debug_reg_DataWidth16_0
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_test_lut_DataWidth1_0
+                       ForQA             saed32hvt_ss0p95v125c
+test_full_add_DataWidth16_3
+                       ForQA             saed32hvt_ss0p95v125c
+test_full_add_DataWidth16_2
+                       ForQA             saed32hvt_ss0p95v125c
+
+
+Global Operating Voltage = 0.95 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+  Cell Internal Power  =   2.8625 uW   (73%)
+  Net Switching Power  =   1.0618 uW   (27%)
+                         ---------
+Total Dynamic Power    =   3.9243 uW  (100%)
+
+Cell Leakage Power     = 248.5595 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      1.9089            0.7704        2.6118e+07           28.7970  (  11.41%)
+register           0.6872        3.8048e-03        2.8770e+07           29.4606  (  11.67%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational      0.2664            0.2876        1.9367e+08          194.2261  (  76.93%)
+--------------------------------------------------------------------------------------------------
+Total              2.8625 uW         1.0618 uW     2.4856e+08 pW       252.4838 uW
+1
