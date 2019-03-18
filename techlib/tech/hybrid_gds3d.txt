@@ -11,7 +11,7 @@ Green: 1.0
 Blue: 1.0
 Filter: 0.5
 Metal: 0
-Show: 1
+Show: 0
 LayerEnd
 
 # Start editing here
@@ -245,42 +245,158 @@ Shortkey: <Shift> 6
 Show: 1
 LayerEnd
 
+########################
+# Hybrid layers below  #
+########################
+
 LayerStart: Metal 7
-Layer: 19
+Layer: 23
 Height: 4780
 Thickness: 1000
-Red: 0.15
-Green: 0.55
-Blue: 0.42
-Filter: 0.0
+Red: 0.6
+Green: 0.25
+Blue: 0.25
+Filter: 0
 Metal: 1
 Shortkey: 7
 Show: 1
 LayerEnd
 
 LayerStart: Via 7
-Layer: 20
+Layer: 24
 Height: 5780
 Thickness: 800
 Red: 0.58
 Green: 0.53
 Blue: 0.21
-Filter: 0.0
+Filter: 0
 Metal: 0
 Shortkey: <Shift> 7
 Show: 1
 LayerEnd
 
 LayerStart: Metal 8
-Layer: 21
+Layer: 25
 Height: 6580
 Thickness: 1500
 Red: 1.0
 Green: 0.5
 Blue: 0.0
-Filter: 0.0
+Filter: 0.1
 Metal: 1
 Shortkey: 8
+Show: 1
+LayerEnd
+
+LayerStart: Metal 8 Pin
+Layer: 38
+Height: 6580
+Thickness: 1500
+Red: 1.0
+Green: 0.5
+Blue: 0.0
+Filter: 0.21
+Metal: 1
+Shortkey: 8
+Show: 1
+LayerEnd
+
+LayerStart: RRAM
+Layer: 79
+Height: 8080
+Thickness: 800
+Red: 0.95
+Green: 0.95
+Blue: 0.25
+Filter: 0.0
+Metal: 0
+Shortkey: R
+Show: 1
+LayerEnd
+
+LayerStart: Metal 9
+Layer: 27
+Height: 8880
+Thickness: 1500
+Red: 1.0
+Green: 0.5
+Blue: 0.5
+Filter: 0.1
+Metal: 1
+Shortkey: 9
+Show: 1
+LayerEnd
+
+LayerStart: Metal 9 Pin
+Layer: 39
+Height: 8880
+Thickness: 1500
+Red: 1.0
+Green: 0.5
+Blue: 0.5
+Filter: 0.1
+Metal: 1
+Shortkey: 9
+Show: 1
+LayerEnd
+
+LayerStart: NEM Relay Contact
+Layer: 80
+Height: 10380
+Thickness: 100
+Red: 0
+Green: 0.5
+Blue: 0.1
+Filter: 0.0
+Metal: 1
+Show: 1
+LayerEnd
+
+LayerStart: NEM Relay Dimple
+Layer: 81
+Height: 11180
+Thickness: 100
+Red: 0.25
+Green: 0.5
+Blue: 0.8
+Filter: 0.0
+Metal: 1
+Show: 1
+LayerEnd
+
+LayerStart: NEM Relay Channel
+Layer: 83
+Height: 11280
+Thickness: 100
+Red: 0.25
+Green: 0.5
+Blue: 0.8
+Filter: 0.0
+Metal: 1
+Show: 1
+LayerEnd
+
+LayerStart: NEM Relay Anchor
+Layer: 82
+Height: 10380
+Thickness: 1000
+Red: 0.9
+Green: 0.5
+Blue: 0.5
+Filter: 0.3
+Metal: 0
+Show: 1
+LayerEnd
+
+LayerStart: NEM Relay Beam
+Layer: 84
+Height: 11380
+Thickness: 500
+Red: 0.9
+Green: 0.5
+Blue: 0.5
+Filter: 0.3
+Metal: 0
 Show: 1
 LayerEnd
 
