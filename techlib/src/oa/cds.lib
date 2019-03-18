@@ -1,0 +1,3 @@
+SOFTINCLUDE /cad/cadence/IC6.17.701_lnx86/share/cdssetup/cds.lib
+DEFINE hybridTechLib /home/akashl/test2/hybridTechLib
+DEFINE hybrid /home/akashl/test2/hybrid
