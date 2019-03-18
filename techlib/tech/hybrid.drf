@@ -516,6 +516,7 @@ drDefineLineStyle(
  ( display       doubleDash   1          (1 1 1 1 0 0 1 1 0 0 ) )
  ( display       hidden       1          (1 0 0 0 ) )
  ( display       thickLine    3          (1 1 1 ) )
+ ( display       DHDashed     3          (1 1 1 1 0 0 ) )
  ( display       mediumLine   2          (1 1 1 ) )
  ( display       hidot        1          (1 1 1 ) )
  ( display       impdot       1          (1 1 1 ) )
@@ -531,7 +532,6 @@ drDefineLineStyle(
  ( display       lineStyle5   1          (0 0 0 1 1 0 0 0 0 0 0 1 1 0 0 0 ) )
  ( display       mLine        2          (1 1 1 ) )
  ( display       thickLine2   2          (1 1 1 ) )
- ( display       DHDashed     3          (1 1 1 1 0 0 ) )
 )
 drDefinePacket(
 ;( DisplayName  PacketName           Stipple    LineStyle  Fill       Outline    [FillStyle])
