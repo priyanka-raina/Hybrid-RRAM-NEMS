@@ -2,7 +2,7 @@
 ; CONTROLS
 ;********************************
 controls(
- techVersion("0.1")
+ techVersion("1.0")
 
  techParams(
  ;( parameter           value             )
@@ -49,9 +49,9 @@ layerDefinitions(
   ( rram                      5          rram         )
   ( nem                       6          nem          )
  ;System-Reserved Purposes:
-  ( text                      220        text         )
-  ( subnode                   221        subnode      )
-  ( extract                   222        extract      )
+  ( text                      124        text         )
+  ( subnode                   125        subnode      )
+  ( extract                   126        extract      )
  ) ;techPurposes
 
  techLayers(
@@ -374,7 +374,13 @@ layerDefinitions(
   ( M6                        text       )
   ( M7                        text       )
   ( M8                        text       )
+  ( RRAM                      text       )
   ( M9                        text       )
+  ( NEMCONT                   text       )
+  ( NEMDIMP                   text       )
+  ( NEMANC                    text       )
+  ( NEMCHAN                   text       )
+  ( NEMBEAM                   text       )
   ( M1PIN                     drawing    )
   ( M2PIN                     drawing    )
   ( M3PIN                     drawing    )
