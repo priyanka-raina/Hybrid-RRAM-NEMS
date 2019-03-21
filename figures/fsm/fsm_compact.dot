@@ -1,13 +1,13 @@
 digraph G {
-"OFF_H"->"SET"
-"SET"->"OFF_L"
-"OFF_L"->"RESET"
-"RESET"->"OFF_H"
-"OFF_H"->"COPY_H"
-"COPY_H"->"HOLD_H"
-"HOLD_H"->"OFF_H"
-"OFF_L"->"COPY_L"
-"COPY_L"->"HOLD_L"
-"HOLD_L"->"OFF_L"
-{rank=same "OFF_L" "OFF_H"}
+"OFF_0"->"SET"
+"SET"->"OFF_1"
+"OFF_1"->"RESET"
+"RESET"->"OFF_0"
+"OFF_0"->"COPY_0"
+"COPY_0"->"HOLD_0"
+"HOLD_0"->"OFF_0"
+"OFF_1"->"COPY_1"
+"COPY_1"->"HOLD_1"
+"HOLD_1"->"OFF_1"
+{rank=same "OFF_1" "OFF_0"}
 }
