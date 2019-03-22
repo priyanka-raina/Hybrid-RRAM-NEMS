@@ -1,0 +1,438 @@
+DualSET [(1) ; 3/21/2019 8:05:09 PM]	->	DualSET [(1) ; 3_21_2019 8_05_09 PM].xtr
+Resistance [(2) ; 3/21/2019 8:04:41 PM]	->	Resistance [(2) ; 3_21_2019 8_04_41 PM].xtr
+Resistance [(1) ; 3/21/2019 8:04:31 PM]	->	Resistance [(1) ; 3_21_2019 8_04_31 PM].xtr
+DualRESET [(2) ; 3/21/2019 8:04:17 PM]	->	DualRESET [(2) ; 3_21_2019 8_04_17 PM].xtr
+DualRESET [(1) ; 3/21/2019 8:03:51 PM]	->	DualRESET [(1) ; 3_21_2019 8_03_51 PM].xtr
+Resistance [(2) ; 3/21/2019 8:03:11 PM]	->	Resistance [(2) ; 3_21_2019 8_03_11 PM].xtr
+Resistance [(1) ; 3/21/2019 8:02:59 PM]	->	Resistance [(1) ; 3_21_2019 8_02_59 PM].xtr
+DualSET [(1) ; 3/21/2019 8:02:13 PM]	->	DualSET [(1) ; 3_21_2019 8_02_13 PM].xtr
+DualSET [(1) ; 3/21/2019 8:01:43 PM]	->	DualSET [(1) ; 3_21_2019 8_01_43 PM].xtr
+Resistance [(2) ; 3/21/2019 8:01:29 PM]	->	Resistance [(2) ; 3_21_2019 8_01_29 PM].xtr
+Resistance [(1) ; 3/21/2019 8:01:17 PM]	->	Resistance [(1) ; 3_21_2019 8_01_17 PM].xtr
+DualRESET [(1) ; 3/21/2019 8:01:03 PM]	->	DualRESET [(1) ; 3_21_2019 8_01_03 PM].xtr
+Resistance [(2) ; 3/21/2019 8:00:05 PM]	->	Resistance [(2) ; 3_21_2019 8_00_05 PM].xtr
+Resistance [(1) ; 3/21/2019 7:59:57 PM]	->	Resistance [(1) ; 3_21_2019 7_59_57 PM].xtr
+DualSET [(1) ; 3/21/2019 7:59:45 PM]	->	DualSET [(1) ; 3_21_2019 7_59_45 PM].xtr
+Resistance [(2) ; 3/21/2019 7:59:00 PM]	->	Resistance [(2) ; 3_21_2019 7_59_00 PM].xtr
+Resistance [(1) ; 3/21/2019 7:58:44 PM]	->	Resistance [(1) ; 3_21_2019 7_58_44 PM].xtr
+DualFORM2 [(1) ; 3/21/2019 7:58:32 PM]	->	DualFORM2 [(1) ; 3_21_2019 7_58_32 PM].xtr
+DualFORM1 [(1) ; 3/21/2019 7:58:13 PM]	->	DualFORM1 [(1) ; 3_21_2019 7_58_13 PM].xtr
+Resistance [10(2) "unformed"; 3/21/2019 7:57:49 PM]	->	Resistance [10(2) _unformed_; 3_21_2019 7_57_49 PM].xtr
+Resistance [9(1) "unformed"; 3/21/2019 7:57:26 PM]	->	Resistance [9(1) _unformed_; 3_21_2019 7_57_26 PM].xtr
+FORM [(5) ; 3/21/2019 7:54:10 PM]	->	FORM [(5) ; 3_21_2019 7_54_10 PM].xtr
+FORM [(4) ; 3/21/2019 7:50:50 PM]	->	FORM [(4) ; 3_21_2019 7_50_50 PM].xtr
+FORM [(3) ; 3/21/2019 7:50:22 PM]	->	FORM [(3) ; 3_21_2019 7_50_22 PM].xtr
+FORM [(2) ; 3/21/2019 7:49:44 PM]	->	FORM [(2) ; 3_21_2019 7_49_44 PM].xtr
+FORM [(1) ; 3/21/2019 7:49:06 PM]	->	FORM [(1) ; 3_21_2019 7_49_06 PM].xtr
+DualFORM2 [7,8(1) ; 3/21/2019 7:48:25 PM]	->	DualFORM2 [7,8(1) ; 3_21_2019 7_48_25 PM].xtr
+DualFORM1 [7,8(1) ; 3/21/2019 7:48:02 PM]	->	DualFORM1 [7,8(1) ; 3_21_2019 7_48_02 PM].xtr
+Resistance [8(2) "unformed"; 3/21/2019 7:47:19 PM]	->	Resistance [8(2) _unformed_; 3_21_2019 7_47_19 PM].xtr
+Resistance [7(1) "unformed"; 3/21/2019 7:46:53 PM]	->	Resistance [7(1) _unformed_; 3_21_2019 7_46_53 PM].xtr
+FORM [5(3) "5 won't form, move on"; 3/21/2019 7:44:14 PM]	->	FORM [5(3) _5 won't form, move on_; 3_21_2019 7_44_14 PM].xtr
+FORM [6(2) ; 3/21/2019 7:43:02 PM]	->	FORM [6(2) ; 3_21_2019 7_43_02 PM].xtr
+FORM [5(1) ; 3/21/2019 7:42:45 PM]	->	FORM [5(1) ; 3_21_2019 7_42_45 PM].xtr
+DualFORM2 [5,6(2) ; 3/21/2019 7:42:21 PM]	->	DualFORM2 [5,6(2) ; 3_21_2019 7_42_21 PM].xtr
+DualFORM2 [5,6(1) ; 3/21/2019 7:41:30 PM]	->	DualFORM2 [5,6(1) ; 3_21_2019 7_41_30 PM].xtr
+DualFORM1 [5,6(1) ; 3/21/2019 7:41:14 PM]	->	DualFORM1 [5,6(1) ; 3_21_2019 7_41_14 PM].xtr
+DualFORM2 [5,6(1) ; 3/21/2019 7:40:57 PM]	->	DualFORM2 [5,6(1) ; 3_21_2019 7_40_57 PM].xtr
+DualFORM1 [5,6(1) ; 3/21/2019 7:40:06 PM]	->	DualFORM1 [5,6(1) ; 3_21_2019 7_40_06 PM].xtr
+Resistance [6(2) "Looks unformed :)"; 3/21/2019 7:39:05 PM]	->	Resistance [6(2) _Looks unformed _)_; 3_21_2019 7_39_05 PM].xtr
+Resistance [5(1) "Looks unformed :)"; 3/21/2019 7:38:40 PM]	->	Resistance [5(1) _Looks unformed _)_; 3_21_2019 7_38_40 PM].xtr
+SET [4(2) "Device looks dead"; 3/21/2019 7:33:20 PM]	->	SET [4(2) _Device looks dead_; 3_21_2019 7_33_20 PM].xtr
+SET [3(1) "Device looks dead"; 3/21/2019 7:32:28 PM]	->	SET [3(1) _Device looks dead_; 3_21_2019 7_32_28 PM].xtr
+Resistance [4(2) "2.1 kohms"; 3/21/2019 7:31:42 PM]	->	Resistance [4(2) _2.1 kohms_; 3_21_2019 7_31_42 PM].xtr
+Resistance [3(1) "2 kohms"; 3/21/2019 7:31:13 PM]	->	Resistance [3(1) _2 kohms_; 3_21_2019 7_31_13 PM].xtr
+RESET [4(2) ; 3/21/2019 7:30:47 PM]	->	RESET [4(2) ; 3_21_2019 7_30_47 PM].xtr
+RESET [3(1) ; 3/21/2019 7:30:31 PM]	->	RESET [3(1) ; 3_21_2019 7_30_31 PM].xtr
+Resistance [4(2) "145 ohms"; 3/21/2019 7:29:52 PM]	->	Resistance [4(2) _145 ohms_; 3_21_2019 7_29_52 PM].xtr
+Resistance [3(1) "138 ohms"; 3/21/2019 7:29:20 PM]	->	Resistance [3(1) _138 ohms_; 3_21_2019 7_29_20 PM].xtr
+DualRESET [3,4(1) ; 3/21/2019 7:29:05 PM]	->	DualRESET [3,4(1) ; 3_21_2019 7_29_05 PM].xtr
+DestroySET [3,4(1) ; 3/21/2019 7:28:42 PM]	->	DestroySET [3,4(1) ; 3_21_2019 7_28_42 PM].xtr
+DualRESET [3,4(1) ; 3/21/2019 7:28:16 PM]	->	DualRESET [3,4(1) ; 3_21_2019 7_28_16 PM].xtr
+DualSET [3,4(1) ; 3/21/2019 7:27:58 PM]	->	DualSET [3,4(1) ; 3_21_2019 7_27_58 PM].xtr
+Resistance [4(2) "2.4 kohms"; 3/21/2019 7:25:15 PM]	->	Resistance [4(2) _2.4 kohms_; 3_21_2019 7_25_15 PM].xtr
+Resistance [3(1) "14.1 kohms"; 3/21/2019 7:25:06 PM]	->	Resistance [3(1) _14.1 kohms_; 3_21_2019 7_25_06 PM].xtr
+RESET [4(2) ; 3/21/2019 7:24:34 PM]	->	RESET [4(2) ; 3_21_2019 7_24_34 PM].xtr
+RESET [3(1) ; 3/21/2019 7:24:15 PM]	->	RESET [3(1) ; 3_21_2019 7_24_15 PM].xtr
+DualRESET [3,4(1) ; 3/21/2019 7:23:24 PM]	->	DualRESET [3,4(1) ; 3_21_2019 7_23_24 PM].xtr
+Resistance [4(2) "145 ohms"; 3/21/2019 7:22:58 PM]	->	Resistance [4(2) _145 ohms_; 3_21_2019 7_22_58 PM].xtr
+Resistance [3(1) "152 ohms"; 3/21/2019 7:22:28 PM]	->	Resistance [3(1) _152 ohms_; 3_21_2019 7_22_28 PM].xtr
+DestroySET [3,4(1) ; 3/21/2019 7:22:02 PM]	->	DestroySET [3,4(1) ; 3_21_2019 7_22_02 PM].xtr
+Resistance [4(2) "220 ohms"; 3/21/2019 7:19:45 PM]	->	Resistance [4(2) _220 ohms_; 3_21_2019 7_19_45 PM].xtr
+Resistance [3(1) "10.9 kohms"; 3/21/2019 7:17:30 PM]	->	Resistance [3(1) _10.9 kohms_; 3_21_2019 7_17_30 PM].xtr
+DualSET [3,4(1) ; 3/21/2019 7:16:46 PM]	->	DualSET [3,4(1) ; 3_21_2019 7_16_46 PM].xtr
+Resistance [4(3) "4.9 kohms"; 3/21/2019 7:16:01 PM]	->	Resistance [4(3) _4.9 kohms_; 3_21_2019 7_16_01 PM].xtr
+Resistance [3(2) "113 ohms"; 3/21/2019 7:15:44 PM]	->	Resistance [3(2) _113 ohms_; 3_21_2019 7_15_44 PM].xtr
+DualRESET [3,4(1) ; 3/21/2019 7:15:04 PM]	->	DualRESET [3,4(1) ; 3_21_2019 7_15_04 PM].xtr
+Resistance [4(2) "211 ohms"; 3/21/2019 7:13:36 PM]	->	Resistance [4(2) _211 ohms_; 3_21_2019 7_13_36 PM].xtr
+Resistance [3(1) "236 ohms"; 3/21/2019 7:13:14 PM]	->	Resistance [3(1) _236 ohms_; 3_21_2019 7_13_14 PM].xtr
+DualSET [3,4(1) ; 3/21/2019 7:12:40 PM]	->	DualSET [3,4(1) ; 3_21_2019 7_12_40 PM].xtr
+Resistance [4(2) "7.5 kohms"; 3/21/2019 7:10:54 PM]	->	Resistance [4(2) _7.5 kohms_; 3_21_2019 7_10_54 PM].xtr
+Resistance [3(1) "101 ohms"; 3/21/2019 7:10:37 PM]	->	Resistance [3(1) _101 ohms_; 3_21_2019 7_10_37 PM].xtr
+DualRESET [3,4(1) ; 3/21/2019 7:09:42 PM]	->	DualRESET [3,4(1) ; 3_21_2019 7_09_42 PM].xtr
+Resistance [4(2) "180 ohms"; 3/21/2019 7:09:14 PM]	->	Resistance [4(2) _180 ohms_; 3_21_2019 7_09_14 PM].xtr
+Resistance [3(1) "43 kohms"; 3/21/2019 7:08:19 PM]	->	Resistance [3(1) _43 kohms_; 3_21_2019 7_08_19 PM].xtr
+DualSET [3,4(1) ; 3/21/2019 7:07:31 PM]	->	DualSET [3,4(1) ; 3_21_2019 7_07_31 PM].xtr
+RESET [4(1) "RESET voltage has increased and is more abrupt now"; 3/21/2019 7:05:03 PM]	->	RESET [4(1) _RESET voltage has increased and is more abrupt now_; 3_21_2019 7_05_03 PM].xtr
+Resistance [4(2) "177 ohms"; 3/21/2019 7:03:55 PM]	->	Resistance [4(2) _177 ohms_; 3_21_2019 7_03_55 PM].xtr
+Resistance [3(1) "131 ohms"; 3/21/2019 7:02:04 PM]	->	Resistance [3(1) _131 ohms_; 3_21_2019 7_02_04 PM].xtr
+DualRESET [3,4(1) ; 3/21/2019 7:00:56 PM]	->	DualRESET [3,4(1) ; 3_21_2019 7_00_56 PM].xtr
+Resistance [4(2) "180 ohm"; 3/21/2019 6:59:31 PM]	->	Resistance [4(2) _180 ohm_; 3_21_2019 6_59_31 PM].xtr
+Resistance [3(1) "18 kohm"; 3/21/2019 6:59:12 PM]	->	Resistance [3(1) _18 kohm_; 3_21_2019 6_59_12 PM].xtr
+DualSET [3,4(1) ; 3/21/2019 6:58:46 PM]	->	DualSET [3,4(1) ; 3_21_2019 6_58_46 PM].xtr
+Resistance [4(2) "181 ohm"; 3/21/2019 6:57:50 PM]	->	Resistance [4(2) _181 ohm_; 3_21_2019 6_57_50 PM].xtr
+Resistance [3(1) "147 ohm"; 3/21/2019 6:56:58 PM]	->	Resistance [3(1) _147 ohm_; 3_21_2019 6_56_58 PM].xtr
+DualRESET [3,4(3) "1.5V w/5mA cc"; 3/21/2019 6:54:11 PM]	->	DualRESET [3,4(3) _1.5V w_5mA cc_; 3_21_2019 6_54_11 PM].xtr
+DualRESET [3,4(2) "1.5V"; 3/21/2019 6:53:48 PM]	->	DualRESET [3,4(2) _1.5V_; 3_21_2019 6_53_48 PM].xtr
+DualRESET [3,4(1) "1.3V"; 3/21/2019 6:53:11 PM]	->	DualRESET [3,4(1) _1.3V_; 3_21_2019 6_53_11 PM].xtr
+Resistance [4(2) "188 ohms"; 3/21/2019 6:52:26 PM]	->	Resistance [4(2) _188 ohms_; 3_21_2019 6_52_26 PM].xtr
+Resistance [3(1) "146 ohms"; 3/21/2019 6:52:00 PM]	->	Resistance [3(1) _146 ohms_; 3_21_2019 6_52_00 PM].xtr
+DualRESET [3,4(1) "Up to 1.5 V"; 3/21/2019 6:49:24 PM]	->	DualRESET [3,4(1) _Up to 1.5 V_; 3_21_2019 6_49_24 PM].xtr
+Resistance [4(2) "203 ohms"; 3/21/2019 6:48:19 PM]	->	Resistance [4(2) _203 ohms_; 3_21_2019 6_48_19 PM].xtr
+Resistance [3(1) "288 ohms"; 3/21/2019 6:47:57 PM]	->	Resistance [3(1) _288 ohms_; 3_21_2019 6_47_57 PM].xtr
+DualRESET [3,4(1) "Up to 1.5 V"; 3/21/2019 6:46:25 PM]	->	DualRESET [3,4(1) _Up to 1.5 V_; 3_21_2019 6_46_25 PM].xtr
+Resistance [4(2) "222 ohms"; 3/21/2019 6:45:17 PM]	->	Resistance [4(2) _222 ohms_; 3_21_2019 6_45_17 PM].xtr
+Resistance [3(1) "408 ohms"; 3/21/2019 6:44:51 PM]	->	Resistance [3(1) _408 ohms_; 3_21_2019 6_44_51 PM].xtr
+DualRESET [3,4(1) ; 3/21/2019 6:44:13 PM]	->	DualRESET [3,4(1) ; 3_21_2019 6_44_13 PM].xtr
+Resistance [4(2) "234 ohms"; 3/21/2019 6:43:29 PM]	->	Resistance [4(2) _234 ohms_; 3_21_2019 6_43_29 PM].xtr
+Resistance [3(1) "461 ohms"; 3/21/2019 6:43:05 PM]	->	Resistance [3(1) _461 ohms_; 3_21_2019 6_43_05 PM].xtr
+DualRESET [3,4(1) ; 3/21/2019 6:42:21 PM]	->	DualRESET [3,4(1) ; 3_21_2019 6_42_21 PM].xtr
+Resistance [4(3) "273 ohms"; 3/21/2019 6:41:23 PM]	->	Resistance [4(3) _273 ohms_; 3_21_2019 6_41_23 PM].xtr
+Resistance [3(2) "18.9 kohms"; 3/21/2019 6:40:14 PM]	->	Resistance [3(2) _18.9 kohms_; 3_21_2019 6_40_14 PM].xtr
+DualSET [3,4(1) ; 3/21/2019 6:39:37 PM]	->	DualSET [3,4(1) ; 3_21_2019 6_39_37 PM].xtr
+Resistance [4(2) "3.97 kohms"; 3/21/2019 6:38:48 PM]	->	Resistance [4(2) _3.97 kohms_; 3_21_2019 6_38_48 PM].xtr
+Resistance [3(1) "169 ohms"; 3/21/2019 6:38:25 PM]	->	Resistance [3(1) _169 ohms_; 3_21_2019 6_38_25 PM].xtr
+DualRESET [3,4(1) ; 3/21/2019 6:37:21 PM]	->	DualRESET [3,4(1) ; 3_21_2019 6_37_21 PM].xtr
+Resistance [4(2) "320 ohms"; 3/21/2019 6:36:56 PM]	->	Resistance [4(2) _320 ohms_; 3_21_2019 6_36_56 PM].xtr
+Resistance [3(1) "15.7 kohms"; 3/21/2019 6:36:24 PM]	->	Resistance [3(1) _15.7 kohms_; 3_21_2019 6_36_24 PM].xtr
+DualSET [3,4(1) ; 3/21/2019 6:35:38 PM]	->	DualSET [3,4(1) ; 3_21_2019 6_35_38 PM].xtr
+Resistance [4(2) "3.11 kohms"; 3/21/2019 6:34:35 PM]	->	Resistance [4(2) _3.11 kohms_; 3_21_2019 6_34_35 PM].xtr
+Resistance [3(1) "167 ohms"; 3/21/2019 6:33:05 PM]	->	Resistance [3(1) _167 ohms_; 3_21_2019 6_33_05 PM].xtr
+DualRESET [3,4(1) ; 3/21/2019 6:32:18 PM]	->	DualRESET [3,4(1) ; 3_21_2019 6_32_18 PM].xtr
+Resistance [4(2) "514 ohms"; 3/21/2019 6:31:27 PM]	->	Resistance [4(2) _514 ohms_; 3_21_2019 6_31_27 PM].xtr
+Resistance [3(1) "228 ohms"; 3/21/2019 6:30:17 PM]	->	Resistance [3(1) _228 ohms_; 3_21_2019 6_30_17 PM].xtr
+DualSET [3,4(1) ; 3/21/2019 6:29:36 PM]	->	DualSET [3,4(1) ; 3_21_2019 6_29_36 PM].xtr
+Resistance [4(2) "22.4 kohms"; 3/21/2019 6:28:01 PM]	->	Resistance [4(2) _22.4 kohms_; 3_21_2019 6_28_01 PM].xtr
+Resistance [3(1) "140 ohms"; 3/21/2019 6:27:34 PM]	->	Resistance [3(1) _140 ohms_; 3_21_2019 6_27_34 PM].xtr
+DualRESET [3,4(1) ; 3/21/2019 6:26:43 PM]	->	DualRESET [3,4(1) ; 3_21_2019 6_26_43 PM].xtr
+Resistance [4(2) "860 ohms"; 3/21/2019 6:25:10 PM]	->	Resistance [4(2) _860 ohms_; 3_21_2019 6_25_10 PM].xtr
+Resistance [3(1) "391 ohms"; 3/21/2019 6:24:48 PM]	->	Resistance [3(1) _391 ohms_; 3_21_2019 6_24_48 PM].xtr
+DualSET [3,4(1) ; 3/21/2019 6:23:32 PM]	->	DualSET [3,4(1) ; 3_21_2019 6_23_32 PM].xtr
+Resistance [4(2) "4.8 kohms"; 3/21/2019 6:18:32 PM]	->	Resistance [4(2) _4.8 kohms_; 3_21_2019 6_18_32 PM].xtr
+Resistance [3(1) "6.8 kohms"; 3/21/2019 6:17:42 PM]	->	Resistance [3(1) _6.8 kohms_; 3_21_2019 6_17_42 PM].xtr
+RESET [4(2) ; 3/21/2019 6:17:21 PM]	->	RESET [4(2) ; 3_21_2019 6_17_21 PM].xtr
+RESET [3(1) ; 3/21/2019 6:17:04 PM]	->	RESET [3(1) ; 3_21_2019 6_17_04 PM].xtr
+Resistance [4(2) "215 ohms"; 3/21/2019 6:15:33 PM]	->	Resistance [4(2) _215 ohms_; 3_21_2019 6_15_33 PM].xtr
+Resistance [3(1) "240 ohms"; 3/21/2019 6:15:12 PM]	->	Resistance [3(1) _240 ohms_; 3_21_2019 6_15_12 PM].xtr
+FORM [4(2) ; 3/21/2019 6:14:54 PM]	->	FORM [4(2) ; 3_21_2019 6_14_54 PM].xtr
+FORM [3(1) ; 3/21/2019 6:14:29 PM]	->	FORM [3(1) ; 3_21_2019 6_14_29 PM].xtr
+Resistance [4(2) ; 3/21/2019 6:13:53 PM]	->	Resistance [4(2) ; 3_21_2019 6_13_53 PM].xtr
+Resistance [3(1) ; 3/21/2019 6:13:23 PM]	->	Resistance [3(1) ; 3_21_2019 6_13_23 PM].xtr
+RESET [2(2) "Destroyed"; 3/21/2019 5:18:41 PM]	->	RESET [2(2) _Destroyed_; 3_21_2019 5_18_41 PM].xtr
+RESET [1(1) "Destroyed"; 3/21/2019 5:18:27 PM]	->	RESET [1(1) _Destroyed_; 3_21_2019 5_18_27 PM].xtr
+Resistance [2(2) "121 ohms"; 3/21/2019 5:17:42 PM]	->	Resistance [2(2) _121 ohms_; 3_21_2019 5_17_42 PM].xtr
+Resistance [1(1) "87 ohms"; 3/21/2019 5:17:27 PM]	->	Resistance [1(1) _87 ohms_; 3_21_2019 5_17_27 PM].xtr
+DualSET [1,2(1) ; 3/21/2019 5:16:53 PM]	->	DualSET [1,2(1) ; 3_21_2019 5_16_53 PM].xtr
+Resistance [2(2) "132 ohms"; 3/21/2019 5:15:02 PM]	->	Resistance [2(2) _132 ohms_; 3_21_2019 5_15_02 PM].xtr
+Resistance [1(1) "127 ohms"; 3/21/2019 5:14:38 PM]	->	Resistance [1(1) _127 ohms_; 3_21_2019 5_14_38 PM].xtr
+DualSET [1,2(1) ; 3/21/2019 5:13:53 PM]	->	DualSET [1,2(1) ; 3_21_2019 5_13_53 PM].xtr
+Resistance [2(2) "263 ohms"; 3/21/2019 5:13:13 PM]	->	Resistance [2(2) _263 ohms_; 3_21_2019 5_13_13 PM].xtr
+Resistance [1(1) "83 ohms"; 3/21/2019 5:12:51 PM]	->	Resistance [1(1) _83 ohms_; 3_21_2019 5_12_51 PM].xtr
+DualRESET [1,2(1) ; 3/21/2019 5:12:05 PM]	->	DualRESET [1,2(1) ; 3_21_2019 5_12_05 PM].xtr
+Resistance [2(2) "117 ohms"; 3/21/2019 5:11:38 PM]	->	Resistance [2(2) _117 ohms_; 3_21_2019 5_11_38 PM].xtr
+Resistance [1(1) "127 ohms"; 3/21/2019 5:11:07 PM]	->	Resistance [1(1) _127 ohms_; 3_21_2019 5_11_07 PM].xtr
+DualSET [1,2(1) ; 3/21/2019 5:10:00 PM]	->	DualSET [1,2(1) ; 3_21_2019 5_10_00 PM].xtr
+Resistance [2(2) "190 ohms"; 3/21/2019 5:08:55 PM]	->	Resistance [2(2) _190 ohms_; 3_21_2019 5_08_55 PM].xtr
+Resistance [1(1) "196 ohms"; 3/21/2019 5:08:38 PM]	->	Resistance [1(1) _196 ohms_; 3_21_2019 5_08_38 PM].xtr
+DualSET [1,2(1) ; 3/21/2019 5:08:03 PM]	->	DualSET [1,2(1) ; 3_21_2019 5_08_03 PM].xtr
+Resistance [2(2) "203 ohms"; 3/21/2019 5:06:34 PM]	->	Resistance [2(2) _203 ohms_; 3_21_2019 5_06_34 PM].xtr
+Resistance [1(1) "127 ohms"; 3/21/2019 5:06:12 PM]	->	Resistance [1(1) _127 ohms_; 3_21_2019 5_06_12 PM].xtr
+DualRESET [1,2(1) ; 3/21/2019 5:05:36 PM]	->	DualRESET [1,2(1) ; 3_21_2019 5_05_36 PM].xtr
+Resistance [2(2) "211 ohms"; 3/21/2019 5:03:53 PM]	->	Resistance [2(2) _211 ohms_; 3_21_2019 5_03_53 PM].xtr
+Resistance [1(1) "5 kohms"; 3/21/2019 5:02:39 PM]	->	Resistance [1(1) _5 kohms_; 3_21_2019 5_02_39 PM].xtr
+DualSET [1,2(1) ; 3/21/2019 5:01:42 PM]	->	DualSET [1,2(1) ; 3_21_2019 5_01_42 PM].xtr
+Resistance [2(3) "11 kohms"; 3/21/2019 5:00:54 PM]	->	Resistance [2(3) _11 kohms_; 3_21_2019 5_00_54 PM].xtr
+Resistance [1(2) "16 kohms"; 3/21/2019 5:00:33 PM]	->	Resistance [1(2) _16 kohms_; 3_21_2019 5_00_33 PM].xtr
+RESET [2(2) ; 3/21/2019 4:59:21 PM]	->	RESET [2(2) ; 3_21_2019 4_59_21 PM].xtr
+RESET [1(1) ; 3/21/2019 4:58:42 PM]	->	RESET [1(1) ; 3_21_2019 4_58_42 PM].xtr
+Resistance [2(2) "210 ohms"; 3/21/2019 4:58:19 PM]	->	Resistance [2(2) _210 ohms_; 3_21_2019 4_58_19 PM].xtr
+Resistance [1(1) "203 ohms"; 3/21/2019 4:58:02 PM]	->	Resistance [1(1) _203 ohms_; 3_21_2019 4_58_02 PM].xtr
+DualSET [1,2(1) "Device seem to be broken?"; 3/21/2019 4:57:05 PM]	->	DualSET [1,2(1) _Device seem to be broken__; 3_21_2019 4_57_05 PM].xtr
+Resistance [2(3) "225 ohms"; 3/21/2019 4:55:45 PM]	->	Resistance [2(3) _225 ohms_; 3_21_2019 4_55_45 PM].xtr
+Resistance [1(2) "180 ohms"; 3/21/2019 4:55:17 PM]	->	Resistance [1(2) _180 ohms_; 3_21_2019 4_55_17 PM].xtr
+DualRESET [1,2(1) ; 3/21/2019 4:53:49 PM]	->	DualRESET [1,2(1) ; 3_21_2019 4_53_49 PM].xtr
+Resistance [2(2) "209 ohms"; 3/21/2019 4:52:54 PM]	->	Resistance [2(2) _209 ohms_; 3_21_2019 4_52_54 PM].xtr
+Resistance [1(1) "230 ohms"; 3/21/2019 4:52:04 PM]	->	Resistance [1(1) _230 ohms_; 3_21_2019 4_52_04 PM].xtr
+DualSET [1,2(1) ; 3/21/2019 4:51:19 PM]	->	DualSET [1,2(1) ; 3_21_2019 4_51_19 PM].xtr
+Resistance [2(3) "450 ohms"; 3/21/2019 4:50:06 PM]	->	Resistance [2(3) _450 ohms_; 3_21_2019 4_50_06 PM].xtr
+Resistance [1(2) "170 ohms"; 3/21/2019 4:49:25 PM]	->	Resistance [1(2) _170 ohms_; 3_21_2019 4_49_25 PM].xtr
+DualRESET [1,2(1) ; 3/21/2019 4:48:42 PM]	->	DualRESET [1,2(1) ; 3_21_2019 4_48_42 PM].xtr
+Resistance [2(2) "218 ohms"; 3/21/2019 4:47:48 PM]	->	Resistance [2(2) _218 ohms_; 3_21_2019 4_47_48 PM].xtr
+Resistance [1(1) "47.6 kohms"; 3/21/2019 4:46:44 PM]	->	Resistance [1(1) _47.6 kohms_; 3_21_2019 4_46_44 PM].xtr
+DualSET [1,2(1) ; 3/21/2019 4:45:57 PM]	->	DualSET [1,2(1) ; 3_21_2019 4_45_57 PM].xtr
+Resistance [2(2) "~381.8 ohms"; 3/21/2019 4:44:00 PM]	->	Resistance [2(2) _~381.8 ohms_; 3_21_2019 4_44_00 PM].xtr
+Resistance [1(1) "~157.39 ohms"; 3/21/2019 4:43:22 PM]	->	Resistance [1(1) _~157.39 ohms_; 3_21_2019 4_43_22 PM].xtr
+DualRESET [1,2(1) ; 3/21/2019 4:41:26 PM]	->	DualRESET [1,2(1) ; 3_21_2019 4_41_26 PM].xtr
+Resistance [2(2) "~239 ohms"; 3/21/2019 4:40:06 PM]	->	Resistance [2(2) _~239 ohms_; 3_21_2019 4_40_06 PM].xtr
+Resistance [1(1) "~102 kohms"; 3/21/2019 4:39:40 PM]	->	Resistance [1(1) _~102 kohms_; 3_21_2019 4_39_40 PM].xtr
+SET [2(1) ; 3/21/2019 4:39:18 PM]	->	SET [2(1) ; 3_21_2019 4_39_18 PM].xtr
+RESET [1(1) ; 3/21/2019 4:38:48 PM]	->	RESET [1(1) ; 3_21_2019 4_38_48 PM].xtr
+Resistance [2(2) "~242 ohms"; 3/21/2019 4:34:43 PM]	->	Resistance [2(2) _~242 ohms_; 3_21_2019 4_34_43 PM].xtr
+Resistance [1(1) "~33 kohms"; 3/21/2019 4:33:48 PM]	->	Resistance [1(1) _~33 kohms_; 3_21_2019 4_33_48 PM].xtr
+DualSET [1,2(1) "1.4 V max"; 3/21/2019 4:33:12 PM]	->	DualSET [1,2(1) _1.4 V max_; 3_21_2019 4_33_12 PM].xtr
+Resistance [2(2) "~242 ohms"; 3/21/2019 4:32:15 PM]	->	Resistance [2(2) _~242 ohms_; 3_21_2019 4_32_15 PM].xtr
+Resistance [1(1) "~486 ohms"; 3/21/2019 4:31:22 PM]	->	Resistance [1(1) _~486 ohms_; 3_21_2019 4_31_22 PM].xtr
+DualSET [1,2(1) "1.25 V max"; 3/21/2019 4:30:47 PM]	->	DualSET [1,2(1) _1.25 V max_; 3_21_2019 4_30_47 PM].xtr
+Resistance [2(1) "~305 ohms"; 3/21/2019 4:29:10 PM]	->	Resistance [2(1) _~305 ohms_; 3_21_2019 4_29_10 PM].xtr
+Resistance [1(1) "~178 ohms"; 3/21/2019 4:25:10 PM]	->	Resistance [1(1) _~178 ohms_; 3_21_2019 4_25_10 PM].xtr
+DualRESET [1,2(1) ; 3/21/2019 4:24:14 PM]	->	DualRESET [1,2(1) ; 3_21_2019 4_24_14 PM].xtr
+Resistance [2(1) "~315 ohms"; 3/21/2019 4:21:01 PM]	->	Resistance [2(1) _~315 ohms_; 3_21_2019 4_21_01 PM].xtr
+SET [2(1) "Set appears to work"; 3/21/2019 4:20:02 PM]	->	SET [2(1) _Set appears to work_; 3_21_2019 4_20_02 PM].xtr
+Resistance [2(1) "~3.8 kohms"; 3/21/2019 4:18:58 PM]	->	Resistance [2(1) _~3.8 kohms_; 3_21_2019 4_18_58 PM].xtr
+RESET [2(1) "Reset appears to work"; 3/21/2019 4:18:26 PM]	->	RESET [2(1) _Reset appears to work_; 3_21_2019 4_18_26 PM].xtr
+Resistance [2(2) "~211 ohms"; 3/21/2019 4:17:27 PM]	->	Resistance [2(2) _~211 ohms_; 3_21_2019 4_17_27 PM].xtr
+Resistance [1(1) "~1.95 kohms"; 3/21/2019 4:16:32 PM]	->	Resistance [1(1) _~1.95 kohms_; 3_21_2019 4_16_32 PM].xtr
+SET [1(1) "Set appears to work"; 3/21/2019 4:15:45 PM]	->	SET [1(1) _Set appears to work_; 3_21_2019 4_15_45 PM].xtr
+Resistance [1(1) "~80 kohms"; 3/21/2019 4:15:07 PM]	->	Resistance [1(1) _~80 kohms_; 3_21_2019 4_15_07 PM].xtr
+RESET [1(1) "Reset appears to work"; 3/21/2019 4:14:01 PM]	->	RESET [1(1) _Reset appears to work_; 3_21_2019 4_14_01 PM].xtr
+Resistance [1(1) "~438 ohms"; 3/21/2019 4:13:09 PM]	->	Resistance [1(1) _~438 ohms_; 3_21_2019 4_13_09 PM].xtr
+! DualSET [1,2(1) "Device 1 probably brokedown"; 3/21/2019 4:10:33 PM]	->	! DualSET [1,2(1) _Device 1 probably brokedown_; 3_21_2019 4_10_33 PM].xtr
+Resistance [2(2) "~410 ohms"; 3/21/2019 4:08:01 PM]	->	Resistance [2(2) _~410 ohms_; 3_21_2019 4_08_01 PM].xtr
+Resistance [1(1) "~161 ohms"; 3/21/2019 4:07:23 PM]	->	Resistance [1(1) _~161 ohms_; 3_21_2019 4_07_23 PM].xtr
+SET [2(1) ; 3/21/2019 4:05:10 PM]	->	SET [2(1) ; 3_21_2019 4_05_10 PM].xtr
+RESET [2(1) ; 3/21/2019 4:04:08 PM]	->	RESET [2(1) ; 3_21_2019 4_04_08 PM].xtr
+SET [1(1) ; 3/21/2019 4:03:25 PM]	->	SET [1(1) ; 3_21_2019 4_03_25 PM].xtr
+RESET [1(1) ; 3/21/2019 4:02:07 PM]	->	RESET [1(1) ; 3_21_2019 4_02_07 PM].xtr
+Resistance [2(4) ; 3/21/2019 4:00:18 PM]	->	Resistance [2(4) ; 3_21_2019 4_00_18 PM].xtr
+Resistance [1(3) ; 3/21/2019 4:00:04 PM]	->	Resistance [1(3) ; 3_21_2019 4_00_04 PM].xtr
+Resistance [2(2) "~220 ohms"; 3/21/2019 3:56:29 PM]	->	Resistance [2(2) _~220 ohms_; 3_21_2019 3_56_29 PM].xtr
+Resistance [1(1) "~175 ohms"; 3/21/2019 3:54:30 PM]	->	Resistance [1(1) _~175 ohms_; 3_21_2019 3_54_30 PM].xtr
+DualSET [1,2(2) "Both start in RL. Gate voltage drop observed"; 3/21/2019 3:50:42 PM]	->	DualSET [1,2(2) _Both start in RL. Gate voltage drop observed_; 3_21_2019 3_50_42 PM].xtr
+DualSET [(1) "Compliance current not high enough"; 3/21/2019 3:48:30 PM]	->	DualSET [(1) _Compliance current not high enough_; 3_21_2019 3_48_30 PM].xtr
+SET [2(1) ; 3/21/2019 3:20:33 PM]	->	SET [2(1) ; 3_21_2019 3_20_33 PM].xtr
+RESET [2(1) "~5 kohms"; 3/21/2019 3:19:30 PM]	->	RESET [2(1) _~5 kohms_; 3_21_2019 3_19_30 PM].xtr
+Resistance [2(1) "~250 ohms"; 3/21/2019 3:17:31 PM]	->	Resistance [2(1) _~250 ohms_; 3_21_2019 3_17_31 PM].xtr
+FORM [2(2) ; 3/21/2019 3:16:41 PM]	->	FORM [2(2) ; 3_21_2019 3_16_41 PM].xtr
+SET [1(1) ; 3/21/2019 3:13:47 PM]	->	SET [1(1) ; 3_21_2019 3_13_47 PM].xtr
+RESET [1(1) "~6.5 kohms"; 3/21/2019 3:13:23 PM]	->	RESET [1(1) _~6.5 kohms_; 3_21_2019 3_13_23 PM].xtr
+Resistance [1(1) "~200 ohms"; 3/21/2019 3:12:09 PM]	->	Resistance [1(1) _~200 ohms_; 3_21_2019 3_12_09 PM].xtr
+FORM [1(1) ; 3/21/2019 3:10:45 PM]	->	FORM [1(1) ; 3_21_2019 3_10_45 PM].xtr
+DualSET [(1) ; 3/21/2019 8:05:09 PM]	->	DualSET [(1) ; 3_21_2019 8_05_09 PM].csv
+Resistance [(2) ; 3/21/2019 8:04:41 PM]	->	Resistance [(2) ; 3_21_2019 8_04_41 PM].csv
+Resistance [(1) ; 3/21/2019 8:04:31 PM]	->	Resistance [(1) ; 3_21_2019 8_04_31 PM].csv
+DualRESET [(2) ; 3/21/2019 8:04:17 PM]	->	DualRESET [(2) ; 3_21_2019 8_04_17 PM].csv
+DualRESET [(1) ; 3/21/2019 8:03:51 PM]	->	DualRESET [(1) ; 3_21_2019 8_03_51 PM].csv
+Resistance [(2) ; 3/21/2019 8:03:11 PM]	->	Resistance [(2) ; 3_21_2019 8_03_11 PM].csv
+Resistance [(1) ; 3/21/2019 8:02:59 PM]	->	Resistance [(1) ; 3_21_2019 8_02_59 PM].csv
+DualSET [(1) ; 3/21/2019 8:02:13 PM]	->	DualSET [(1) ; 3_21_2019 8_02_13 PM].csv
+DualSET [(1) ; 3/21/2019 8:01:43 PM]	->	DualSET [(1) ; 3_21_2019 8_01_43 PM].csv
+Resistance [(2) ; 3/21/2019 8:01:29 PM]	->	Resistance [(2) ; 3_21_2019 8_01_29 PM].csv
+Resistance [(1) ; 3/21/2019 8:01:17 PM]	->	Resistance [(1) ; 3_21_2019 8_01_17 PM].csv
+DualRESET [(1) ; 3/21/2019 8:01:03 PM]	->	DualRESET [(1) ; 3_21_2019 8_01_03 PM].csv
+Resistance [(2) ; 3/21/2019 8:00:05 PM]	->	Resistance [(2) ; 3_21_2019 8_00_05 PM].csv
+Resistance [(1) ; 3/21/2019 7:59:57 PM]	->	Resistance [(1) ; 3_21_2019 7_59_57 PM].csv
+DualSET [(1) ; 3/21/2019 7:59:45 PM]	->	DualSET [(1) ; 3_21_2019 7_59_45 PM].csv
+Resistance [(2) ; 3/21/2019 7:59:00 PM]	->	Resistance [(2) ; 3_21_2019 7_59_00 PM].csv
+Resistance [(1) ; 3/21/2019 7:58:44 PM]	->	Resistance [(1) ; 3_21_2019 7_58_44 PM].csv
+DualFORM2 [(1) ; 3/21/2019 7:58:32 PM]	->	DualFORM2 [(1) ; 3_21_2019 7_58_32 PM].csv
+DualFORM1 [(1) ; 3/21/2019 7:58:13 PM]	->	DualFORM1 [(1) ; 3_21_2019 7_58_13 PM].csv
+Resistance [10(2) "unformed"; 3/21/2019 7:57:49 PM]	->	Resistance [10(2) _unformed_; 3_21_2019 7_57_49 PM].csv
+Resistance [9(1) "unformed"; 3/21/2019 7:57:26 PM]	->	Resistance [9(1) _unformed_; 3_21_2019 7_57_26 PM].csv
+FORM [(5) ; 3/21/2019 7:54:10 PM]	->	FORM [(5) ; 3_21_2019 7_54_10 PM].csv
+FORM [(4) ; 3/21/2019 7:50:50 PM]	->	FORM [(4) ; 3_21_2019 7_50_50 PM].csv
+FORM [(3) ; 3/21/2019 7:50:22 PM]	->	FORM [(3) ; 3_21_2019 7_50_22 PM].csv
+FORM [(2) ; 3/21/2019 7:49:44 PM]	->	FORM [(2) ; 3_21_2019 7_49_44 PM].csv
+FORM [(1) ; 3/21/2019 7:49:06 PM]	->	FORM [(1) ; 3_21_2019 7_49_06 PM].csv
+DualFORM2 [7,8(1) ; 3/21/2019 7:48:25 PM]	->	DualFORM2 [7,8(1) ; 3_21_2019 7_48_25 PM].csv
+DualFORM1 [7,8(1) ; 3/21/2019 7:48:02 PM]	->	DualFORM1 [7,8(1) ; 3_21_2019 7_48_02 PM].csv
+Resistance [8(2) "unformed"; 3/21/2019 7:47:19 PM]	->	Resistance [8(2) _unformed_; 3_21_2019 7_47_19 PM].csv
+Resistance [7(1) "unformed"; 3/21/2019 7:46:53 PM]	->	Resistance [7(1) _unformed_; 3_21_2019 7_46_53 PM].csv
+FORM [5(3) "5 won't form, move on"; 3/21/2019 7:44:14 PM]	->	FORM [5(3) _5 won't form, move on_; 3_21_2019 7_44_14 PM].csv
+FORM [6(2) ; 3/21/2019 7:43:02 PM]	->	FORM [6(2) ; 3_21_2019 7_43_02 PM].csv
+FORM [5(1) ; 3/21/2019 7:42:45 PM]	->	FORM [5(1) ; 3_21_2019 7_42_45 PM].csv
+DualFORM2 [5,6(2) ; 3/21/2019 7:42:21 PM]	->	DualFORM2 [5,6(2) ; 3_21_2019 7_42_21 PM].csv
+DualFORM2 [5,6(1) ; 3/21/2019 7:41:30 PM]	->	DualFORM2 [5,6(1) ; 3_21_2019 7_41_30 PM].csv
+DualFORM1 [5,6(1) ; 3/21/2019 7:41:14 PM]	->	DualFORM1 [5,6(1) ; 3_21_2019 7_41_14 PM].csv
+DualFORM2 [5,6(1) ; 3/21/2019 7:40:57 PM]	->	DualFORM2 [5,6(1) ; 3_21_2019 7_40_57 PM].csv
+DualFORM1 [5,6(1) ; 3/21/2019 7:40:06 PM]	->	DualFORM1 [5,6(1) ; 3_21_2019 7_40_06 PM].csv
+Resistance [6(2) "Looks unformed :)"; 3/21/2019 7:39:05 PM]	->	Resistance [6(2) _Looks unformed _)_; 3_21_2019 7_39_05 PM].csv
+Resistance [5(1) "Looks unformed :)"; 3/21/2019 7:38:40 PM]	->	Resistance [5(1) _Looks unformed _)_; 3_21_2019 7_38_40 PM].csv
+SET [4(2) "Device looks dead"; 3/21/2019 7:33:20 PM]	->	SET [4(2) _Device looks dead_; 3_21_2019 7_33_20 PM].csv
+SET [3(1) "Device looks dead"; 3/21/2019 7:32:28 PM]	->	SET [3(1) _Device looks dead_; 3_21_2019 7_32_28 PM].csv
+Resistance [4(2) "2.1 kohms"; 3/21/2019 7:31:42 PM]	->	Resistance [4(2) _2.1 kohms_; 3_21_2019 7_31_42 PM].csv
+Resistance [3(1) "2 kohms"; 3/21/2019 7:31:13 PM]	->	Resistance [3(1) _2 kohms_; 3_21_2019 7_31_13 PM].csv
+RESET [4(2) ; 3/21/2019 7:30:47 PM]	->	RESET [4(2) ; 3_21_2019 7_30_47 PM].csv
+RESET [3(1) ; 3/21/2019 7:30:31 PM]	->	RESET [3(1) ; 3_21_2019 7_30_31 PM].csv
+Resistance [4(2) "145 ohms"; 3/21/2019 7:29:52 PM]	->	Resistance [4(2) _145 ohms_; 3_21_2019 7_29_52 PM].csv
+Resistance [3(1) "138 ohms"; 3/21/2019 7:29:20 PM]	->	Resistance [3(1) _138 ohms_; 3_21_2019 7_29_20 PM].csv
+DualRESET [3,4(1) ; 3/21/2019 7:29:05 PM]	->	DualRESET [3,4(1) ; 3_21_2019 7_29_05 PM].csv
+DestroySET [3,4(1) ; 3/21/2019 7:28:42 PM]	->	DestroySET [3,4(1) ; 3_21_2019 7_28_42 PM].csv
+DualRESET [3,4(1) ; 3/21/2019 7:28:16 PM]	->	DualRESET [3,4(1) ; 3_21_2019 7_28_16 PM].csv
+DualSET [3,4(1) ; 3/21/2019 7:27:58 PM]	->	DualSET [3,4(1) ; 3_21_2019 7_27_58 PM].csv
+Resistance [4(2) "2.4 kohms"; 3/21/2019 7:25:15 PM]	->	Resistance [4(2) _2.4 kohms_; 3_21_2019 7_25_15 PM].csv
+Resistance [3(1) "14.1 kohms"; 3/21/2019 7:25:06 PM]	->	Resistance [3(1) _14.1 kohms_; 3_21_2019 7_25_06 PM].csv
+RESET [4(2) ; 3/21/2019 7:24:34 PM]	->	RESET [4(2) ; 3_21_2019 7_24_34 PM].csv
+RESET [3(1) ; 3/21/2019 7:24:15 PM]	->	RESET [3(1) ; 3_21_2019 7_24_15 PM].csv
+DualRESET [3,4(1) ; 3/21/2019 7:23:24 PM]	->	DualRESET [3,4(1) ; 3_21_2019 7_23_24 PM].csv
+Resistance [4(2) "145 ohms"; 3/21/2019 7:22:58 PM]	->	Resistance [4(2) _145 ohms_; 3_21_2019 7_22_58 PM].csv
+Resistance [3(1) "152 ohms"; 3/21/2019 7:22:28 PM]	->	Resistance [3(1) _152 ohms_; 3_21_2019 7_22_28 PM].csv
+DestroySET [3,4(1) ; 3/21/2019 7:22:02 PM]	->	DestroySET [3,4(1) ; 3_21_2019 7_22_02 PM].csv
+Resistance [4(2) "220 ohms"; 3/21/2019 7:19:45 PM]	->	Resistance [4(2) _220 ohms_; 3_21_2019 7_19_45 PM].csv
+Resistance [3(1) "10.9 kohms"; 3/21/2019 7:17:30 PM]	->	Resistance [3(1) _10.9 kohms_; 3_21_2019 7_17_30 PM].csv
+DualSET [3,4(1) ; 3/21/2019 7:16:46 PM]	->	DualSET [3,4(1) ; 3_21_2019 7_16_46 PM].csv
+Resistance [4(3) "4.9 kohms"; 3/21/2019 7:16:01 PM]	->	Resistance [4(3) _4.9 kohms_; 3_21_2019 7_16_01 PM].csv
+Resistance [3(2) "113 ohms"; 3/21/2019 7:15:44 PM]	->	Resistance [3(2) _113 ohms_; 3_21_2019 7_15_44 PM].csv
+DualRESET [3,4(1) ; 3/21/2019 7:15:04 PM]	->	DualRESET [3,4(1) ; 3_21_2019 7_15_04 PM].csv
+Resistance [4(2) "211 ohms"; 3/21/2019 7:13:36 PM]	->	Resistance [4(2) _211 ohms_; 3_21_2019 7_13_36 PM].csv
+Resistance [3(1) "236 ohms"; 3/21/2019 7:13:14 PM]	->	Resistance [3(1) _236 ohms_; 3_21_2019 7_13_14 PM].csv
+DualSET [3,4(1) ; 3/21/2019 7:12:40 PM]	->	DualSET [3,4(1) ; 3_21_2019 7_12_40 PM].csv
+Resistance [4(2) "7.5 kohms"; 3/21/2019 7:10:54 PM]	->	Resistance [4(2) _7.5 kohms_; 3_21_2019 7_10_54 PM].csv
+Resistance [3(1) "101 ohms"; 3/21/2019 7:10:37 PM]	->	Resistance [3(1) _101 ohms_; 3_21_2019 7_10_37 PM].csv
+DualRESET [3,4(1) ; 3/21/2019 7:09:42 PM]	->	DualRESET [3,4(1) ; 3_21_2019 7_09_42 PM].csv
+Resistance [4(2) "180 ohms"; 3/21/2019 7:09:14 PM]	->	Resistance [4(2) _180 ohms_; 3_21_2019 7_09_14 PM].csv
+Resistance [3(1) "43 kohms"; 3/21/2019 7:08:19 PM]	->	Resistance [3(1) _43 kohms_; 3_21_2019 7_08_19 PM].csv
+DualSET [3,4(1) ; 3/21/2019 7:07:31 PM]	->	DualSET [3,4(1) ; 3_21_2019 7_07_31 PM].csv
+RESET [4(1) "RESET voltage has increased and is more abrupt now"; 3/21/2019 7:05:03 PM]	->	RESET [4(1) _RESET voltage has increased and is more abrupt now_; 3_21_2019 7_05_03 PM].csv
+Resistance [4(2) "177 ohms"; 3/21/2019 7:03:55 PM]	->	Resistance [4(2) _177 ohms_; 3_21_2019 7_03_55 PM].csv
+Resistance [3(1) "131 ohms"; 3/21/2019 7:02:04 PM]	->	Resistance [3(1) _131 ohms_; 3_21_2019 7_02_04 PM].csv
+DualRESET [3,4(1) ; 3/21/2019 7:00:56 PM]	->	DualRESET [3,4(1) ; 3_21_2019 7_00_56 PM].csv
+Resistance [4(2) "180 ohm"; 3/21/2019 6:59:31 PM]	->	Resistance [4(2) _180 ohm_; 3_21_2019 6_59_31 PM].csv
+Resistance [3(1) "18 kohm"; 3/21/2019 6:59:12 PM]	->	Resistance [3(1) _18 kohm_; 3_21_2019 6_59_12 PM].csv
+DualSET [3,4(1) ; 3/21/2019 6:58:46 PM]	->	DualSET [3,4(1) ; 3_21_2019 6_58_46 PM].csv
+Resistance [4(2) "181 ohm"; 3/21/2019 6:57:50 PM]	->	Resistance [4(2) _181 ohm_; 3_21_2019 6_57_50 PM].csv
+Resistance [3(1) "147 ohm"; 3/21/2019 6:56:58 PM]	->	Resistance [3(1) _147 ohm_; 3_21_2019 6_56_58 PM].csv
+DualRESET [3,4(3) "1.5V w/5mA cc"; 3/21/2019 6:54:11 PM]	->	DualRESET [3,4(3) _1.5V w_5mA cc_; 3_21_2019 6_54_11 PM].csv
+DualRESET [3,4(2) "1.5V"; 3/21/2019 6:53:48 PM]	->	DualRESET [3,4(2) _1.5V_; 3_21_2019 6_53_48 PM].csv
+DualRESET [3,4(1) "1.3V"; 3/21/2019 6:53:11 PM]	->	DualRESET [3,4(1) _1.3V_; 3_21_2019 6_53_11 PM].csv
+Resistance [4(2) "188 ohms"; 3/21/2019 6:52:26 PM]	->	Resistance [4(2) _188 ohms_; 3_21_2019 6_52_26 PM].csv
+Resistance [3(1) "146 ohms"; 3/21/2019 6:52:00 PM]	->	Resistance [3(1) _146 ohms_; 3_21_2019 6_52_00 PM].csv
+DualRESET [3,4(1) "Up to 1.5 V"; 3/21/2019 6:49:24 PM]	->	DualRESET [3,4(1) _Up to 1.5 V_; 3_21_2019 6_49_24 PM].csv
+Resistance [4(2) "203 ohms"; 3/21/2019 6:48:19 PM]	->	Resistance [4(2) _203 ohms_; 3_21_2019 6_48_19 PM].csv
+Resistance [3(1) "288 ohms"; 3/21/2019 6:47:57 PM]	->	Resistance [3(1) _288 ohms_; 3_21_2019 6_47_57 PM].csv
+DualRESET [3,4(1) "Up to 1.5 V"; 3/21/2019 6:46:25 PM]	->	DualRESET [3,4(1) _Up to 1.5 V_; 3_21_2019 6_46_25 PM].csv
+Resistance [4(2) "222 ohms"; 3/21/2019 6:45:17 PM]	->	Resistance [4(2) _222 ohms_; 3_21_2019 6_45_17 PM].csv
+Resistance [3(1) "408 ohms"; 3/21/2019 6:44:51 PM]	->	Resistance [3(1) _408 ohms_; 3_21_2019 6_44_51 PM].csv
+DualRESET [3,4(1) ; 3/21/2019 6:44:13 PM]	->	DualRESET [3,4(1) ; 3_21_2019 6_44_13 PM].csv
+Resistance [4(2) "234 ohms"; 3/21/2019 6:43:29 PM]	->	Resistance [4(2) _234 ohms_; 3_21_2019 6_43_29 PM].csv
+Resistance [3(1) "461 ohms"; 3/21/2019 6:43:05 PM]	->	Resistance [3(1) _461 ohms_; 3_21_2019 6_43_05 PM].csv
+DualRESET [3,4(1) ; 3/21/2019 6:42:21 PM]	->	DualRESET [3,4(1) ; 3_21_2019 6_42_21 PM].csv
+Resistance [4(3) "273 ohms"; 3/21/2019 6:41:23 PM]	->	Resistance [4(3) _273 ohms_; 3_21_2019 6_41_23 PM].csv
+Resistance [3(2) "18.9 kohms"; 3/21/2019 6:40:14 PM]	->	Resistance [3(2) _18.9 kohms_; 3_21_2019 6_40_14 PM].csv
+DualSET [3,4(1) ; 3/21/2019 6:39:37 PM]	->	DualSET [3,4(1) ; 3_21_2019 6_39_37 PM].csv
+Resistance [4(2) "3.97 kohms"; 3/21/2019 6:38:48 PM]	->	Resistance [4(2) _3.97 kohms_; 3_21_2019 6_38_48 PM].csv
+Resistance [3(1) "169 ohms"; 3/21/2019 6:38:25 PM]	->	Resistance [3(1) _169 ohms_; 3_21_2019 6_38_25 PM].csv
+DualRESET [3,4(1) ; 3/21/2019 6:37:21 PM]	->	DualRESET [3,4(1) ; 3_21_2019 6_37_21 PM].csv
+Resistance [4(2) "320 ohms"; 3/21/2019 6:36:56 PM]	->	Resistance [4(2) _320 ohms_; 3_21_2019 6_36_56 PM].csv
+Resistance [3(1) "15.7 kohms"; 3/21/2019 6:36:24 PM]	->	Resistance [3(1) _15.7 kohms_; 3_21_2019 6_36_24 PM].csv
+DualSET [3,4(1) ; 3/21/2019 6:35:38 PM]	->	DualSET [3,4(1) ; 3_21_2019 6_35_38 PM].csv
+Resistance [4(2) "3.11 kohms"; 3/21/2019 6:34:35 PM]	->	Resistance [4(2) _3.11 kohms_; 3_21_2019 6_34_35 PM].csv
+Resistance [3(1) "167 ohms"; 3/21/2019 6:33:05 PM]	->	Resistance [3(1) _167 ohms_; 3_21_2019 6_33_05 PM].csv
+DualRESET [3,4(1) ; 3/21/2019 6:32:18 PM]	->	DualRESET [3,4(1) ; 3_21_2019 6_32_18 PM].csv
+Resistance [4(2) "514 ohms"; 3/21/2019 6:31:27 PM]	->	Resistance [4(2) _514 ohms_; 3_21_2019 6_31_27 PM].csv
+Resistance [3(1) "228 ohms"; 3/21/2019 6:30:17 PM]	->	Resistance [3(1) _228 ohms_; 3_21_2019 6_30_17 PM].csv
+DualSET [3,4(1) ; 3/21/2019 6:29:36 PM]	->	DualSET [3,4(1) ; 3_21_2019 6_29_36 PM].csv
+Resistance [4(2) "22.4 kohms"; 3/21/2019 6:28:01 PM]	->	Resistance [4(2) _22.4 kohms_; 3_21_2019 6_28_01 PM].csv
+Resistance [3(1) "140 ohms"; 3/21/2019 6:27:34 PM]	->	Resistance [3(1) _140 ohms_; 3_21_2019 6_27_34 PM].csv
+DualRESET [3,4(1) ; 3/21/2019 6:26:43 PM]	->	DualRESET [3,4(1) ; 3_21_2019 6_26_43 PM].csv
+Resistance [4(2) "860 ohms"; 3/21/2019 6:25:10 PM]	->	Resistance [4(2) _860 ohms_; 3_21_2019 6_25_10 PM].csv
+Resistance [3(1) "391 ohms"; 3/21/2019 6:24:48 PM]	->	Resistance [3(1) _391 ohms_; 3_21_2019 6_24_48 PM].csv
+DualSET [3,4(1) ; 3/21/2019 6:23:32 PM]	->	DualSET [3,4(1) ; 3_21_2019 6_23_32 PM].csv
+Resistance [4(2) "4.8 kohms"; 3/21/2019 6:18:32 PM]	->	Resistance [4(2) _4.8 kohms_; 3_21_2019 6_18_32 PM].csv
+Resistance [3(1) "6.8 kohms"; 3/21/2019 6:17:42 PM]	->	Resistance [3(1) _6.8 kohms_; 3_21_2019 6_17_42 PM].csv
+RESET [4(2) ; 3/21/2019 6:17:21 PM]	->	RESET [4(2) ; 3_21_2019 6_17_21 PM].csv
+RESET [3(1) ; 3/21/2019 6:17:04 PM]	->	RESET [3(1) ; 3_21_2019 6_17_04 PM].csv
+Resistance [4(2) "215 ohms"; 3/21/2019 6:15:33 PM]	->	Resistance [4(2) _215 ohms_; 3_21_2019 6_15_33 PM].csv
+Resistance [3(1) "240 ohms"; 3/21/2019 6:15:12 PM]	->	Resistance [3(1) _240 ohms_; 3_21_2019 6_15_12 PM].csv
+FORM [4(2) ; 3/21/2019 6:14:54 PM]	->	FORM [4(2) ; 3_21_2019 6_14_54 PM].csv
+FORM [3(1) ; 3/21/2019 6:14:29 PM]	->	FORM [3(1) ; 3_21_2019 6_14_29 PM].csv
+Resistance [4(2) ; 3/21/2019 6:13:53 PM]	->	Resistance [4(2) ; 3_21_2019 6_13_53 PM].csv
+Resistance [3(1) ; 3/21/2019 6:13:23 PM]	->	Resistance [3(1) ; 3_21_2019 6_13_23 PM].csv
+RESET [2(2) "Destroyed"; 3/21/2019 5:18:41 PM]	->	RESET [2(2) _Destroyed_; 3_21_2019 5_18_41 PM].csv
+RESET [1(1) "Destroyed"; 3/21/2019 5:18:27 PM]	->	RESET [1(1) _Destroyed_; 3_21_2019 5_18_27 PM].csv
+Resistance [2(2) "121 ohms"; 3/21/2019 5:17:42 PM]	->	Resistance [2(2) _121 ohms_; 3_21_2019 5_17_42 PM].csv
+Resistance [1(1) "87 ohms"; 3/21/2019 5:17:27 PM]	->	Resistance [1(1) _87 ohms_; 3_21_2019 5_17_27 PM].csv
+DualSET [1,2(1) ; 3/21/2019 5:16:53 PM]	->	DualSET [1,2(1) ; 3_21_2019 5_16_53 PM].csv
+Resistance [2(2) "132 ohms"; 3/21/2019 5:15:02 PM]	->	Resistance [2(2) _132 ohms_; 3_21_2019 5_15_02 PM].csv
+Resistance [1(1) "127 ohms"; 3/21/2019 5:14:38 PM]	->	Resistance [1(1) _127 ohms_; 3_21_2019 5_14_38 PM].csv
+DualSET [1,2(1) ; 3/21/2019 5:13:53 PM]	->	DualSET [1,2(1) ; 3_21_2019 5_13_53 PM].csv
+Resistance [2(2) "263 ohms"; 3/21/2019 5:13:13 PM]	->	Resistance [2(2) _263 ohms_; 3_21_2019 5_13_13 PM].csv
+Resistance [1(1) "83 ohms"; 3/21/2019 5:12:51 PM]	->	Resistance [1(1) _83 ohms_; 3_21_2019 5_12_51 PM].csv
+DualRESET [1,2(1) ; 3/21/2019 5:12:05 PM]	->	DualRESET [1,2(1) ; 3_21_2019 5_12_05 PM].csv
+Resistance [2(2) "117 ohms"; 3/21/2019 5:11:38 PM]	->	Resistance [2(2) _117 ohms_; 3_21_2019 5_11_38 PM].csv
+Resistance [1(1) "127 ohms"; 3/21/2019 5:11:07 PM]	->	Resistance [1(1) _127 ohms_; 3_21_2019 5_11_07 PM].csv
+DualSET [1,2(1) ; 3/21/2019 5:10:00 PM]	->	DualSET [1,2(1) ; 3_21_2019 5_10_00 PM].csv
+Resistance [2(2) "190 ohms"; 3/21/2019 5:08:55 PM]	->	Resistance [2(2) _190 ohms_; 3_21_2019 5_08_55 PM].csv
+Resistance [1(1) "196 ohms"; 3/21/2019 5:08:38 PM]	->	Resistance [1(1) _196 ohms_; 3_21_2019 5_08_38 PM].csv
+DualSET [1,2(1) ; 3/21/2019 5:08:03 PM]	->	DualSET [1,2(1) ; 3_21_2019 5_08_03 PM].csv
+Resistance [2(2) "203 ohms"; 3/21/2019 5:06:34 PM]	->	Resistance [2(2) _203 ohms_; 3_21_2019 5_06_34 PM].csv
+Resistance [1(1) "127 ohms"; 3/21/2019 5:06:12 PM]	->	Resistance [1(1) _127 ohms_; 3_21_2019 5_06_12 PM].csv
+DualRESET [1,2(1) ; 3/21/2019 5:05:36 PM]	->	DualRESET [1,2(1) ; 3_21_2019 5_05_36 PM].csv
+Resistance [2(2) "211 ohms"; 3/21/2019 5:03:53 PM]	->	Resistance [2(2) _211 ohms_; 3_21_2019 5_03_53 PM].csv
+Resistance [1(1) "5 kohms"; 3/21/2019 5:02:39 PM]	->	Resistance [1(1) _5 kohms_; 3_21_2019 5_02_39 PM].csv
+DualSET [1,2(1) ; 3/21/2019 5:01:42 PM]	->	DualSET [1,2(1) ; 3_21_2019 5_01_42 PM].csv
+Resistance [2(3) "11 kohms"; 3/21/2019 5:00:54 PM]	->	Resistance [2(3) _11 kohms_; 3_21_2019 5_00_54 PM].csv
+Resistance [1(2) "16 kohms"; 3/21/2019 5:00:33 PM]	->	Resistance [1(2) _16 kohms_; 3_21_2019 5_00_33 PM].csv
+RESET [2(2) ; 3/21/2019 4:59:21 PM]	->	RESET [2(2) ; 3_21_2019 4_59_21 PM].csv
+RESET [1(1) ; 3/21/2019 4:58:42 PM]	->	RESET [1(1) ; 3_21_2019 4_58_42 PM].csv
+Resistance [2(2) "210 ohms"; 3/21/2019 4:58:19 PM]	->	Resistance [2(2) _210 ohms_; 3_21_2019 4_58_19 PM].csv
+Resistance [1(1) "203 ohms"; 3/21/2019 4:58:02 PM]	->	Resistance [1(1) _203 ohms_; 3_21_2019 4_58_02 PM].csv
+DualSET [1,2(1) "Device seem to be broken?"; 3/21/2019 4:57:05 PM]	->	DualSET [1,2(1) _Device seem to be broken__; 3_21_2019 4_57_05 PM].csv
+Resistance [2(3) "225 ohms"; 3/21/2019 4:55:45 PM]	->	Resistance [2(3) _225 ohms_; 3_21_2019 4_55_45 PM].csv
+Resistance [1(2) "180 ohms"; 3/21/2019 4:55:17 PM]	->	Resistance [1(2) _180 ohms_; 3_21_2019 4_55_17 PM].csv
+DualRESET [1,2(1) ; 3/21/2019 4:53:49 PM]	->	DualRESET [1,2(1) ; 3_21_2019 4_53_49 PM].csv
+Resistance [2(2) "209 ohms"; 3/21/2019 4:52:54 PM]	->	Resistance [2(2) _209 ohms_; 3_21_2019 4_52_54 PM].csv
+Resistance [1(1) "230 ohms"; 3/21/2019 4:52:04 PM]	->	Resistance [1(1) _230 ohms_; 3_21_2019 4_52_04 PM].csv
+DualSET [1,2(1) ; 3/21/2019 4:51:19 PM]	->	DualSET [1,2(1) ; 3_21_2019 4_51_19 PM].csv
+Resistance [2(3) "450 ohms"; 3/21/2019 4:50:06 PM]	->	Resistance [2(3) _450 ohms_; 3_21_2019 4_50_06 PM].csv
+Resistance [1(2) "170 ohms"; 3/21/2019 4:49:25 PM]	->	Resistance [1(2) _170 ohms_; 3_21_2019 4_49_25 PM].csv
+DualRESET [1,2(1) ; 3/21/2019 4:48:42 PM]	->	DualRESET [1,2(1) ; 3_21_2019 4_48_42 PM].csv
+Resistance [2(2) "218 ohms"; 3/21/2019 4:47:48 PM]	->	Resistance [2(2) _218 ohms_; 3_21_2019 4_47_48 PM].csv
+Resistance [1(1) "47.6 kohms"; 3/21/2019 4:46:44 PM]	->	Resistance [1(1) _47.6 kohms_; 3_21_2019 4_46_44 PM].csv
+DualSET [1,2(1) ; 3/21/2019 4:45:57 PM]	->	DualSET [1,2(1) ; 3_21_2019 4_45_57 PM].csv
+Resistance [2(2) "~381.8 ohms"; 3/21/2019 4:44:00 PM]	->	Resistance [2(2) _~381.8 ohms_; 3_21_2019 4_44_00 PM].csv
+Resistance [1(1) "~157.39 ohms"; 3/21/2019 4:43:22 PM]	->	Resistance [1(1) _~157.39 ohms_; 3_21_2019 4_43_22 PM].csv
+DualRESET [1,2(1) ; 3/21/2019 4:41:26 PM]	->	DualRESET [1,2(1) ; 3_21_2019 4_41_26 PM].csv
+Resistance [2(2) "~239 ohms"; 3/21/2019 4:40:06 PM]	->	Resistance [2(2) _~239 ohms_; 3_21_2019 4_40_06 PM].csv
+Resistance [1(1) "~102 kohms"; 3/21/2019 4:39:40 PM]	->	Resistance [1(1) _~102 kohms_; 3_21_2019 4_39_40 PM].csv
+SET [2(1) ; 3/21/2019 4:39:18 PM]	->	SET [2(1) ; 3_21_2019 4_39_18 PM].csv
+RESET [1(1) ; 3/21/2019 4:38:48 PM]	->	RESET [1(1) ; 3_21_2019 4_38_48 PM].csv
+Resistance [2(2) "~242 ohms"; 3/21/2019 4:34:43 PM]	->	Resistance [2(2) _~242 ohms_; 3_21_2019 4_34_43 PM].csv
+Resistance [1(1) "~33 kohms"; 3/21/2019 4:33:48 PM]	->	Resistance [1(1) _~33 kohms_; 3_21_2019 4_33_48 PM].csv
+DualSET [1,2(1) "1.4 V max"; 3/21/2019 4:33:12 PM]	->	DualSET [1,2(1) _1.4 V max_; 3_21_2019 4_33_12 PM].csv
+Resistance [2(2) "~242 ohms"; 3/21/2019 4:32:15 PM]	->	Resistance [2(2) _~242 ohms_; 3_21_2019 4_32_15 PM].csv
+Resistance [1(1) "~486 ohms"; 3/21/2019 4:31:22 PM]	->	Resistance [1(1) _~486 ohms_; 3_21_2019 4_31_22 PM].csv
+DualSET [1,2(1) "1.25 V max"; 3/21/2019 4:30:47 PM]	->	DualSET [1,2(1) _1.25 V max_; 3_21_2019 4_30_47 PM].csv
+Resistance [2(1) "~305 ohms"; 3/21/2019 4:29:10 PM]	->	Resistance [2(1) _~305 ohms_; 3_21_2019 4_29_10 PM].csv
+Resistance [1(1) "~178 ohms"; 3/21/2019 4:25:10 PM]	->	Resistance [1(1) _~178 ohms_; 3_21_2019 4_25_10 PM].csv
+DualRESET [1,2(1) ; 3/21/2019 4:24:14 PM]	->	DualRESET [1,2(1) ; 3_21_2019 4_24_14 PM].csv
+Resistance [2(1) "~315 ohms"; 3/21/2019 4:21:01 PM]	->	Resistance [2(1) _~315 ohms_; 3_21_2019 4_21_01 PM].csv
+SET [2(1) "Set appears to work"; 3/21/2019 4:20:02 PM]	->	SET [2(1) _Set appears to work_; 3_21_2019 4_20_02 PM].csv
+Resistance [2(1) "~3.8 kohms"; 3/21/2019 4:18:58 PM]	->	Resistance [2(1) _~3.8 kohms_; 3_21_2019 4_18_58 PM].csv
+RESET [2(1) "Reset appears to work"; 3/21/2019 4:18:26 PM]	->	RESET [2(1) _Reset appears to work_; 3_21_2019 4_18_26 PM].csv
+Resistance [2(2) "~211 ohms"; 3/21/2019 4:17:27 PM]	->	Resistance [2(2) _~211 ohms_; 3_21_2019 4_17_27 PM].csv
+Resistance [1(1) "~1.95 kohms"; 3/21/2019 4:16:32 PM]	->	Resistance [1(1) _~1.95 kohms_; 3_21_2019 4_16_32 PM].csv
+SET [1(1) "Set appears to work"; 3/21/2019 4:15:45 PM]	->	SET [1(1) _Set appears to work_; 3_21_2019 4_15_45 PM].csv
+Resistance [1(1) "~80 kohms"; 3/21/2019 4:15:07 PM]	->	Resistance [1(1) _~80 kohms_; 3_21_2019 4_15_07 PM].csv
+RESET [1(1) "Reset appears to work"; 3/21/2019 4:14:01 PM]	->	RESET [1(1) _Reset appears to work_; 3_21_2019 4_14_01 PM].csv
+Resistance [1(1) "~438 ohms"; 3/21/2019 4:13:09 PM]	->	Resistance [1(1) _~438 ohms_; 3_21_2019 4_13_09 PM].csv
+! DualSET [1,2(1) "Device 1 probably brokedown"; 3/21/2019 4:10:33 PM]	->	! DualSET [1,2(1) _Device 1 probably brokedown_; 3_21_2019 4_10_33 PM].csv
+Resistance [2(2) "~410 ohms"; 3/21/2019 4:08:01 PM]	->	Resistance [2(2) _~410 ohms_; 3_21_2019 4_08_01 PM].csv
+Resistance [1(1) "~161 ohms"; 3/21/2019 4:07:23 PM]	->	Resistance [1(1) _~161 ohms_; 3_21_2019 4_07_23 PM].csv
+SET [2(1) ; 3/21/2019 4:05:10 PM]	->	SET [2(1) ; 3_21_2019 4_05_10 PM].csv
+RESET [2(1) ; 3/21/2019 4:04:08 PM]	->	RESET [2(1) ; 3_21_2019 4_04_08 PM].csv
+SET [1(1) ; 3/21/2019 4:03:25 PM]	->	SET [1(1) ; 3_21_2019 4_03_25 PM].csv
+RESET [1(1) ; 3/21/2019 4:02:07 PM]	->	RESET [1(1) ; 3_21_2019 4_02_07 PM].csv
+Resistance [2(4) ; 3/21/2019 4:00:18 PM]	->	Resistance [2(4) ; 3_21_2019 4_00_18 PM].csv
+Resistance [1(3) ; 3/21/2019 4:00:04 PM]	->	Resistance [1(3) ; 3_21_2019 4_00_04 PM].csv
+Resistance [2(2) "~220 ohms"; 3/21/2019 3:56:29 PM]	->	Resistance [2(2) _~220 ohms_; 3_21_2019 3_56_29 PM].csv
+Resistance [1(1) "~175 ohms"; 3/21/2019 3:54:30 PM]	->	Resistance [1(1) _~175 ohms_; 3_21_2019 3_54_30 PM].csv
+DualSET [1,2(2) "Both start in RL. Gate voltage drop observed"; 3/21/2019 3:50:42 PM]	->	DualSET [1,2(2) _Both start in RL. Gate voltage drop observed_; 3_21_2019 3_50_42 PM].csv
+DualSET [(1) "Compliance current not high enough"; 3/21/2019 3:48:30 PM]	->	DualSET [(1) _Compliance current not high enough_; 3_21_2019 3_48_30 PM].csv
+SET [2(1) ; 3/21/2019 3:20:33 PM]	->	SET [2(1) ; 3_21_2019 3_20_33 PM].csv
+RESET [2(1) "~5 kohms"; 3/21/2019 3:19:30 PM]	->	RESET [2(1) _~5 kohms_; 3_21_2019 3_19_30 PM].csv
+Resistance [2(1) "~250 ohms"; 3/21/2019 3:17:31 PM]	->	Resistance [2(1) _~250 ohms_; 3_21_2019 3_17_31 PM].csv
+FORM [2(2) ; 3/21/2019 3:16:41 PM]	->	FORM [2(2) ; 3_21_2019 3_16_41 PM].csv
+SET [1(1) ; 3/21/2019 3:13:47 PM]	->	SET [1(1) ; 3_21_2019 3_13_47 PM].csv
+RESET [1(1) "~6.5 kohms"; 3/21/2019 3:13:23 PM]	->	RESET [1(1) _~6.5 kohms_; 3_21_2019 3_13_23 PM].csv
+Resistance [1(1) "~200 ohms"; 3/21/2019 3:12:09 PM]	->	Resistance [1(1) _~200 ohms_; 3_21_2019 3_12_09 PM].csv
+FORM [1(1) ; 3/21/2019 3:10:45 PM]	->	FORM [1(1) ; 3_21_2019 3_10_45 PM].csv

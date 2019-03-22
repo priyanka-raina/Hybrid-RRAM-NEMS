@@ -1,0 +1,6 @@
+Index	Vtop	Itop	Resistance
+1	 0 V	 -82.7834 nA	 0 ohm
+2	 25.00 mV	 192.560 uA	 129.8296635 ohm
+3	 50.00 mV	 385.520 uA	 129.6949575 ohm
+4	 75.00 mV	 578.940 uA	 129.5471033 ohm
+5	 100.00 mV	 773.140 uA	 129.3426805 ohm
