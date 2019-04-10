@@ -39,7 +39,7 @@ for f in glob.glob('dual_rram/*.csv'):
     ms.append(m)
 
 
-for m in sorted(ms, key=lambda k: k['rectime'])[89:]:
+for i, m in enumerate(sorted(ms, key=lambda k: k['rectime'])[:]):
     print 'Setup:', m['setup']
     print 'Devices:', m['devices']
     print 'Start V:', m['startv']
@@ -83,4 +83,4 @@ for m in sorted(ms, key=lambda k: k['rectime'])[89:]:
         ax2.legend([r1curve, r2curve], ['$R_1$', '$R_2$'])
     except KeyError:
         pass
-    plt.show()
+    plt.savefig('plots/%i.png' % i)
