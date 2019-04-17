@@ -1,0 +1,252 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      9102,        242]
+NotebookOptionsPosition[      8694,        223]
+NotebookOutlinePosition[      9053,        239]
+CellTagsIndexPosition[      9010,        236]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", " ", 
+   RowBox[{"Relay", " ", "technology", " ", "parameters"}], " ", "*)"}], 
+  "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"\[Gamma]f", "=", "3.66"}], ";", " ", 
+    RowBox[{"(*", " ", 
+     RowBox[{"flexural", " ", "constant"}], " ", "*)"}], 
+    "\[IndentingNewLine]", 
+    RowBox[{"\[Gamma]t", "=", 
+     TemplateBox[{RowBox[{"1.341", " ", 
+         SuperscriptBox["10", "10"]}],RowBox[{"\"per \"", "\[InvisibleSpace]", 
+         SuperscriptBox["\"meter\"", "2"]}],"per meters squared",FractionBox[
+       "1", 
+        SuperscriptBox["\"Meters\"", "2"]]},
+      "Quantity"]}], ";", " ", 
+    RowBox[{"(*", " ", 
+     RowBox[{"torsional", " ", "constant"}], " ", "*)"}], 
+    "\[IndentingNewLine]", "\[IndentingNewLine]", 
+    RowBox[{"(*", " ", 
+     RowBox[{"Design", " ", "parameters"}], " ", "*)"}], 
+    "\[IndentingNewLine]", 
+    RowBox[{"Y", "=", 
+     TemplateBox[{"160","\"GPa\"","gigapascals","\"Gigapascals\""},
+      "Quantity"]}], ";", " ", 
+    RowBox[{"(*", " ", 
+     RowBox[{
+      RowBox[{"Young", "'"}], "s", " ", "Modulus"}], " ", "*)"}], 
+    "\[IndentingNewLine]", 
+    RowBox[{"G", "=", 
+     TemplateBox[{"57","\"GPa\"","gigapascals","\"Gigapascals\""},
+      "Quantity"]}], ";", " ", 
+    RowBox[{"(*", " ", 
+     RowBox[{"shear", " ", "modulus"}], " ", "*)"}], "\[IndentingNewLine]", 
+    RowBox[{"d", "=", 
+     TemplateBox[{
+      "4126",RowBox[{
+        "\"kg\"", "\[InvisibleSpace]", "\"/\"", "\[InvisibleSpace]", 
+         SuperscriptBox["\"m\"", "3"]}],"kilograms per meter cubed",
+       FractionBox["\"Kilograms\"", 
+        SuperscriptBox["\"Meters\"", "3"]]},
+      "Quantity"]}], ";", " ", 
+    RowBox[{"(*", " ", "density", " ", "*)"}], "\[IndentingNewLine]", 
+    RowBox[{"W", "=", 
+     TemplateBox[{"1","\"\[Micro]m\"","micrometers","\"Micrometers\""},
+      "Quantity"]}], ";", " ", 
+    RowBox[{"(*", " ", 
+     RowBox[{"beam", " ", "width"}], " ", "*)"}], "\[IndentingNewLine]", 
+    RowBox[{"L", "=", 
+     TemplateBox[{"5","\"\[Micro]m\"","micrometers","\"Micrometers\""},
+      "Quantity"]}], ";", " ", 
+    RowBox[{"(*", " ", 
+     RowBox[{"beam", " ", "length"}], " ", "*)"}], "\[IndentingNewLine]", 
+    RowBox[{"h", "=", 
+     TemplateBox[{"1","\"\[Micro]m\"","micrometers","\"Micrometers\""},
+      "Quantity"]}], ";"}], " ", 
+   RowBox[{"(*", " ", 
+    RowBox[{"beam", " ", "thickness"}], " ", "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"WA", "=", 
+     TemplateBox[{"3","\"\[Micro]m\"","micrometers","\"Micrometers\""},
+      "Quantity"]}], ";"}], " ", 
+   RowBox[{"(*", " ", 
+    RowBox[{"actuation", " ", "width"}], " ", "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"LA", "=", 
+     TemplateBox[{"3","\"\[Micro]m\"","micrometers","\"Micrometers\""},
+      "Quantity"]}], ";"}], " ", 
+   RowBox[{"(*", " ", 
+    RowBox[{"actuation", " ", "length"}], " ", "*)"}], "\[IndentingNewLine]", 
+   
+   RowBox[{
+    RowBox[{"g", "=", 
+     TemplateBox[{"200","\"nm\"","nanometers","\"Nanometers\""},
+      "Quantity"]}], ";"}], " ", 
+   RowBox[{"(*", " ", 
+    RowBox[{"gap", " ", "thickness"}], " ", "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"gd", "=", 
+     TemplateBox[{"100","\"nm\"","nanometers","\"Nanometers\""},
+      "Quantity"]}], ";"}], " ", 
+   RowBox[{"(*", " ", 
+    RowBox[{"dimple", " ", "gap", " ", "thickness"}], " ", "*)"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"FA", "=", 
+     TemplateBox[{"0.45","\"\[Micro]N\"","micronewtons","\"Micronewtons\""},
+      "Quantity"]}], ";", " ", 
+    RowBox[{"(*", 
+     RowBox[{
+      RowBox[{
+       RowBox[{" ", 
+        RowBox[{
+        "stiction", " ", "force", " ", "for", " ", "contact", " ", "dimple", 
+         " ", "area", " ", "of", " ", "20", " ", 
+         SuperscriptBox["um", "2"]}], ")"}], "\[IndentingNewLine]", 
+       "\[IndentingNewLine]", 
+       RowBox[{"(*", " ", 
+        RowBox[{"Compute", " ", "system", " ", "parameters"}], " ", "*)"}], 
+       "\[IndentingNewLine]", "keff"}], "=", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"UnitConvert", "[", 
+         RowBox[{
+          SuperscriptBox[
+           RowBox[{"(", 
+            RowBox[{
+             SuperscriptBox[
+              RowBox[{"(", 
+               RowBox[{"\[Gamma]f", " ", 
+                FractionBox[
+                 RowBox[{"Y", " ", "W", " ", 
+                  SuperscriptBox["h", "3"]}], 
+                 SuperscriptBox["L", "3"]]}], ")"}], 
+              RowBox[{"-", "1"}]], "+", 
+             SuperscriptBox[
+              RowBox[{"(", 
+               RowBox[{"\[Gamma]t", " ", 
+                FractionBox[
+                 RowBox[{"G", " ", "W", " ", 
+                  SuperscriptBox["h", "3"]}], "L"]}], ")"}], 
+              RowBox[{"-", "1"}]]}], ")"}], 
+           RowBox[{"-", "1"}]], ",", "\"\<N/m\>\""}], "]"}], " ", 
+        RowBox[{"(*", " ", 
+         RowBox[{"approximate", " ", "spring", " ", "constant"}], " ", "*)"}],
+         "\[IndentingNewLine]", "Vpi"}], "=", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"UnitConvert", "[", 
+          RowBox[{
+           SqrtBox[
+            FractionBox[
+             RowBox[{"8", " ", "keff", " ", 
+              SuperscriptBox["g", "3"]}], 
+             RowBox[{"27", " ", 
+              
+              TemplateBox[{
+               InterpretationBox["\[InvisibleSpace]", 1],SubscriptBox[
+                "\"\[CurlyEpsilon]\"", "0"],"electric constants",
+                "\"ElectricConstant\""},
+               "Quantity"], "WA", " ", "LA"}]]], ",", "\"\<V\>\""}], "]"}], 
+         "\[IndentingNewLine]", "Vpo"}], "=", 
+        RowBox[{"UnitConvert", "[", 
+         RowBox[{
+          SqrtBox[
+           FractionBox[
+            RowBox[{"2", 
+             RowBox[{"(", " ", 
+              RowBox[{
+               RowBox[{"keff", " ", "gd"}], "-", "FA"}], ")"}], 
+             SuperscriptBox[
+              RowBox[{"(", 
+               RowBox[{"g", "-", "gd"}], ")"}], "2"]}], 
+            RowBox[{"27", " ", 
+             
+             TemplateBox[{
+              InterpretationBox["\[InvisibleSpace]", 1],SubscriptBox[
+               "\"\[CurlyEpsilon]\"", "0"],"electric constants",
+               "\"ElectricConstant\""},
+              "Quantity"], "WA", " ", "LA"}]]], ",", "\"\<V\>\""}], "]"}], 
+        "\[IndentingNewLine]", "\[IndentingNewLine]", 
+        "\[IndentingNewLine]"}]}]}]}]}]}]}]], "Input",
+ CellChangeTimes->{{3.764098425315633*^9, 3.764098426741884*^9}, {
+   3.764098486041006*^9, 3.7640986548339643`*^9}, {3.7640991799241*^9, 
+   3.764099419962771*^9}, {3.7640999691224527`*^9, 3.764100026890922*^9}, {
+   3.76435703249504*^9, 3.7643571353976192`*^9}, {3.7643572606084843`*^9, 
+   3.764357302008478*^9}, 3.7643573793633003`*^9, {3.764357409850073*^9, 
+   3.7643576459428062`*^9}, {3.7643576760302687`*^9, 3.764357699777775*^9}, {
+   3.764357777608144*^9, 3.76435796425216*^9}, {3.7643581348719883`*^9, 
+   3.764358207680418*^9}, {3.764358243529377*^9, 3.764358245599269*^9}, {
+   3.7643582882274923`*^9, 3.764358292950871*^9}, {3.764358325701865*^9, 
+   3.76435832736018*^9}, 3.764358362976231*^9, {3.764358666759459*^9, 
+   3.76435873438943*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "763.2706572596766`",
+   RowBox[{"\"N\"", "\[InvisibleSpace]", "\"/\"", "\[InvisibleSpace]", 
+     "\"m\""}],"newtons per meter",FractionBox["\"Newtons\"", "\"Meters\""]},
+  "Quantity"]], "Output",
+ CellChangeTimes->{
+  3.764357410360238*^9, 3.7643574506466837`*^9, {3.764357869464365*^9, 
+   3.764357914643124*^9}, {3.764358182940447*^9, 3.764358209755929*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{"90.40720001216705`","\"V\"","volts","\"Volts\""},
+  "Quantity"]], "Output",
+ CellChangeTimes->{
+  3.764357410360238*^9, 3.7643574506466837`*^9, {3.764357869464365*^9, 
+   3.764357914643124*^9}, {3.764358182940447*^9, 3.764358209793564*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{"15.934704356625879`","\"V\"","volts","\"Volts\""},
+  "Quantity"]], "Output",
+ CellChangeTimes->{
+  3.764357410360238*^9, 3.7643574506466837`*^9, {3.764357869464365*^9, 
+   3.764357914643124*^9}, {3.764358182940447*^9, 3.7643582098968477`*^9}}]
+}, Open  ]]
+},
+WindowSize->{899, 755},
+WindowMargins->{{-1052, Automatic}, {Automatic, -305}},
+FrontEndVersion->"11.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (July 28, \
+2016)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 7155, 174, 612, "Input"],
+Cell[7738, 198, 393, 8, 34, "Output"],
+Cell[8134, 208, 269, 5, 34, "Output"],
+Cell[8406, 215, 272, 5, 34, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
