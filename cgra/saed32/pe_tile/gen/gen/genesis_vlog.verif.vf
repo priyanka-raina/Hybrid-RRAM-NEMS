@@ -1,0 +1,16 @@
+genesis_verif/cb_unq1.v
+genesis_verif/cb_unq2.v
+genesis_verif/cb_unq3.v
+genesis_verif/sb_unq1.v
+genesis_verif/sb_unq2.v
+genesis_verif/test_opt_reg.sv
+genesis_verif/test_opt_reg_file.sv
+genesis_verif/test_full_add.sv
+genesis_verif/test_cmpr.sv
+genesis_verif/test_mult_add.sv
+genesis_verif/test_shifter_unq1.sv
+genesis_verif/test_pe_comp_unq1.sv
+genesis_verif/test_lut.sv
+genesis_verif/test_debug_reg.sv
+genesis_verif/test_pe_unq1.sv
+genesis_verif/pe_tile_new.sv

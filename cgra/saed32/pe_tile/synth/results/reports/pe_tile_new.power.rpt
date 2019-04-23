@@ -1,0 +1,219 @@
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : pe_tile_new
+Version: L-2016.03-SP5-5
+Date   : Mon Apr 22 20:35:59 2019
+****************************************
+
+
+Library(s) Used:
+
+    saed32hvt_ss0p95v125c (File: /cad/synopsys_EDK3/SAED32_EDK/lib/stdcell_hvt/db_nldm/saed32hvt_ss0p95v125c.db)
+
+
+Operating Conditions: ss0p95v125c   Library: saed32hvt_ss0p95v125c
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+pe_tile_new            35000             saed32hvt_ss0p95v125c
+cb_unq1_3              8000              saed32hvt_ss0p95v125c
+cb_unq1_4              8000              saed32hvt_ss0p95v125c
+cb_unq1_5              8000              saed32hvt_ss0p95v125c
+sb_unq1_0              16000             saed32hvt_ss0p95v125c
+sb_unq2_0              8000              saed32hvt_ss0p95v125c
+test_pe_unq1_0         8000              saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_cb_unq1_0_3
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_cb_unq1_0_4
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_cb_unq1_0_5
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_sb_unq1_42
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_sb_unq1_43
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_sb_unq1_83
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_sb_unq1_82
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_sb_unq1_81
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_sb_unq1_80
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_sb_unq1_79
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_sb_unq1_78
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_sb_unq1_77
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_sb_unq1_76
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_sb_unq1_75
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_sb_unq1_74
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_sb_unq1_73
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_sb_unq1_72
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_sb_unq1_71
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_sb_unq1_70
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_sb_unq1_69
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_sb_unq1_68
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_sb_unq1_67
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_sb_unq1_66
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_sb_unq1_65
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_sb_unq1_64
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_sb_unq1_63
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_sb_unq1_62
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_sb_unq1_61
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_sb_unq1_60
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_sb_unq1_59
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_sb_unq1_58
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_sb_unq1_57
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_sb_unq1_56
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_sb_unq1_55
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_sb_unq1_54
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_sb_unq1_53
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_sb_unq1_52
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_sb_unq1_51
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_sb_unq1_50
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_sb_unq1_49
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_sb_unq1_48
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_sb_unq1_47
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_sb_unq1_46
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_sb_unq1_45
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_sb_unq1_44
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_sb_unq2_6
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_sb_unq2_7
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_sb_unq2_11
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_sb_unq2_10
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_sb_unq2_9
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_sb_unq2_8
+                       ForQA             saed32hvt_ss0p95v125c
+test_opt_reg_DataWidth16_2
+                       8000              saed32hvt_ss0p95v125c
+test_opt_reg_file_DataWidth16_0
+                       8000              saed32hvt_ss0p95v125c
+test_opt_reg_DataWidth16_3
+                       8000              saed32hvt_ss0p95v125c
+test_opt_reg_DataWidth1_3
+                       ForQA             saed32hvt_ss0p95v125c
+test_opt_reg_DataWidth1_4
+                       ForQA             saed32hvt_ss0p95v125c
+test_opt_reg_DataWidth1_5
+                       ForQA             saed32hvt_ss0p95v125c
+test_pe_comp_unq1_0    8000              saed32hvt_ss0p95v125c
+test_lut_DataWidth1_0  ForQA             saed32hvt_ss0p95v125c
+test_debug_reg_DataWidth16_0
+                       8000              saed32hvt_ss0p95v125c
+test_debug_reg_DataWidth1_0
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_test_pe_unq1_0
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_test_opt_reg_DataWidth16_0_2
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_test_opt_reg_file_DataWidth16_0
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_test_opt_reg_DataWidth16_0_3
+                       ForQA             saed32hvt_ss0p95v125c
+test_full_add_DataWidth16_2
+                       ForQA             saed32hvt_ss0p95v125c
+test_full_add_DataWidth16_3
+                       ForQA             saed32hvt_ss0p95v125c
+test_cmpr_0            ForQA             saed32hvt_ss0p95v125c
+test_mult_add_DataWidth16_0
+                       8000              saed32hvt_ss0p95v125c
+test_shifter_unq1_DataWidth16_0
+                       8000              saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_test_lut_DataWidth1_0
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_test_debug_reg_DataWidth16_0
+                       ForQA             saed32hvt_ss0p95v125c
+
+
+Global Operating Voltage = 0.95 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+pe_tile_new                             144.685  571.383 4.11e+08 1.13e+03 100.0
+  test_pe (test_pe_unq1_0)                7.323   18.079 6.99e+07   95.305   8.5
+    test_debug_bit (test_debug_reg_DataWidth1_0)
+                                       8.66e-03    0.244 2.75e+05    0.528   0.0
+    test_debug_data (test_debug_reg_DataWidth16_0)
+                                       5.23e-03    3.273 3.31e+06    6.589   0.6
+    test_lut (test_lut_DataWidth1_0)   1.65e-02    1.864 1.71e+06    3.590   0.3
+    test_pe_comp (test_pe_comp_unq1_0) 6.56e-03 9.30e-04 3.76e+07   37.646   3.3
+      test_shifter (test_shifter_unq1_DataWidth16_0)
+                                          0.000    0.000 3.62e+06    3.619   0.3
+      test_mult_add (test_mult_add_DataWidth16_0)
+                                          0.000    0.000 2.29e+07   22.868   2.0
+      cmpr (test_cmpr_0)               1.69e-04 9.72e-05 9.25e+04 9.27e-02   0.0
+      GEN_ADD[1].full_add (test_full_add_DataWidth16_3)
+                                          0.000    0.000 1.11e+06    1.112   0.1
+      GEN_ADD[0].full_add (test_full_add_DataWidth16_2)
+                                          0.000    0.000 1.11e+06    1.112   0.1
+    test_opt_reg_f (test_opt_reg_DataWidth1_5)
+                                       7.00e-02    0.339 3.58e+05    0.767   0.1
+    test_opt_reg_e (test_opt_reg_DataWidth1_4)
+                                       7.13e-02    0.343 3.58e+05    0.773   0.1
+    test_opt_reg_d (test_opt_reg_DataWidth1_3)
+                                       7.12e-02    0.343 3.58e+05    0.772   0.1
+    test_opt_reg_c (test_opt_reg_DataWidth16_3)
+                                       2.60e-02      N/A 3.89e+06    3.842   0.3
+    test_opt_reg_file (test_opt_reg_file_DataWidth16_0)
+                                       4.01e-04      N/A 4.06e+06    3.910   0.3
+    test_opt_reg_a (test_opt_reg_DataWidth16_2)
+                                       2.60e-02      N/A 3.92e+06    3.879   0.3
+  sb_1b (sb_unq2_0)                      18.115   82.363 5.19e+07  152.420  13.5
+  sb_wide (sb_unq1_0)                    84.025  433.038 2.46e+08  763.179  67.7
+  cb_data2 (cb_unq1_5)                    1.708    7.302 1.11e+07   20.109   1.8
+  cb_data1 (cb_unq1_4)                    1.708    7.302 1.11e+07   20.109   1.8
+  cb_data0 (cb_unq1_3)                    1.708    7.307 1.11e+07   20.114   1.8
+1

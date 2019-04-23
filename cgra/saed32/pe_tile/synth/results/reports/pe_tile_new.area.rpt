@@ -1,0 +1,134 @@
+ 
+****************************************
+Report : area
+Design : pe_tile_new
+Version: L-2016.03-SP5-5
+Date   : Mon Apr 22 20:35:59 2019
+****************************************
+
+Library(s) Used:
+
+    saed32hvt_ss0p95v125c (File: /cad/synopsys_EDK3/SAED32_EDK/lib/stdcell_hvt/db_nldm/saed32hvt_ss0p95v125c.db)
+
+Number of ports:                         4715
+Number of nets:                         11619
+Number of cells:                         7420
+Number of combinational cells:           6043
+Number of sequential cells:              1299
+Number of macros/black boxes:               0
+Number of buf/inv:                        465
+Number of references:                      24
+
+Combinational area:              14803.125682
+Buf/Inv area:                      667.890443
+Noncombinational area:           11482.988634
+Macro/Black Box area:                0.000000
+Net Interconnect area:           10369.975668
+
+Total cell area:                 26286.114316
+Total area:                      36656.089985
+
+Information: This design contains black box (unknown) components. (RPT-8)
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area            Local cell area
+                                  -------------------  ------------------------------ 
+Hierarchical cell                 Absolute    Percent  Combi-      Noncombi-   Black-
+                                  Total       Total    national    national    boxes   Design
+--------------------------------  ----------  -------  ----------  ----------  ------  ----------------------------------------------------
+pe_tile_new                       26286.1143    100.0    802.3326      9.1492  0.0000  pe_tile_new
+cb_data0                            743.8795      2.8    443.2271    294.8070  0.0000  cb_unq1_3
+cb_data0/clk_gate_config_cb_reg       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_cb_unq1_0_3
+cb_data1                            743.8795      2.8    443.2271    294.8070  0.0000  cb_unq1_4
+cb_data1/clk_gate_config_cb_reg       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_cb_unq1_0_4
+cb_data2                            743.8795      2.8    443.2271    294.8070  0.0000  cb_unq1_5
+cb_data2/clk_gate_config_cb_reg       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_cb_unq1_0_5
+sb_1b                              3125.7171     11.9   1004.6312   2086.0140  0.0000  sb_unq2_0
+sb_1b/clk_gate_config_sb_reg          5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_sb_unq2_6
+sb_1b/clk_gate_config_sb_reg_0        5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_sb_unq2_7
+sb_1b/clk_gate_config_sb_reg_1        5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_sb_unq2_11
+sb_1b/clk_gate_config_sb_reg_2        5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_sb_unq2_10
+sb_1b/clk_gate_config_ungate_reg      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_sb_unq2_9
+sb_1b/clk_gate_config_ungate_reg_0
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_sb_unq2_8
+sb_wide                           14930.7061     56.8   7658.6295   7026.5735  0.0000  sb_unq1_0
+sb_wide/clk_gate_config_sb_reg        5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_sb_unq1_42
+sb_wide/clk_gate_config_sb_reg_0      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_sb_unq1_43
+sb_wide/clk_gate_config_sb_reg_1      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_sb_unq1_83
+sb_wide/clk_gate_config_sb_reg_2      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_sb_unq1_82
+sb_wide/clk_gate_config_ungate_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_sb_unq1_81
+sb_wide/clk_gate_config_ungate_reg_0
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_sb_unq1_80
+sb_wide/clk_gate_out_0_0_id1_reg      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_sb_unq1_79
+sb_wide/clk_gate_out_0_1_id1_reg      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_sb_unq1_78
+sb_wide/clk_gate_out_0_2_id1_reg      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_sb_unq1_77
+sb_wide/clk_gate_out_0_3_id1_reg      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_sb_unq1_76
+sb_wide/clk_gate_out_0_4_id1_reg      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_sb_unq1_75
+sb_wide/clk_gate_out_0_5_id1_reg      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_sb_unq1_74
+sb_wide/clk_gate_out_0_6_id1_reg      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_sb_unq1_73
+sb_wide/clk_gate_out_0_7_id1_reg      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_sb_unq1_72
+sb_wide/clk_gate_out_0_8_id1_reg      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_sb_unq1_71
+sb_wide/clk_gate_out_1_0_id1_reg      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_sb_unq1_70
+sb_wide/clk_gate_out_1_1_id1_reg      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_sb_unq1_69
+sb_wide/clk_gate_out_1_2_id1_reg      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_sb_unq1_68
+sb_wide/clk_gate_out_1_3_id1_reg      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_sb_unq1_67
+sb_wide/clk_gate_out_1_4_id1_reg      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_sb_unq1_66
+sb_wide/clk_gate_out_1_5_id1_reg      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_sb_unq1_65
+sb_wide/clk_gate_out_1_6_id1_reg      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_sb_unq1_64
+sb_wide/clk_gate_out_1_7_id1_reg      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_sb_unq1_63
+sb_wide/clk_gate_out_1_8_id1_reg      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_sb_unq1_62
+sb_wide/clk_gate_out_2_0_id1_reg      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_sb_unq1_61
+sb_wide/clk_gate_out_2_1_id1_reg      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_sb_unq1_60
+sb_wide/clk_gate_out_2_2_id1_reg      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_sb_unq1_59
+sb_wide/clk_gate_out_2_3_id1_reg      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_sb_unq1_58
+sb_wide/clk_gate_out_2_4_id1_reg      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_sb_unq1_57
+sb_wide/clk_gate_out_2_5_id1_reg      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_sb_unq1_56
+sb_wide/clk_gate_out_2_6_id1_reg      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_sb_unq1_55
+sb_wide/clk_gate_out_2_7_id1_reg      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_sb_unq1_54
+sb_wide/clk_gate_out_2_8_id1_reg      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_sb_unq1_53
+sb_wide/clk_gate_out_3_0_id1_reg      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_sb_unq1_52
+sb_wide/clk_gate_out_3_1_id1_reg      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_sb_unq1_51
+sb_wide/clk_gate_out_3_2_id1_reg      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_sb_unq1_50
+sb_wide/clk_gate_out_3_3_id1_reg      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_sb_unq1_49
+sb_wide/clk_gate_out_3_4_id1_reg      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_sb_unq1_48
+sb_wide/clk_gate_out_3_5_id1_reg      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_sb_unq1_47
+sb_wide/clk_gate_out_3_6_id1_reg      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_sb_unq1_46
+sb_wide/clk_gate_out_3_7_id1_reg      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_sb_unq1_45
+sb_wide/clk_gate_out_3_8_id1_reg      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_sb_unq1_44
+test_pe                            5186.5708     19.7    465.0835    448.3100  0.0000  test_pe_unq1_0
+test_pe/clk_gate_op_code_reg          5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_test_pe_unq1_0
+test_pe/test_debug_bit               16.2652      0.1      7.1160      9.1492  0.0000  test_debug_reg_DataWidth1_0
+test_pe/test_debug_data             207.1274      0.8     54.8951    146.3869  0.0000  test_debug_reg_DataWidth16_0
+test_pe/test_debug_data/clk_gate_debug_val_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_test_debug_reg_DataWidth16_0
+test_pe/test_lut                    103.6908      0.4     24.6520     73.1935  0.0000  test_lut_DataWidth1_0
+test_pe/test_lut/clk_gate_GEN_LUT[0].lut_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_test_lut_DataWidth1_0
+test_pe/test_opt_reg_a              243.4700      0.9     91.2377    146.3869  0.0000  test_opt_reg_DataWidth16_2
+test_pe/test_opt_reg_a/clk_gate_data_in_reg_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_test_opt_reg_DataWidth16_0_2
+test_pe/test_opt_reg_c              243.2158      0.9     90.9836    146.3869  0.0000  test_opt_reg_DataWidth16_3
+test_pe/test_opt_reg_c/clk_gate_data_in_reg_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_test_opt_reg_DataWidth16_0_3
+test_pe/test_opt_reg_d               26.6851      0.1     17.5359      9.1492  0.0000  test_opt_reg_DataWidth1_3
+test_pe/test_opt_reg_e               26.6851      0.1     17.5359      9.1492  0.0000  test_opt_reg_DataWidth1_4
+test_pe/test_opt_reg_f               26.6851      0.1     17.5359      9.1492  0.0000  test_opt_reg_DataWidth1_5
+test_pe/test_opt_reg_file           248.5528      0.9     96.3206    146.3869  0.0000  test_opt_reg_file_DataWidth16_0
+test_pe/test_opt_reg_file/clk_gate_data_in_reg_reg[0]
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_test_opt_reg_file_DataWidth16_0
+test_pe/test_pe_comp               3124.9546     11.9    778.4431      0.0000  0.0000  test_pe_comp_unq1_0
+test_pe/test_pe_comp/GEN_ADD[0].full_add
+                                     77.2598      0.3     77.2598      0.0000  0.0000  test_full_add_DataWidth16_2
+test_pe/test_pe_comp/GEN_ADD[1].full_add
+                                     77.2598      0.3     77.2598      0.0000  0.0000  test_full_add_DataWidth16_3
+test_pe/test_pe_comp/cmpr             8.8950      0.0      8.8950      0.0000  0.0000  test_cmpr_0
+test_pe/test_pe_comp/test_mult_add
+                                   1823.7373      6.9   1823.7373      0.0000  0.0000  test_mult_add_DataWidth16_0
+test_pe/test_pe_comp/test_shifter   359.3596      1.4    359.3596      0.0000  0.0000  test_shifter_unq1_DataWidth16_0
+--------------------------------  ----------  -------  ----------  ----------  ------  ----------------------------------------------------
+Total                                                  14803.1257  11482.9886  0.0000
+
+1
