@@ -1,0 +1,749 @@
+ 
+****************************************
+check_design summary:
+Version:     L-2016.03-SP5-5
+Date:        Wed May  8 19:29:44 2019
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                    305
+    Multiply driven inputs (LINT-6)                                88
+    Unconnected ports (LINT-28)                                   217
+
+Cells                                                             208
+    Connected to power or ground (LINT-32)                        202
+    Nets connected to multiple pins on same cell (LINT-33)          6
+
+Tristate                                                            6
+    A tristate bus has a non tri-state driver (LINT-34)             6
+--------------------------------------------------------------------------------
+
+Warning: In design 'pe_tile_new', input port 'clk_in' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_addr[31]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_addr[30]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_addr[29]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_addr[28]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_addr[27]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_addr[26]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_addr[25]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_addr[24]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_addr[23]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_addr[22]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_addr[21]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_addr[20]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_addr[19]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_addr[18]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_addr[17]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_addr[16]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_addr[15]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_addr[14]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_addr[13]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_addr[12]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_addr[11]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_addr[10]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_addr[9]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_addr[8]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_addr[7]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_addr[6]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_addr[5]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_addr[4]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_addr[3]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_addr[2]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_addr[1]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_addr[0]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_data[31]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_data[30]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_data[29]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_data[28]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_data[27]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_data[26]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_data[25]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_data[24]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_data[23]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_data[22]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_data[21]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_data[20]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_data[19]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_data[18]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_data[17]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_data[16]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_data[15]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_data[14]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_data[13]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_data[12]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_data[11]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_data[10]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_data[9]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_data[8]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_data[7]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_data[6]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_data[5]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_data[4]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_data[3]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_data[2]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_data[1]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'config_data[0]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'in_BUS1_S1_T0[0]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'in_BUS1_S1_T1[0]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'in_BUS1_S1_T2[0]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'in_BUS1_S1_T3[0]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'in_BUS1_S1_T4[0]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'in_BUS1_S1_T5[0]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'in_BUS1_S1_T6[0]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'in_BUS1_S1_T7[0]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'in_BUS1_S1_T8[0]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'in_BUS1_S2_T0[0]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'in_BUS1_S2_T1[0]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'in_BUS1_S2_T2[0]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'in_BUS1_S2_T3[0]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'in_BUS1_S2_T4[0]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'in_BUS1_S2_T5[0]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'in_BUS1_S2_T6[0]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'in_BUS1_S2_T7[0]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'in_BUS1_S2_T8[0]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'gin_0' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'gin_1' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'gin_2' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'gin_3' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'pe_tile_new', input port 'reset' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'cb_unq1_3', port 'config_addr[23]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_3', port 'config_addr[22]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_3', port 'config_addr[21]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_3', port 'config_addr[20]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_3', port 'config_addr[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_3', port 'config_addr[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_3', port 'config_addr[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_3', port 'config_addr[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_3', port 'config_addr[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_3', port 'config_addr[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_3', port 'config_addr[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_3', port 'config_addr[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_3', port 'config_addr[11]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_3', port 'config_addr[10]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_3', port 'config_addr[9]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_3', port 'config_addr[8]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_3', port 'config_addr[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_3', port 'config_addr[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_3', port 'config_addr[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_3', port 'config_addr[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_3', port 'config_addr[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_3', port 'config_addr[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_3', port 'config_addr[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_3', port 'config_addr[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_4', port 'config_addr[23]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_4', port 'config_addr[22]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_4', port 'config_addr[21]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_4', port 'config_addr[20]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_4', port 'config_addr[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_4', port 'config_addr[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_4', port 'config_addr[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_4', port 'config_addr[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_4', port 'config_addr[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_4', port 'config_addr[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_4', port 'config_addr[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_4', port 'config_addr[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_4', port 'config_addr[11]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_4', port 'config_addr[10]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_4', port 'config_addr[9]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_4', port 'config_addr[8]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_4', port 'config_addr[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_4', port 'config_addr[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_4', port 'config_addr[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_4', port 'config_addr[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_4', port 'config_addr[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_4', port 'config_addr[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_4', port 'config_addr[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_4', port 'config_addr[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_5', port 'config_addr[23]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_5', port 'config_addr[22]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_5', port 'config_addr[21]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_5', port 'config_addr[20]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_5', port 'config_addr[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_5', port 'config_addr[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_5', port 'config_addr[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_5', port 'config_addr[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_5', port 'config_addr[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_5', port 'config_addr[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_5', port 'config_addr[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_5', port 'config_addr[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_5', port 'config_addr[11]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_5', port 'config_addr[10]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_5', port 'config_addr[9]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_5', port 'config_addr[8]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_5', port 'config_addr[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_5', port 'config_addr[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_5', port 'config_addr[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_5', port 'config_addr[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_5', port 'config_addr[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_5', port 'config_addr[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_5', port 'config_addr[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'cb_unq1_5', port 'config_addr[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'sb_unq1_0', port 'config_addr[23]' is not connected to any nets. (LINT-28)
+Warning: In design 'sb_unq1_0', port 'config_addr[22]' is not connected to any nets. (LINT-28)
+Warning: In design 'sb_unq1_0', port 'config_addr[21]' is not connected to any nets. (LINT-28)
+Warning: In design 'sb_unq1_0', port 'config_addr[20]' is not connected to any nets. (LINT-28)
+Warning: In design 'sb_unq1_0', port 'config_addr[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'sb_unq1_0', port 'config_addr[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'sb_unq1_0', port 'config_addr[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'sb_unq1_0', port 'config_addr[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'sb_unq1_0', port 'config_addr[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'sb_unq1_0', port 'config_addr[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'sb_unq1_0', port 'config_addr[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'sb_unq1_0', port 'config_addr[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'sb_unq1_0', port 'config_addr[11]' is not connected to any nets. (LINT-28)
+Warning: In design 'sb_unq1_0', port 'config_addr[10]' is not connected to any nets. (LINT-28)
+Warning: In design 'sb_unq1_0', port 'config_addr[9]' is not connected to any nets. (LINT-28)
+Warning: In design 'sb_unq1_0', port 'config_addr[8]' is not connected to any nets. (LINT-28)
+Warning: In design 'sb_unq1_0', port 'config_addr[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'sb_unq1_0', port 'config_addr[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'sb_unq1_0', port 'config_addr[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'sb_unq1_0', port 'config_addr[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'sb_unq1_0', port 'config_addr[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'sb_unq1_0', port 'config_addr[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'sb_unq1_0', port 'config_addr[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'sb_unq1_0', port 'config_addr[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'sb_unq2_0', port 'config_addr[23]' is not connected to any nets. (LINT-28)
+Warning: In design 'sb_unq2_0', port 'config_addr[22]' is not connected to any nets. (LINT-28)
+Warning: In design 'sb_unq2_0', port 'config_addr[21]' is not connected to any nets. (LINT-28)
+Warning: In design 'sb_unq2_0', port 'config_addr[20]' is not connected to any nets. (LINT-28)
+Warning: In design 'sb_unq2_0', port 'config_addr[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'sb_unq2_0', port 'config_addr[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'sb_unq2_0', port 'config_addr[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'sb_unq2_0', port 'config_addr[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'sb_unq2_0', port 'config_addr[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'sb_unq2_0', port 'config_addr[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'sb_unq2_0', port 'config_addr[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'sb_unq2_0', port 'config_addr[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'sb_unq2_0', port 'config_addr[11]' is not connected to any nets. (LINT-28)
+Warning: In design 'sb_unq2_0', port 'config_addr[10]' is not connected to any nets. (LINT-28)
+Warning: In design 'sb_unq2_0', port 'config_addr[9]' is not connected to any nets. (LINT-28)
+Warning: In design 'sb_unq2_0', port 'config_addr[8]' is not connected to any nets. (LINT-28)
+Warning: In design 'sb_unq2_0', port 'config_addr[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'sb_unq2_0', port 'config_addr[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'sb_unq2_0', port 'config_addr[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'sb_unq2_0', port 'config_addr[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'sb_unq2_0', port 'config_addr[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'sb_unq2_0', port 'config_addr[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'sb_unq2_0', port 'config_addr[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'sb_unq2_0', port 'config_addr[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_pe_comp_unq1_0', port 'op_code[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_pe_comp_unq1_0', port 'carry_out[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'cfg_d[31]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'cfg_d[30]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'cfg_d[29]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'cfg_d[28]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'cfg_d[27]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'cfg_d[26]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'cfg_d[25]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'cfg_d[24]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'cfg_d[23]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'cfg_d[22]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'cfg_d[21]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'cfg_d[20]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'cfg_d[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'cfg_d[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'cfg_d[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'cfg_d[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'cfg_d[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'cfg_d[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'cfg_d[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'cfg_d[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'cfg_d[11]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'cfg_d[10]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'cfg_d[9]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'cfg_d[8]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'read_data[31]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'read_data[30]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'read_data[29]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'read_data[28]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'read_data[27]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'read_data[26]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'read_data[25]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'read_data[24]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'read_data[23]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'read_data[22]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'read_data[21]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'read_data[20]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'read_data[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'read_data[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'read_data[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'read_data[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'read_data[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'read_data[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'read_data[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'read_data[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'read_data[11]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'read_data[10]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'read_data[9]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'read_data[8]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth16_0', port 'read_data[31]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth16_0', port 'read_data[30]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth16_0', port 'read_data[29]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth16_0', port 'read_data[28]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth16_0', port 'read_data[27]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth16_0', port 'read_data[26]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth16_0', port 'read_data[25]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth16_0', port 'read_data[24]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth16_0', port 'read_data[23]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth16_0', port 'read_data[22]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth16_0', port 'read_data[21]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth16_0', port 'read_data[20]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth16_0', port 'read_data[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth16_0', port 'read_data[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth16_0', port 'read_data[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth16_0', port 'read_data[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[31]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[30]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[29]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[28]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[27]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[26]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[25]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[24]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[23]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[22]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[21]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[20]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[11]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[10]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[9]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[8]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[23]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[22]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[21]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[20]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[19]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[18]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[17]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[16]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[15]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[14]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[13]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[12]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[11]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[10]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[9]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[8]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[7]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[6]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[5]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[4]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[3]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[2]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[1]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[0]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[23]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[22]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[21]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[20]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[19]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[18]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[17]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[16]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[15]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[14]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[13]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[12]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[11]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[10]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[9]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[8]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[7]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[6]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[5]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[4]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[3]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[2]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[1]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[0]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data2' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[23]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data2' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[22]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data2' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[21]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data2' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[20]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data2' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[19]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data2' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[18]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data2' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[17]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data2' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[16]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data2' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[15]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data2' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[14]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data2' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[13]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data2' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[12]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data2' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[11]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data2' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[10]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data2' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[9]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data2' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[8]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data2' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[7]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data2' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[6]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data2' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[5]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data2' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[4]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data2' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[3]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data2' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[2]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data2' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[1]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'cb_data2' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[0]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'sb_wide' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[23]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'sb_wide' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[22]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'sb_wide' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[21]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'sb_wide' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[20]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'sb_wide' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[19]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'sb_wide' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[18]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'sb_wide' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[17]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'sb_wide' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[16]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'sb_wide' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[15]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'sb_wide' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[14]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'sb_wide' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[13]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'sb_wide' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[12]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'sb_wide' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[11]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'sb_wide' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[10]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'sb_wide' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[9]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'sb_wide' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[8]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'sb_wide' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[7]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'sb_wide' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[6]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'sb_wide' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[5]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'sb_wide' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[4]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'sb_wide' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[3]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'sb_wide' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[2]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'sb_wide' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[1]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'sb_wide' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[0]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'sb_1b' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[23]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'sb_1b' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[22]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'sb_1b' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[21]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'sb_1b' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[20]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'sb_1b' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[19]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'sb_1b' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[18]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'sb_1b' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[17]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'sb_1b' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[16]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'sb_1b' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[15]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'sb_1b' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[14]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'sb_1b' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[13]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'sb_1b' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[12]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'sb_1b' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[11]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'sb_1b' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[10]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'sb_1b' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[9]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'sb_1b' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[8]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'sb_1b' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[7]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'sb_1b' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[6]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'sb_1b' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[5]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'sb_1b' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[4]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'sb_1b' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[3]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'sb_1b' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[2]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'sb_1b' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[1]' is connected to logic 0. 
+Warning: In design 'pe_tile_new', a pin on submodule 'sb_1b' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'config_addr[0]' is connected to logic 0. 
+Warning: In design 'cb_unq1_3', a pin on submodule 'clk_gate_config_cb_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'cb_unq1_4', a pin on submodule 'clk_gate_config_cb_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'cb_unq1_5', a pin on submodule 'clk_gate_config_cb_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'sb_unq1_0', a pin on submodule 'clk_gate_config_sb_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'sb_unq1_0', a pin on submodule 'clk_gate_config_sb_reg_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'sb_unq1_0', a pin on submodule 'clk_gate_config_sb_reg_1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'sb_unq1_0', a pin on submodule 'clk_gate_config_sb_reg_2' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'sb_unq1_0', a pin on submodule 'clk_gate_config_ungate_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'sb_unq1_0', a pin on submodule 'clk_gate_config_ungate_reg_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'sb_unq1_0', a pin on submodule 'clk_gate_out_0_0_id1_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'sb_unq1_0', a pin on submodule 'clk_gate_out_0_1_id1_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'sb_unq1_0', a pin on submodule 'clk_gate_out_0_2_id1_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'sb_unq1_0', a pin on submodule 'clk_gate_out_0_3_id1_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'sb_unq1_0', a pin on submodule 'clk_gate_out_0_4_id1_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'sb_unq1_0', a pin on submodule 'clk_gate_out_0_5_id1_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'sb_unq1_0', a pin on submodule 'clk_gate_out_0_6_id1_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'sb_unq1_0', a pin on submodule 'clk_gate_out_0_7_id1_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'sb_unq1_0', a pin on submodule 'clk_gate_out_0_8_id1_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'sb_unq1_0', a pin on submodule 'clk_gate_out_1_0_id1_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'sb_unq1_0', a pin on submodule 'clk_gate_out_1_1_id1_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'sb_unq1_0', a pin on submodule 'clk_gate_out_1_2_id1_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'sb_unq1_0', a pin on submodule 'clk_gate_out_1_3_id1_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'sb_unq1_0', a pin on submodule 'clk_gate_out_1_4_id1_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'sb_unq1_0', a pin on submodule 'clk_gate_out_1_5_id1_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'sb_unq1_0', a pin on submodule 'clk_gate_out_1_6_id1_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'sb_unq1_0', a pin on submodule 'clk_gate_out_1_7_id1_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'sb_unq1_0', a pin on submodule 'clk_gate_out_1_8_id1_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'sb_unq1_0', a pin on submodule 'clk_gate_out_2_0_id1_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'sb_unq1_0', a pin on submodule 'clk_gate_out_2_1_id1_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'sb_unq1_0', a pin on submodule 'clk_gate_out_2_2_id1_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'sb_unq1_0', a pin on submodule 'clk_gate_out_2_3_id1_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'sb_unq1_0', a pin on submodule 'clk_gate_out_2_4_id1_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'sb_unq1_0', a pin on submodule 'clk_gate_out_2_5_id1_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'sb_unq1_0', a pin on submodule 'clk_gate_out_2_6_id1_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'sb_unq1_0', a pin on submodule 'clk_gate_out_2_7_id1_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'sb_unq1_0', a pin on submodule 'clk_gate_out_2_8_id1_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'sb_unq1_0', a pin on submodule 'clk_gate_out_3_0_id1_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'sb_unq1_0', a pin on submodule 'clk_gate_out_3_1_id1_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'sb_unq1_0', a pin on submodule 'clk_gate_out_3_2_id1_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'sb_unq1_0', a pin on submodule 'clk_gate_out_3_3_id1_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'sb_unq1_0', a pin on submodule 'clk_gate_out_3_4_id1_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'sb_unq1_0', a pin on submodule 'clk_gate_out_3_5_id1_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'sb_unq1_0', a pin on submodule 'clk_gate_out_3_6_id1_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'sb_unq1_0', a pin on submodule 'clk_gate_out_3_7_id1_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'sb_unq1_0', a pin on submodule 'clk_gate_out_3_8_id1_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'sb_unq2_0', a pin on submodule 'clk_gate_config_sb_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'sb_unq2_0', a pin on submodule 'clk_gate_config_sb_reg_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'sb_unq2_0', a pin on submodule 'clk_gate_config_sb_reg_1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'sb_unq2_0', a pin on submodule 'clk_gate_config_sb_reg_2' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'sb_unq2_0', a pin on submodule 'clk_gate_config_ungate_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'sb_unq2_0', a pin on submodule 'clk_gate_config_ungate_reg_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'test_pe_unq1_0', a pin on submodule 'test_pe_comp' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'op_code[7]' is connected to logic 0. 
+Warning: In design 'test_pe_unq1_0', a pin on submodule 'test_lut' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cfg_d[31]' is connected to logic 0. 
+Warning: In design 'test_pe_unq1_0', a pin on submodule 'test_lut' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cfg_d[30]' is connected to logic 0. 
+Warning: In design 'test_pe_unq1_0', a pin on submodule 'test_lut' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cfg_d[29]' is connected to logic 0. 
+Warning: In design 'test_pe_unq1_0', a pin on submodule 'test_lut' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cfg_d[28]' is connected to logic 0. 
+Warning: In design 'test_pe_unq1_0', a pin on submodule 'test_lut' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cfg_d[27]' is connected to logic 0. 
+Warning: In design 'test_pe_unq1_0', a pin on submodule 'test_lut' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cfg_d[26]' is connected to logic 0. 
+Warning: In design 'test_pe_unq1_0', a pin on submodule 'test_lut' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cfg_d[25]' is connected to logic 0. 
+Warning: In design 'test_pe_unq1_0', a pin on submodule 'test_lut' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cfg_d[24]' is connected to logic 0. 
+Warning: In design 'test_pe_unq1_0', a pin on submodule 'test_lut' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cfg_d[23]' is connected to logic 0. 
+Warning: In design 'test_pe_unq1_0', a pin on submodule 'test_lut' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cfg_d[22]' is connected to logic 0. 
+Warning: In design 'test_pe_unq1_0', a pin on submodule 'test_lut' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cfg_d[21]' is connected to logic 0. 
+Warning: In design 'test_pe_unq1_0', a pin on submodule 'test_lut' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cfg_d[20]' is connected to logic 0. 
+Warning: In design 'test_pe_unq1_0', a pin on submodule 'test_lut' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cfg_d[19]' is connected to logic 0. 
+Warning: In design 'test_pe_unq1_0', a pin on submodule 'test_lut' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cfg_d[18]' is connected to logic 0. 
+Warning: In design 'test_pe_unq1_0', a pin on submodule 'test_lut' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cfg_d[17]' is connected to logic 0. 
+Warning: In design 'test_pe_unq1_0', a pin on submodule 'test_lut' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cfg_d[16]' is connected to logic 0. 
+Warning: In design 'test_pe_unq1_0', a pin on submodule 'test_lut' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cfg_d[15]' is connected to logic 0. 
+Warning: In design 'test_pe_unq1_0', a pin on submodule 'test_lut' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cfg_d[14]' is connected to logic 0. 
+Warning: In design 'test_pe_unq1_0', a pin on submodule 'test_lut' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cfg_d[13]' is connected to logic 0. 
+Warning: In design 'test_pe_unq1_0', a pin on submodule 'test_lut' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cfg_d[12]' is connected to logic 0. 
+Warning: In design 'test_pe_unq1_0', a pin on submodule 'test_lut' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cfg_d[11]' is connected to logic 0. 
+Warning: In design 'test_pe_unq1_0', a pin on submodule 'test_lut' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cfg_d[10]' is connected to logic 0. 
+Warning: In design 'test_pe_unq1_0', a pin on submodule 'test_lut' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cfg_d[9]' is connected to logic 0. 
+Warning: In design 'test_pe_unq1_0', a pin on submodule 'test_lut' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cfg_d[8]' is connected to logic 0. 
+Warning: In design 'test_pe_unq1_0', a pin on submodule 'clk_gate_op_code_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'test_opt_reg_DataWidth16_2', a pin on submodule 'clk_gate_data_in_reg_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'test_opt_reg_file_DataWidth16_0', a pin on submodule 'clk_gate_data_in_reg_reg[0]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'test_opt_reg_DataWidth16_3', a pin on submodule 'clk_gate_data_in_reg_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'test_lut_DataWidth1_0', a pin on submodule 'clk_gate_GEN_LUT[0].lut_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'test_debug_reg_DataWidth16_0', a pin on submodule 'clk_gate_debug_val_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'pe_tile_new', the same net is connected to more than one pin on submodule 'cb_data0'. (LINT-33)
+   Net 'n373' is connected to pins 'config_addr[23]', 'config_addr[22]'', 'config_addr[21]', 'config_addr[20]', 'config_addr[19]', 'config_addr[18]', 'config_addr[17]', 'config_addr[16]', 'config_addr[15]', 'config_addr[14]', 'config_addr[13]', 'config_addr[12]', 'config_addr[11]', 'config_addr[10]', 'config_addr[9]', 'config_addr[8]', 'config_addr[7]', 'config_addr[6]', 'config_addr[5]', 'config_addr[4]', 'config_addr[3]', 'config_addr[2]', 'config_addr[1]', 'config_addr[0]'.
+Warning: In design 'pe_tile_new', the same net is connected to more than one pin on submodule 'cb_data1'. (LINT-33)
+   Net 'n373' is connected to pins 'config_addr[23]', 'config_addr[22]'', 'config_addr[21]', 'config_addr[20]', 'config_addr[19]', 'config_addr[18]', 'config_addr[17]', 'config_addr[16]', 'config_addr[15]', 'config_addr[14]', 'config_addr[13]', 'config_addr[12]', 'config_addr[11]', 'config_addr[10]', 'config_addr[9]', 'config_addr[8]', 'config_addr[7]', 'config_addr[6]', 'config_addr[5]', 'config_addr[4]', 'config_addr[3]', 'config_addr[2]', 'config_addr[1]', 'config_addr[0]'.
+Warning: In design 'pe_tile_new', the same net is connected to more than one pin on submodule 'cb_data2'. (LINT-33)
+   Net 'n373' is connected to pins 'config_addr[23]', 'config_addr[22]'', 'config_addr[21]', 'config_addr[20]', 'config_addr[19]', 'config_addr[18]', 'config_addr[17]', 'config_addr[16]', 'config_addr[15]', 'config_addr[14]', 'config_addr[13]', 'config_addr[12]', 'config_addr[11]', 'config_addr[10]', 'config_addr[9]', 'config_addr[8]', 'config_addr[7]', 'config_addr[6]', 'config_addr[5]', 'config_addr[4]', 'config_addr[3]', 'config_addr[2]', 'config_addr[1]', 'config_addr[0]'.
+Warning: In design 'pe_tile_new', the same net is connected to more than one pin on submodule 'sb_wide'. (LINT-33)
+   Net 'n373' is connected to pins 'config_addr[23]', 'config_addr[22]'', 'config_addr[21]', 'config_addr[20]', 'config_addr[19]', 'config_addr[18]', 'config_addr[17]', 'config_addr[16]', 'config_addr[15]', 'config_addr[14]', 'config_addr[13]', 'config_addr[12]', 'config_addr[11]', 'config_addr[10]', 'config_addr[9]', 'config_addr[8]', 'config_addr[7]', 'config_addr[6]', 'config_addr[5]', 'config_addr[4]', 'config_addr[3]', 'config_addr[2]', 'config_addr[1]', 'config_addr[0]'.
+Warning: In design 'pe_tile_new', the same net is connected to more than one pin on submodule 'sb_1b'. (LINT-33)
+   Net 'n373' is connected to pins 'config_addr[23]', 'config_addr[22]'', 'config_addr[21]', 'config_addr[20]', 'config_addr[19]', 'config_addr[18]', 'config_addr[17]', 'config_addr[16]', 'config_addr[15]', 'config_addr[14]', 'config_addr[13]', 'config_addr[12]', 'config_addr[11]', 'config_addr[10]', 'config_addr[9]', 'config_addr[8]', 'config_addr[7]', 'config_addr[6]', 'config_addr[5]', 'config_addr[4]', 'config_addr[3]', 'config_addr[2]', 'config_addr[1]', 'config_addr[0]'.
+Warning: In design 'test_pe_unq1_0', the same net is connected to more than one pin on submodule 'test_lut'. (LINT-33)
+   Net 'n180' is connected to pins 'cfg_d[31]', 'cfg_d[30]'', 'cfg_d[29]', 'cfg_d[28]', 'cfg_d[27]', 'cfg_d[26]', 'cfg_d[25]', 'cfg_d[24]', 'cfg_d[23]', 'cfg_d[22]', 'cfg_d[21]', 'cfg_d[20]', 'cfg_d[19]', 'cfg_d[18]', 'cfg_d[17]', 'cfg_d[16]', 'cfg_d[15]', 'cfg_d[14]', 'cfg_d[13]', 'cfg_d[12]', 'cfg_d[11]', 'cfg_d[10]', 'cfg_d[9]', 'cfg_d[8]'.
+Warning: In design 'pe_tile_new', three-state bus 'config_en_cb_cg_en' has non three-state driver 'U300/ZN'. (LINT-34)
+Warning: In design 'pe_tile_new', three-state bus 'config_en_cb_bit2' has non three-state driver 'U301/ZN'. (LINT-34)
+Warning: In design 'pe_tile_new', three-state bus 'config_en_cb_bit1' has non three-state driver 'U302/ZN'. (LINT-34)
+Warning: In design 'pe_tile_new', three-state bus 'config_en_cb_bit0' has non three-state driver 'U303/ZN'. (LINT-34)
+Warning: In design 'pe_tile_new', three-state bus 'out_BUS1_S2_T0[0]' has non three-state driver 'sb_1b/U416/Z'. (LINT-34)
+Warning: In design 'pe_tile_new', three-state bus 'out_BUS1_S1_T0[0]' has non three-state driver 'sb_1b/U421/Z'. (LINT-34)
+1

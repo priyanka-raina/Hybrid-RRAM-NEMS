@@ -1,0 +1,201 @@
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : pe_tile_new
+Version: L-2016.03-SP5-5
+Date   : Wed May  8 19:29:45 2019
+****************************************
+
+
+Library(s) Used:
+
+    tcbn40lpbwphvttc (File: /cad/synopsys_EDK2/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn40lpbwphvt_110b/tcbn40lpbwphvttc.db)
+
+
+Operating Conditions: NCCOM   Library: tcbn40lpbwphvttc
+Wire Load Model Mode: segmented
+
+Design        Wire Load Model            Library
+------------------------------------------------
+pe_tile_new            ZeroWireload      tcbn40lpbwphvttc
+cb_unq1_3              ZeroWireload      tcbn40lpbwphvttc
+cb_unq1_4              ZeroWireload      tcbn40lpbwphvttc
+cb_unq1_5              ZeroWireload      tcbn40lpbwphvttc
+sb_unq1_0              ZeroWireload      tcbn40lpbwphvttc
+sb_unq2_0              ZeroWireload      tcbn40lpbwphvttc
+test_pe_unq1_0         ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_cb_unq1_0_3
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_cb_unq1_0_4
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_cb_unq1_0_5
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_sb_unq1_42
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_sb_unq1_43
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_sb_unq1_83
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_sb_unq1_82
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_sb_unq1_81
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_sb_unq1_80
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_sb_unq1_79
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_sb_unq1_78
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_sb_unq1_77
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_sb_unq1_76
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_sb_unq1_75
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_sb_unq1_74
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_sb_unq1_73
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_sb_unq1_72
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_sb_unq1_71
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_sb_unq1_70
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_sb_unq1_69
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_sb_unq1_68
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_sb_unq1_67
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_sb_unq1_66
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_sb_unq1_65
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_sb_unq1_64
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_sb_unq1_63
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_sb_unq1_62
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_sb_unq1_61
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_sb_unq1_60
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_sb_unq1_59
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_sb_unq1_58
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_sb_unq1_57
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_sb_unq1_56
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_sb_unq1_55
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_sb_unq1_54
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_sb_unq1_53
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_sb_unq1_52
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_sb_unq1_51
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_sb_unq1_50
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_sb_unq1_49
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_sb_unq1_48
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_sb_unq1_47
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_sb_unq1_46
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_sb_unq1_45
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_sb_unq1_44
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_sb_unq2_6
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_sb_unq2_7
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_sb_unq2_11
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_sb_unq2_10
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_sb_unq2_9
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_sb_unq2_8
+                       ZeroWireload      tcbn40lpbwphvttc
+test_opt_reg_DataWidth16_2
+                       ZeroWireload      tcbn40lpbwphvttc
+test_opt_reg_file_DataWidth16_0
+                       ZeroWireload      tcbn40lpbwphvttc
+test_opt_reg_DataWidth16_3
+                       ZeroWireload      tcbn40lpbwphvttc
+test_opt_reg_DataWidth1_3
+                       ZeroWireload      tcbn40lpbwphvttc
+test_opt_reg_DataWidth1_4
+                       ZeroWireload      tcbn40lpbwphvttc
+test_opt_reg_DataWidth1_5
+                       ZeroWireload      tcbn40lpbwphvttc
+test_pe_comp_unq1_0    ZeroWireload      tcbn40lpbwphvttc
+test_lut_DataWidth1_0  ZeroWireload      tcbn40lpbwphvttc
+test_debug_reg_DataWidth16_0
+                       ZeroWireload      tcbn40lpbwphvttc
+test_debug_reg_DataWidth1_0
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_test_pe_unq1_0
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_test_opt_reg_DataWidth16_0_2
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_test_opt_reg_file_DataWidth16_0
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_test_opt_reg_DataWidth16_0_3
+                       ZeroWireload      tcbn40lpbwphvttc
+test_full_add_DataWidth16_2
+                       ZeroWireload      tcbn40lpbwphvttc
+test_full_add_DataWidth16_3
+                       ZeroWireload      tcbn40lpbwphvttc
+test_cmpr_0            ZeroWireload      tcbn40lpbwphvttc
+test_mult_add_DataWidth16_0
+                       ZeroWireload      tcbn40lpbwphvttc
+test_shifter_unq1_DataWidth16_0
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_test_lut_DataWidth1_0
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_test_debug_reg_DataWidth16_0
+                       ZeroWireload      tcbn40lpbwphvttc
+
+
+Global Operating Voltage = 1.1  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+  Cell Internal Power  = 507.4917 uW   (78%)
+  Net Switching Power  = 144.9153 uW   (22%)
+                         ---------
+Total Dynamic Power    = 652.4070 uW  (100%)
+
+Cell Leakage Power     = 335.0232 nW
+
+Information: report_power power group summary does not include estimated clock tree power. (PWR-789)
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register           0.0000            0.0000            0.0000            0.0000  (   0.00%)
+sequential         0.3635        1.0651e-02          160.2069            0.3744  (  57.35%)
+combinational      0.1439            0.1343          174.8163            0.2784  (  42.65%)
+--------------------------------------------------------------------------------------------------
+Total              0.5075 mW         0.1449 mW       335.0232 nW         0.6527 mW
+1

@@ -1,0 +1,1749 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full_clock
+        -delay max
+        -input_pins
+        -nets
+        -max_paths 10
+        -transition_time
+        -capacitance
+Design : test_pe
+Version: L-2016.03-SP5-5
+Date   : Wed May  8 21:22:14 2019
+****************************************
+
+Operating Conditions: NCCOM   Library: tcbn40lpbwphvttc
+Wire Load Model Mode: segmented
+
+  Startpoint: inp_code_reg[1]
+              (rising edge-triggered flip-flop)
+  Endpoint: irq (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SNPS_CLOCK_GATE_HIGH_test_pe_0 ZeroWireload tcbn40lpbwphvttc
+  test_pe            ZeroWireload          tcbn40lpbwphvttc
+  test_opt_reg_DataWidth16_2 ZeroWireload  tcbn40lpbwphvttc
+  test_shifter_unq1_DataWidth16_0 ZeroWireload tcbn40lpbwphvttc
+  test_mult_add_DataWidth16_0 ZeroWireload tcbn40lpbwphvttc
+  test_full_add_DataWidth16_2 ZeroWireload tcbn40lpbwphvttc
+  test_pe_comp_unq1_0 ZeroWireload         tcbn40lpbwphvttc
+  test_debug_reg_DataWidth1_0 ZeroWireload tcbn40lpbwphvttc
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                       Fanout       Cap     Trans      Incr       Path      Attributes
+  -------------------------------------------------------------------------------------------------------------------
+  inp_code_reg[1]/CP (SDFCNQD0BWPHVT)                             0.2586    0.0000     0.0000 r
+  inp_code_reg[1]/Q (SDFCNQD0BWPHVT)                              0.0598    0.3249     0.3249 r
+  inp_code[1] (net)                             3       0.0014              0.0000     0.3249 r
+  test_opt_reg_a/mode[1] (test_opt_reg_DataWidth16_2)                       0.0000     0.3249 r
+  test_opt_reg_a/mode[1] (net)                          0.0014              0.0000     0.3249 r
+  test_opt_reg_a/U2/A1 (INR2XD1BWPHVT)                            0.0598    0.0000     0.3249 r
+  test_opt_reg_a/U2/ZN (INR2XD1BWPHVT)                            0.2689    0.2128     0.5377 r
+  test_opt_reg_a/n1 (net)                      16       0.0140              0.0000     0.5377 r
+  test_opt_reg_a/U8/S (MUX2D0BWPHVT)                              0.2689    0.0000     0.5377 r
+  test_opt_reg_a/U8/Z (MUX2D0BWPHVT)                              0.4788    0.4086     0.9463 r
+  test_opt_reg_a/res[2] (net)                  30       0.0159              0.0000     0.9463 r
+  test_opt_reg_a/res[2] (test_opt_reg_DataWidth16_2)                        0.0000     0.9463 r
+  op_a[2] (net)                                         0.0159              0.0000     0.9463 r
+  test_pe_comp/op_a[2] (test_pe_comp_unq1_0)                                0.0000     0.9463 r
+  test_pe_comp/op_a[2] (net)                            0.0159              0.0000     0.9463 r
+  test_pe_comp/test_mult_add/a[2] (test_mult_add_DataWidth16_0)             0.0000     0.9463 r
+  test_pe_comp/test_mult_add/a[2] (net)                 0.0159              0.0000     0.9463 r
+  test_pe_comp/test_mult_add/U14/I (CKND0BWPHVT)                  0.4788    0.0000     0.9463 r
+  test_pe_comp/test_mult_add/U14/ZN (CKND0BWPHVT)                 0.2903    0.3461     1.2925 f
+  test_pe_comp/test_mult_add/n487 (net)        23       0.0094              0.0000     1.2925 f
+  test_pe_comp/test_mult_add/U140/B2 (MOAI22D0BWPHVT)             0.2903    0.0000     1.2925 f
+  test_pe_comp/test_mult_add/U140/ZN (MOAI22D0BWPHVT)             0.1240    0.2105     1.5030 f
+  test_pe_comp/test_mult_add/n79 (net)          2       0.0008              0.0000     1.5030 f
+  test_pe_comp/test_mult_add/U141/A2 (NR2D0BWPHVT)                0.1240    0.0000     1.5030 f
+  test_pe_comp/test_mult_add/U141/ZN (NR2D0BWPHVT)                0.4598    0.3297     1.8327 r
+  test_pe_comp/test_mult_add/n484 (net)        17       0.0071              0.0000     1.8327 r
+  test_pe_comp/test_mult_add/U146/A2 (AOI222D0BWPHVT)             0.4598    0.0000     1.8327 r
+  test_pe_comp/test_mult_add/U146/ZN (AOI222D0BWPHVT)             0.1442    0.2279     2.0606 f
+  test_pe_comp/test_mult_add/n80 (net)          1       0.0009              0.0000     2.0606 f
+  test_pe_comp/test_mult_add/U147/S (MUX2ND0BWPHVT)               0.1442    0.0000     2.0606 f
+  test_pe_comp/test_mult_add/U147/ZN (MUX2ND0BWPHVT)              0.1121    0.1443     2.2050 f
+  test_pe_comp/test_mult_add/n201 (net)         1       0.0006              0.0000     2.2050 f
+  test_pe_comp/test_mult_add/U264/CI (FA1D0BWPHVT)                0.1121    0.0000     2.2050 f
+  test_pe_comp/test_mult_add/U264/CO (FA1D0BWPHVT)                0.0489    0.1773     2.3823 f
+  test_pe_comp/test_mult_add/n200 (net)         1       0.0011              0.0000     2.3823 f
+  test_pe_comp/test_mult_add/U263/B (FA1D0BWPHVT)                 0.0489    0.0000     2.3823 f
+  test_pe_comp/test_mult_add/U263/CO (FA1D0BWPHVT)                0.0487    0.2030     2.5852 f
+  test_pe_comp/test_mult_add/n197 (net)         1       0.0011              0.0000     2.5852 f
+  test_pe_comp/test_mult_add/U262/B (FA1D0BWPHVT)                 0.0487    0.0000     2.5852 f
+  test_pe_comp/test_mult_add/U262/CO (FA1D0BWPHVT)                0.0487    0.2028     2.7881 f
+  test_pe_comp/test_mult_add/n194 (net)         1       0.0011              0.0000     2.7881 f
+  test_pe_comp/test_mult_add/U261/B (FA1D0BWPHVT)                 0.0487    0.0000     2.7881 f
+  test_pe_comp/test_mult_add/U261/CO (FA1D0BWPHVT)                0.0487    0.2028     2.9909 f
+  test_pe_comp/test_mult_add/n191 (net)         1       0.0011              0.0000     2.9909 f
+  test_pe_comp/test_mult_add/U260/B (FA1D0BWPHVT)                 0.0487    0.0000     2.9909 f
+  test_pe_comp/test_mult_add/U260/CO (FA1D0BWPHVT)                0.0487    0.2028     3.1938 f
+  test_pe_comp/test_mult_add/n189 (net)         1       0.0011              0.0000     3.1938 f
+  test_pe_comp/test_mult_add/U259/B (FA1D0BWPHVT)                 0.0487    0.0000     3.1938 f
+  test_pe_comp/test_mult_add/U259/CO (FA1D0BWPHVT)                0.0487    0.2028     3.3966 f
+  test_pe_comp/test_mult_add/n187 (net)         1       0.0011              0.0000     3.3966 f
+  test_pe_comp/test_mult_add/U258/B (FA1D0BWPHVT)                 0.0487    0.0000     3.3966 f
+  test_pe_comp/test_mult_add/U258/CO (FA1D0BWPHVT)                0.0487    0.2028     3.5995 f
+  test_pe_comp/test_mult_add/n185 (net)         1       0.0011              0.0000     3.5995 f
+  test_pe_comp/test_mult_add/U257/B (FA1D0BWPHVT)                 0.0487    0.0000     3.5995 f
+  test_pe_comp/test_mult_add/U257/CO (FA1D0BWPHVT)                0.0487    0.2028     3.8023 f
+  test_pe_comp/test_mult_add/n183 (net)         1       0.0011              0.0000     3.8023 f
+  test_pe_comp/test_mult_add/U256/B (FA1D0BWPHVT)                 0.0487    0.0000     3.8023 f
+  test_pe_comp/test_mult_add/U256/CO (FA1D0BWPHVT)                0.0487    0.2028     4.0052 f
+  test_pe_comp/test_mult_add/n181 (net)         1       0.0011              0.0000     4.0052 f
+  test_pe_comp/test_mult_add/U255/B (FA1D0BWPHVT)                 0.0487    0.0000     4.0052 f
+  test_pe_comp/test_mult_add/U255/CO (FA1D0BWPHVT)                0.0487    0.2028     4.2080 f
+  test_pe_comp/test_mult_add/n179 (net)         1       0.0011              0.0000     4.2080 f
+  test_pe_comp/test_mult_add/U254/B (FA1D0BWPHVT)                 0.0487    0.0000     4.2080 f
+  test_pe_comp/test_mult_add/U254/CO (FA1D0BWPHVT)                0.0487    0.2028     4.4109 f
+  test_pe_comp/test_mult_add/n177 (net)         1       0.0011              0.0000     4.4109 f
+  test_pe_comp/test_mult_add/U253/B (FA1D0BWPHVT)                 0.0487    0.0000     4.4109 f
+  test_pe_comp/test_mult_add/U253/CO (FA1D0BWPHVT)                0.0487    0.2028     4.6137 f
+  test_pe_comp/test_mult_add/n175 (net)         1       0.0011              0.0000     4.6137 f
+  test_pe_comp/test_mult_add/U252/B (FA1D0BWPHVT)                 0.0487    0.0000     4.6137 f
+  test_pe_comp/test_mult_add/U252/CO (FA1D0BWPHVT)                0.0487    0.2028     4.8166 f
+  test_pe_comp/test_mult_add/n173 (net)         1       0.0011              0.0000     4.8166 f
+  test_pe_comp/test_mult_add/U251/B (FA1D0BWPHVT)                 0.0487    0.0000     4.8166 f
+  test_pe_comp/test_mult_add/U251/CO (FA1D0BWPHVT)                0.0487    0.2028     5.0194 f
+  test_pe_comp/test_mult_add/n171 (net)         1       0.0011              0.0000     5.0194 f
+  test_pe_comp/test_mult_add/U250/B (FA1D0BWPHVT)                 0.0487    0.0000     5.0194 f
+  test_pe_comp/test_mult_add/U250/CO (FA1D0BWPHVT)                0.0487    0.2028     5.2223 f
+  test_pe_comp/test_mult_add/n169 (net)         1       0.0011              0.0000     5.2223 f
+  test_pe_comp/test_mult_add/U249/B (FA1D0BWPHVT)                 0.0487    0.0000     5.2223 f
+  test_pe_comp/test_mult_add/U249/CO (FA1D0BWPHVT)                0.0398    0.1951     5.4173 f
+  test_pe_comp/test_mult_add/n167 (net)         1       0.0006              0.0000     5.4173 f
+  test_pe_comp/test_mult_add/U248/CI (FA1D0BWPHVT)                0.0398    0.0000     5.4173 f
+  test_pe_comp/test_mult_add/U248/CO (FA1D0BWPHVT)                0.0389    0.1321     5.5494 f
+  test_pe_comp/test_mult_add/n166 (net)         1       0.0006              0.0000     5.5494 f
+  test_pe_comp/test_mult_add/U247/CI (FA1D0BWPHVT)                0.0389    0.0000     5.5494 f
+  test_pe_comp/test_mult_add/U247/CO (FA1D0BWPHVT)                0.0479    0.1403     5.6897 f
+  test_pe_comp/test_mult_add/n165 (net)         1       0.0011              0.0000     5.6897 f
+  test_pe_comp/test_mult_add/U246/B (FA1D0BWPHVT)                 0.0479    0.0000     5.6897 f
+  test_pe_comp/test_mult_add/U246/CO (FA1D0BWPHVT)                0.0396    0.1947     5.8844 f
+  test_pe_comp/test_mult_add/n163 (net)         1       0.0006              0.0000     5.8844 f
+  test_pe_comp/test_mult_add/U245/CI (FA1D0BWPHVT)                0.0396    0.0000     5.8844 f
+  test_pe_comp/test_mult_add/U245/CO (FA1D0BWPHVT)                0.0389    0.1320     6.0164 f
+  test_pe_comp/test_mult_add/n162 (net)         1       0.0006              0.0000     6.0164 f
+  test_pe_comp/test_mult_add/U244/CI (FA1D0BWPHVT)                0.0389    0.0000     6.0164 f
+  test_pe_comp/test_mult_add/U244/CO (FA1D0BWPHVT)                0.0389    0.1316     6.1480 f
+  test_pe_comp/test_mult_add/n161 (net)         1       0.0006              0.0000     6.1480 f
+  test_pe_comp/test_mult_add/U243/CI (FA1D0BWPHVT)                0.0389    0.0000     6.1480 f
+  test_pe_comp/test_mult_add/U243/CO (FA1D0BWPHVT)                0.0389    0.1316     6.2796 f
+  test_pe_comp/test_mult_add/n160 (net)         1       0.0006              0.0000     6.2796 f
+  test_pe_comp/test_mult_add/U242/CI (FA1D0BWPHVT)                0.0389    0.0000     6.2796 f
+  test_pe_comp/test_mult_add/U242/CO (FA1D0BWPHVT)                0.0389    0.1316     6.4112 f
+  test_pe_comp/test_mult_add/n159 (net)         1       0.0006              0.0000     6.4112 f
+  test_pe_comp/test_mult_add/U241/CI (FA1D0BWPHVT)                0.0389    0.0000     6.4112 f
+  test_pe_comp/test_mult_add/U241/CO (FA1D0BWPHVT)                0.0389    0.1316     6.5429 f
+  test_pe_comp/test_mult_add/n158 (net)         1       0.0006              0.0000     6.5429 f
+  test_pe_comp/test_mult_add/U240/CI (FA1D0BWPHVT)                0.0389    0.0000     6.5429 f
+  test_pe_comp/test_mult_add/U240/CO (FA1D0BWPHVT)                0.0389    0.1316     6.6745 f
+  test_pe_comp/test_mult_add/n157 (net)         1       0.0006              0.0000     6.6745 f
+  test_pe_comp/test_mult_add/U239/CI (FA1D0BWPHVT)                0.0389    0.0000     6.6745 f
+  test_pe_comp/test_mult_add/U239/CO (FA1D0BWPHVT)                0.0389    0.1316     6.8061 f
+  test_pe_comp/test_mult_add/n156 (net)         1       0.0006              0.0000     6.8061 f
+  test_pe_comp/test_mult_add/U238/CI (FA1D0BWPHVT)                0.0389    0.0000     6.8061 f
+  test_pe_comp/test_mult_add/U238/CO (FA1D0BWPHVT)                0.0479    0.1403     6.9464 f
+  test_pe_comp/test_mult_add/n155 (net)         1       0.0011              0.0000     6.9464 f
+  test_pe_comp/test_mult_add/U237/B (FA1D0BWPHVT)                 0.0479    0.0000     6.9464 f
+  test_pe_comp/test_mult_add/U237/CO (FA1D0BWPHVT)                0.0388    0.1947     7.1411 f
+  test_pe_comp/test_mult_add/n151 (net)         1       0.0006              0.0000     7.1411 f
+  test_pe_comp/test_mult_add/U236/CI (FA1D0BWPHVT)                0.0388    0.0000     7.1411 f
+  test_pe_comp/test_mult_add/U236/CO (FA1D0BWPHVT)                0.0389    0.1316     7.2726 f
+  test_pe_comp/test_mult_add/n148 (net)         1       0.0006              0.0000     7.2726 f
+  test_pe_comp/test_mult_add/U235/CI (FA1D0BWPHVT)                0.0389    0.0000     7.2726 f
+  test_pe_comp/test_mult_add/U235/CO (FA1D0BWPHVT)                0.0389    0.1316     7.4042 f
+  test_pe_comp/test_mult_add/n488 (net)         1       0.0006              0.0000     7.4042 f
+  test_pe_comp/test_mult_add/U551/CI (FA1D0BWPHVT)                0.0389    0.0000     7.4042 f
+  test_pe_comp/test_mult_add/U551/S (FA1D0BWPHVT)                 0.0451    0.1418     7.5460 f
+  test_pe_comp/test_mult_add/res[31] (net)      2       0.0009              0.0000     7.5460 f
+  test_pe_comp/test_mult_add/res[31] (test_mult_add_DataWidth16_0)          0.0000     7.5460 f
+  test_pe_comp/mult_res[31] (net)                       0.0009              0.0000     7.5460 f
+  test_pe_comp/U166/B1 (AOI22D0BWPHVT)                            0.0451    0.0000     7.5460 f
+  test_pe_comp/U166/ZN (AOI22D0BWPHVT)                            0.0955    0.0875     7.6335 r
+  test_pe_comp/n91 (net)                        1       0.0004              0.0000     7.6335 r
+  test_pe_comp/U170/B (OAI211D0BWPHVT)                            0.0955    0.0000     7.6335 r
+  test_pe_comp/U170/ZN (OAI211D0BWPHVT)                           0.1441    0.1362     7.7697 f
+  test_pe_comp/n99 (net)                        2       0.0009              0.0000     7.7697 f
+  test_pe_comp/U174/A1 (OAI32D0BWPHVT)                            0.1441    0.0000     7.7697 f
+  test_pe_comp/U174/ZN (OAI32D0BWPHVT)                            0.1740    0.1568     7.9265 r
+  test_pe_comp/n100 (net)                       1       0.0004              0.0000     7.9265 r
+  test_pe_comp/U175/C (OAI211D0BWPHVT)                            0.1740    0.0000     7.9265 r
+  test_pe_comp/U175/ZN (OAI211D0BWPHVT)                           0.1369    0.1793     8.1057 f
+  test_pe_comp/res[15] (net)                    3       0.0012              0.0000     8.1057 f
+  test_pe_comp/res[15] (test_pe_comp_unq1_0)                                0.0000     8.1057 f
+  comp_res[15] (net)                                    0.0012              0.0000     8.1057 f
+  U239/I (CKND0BWPHVT)                                            0.1369    0.0000     8.1057 f
+  U239/ZN (CKND0BWPHVT)                                           0.1014    0.1130     8.2187 r
+  n312 (net)                                    5       0.0023              0.0000     8.2187 r
+  U406/A4 (ND4D0BWPHVT)                                           0.1014    0.0000     8.2187 r
+  U406/ZN (ND4D0BWPHVT)                                           0.1141    0.1344     8.3531 f
+  n307 (net)                                    1       0.0005              0.0000     8.3531 f
+  U410/A1 (NR4D0BWPHVT)                                           0.1141    0.0000     8.3531 f
+  U410/ZN (NR4D0BWPHVT)                                           0.1839    0.1514     8.5045 r
+  n310 (net)                                    2       0.0013              0.0000     8.5045 r
+  U414/B2 (OAI221D0BWPHVT)                                        0.1839    0.0000     8.5045 r
+  U414/ZN (OAI221D0BWPHVT)                                        0.0971    0.1608     8.6653 f
+  n314 (net)                                    1       0.0004              0.0000     8.6653 f
+  U416/A2 (AOI31D0BWPHVT)                                         0.0971    0.0000     8.6653 f
+  U416/ZN (AOI31D0BWPHVT)                                         0.0974    0.0961     8.7614 r
+  n325 (net)                                    1       0.0004              0.0000     8.7614 r
+  U424/A2 (AOI22D0BWPHVT)                                         0.0974    0.0000     8.7614 r
+  U424/ZN (AOI22D0BWPHVT)                                         0.0781    0.0896     8.8510 f
+  res_p (net)                                   2       0.0009              0.0000     8.8510 f
+  test_debug_bit/data_in[0] (test_debug_reg_DataWidth1_0)                   0.0000     8.8510 f
+  test_debug_bit/data_in[0] (net)                       0.0009              0.0000     8.8510 f
+  test_debug_bit/U3/S (MUX2ND0BWPHVT)                             0.0781    0.0000     8.8510 f
+  test_debug_bit/U3/ZN (MUX2ND0BWPHVT)                            0.0541    0.1152     8.9663 f
+  test_debug_bit/debug_irq (net)                1       0.0004              0.0000     8.9663 f
+  test_debug_bit/debug_irq (test_debug_reg_DataWidth1_0)                    0.0000     8.9663 f
+  irq_bit (net)                                         0.0004              0.0000     8.9663 f
+  U399/A2 (AO22D0BWPHVT)                                          0.0541    0.0000     8.9663 f
+  U399/Z (AO22D0BWPHVT)                                           0.0301    0.1214     9.0877 f
+  irq (net)                                     1       0.0000              0.0000     9.0877 f
+  irq (out)                                                       0.0301    0.0000     9.0877 f
+  data arrival time                                                                    9.0877
+  -------------------------------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: inp_code_reg[1]
+              (rising edge-triggered flip-flop)
+  Endpoint: res_p (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SNPS_CLOCK_GATE_HIGH_test_pe_0 ZeroWireload tcbn40lpbwphvttc
+  test_pe            ZeroWireload          tcbn40lpbwphvttc
+  test_opt_reg_DataWidth16_2 ZeroWireload  tcbn40lpbwphvttc
+  test_shifter_unq1_DataWidth16_0 ZeroWireload tcbn40lpbwphvttc
+  test_mult_add_DataWidth16_0 ZeroWireload tcbn40lpbwphvttc
+  test_full_add_DataWidth16_2 ZeroWireload tcbn40lpbwphvttc
+  test_pe_comp_unq1_0 ZeroWireload         tcbn40lpbwphvttc
+  test_debug_reg_DataWidth1_0 ZeroWireload tcbn40lpbwphvttc
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                       Fanout       Cap     Trans      Incr       Path      Attributes
+  -------------------------------------------------------------------------------------------------------------------
+  inp_code_reg[1]/CP (SDFCNQD0BWPHVT)                             0.2586    0.0000     0.0000 r
+  inp_code_reg[1]/Q (SDFCNQD0BWPHVT)                              0.0598    0.3249     0.3249 r
+  inp_code[1] (net)                             3       0.0014              0.0000     0.3249 r
+  test_opt_reg_a/mode[1] (test_opt_reg_DataWidth16_2)                       0.0000     0.3249 r
+  test_opt_reg_a/mode[1] (net)                          0.0014              0.0000     0.3249 r
+  test_opt_reg_a/U2/A1 (INR2XD1BWPHVT)                            0.0598    0.0000     0.3249 r
+  test_opt_reg_a/U2/ZN (INR2XD1BWPHVT)                            0.2689    0.2128     0.5377 r
+  test_opt_reg_a/n1 (net)                      16       0.0140              0.0000     0.5377 r
+  test_opt_reg_a/U8/S (MUX2D0BWPHVT)                              0.2689    0.0000     0.5377 r
+  test_opt_reg_a/U8/Z (MUX2D0BWPHVT)                              0.4788    0.4086     0.9463 r
+  test_opt_reg_a/res[2] (net)                  30       0.0159              0.0000     0.9463 r
+  test_opt_reg_a/res[2] (test_opt_reg_DataWidth16_2)                        0.0000     0.9463 r
+  op_a[2] (net)                                         0.0159              0.0000     0.9463 r
+  test_pe_comp/op_a[2] (test_pe_comp_unq1_0)                                0.0000     0.9463 r
+  test_pe_comp/op_a[2] (net)                            0.0159              0.0000     0.9463 r
+  test_pe_comp/test_mult_add/a[2] (test_mult_add_DataWidth16_0)             0.0000     0.9463 r
+  test_pe_comp/test_mult_add/a[2] (net)                 0.0159              0.0000     0.9463 r
+  test_pe_comp/test_mult_add/U14/I (CKND0BWPHVT)                  0.4788    0.0000     0.9463 r
+  test_pe_comp/test_mult_add/U14/ZN (CKND0BWPHVT)                 0.2903    0.3461     1.2925 f
+  test_pe_comp/test_mult_add/n487 (net)        23       0.0094              0.0000     1.2925 f
+  test_pe_comp/test_mult_add/U140/B2 (MOAI22D0BWPHVT)             0.2903    0.0000     1.2925 f
+  test_pe_comp/test_mult_add/U140/ZN (MOAI22D0BWPHVT)             0.1240    0.2105     1.5030 f
+  test_pe_comp/test_mult_add/n79 (net)          2       0.0008              0.0000     1.5030 f
+  test_pe_comp/test_mult_add/U141/A2 (NR2D0BWPHVT)                0.1240    0.0000     1.5030 f
+  test_pe_comp/test_mult_add/U141/ZN (NR2D0BWPHVT)                0.4598    0.3297     1.8327 r
+  test_pe_comp/test_mult_add/n484 (net)        17       0.0071              0.0000     1.8327 r
+  test_pe_comp/test_mult_add/U146/A2 (AOI222D0BWPHVT)             0.4598    0.0000     1.8327 r
+  test_pe_comp/test_mult_add/U146/ZN (AOI222D0BWPHVT)             0.1442    0.2279     2.0606 f
+  test_pe_comp/test_mult_add/n80 (net)          1       0.0009              0.0000     2.0606 f
+  test_pe_comp/test_mult_add/U147/S (MUX2ND0BWPHVT)               0.1442    0.0000     2.0606 f
+  test_pe_comp/test_mult_add/U147/ZN (MUX2ND0BWPHVT)              0.1121    0.1443     2.2050 f
+  test_pe_comp/test_mult_add/n201 (net)         1       0.0006              0.0000     2.2050 f
+  test_pe_comp/test_mult_add/U264/CI (FA1D0BWPHVT)                0.1121    0.0000     2.2050 f
+  test_pe_comp/test_mult_add/U264/CO (FA1D0BWPHVT)                0.0489    0.1773     2.3823 f
+  test_pe_comp/test_mult_add/n200 (net)         1       0.0011              0.0000     2.3823 f
+  test_pe_comp/test_mult_add/U263/B (FA1D0BWPHVT)                 0.0489    0.0000     2.3823 f
+  test_pe_comp/test_mult_add/U263/CO (FA1D0BWPHVT)                0.0487    0.2030     2.5852 f
+  test_pe_comp/test_mult_add/n197 (net)         1       0.0011              0.0000     2.5852 f
+  test_pe_comp/test_mult_add/U262/B (FA1D0BWPHVT)                 0.0487    0.0000     2.5852 f
+  test_pe_comp/test_mult_add/U262/CO (FA1D0BWPHVT)                0.0487    0.2028     2.7881 f
+  test_pe_comp/test_mult_add/n194 (net)         1       0.0011              0.0000     2.7881 f
+  test_pe_comp/test_mult_add/U261/B (FA1D0BWPHVT)                 0.0487    0.0000     2.7881 f
+  test_pe_comp/test_mult_add/U261/CO (FA1D0BWPHVT)                0.0487    0.2028     2.9909 f
+  test_pe_comp/test_mult_add/n191 (net)         1       0.0011              0.0000     2.9909 f
+  test_pe_comp/test_mult_add/U260/B (FA1D0BWPHVT)                 0.0487    0.0000     2.9909 f
+  test_pe_comp/test_mult_add/U260/CO (FA1D0BWPHVT)                0.0487    0.2028     3.1938 f
+  test_pe_comp/test_mult_add/n189 (net)         1       0.0011              0.0000     3.1938 f
+  test_pe_comp/test_mult_add/U259/B (FA1D0BWPHVT)                 0.0487    0.0000     3.1938 f
+  test_pe_comp/test_mult_add/U259/CO (FA1D0BWPHVT)                0.0487    0.2028     3.3966 f
+  test_pe_comp/test_mult_add/n187 (net)         1       0.0011              0.0000     3.3966 f
+  test_pe_comp/test_mult_add/U258/B (FA1D0BWPHVT)                 0.0487    0.0000     3.3966 f
+  test_pe_comp/test_mult_add/U258/CO (FA1D0BWPHVT)                0.0487    0.2028     3.5995 f
+  test_pe_comp/test_mult_add/n185 (net)         1       0.0011              0.0000     3.5995 f
+  test_pe_comp/test_mult_add/U257/B (FA1D0BWPHVT)                 0.0487    0.0000     3.5995 f
+  test_pe_comp/test_mult_add/U257/CO (FA1D0BWPHVT)                0.0487    0.2028     3.8023 f
+  test_pe_comp/test_mult_add/n183 (net)         1       0.0011              0.0000     3.8023 f
+  test_pe_comp/test_mult_add/U256/B (FA1D0BWPHVT)                 0.0487    0.0000     3.8023 f
+  test_pe_comp/test_mult_add/U256/CO (FA1D0BWPHVT)                0.0487    0.2028     4.0052 f
+  test_pe_comp/test_mult_add/n181 (net)         1       0.0011              0.0000     4.0052 f
+  test_pe_comp/test_mult_add/U255/B (FA1D0BWPHVT)                 0.0487    0.0000     4.0052 f
+  test_pe_comp/test_mult_add/U255/CO (FA1D0BWPHVT)                0.0487    0.2028     4.2080 f
+  test_pe_comp/test_mult_add/n179 (net)         1       0.0011              0.0000     4.2080 f
+  test_pe_comp/test_mult_add/U254/B (FA1D0BWPHVT)                 0.0487    0.0000     4.2080 f
+  test_pe_comp/test_mult_add/U254/CO (FA1D0BWPHVT)                0.0487    0.2028     4.4109 f
+  test_pe_comp/test_mult_add/n177 (net)         1       0.0011              0.0000     4.4109 f
+  test_pe_comp/test_mult_add/U253/B (FA1D0BWPHVT)                 0.0487    0.0000     4.4109 f
+  test_pe_comp/test_mult_add/U253/CO (FA1D0BWPHVT)                0.0487    0.2028     4.6137 f
+  test_pe_comp/test_mult_add/n175 (net)         1       0.0011              0.0000     4.6137 f
+  test_pe_comp/test_mult_add/U252/B (FA1D0BWPHVT)                 0.0487    0.0000     4.6137 f
+  test_pe_comp/test_mult_add/U252/CO (FA1D0BWPHVT)                0.0487    0.2028     4.8166 f
+  test_pe_comp/test_mult_add/n173 (net)         1       0.0011              0.0000     4.8166 f
+  test_pe_comp/test_mult_add/U251/B (FA1D0BWPHVT)                 0.0487    0.0000     4.8166 f
+  test_pe_comp/test_mult_add/U251/CO (FA1D0BWPHVT)                0.0487    0.2028     5.0194 f
+  test_pe_comp/test_mult_add/n171 (net)         1       0.0011              0.0000     5.0194 f
+  test_pe_comp/test_mult_add/U250/B (FA1D0BWPHVT)                 0.0487    0.0000     5.0194 f
+  test_pe_comp/test_mult_add/U250/CO (FA1D0BWPHVT)                0.0487    0.2028     5.2223 f
+  test_pe_comp/test_mult_add/n169 (net)         1       0.0011              0.0000     5.2223 f
+  test_pe_comp/test_mult_add/U249/B (FA1D0BWPHVT)                 0.0487    0.0000     5.2223 f
+  test_pe_comp/test_mult_add/U249/CO (FA1D0BWPHVT)                0.0398    0.1951     5.4173 f
+  test_pe_comp/test_mult_add/n167 (net)         1       0.0006              0.0000     5.4173 f
+  test_pe_comp/test_mult_add/U248/CI (FA1D0BWPHVT)                0.0398    0.0000     5.4173 f
+  test_pe_comp/test_mult_add/U248/CO (FA1D0BWPHVT)                0.0389    0.1321     5.5494 f
+  test_pe_comp/test_mult_add/n166 (net)         1       0.0006              0.0000     5.5494 f
+  test_pe_comp/test_mult_add/U247/CI (FA1D0BWPHVT)                0.0389    0.0000     5.5494 f
+  test_pe_comp/test_mult_add/U247/CO (FA1D0BWPHVT)                0.0479    0.1403     5.6897 f
+  test_pe_comp/test_mult_add/n165 (net)         1       0.0011              0.0000     5.6897 f
+  test_pe_comp/test_mult_add/U246/B (FA1D0BWPHVT)                 0.0479    0.0000     5.6897 f
+  test_pe_comp/test_mult_add/U246/CO (FA1D0BWPHVT)                0.0396    0.1947     5.8844 f
+  test_pe_comp/test_mult_add/n163 (net)         1       0.0006              0.0000     5.8844 f
+  test_pe_comp/test_mult_add/U245/CI (FA1D0BWPHVT)                0.0396    0.0000     5.8844 f
+  test_pe_comp/test_mult_add/U245/CO (FA1D0BWPHVT)                0.0389    0.1320     6.0164 f
+  test_pe_comp/test_mult_add/n162 (net)         1       0.0006              0.0000     6.0164 f
+  test_pe_comp/test_mult_add/U244/CI (FA1D0BWPHVT)                0.0389    0.0000     6.0164 f
+  test_pe_comp/test_mult_add/U244/CO (FA1D0BWPHVT)                0.0389    0.1316     6.1480 f
+  test_pe_comp/test_mult_add/n161 (net)         1       0.0006              0.0000     6.1480 f
+  test_pe_comp/test_mult_add/U243/CI (FA1D0BWPHVT)                0.0389    0.0000     6.1480 f
+  test_pe_comp/test_mult_add/U243/CO (FA1D0BWPHVT)                0.0389    0.1316     6.2796 f
+  test_pe_comp/test_mult_add/n160 (net)         1       0.0006              0.0000     6.2796 f
+  test_pe_comp/test_mult_add/U242/CI (FA1D0BWPHVT)                0.0389    0.0000     6.2796 f
+  test_pe_comp/test_mult_add/U242/CO (FA1D0BWPHVT)                0.0389    0.1316     6.4112 f
+  test_pe_comp/test_mult_add/n159 (net)         1       0.0006              0.0000     6.4112 f
+  test_pe_comp/test_mult_add/U241/CI (FA1D0BWPHVT)                0.0389    0.0000     6.4112 f
+  test_pe_comp/test_mult_add/U241/CO (FA1D0BWPHVT)                0.0389    0.1316     6.5429 f
+  test_pe_comp/test_mult_add/n158 (net)         1       0.0006              0.0000     6.5429 f
+  test_pe_comp/test_mult_add/U240/CI (FA1D0BWPHVT)                0.0389    0.0000     6.5429 f
+  test_pe_comp/test_mult_add/U240/CO (FA1D0BWPHVT)                0.0389    0.1316     6.6745 f
+  test_pe_comp/test_mult_add/n157 (net)         1       0.0006              0.0000     6.6745 f
+  test_pe_comp/test_mult_add/U239/CI (FA1D0BWPHVT)                0.0389    0.0000     6.6745 f
+  test_pe_comp/test_mult_add/U239/CO (FA1D0BWPHVT)                0.0389    0.1316     6.8061 f
+  test_pe_comp/test_mult_add/n156 (net)         1       0.0006              0.0000     6.8061 f
+  test_pe_comp/test_mult_add/U238/CI (FA1D0BWPHVT)                0.0389    0.0000     6.8061 f
+  test_pe_comp/test_mult_add/U238/CO (FA1D0BWPHVT)                0.0479    0.1403     6.9464 f
+  test_pe_comp/test_mult_add/n155 (net)         1       0.0011              0.0000     6.9464 f
+  test_pe_comp/test_mult_add/U237/B (FA1D0BWPHVT)                 0.0479    0.0000     6.9464 f
+  test_pe_comp/test_mult_add/U237/CO (FA1D0BWPHVT)                0.0388    0.1947     7.1411 f
+  test_pe_comp/test_mult_add/n151 (net)         1       0.0006              0.0000     7.1411 f
+  test_pe_comp/test_mult_add/U236/CI (FA1D0BWPHVT)                0.0388    0.0000     7.1411 f
+  test_pe_comp/test_mult_add/U236/CO (FA1D0BWPHVT)                0.0389    0.1316     7.2726 f
+  test_pe_comp/test_mult_add/n148 (net)         1       0.0006              0.0000     7.2726 f
+  test_pe_comp/test_mult_add/U235/CI (FA1D0BWPHVT)                0.0389    0.0000     7.2726 f
+  test_pe_comp/test_mult_add/U235/CO (FA1D0BWPHVT)                0.0389    0.1316     7.4042 f
+  test_pe_comp/test_mult_add/n488 (net)         1       0.0006              0.0000     7.4042 f
+  test_pe_comp/test_mult_add/U551/CI (FA1D0BWPHVT)                0.0389    0.0000     7.4042 f
+  test_pe_comp/test_mult_add/U551/S (FA1D0BWPHVT)                 0.0451    0.1418     7.5460 f
+  test_pe_comp/test_mult_add/res[31] (net)      2       0.0009              0.0000     7.5460 f
+  test_pe_comp/test_mult_add/res[31] (test_mult_add_DataWidth16_0)          0.0000     7.5460 f
+  test_pe_comp/mult_res[31] (net)                       0.0009              0.0000     7.5460 f
+  test_pe_comp/U166/B1 (AOI22D0BWPHVT)                            0.0451    0.0000     7.5460 f
+  test_pe_comp/U166/ZN (AOI22D0BWPHVT)                            0.0955    0.0875     7.6335 r
+  test_pe_comp/n91 (net)                        1       0.0004              0.0000     7.6335 r
+  test_pe_comp/U170/B (OAI211D0BWPHVT)                            0.0955    0.0000     7.6335 r
+  test_pe_comp/U170/ZN (OAI211D0BWPHVT)                           0.1441    0.1362     7.7697 f
+  test_pe_comp/n99 (net)                        2       0.0009              0.0000     7.7697 f
+  test_pe_comp/U174/A1 (OAI32D0BWPHVT)                            0.1441    0.0000     7.7697 f
+  test_pe_comp/U174/ZN (OAI32D0BWPHVT)                            0.1740    0.1568     7.9265 r
+  test_pe_comp/n100 (net)                       1       0.0004              0.0000     7.9265 r
+  test_pe_comp/U175/C (OAI211D0BWPHVT)                            0.1740    0.0000     7.9265 r
+  test_pe_comp/U175/ZN (OAI211D0BWPHVT)                           0.1369    0.1793     8.1057 f
+  test_pe_comp/res[15] (net)                    3       0.0012              0.0000     8.1057 f
+  test_pe_comp/res[15] (test_pe_comp_unq1_0)                                0.0000     8.1057 f
+  comp_res[15] (net)                                    0.0012              0.0000     8.1057 f
+  U239/I (CKND0BWPHVT)                                            0.1369    0.0000     8.1057 f
+  U239/ZN (CKND0BWPHVT)                                           0.1014    0.1130     8.2187 r
+  n312 (net)                                    5       0.0023              0.0000     8.2187 r
+  U406/A4 (ND4D0BWPHVT)                                           0.1014    0.0000     8.2187 r
+  U406/ZN (ND4D0BWPHVT)                                           0.1141    0.1344     8.3531 f
+  n307 (net)                                    1       0.0005              0.0000     8.3531 f
+  U410/A1 (NR4D0BWPHVT)                                           0.1141    0.0000     8.3531 f
+  U410/ZN (NR4D0BWPHVT)                                           0.1839    0.1514     8.5045 r
+  n310 (net)                                    2       0.0013              0.0000     8.5045 r
+  U414/B2 (OAI221D0BWPHVT)                                        0.1839    0.0000     8.5045 r
+  U414/ZN (OAI221D0BWPHVT)                                        0.0971    0.1608     8.6653 f
+  n314 (net)                                    1       0.0004              0.0000     8.6653 f
+  U416/A2 (AOI31D0BWPHVT)                                         0.0971    0.0000     8.6653 f
+  U416/ZN (AOI31D0BWPHVT)                                         0.0974    0.0961     8.7614 r
+  n325 (net)                                    1       0.0004              0.0000     8.7614 r
+  U424/A2 (AOI22D0BWPHVT)                                         0.0974    0.0000     8.7614 r
+  U424/ZN (AOI22D0BWPHVT)                                         0.0781    0.0896     8.8510 f
+  res_p (net)                                   2       0.0009              0.0000     8.8510 f
+  res_p (out)                                                     0.0781    0.0000     8.8510 f
+  data arrival time                                                                    8.8510
+  -------------------------------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: inp_code_reg[1]
+              (rising edge-triggered flip-flop)
+  Endpoint: res[15] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SNPS_CLOCK_GATE_HIGH_test_pe_0 ZeroWireload tcbn40lpbwphvttc
+  test_pe            ZeroWireload          tcbn40lpbwphvttc
+  test_opt_reg_DataWidth16_2 ZeroWireload  tcbn40lpbwphvttc
+  test_shifter_unq1_DataWidth16_0 ZeroWireload tcbn40lpbwphvttc
+  test_mult_add_DataWidth16_0 ZeroWireload tcbn40lpbwphvttc
+  test_full_add_DataWidth16_2 ZeroWireload tcbn40lpbwphvttc
+  test_pe_comp_unq1_0 ZeroWireload         tcbn40lpbwphvttc
+  test_debug_reg_DataWidth16_0 ZeroWireload tcbn40lpbwphvttc
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                       Fanout       Cap     Trans      Incr       Path      Attributes
+  -------------------------------------------------------------------------------------------------------------------
+  inp_code_reg[1]/CP (SDFCNQD0BWPHVT)                             0.2586    0.0000     0.0000 r
+  inp_code_reg[1]/Q (SDFCNQD0BWPHVT)                              0.0598    0.3249     0.3249 r
+  inp_code[1] (net)                             3       0.0014              0.0000     0.3249 r
+  test_opt_reg_a/mode[1] (test_opt_reg_DataWidth16_2)                       0.0000     0.3249 r
+  test_opt_reg_a/mode[1] (net)                          0.0014              0.0000     0.3249 r
+  test_opt_reg_a/U2/A1 (INR2XD1BWPHVT)                            0.0598    0.0000     0.3249 r
+  test_opt_reg_a/U2/ZN (INR2XD1BWPHVT)                            0.2689    0.2128     0.5377 r
+  test_opt_reg_a/n1 (net)                      16       0.0140              0.0000     0.5377 r
+  test_opt_reg_a/U8/S (MUX2D0BWPHVT)                              0.2689    0.0000     0.5377 r
+  test_opt_reg_a/U8/Z (MUX2D0BWPHVT)                              0.4788    0.4086     0.9463 r
+  test_opt_reg_a/res[2] (net)                  30       0.0159              0.0000     0.9463 r
+  test_opt_reg_a/res[2] (test_opt_reg_DataWidth16_2)                        0.0000     0.9463 r
+  op_a[2] (net)                                         0.0159              0.0000     0.9463 r
+  test_pe_comp/op_a[2] (test_pe_comp_unq1_0)                                0.0000     0.9463 r
+  test_pe_comp/op_a[2] (net)                            0.0159              0.0000     0.9463 r
+  test_pe_comp/test_mult_add/a[2] (test_mult_add_DataWidth16_0)             0.0000     0.9463 r
+  test_pe_comp/test_mult_add/a[2] (net)                 0.0159              0.0000     0.9463 r
+  test_pe_comp/test_mult_add/U14/I (CKND0BWPHVT)                  0.4788    0.0000     0.9463 r
+  test_pe_comp/test_mult_add/U14/ZN (CKND0BWPHVT)                 0.2903    0.3461     1.2925 f
+  test_pe_comp/test_mult_add/n487 (net)        23       0.0094              0.0000     1.2925 f
+  test_pe_comp/test_mult_add/U140/B2 (MOAI22D0BWPHVT)             0.2903    0.0000     1.2925 f
+  test_pe_comp/test_mult_add/U140/ZN (MOAI22D0BWPHVT)             0.1240    0.2105     1.5030 f
+  test_pe_comp/test_mult_add/n79 (net)          2       0.0008              0.0000     1.5030 f
+  test_pe_comp/test_mult_add/U141/A2 (NR2D0BWPHVT)                0.1240    0.0000     1.5030 f
+  test_pe_comp/test_mult_add/U141/ZN (NR2D0BWPHVT)                0.4598    0.3297     1.8327 r
+  test_pe_comp/test_mult_add/n484 (net)        17       0.0071              0.0000     1.8327 r
+  test_pe_comp/test_mult_add/U146/A2 (AOI222D0BWPHVT)             0.4598    0.0000     1.8327 r
+  test_pe_comp/test_mult_add/U146/ZN (AOI222D0BWPHVT)             0.1442    0.2279     2.0606 f
+  test_pe_comp/test_mult_add/n80 (net)          1       0.0009              0.0000     2.0606 f
+  test_pe_comp/test_mult_add/U147/S (MUX2ND0BWPHVT)               0.1442    0.0000     2.0606 f
+  test_pe_comp/test_mult_add/U147/ZN (MUX2ND0BWPHVT)              0.1121    0.1443     2.2050 f
+  test_pe_comp/test_mult_add/n201 (net)         1       0.0006              0.0000     2.2050 f
+  test_pe_comp/test_mult_add/U264/CI (FA1D0BWPHVT)                0.1121    0.0000     2.2050 f
+  test_pe_comp/test_mult_add/U264/CO (FA1D0BWPHVT)                0.0489    0.1773     2.3823 f
+  test_pe_comp/test_mult_add/n200 (net)         1       0.0011              0.0000     2.3823 f
+  test_pe_comp/test_mult_add/U263/B (FA1D0BWPHVT)                 0.0489    0.0000     2.3823 f
+  test_pe_comp/test_mult_add/U263/CO (FA1D0BWPHVT)                0.0487    0.2030     2.5852 f
+  test_pe_comp/test_mult_add/n197 (net)         1       0.0011              0.0000     2.5852 f
+  test_pe_comp/test_mult_add/U262/B (FA1D0BWPHVT)                 0.0487    0.0000     2.5852 f
+  test_pe_comp/test_mult_add/U262/CO (FA1D0BWPHVT)                0.0487    0.2028     2.7881 f
+  test_pe_comp/test_mult_add/n194 (net)         1       0.0011              0.0000     2.7881 f
+  test_pe_comp/test_mult_add/U261/B (FA1D0BWPHVT)                 0.0487    0.0000     2.7881 f
+  test_pe_comp/test_mult_add/U261/CO (FA1D0BWPHVT)                0.0487    0.2028     2.9909 f
+  test_pe_comp/test_mult_add/n191 (net)         1       0.0011              0.0000     2.9909 f
+  test_pe_comp/test_mult_add/U260/B (FA1D0BWPHVT)                 0.0487    0.0000     2.9909 f
+  test_pe_comp/test_mult_add/U260/CO (FA1D0BWPHVT)                0.0487    0.2028     3.1938 f
+  test_pe_comp/test_mult_add/n189 (net)         1       0.0011              0.0000     3.1938 f
+  test_pe_comp/test_mult_add/U259/B (FA1D0BWPHVT)                 0.0487    0.0000     3.1938 f
+  test_pe_comp/test_mult_add/U259/CO (FA1D0BWPHVT)                0.0487    0.2028     3.3966 f
+  test_pe_comp/test_mult_add/n187 (net)         1       0.0011              0.0000     3.3966 f
+  test_pe_comp/test_mult_add/U258/B (FA1D0BWPHVT)                 0.0487    0.0000     3.3966 f
+  test_pe_comp/test_mult_add/U258/CO (FA1D0BWPHVT)                0.0487    0.2028     3.5995 f
+  test_pe_comp/test_mult_add/n185 (net)         1       0.0011              0.0000     3.5995 f
+  test_pe_comp/test_mult_add/U257/B (FA1D0BWPHVT)                 0.0487    0.0000     3.5995 f
+  test_pe_comp/test_mult_add/U257/CO (FA1D0BWPHVT)                0.0487    0.2028     3.8023 f
+  test_pe_comp/test_mult_add/n183 (net)         1       0.0011              0.0000     3.8023 f
+  test_pe_comp/test_mult_add/U256/B (FA1D0BWPHVT)                 0.0487    0.0000     3.8023 f
+  test_pe_comp/test_mult_add/U256/CO (FA1D0BWPHVT)                0.0487    0.2028     4.0052 f
+  test_pe_comp/test_mult_add/n181 (net)         1       0.0011              0.0000     4.0052 f
+  test_pe_comp/test_mult_add/U255/B (FA1D0BWPHVT)                 0.0487    0.0000     4.0052 f
+  test_pe_comp/test_mult_add/U255/CO (FA1D0BWPHVT)                0.0487    0.2028     4.2080 f
+  test_pe_comp/test_mult_add/n179 (net)         1       0.0011              0.0000     4.2080 f
+  test_pe_comp/test_mult_add/U254/B (FA1D0BWPHVT)                 0.0487    0.0000     4.2080 f
+  test_pe_comp/test_mult_add/U254/CO (FA1D0BWPHVT)                0.0487    0.2028     4.4109 f
+  test_pe_comp/test_mult_add/n177 (net)         1       0.0011              0.0000     4.4109 f
+  test_pe_comp/test_mult_add/U253/B (FA1D0BWPHVT)                 0.0487    0.0000     4.4109 f
+  test_pe_comp/test_mult_add/U253/CO (FA1D0BWPHVT)                0.0487    0.2028     4.6137 f
+  test_pe_comp/test_mult_add/n175 (net)         1       0.0011              0.0000     4.6137 f
+  test_pe_comp/test_mult_add/U252/B (FA1D0BWPHVT)                 0.0487    0.0000     4.6137 f
+  test_pe_comp/test_mult_add/U252/CO (FA1D0BWPHVT)                0.0487    0.2028     4.8166 f
+  test_pe_comp/test_mult_add/n173 (net)         1       0.0011              0.0000     4.8166 f
+  test_pe_comp/test_mult_add/U251/B (FA1D0BWPHVT)                 0.0487    0.0000     4.8166 f
+  test_pe_comp/test_mult_add/U251/CO (FA1D0BWPHVT)                0.0487    0.2028     5.0194 f
+  test_pe_comp/test_mult_add/n171 (net)         1       0.0011              0.0000     5.0194 f
+  test_pe_comp/test_mult_add/U250/B (FA1D0BWPHVT)                 0.0487    0.0000     5.0194 f
+  test_pe_comp/test_mult_add/U250/CO (FA1D0BWPHVT)                0.0487    0.2028     5.2223 f
+  test_pe_comp/test_mult_add/n169 (net)         1       0.0011              0.0000     5.2223 f
+  test_pe_comp/test_mult_add/U249/B (FA1D0BWPHVT)                 0.0487    0.0000     5.2223 f
+  test_pe_comp/test_mult_add/U249/CO (FA1D0BWPHVT)                0.0398    0.1951     5.4173 f
+  test_pe_comp/test_mult_add/n167 (net)         1       0.0006              0.0000     5.4173 f
+  test_pe_comp/test_mult_add/U248/CI (FA1D0BWPHVT)                0.0398    0.0000     5.4173 f
+  test_pe_comp/test_mult_add/U248/CO (FA1D0BWPHVT)                0.0389    0.1321     5.5494 f
+  test_pe_comp/test_mult_add/n166 (net)         1       0.0006              0.0000     5.5494 f
+  test_pe_comp/test_mult_add/U247/CI (FA1D0BWPHVT)                0.0389    0.0000     5.5494 f
+  test_pe_comp/test_mult_add/U247/CO (FA1D0BWPHVT)                0.0479    0.1403     5.6897 f
+  test_pe_comp/test_mult_add/n165 (net)         1       0.0011              0.0000     5.6897 f
+  test_pe_comp/test_mult_add/U246/B (FA1D0BWPHVT)                 0.0479    0.0000     5.6897 f
+  test_pe_comp/test_mult_add/U246/CO (FA1D0BWPHVT)                0.0396    0.1947     5.8844 f
+  test_pe_comp/test_mult_add/n163 (net)         1       0.0006              0.0000     5.8844 f
+  test_pe_comp/test_mult_add/U245/CI (FA1D0BWPHVT)                0.0396    0.0000     5.8844 f
+  test_pe_comp/test_mult_add/U245/CO (FA1D0BWPHVT)                0.0389    0.1320     6.0164 f
+  test_pe_comp/test_mult_add/n162 (net)         1       0.0006              0.0000     6.0164 f
+  test_pe_comp/test_mult_add/U244/CI (FA1D0BWPHVT)                0.0389    0.0000     6.0164 f
+  test_pe_comp/test_mult_add/U244/CO (FA1D0BWPHVT)                0.0389    0.1316     6.1480 f
+  test_pe_comp/test_mult_add/n161 (net)         1       0.0006              0.0000     6.1480 f
+  test_pe_comp/test_mult_add/U243/CI (FA1D0BWPHVT)                0.0389    0.0000     6.1480 f
+  test_pe_comp/test_mult_add/U243/CO (FA1D0BWPHVT)                0.0389    0.1316     6.2796 f
+  test_pe_comp/test_mult_add/n160 (net)         1       0.0006              0.0000     6.2796 f
+  test_pe_comp/test_mult_add/U242/CI (FA1D0BWPHVT)                0.0389    0.0000     6.2796 f
+  test_pe_comp/test_mult_add/U242/CO (FA1D0BWPHVT)                0.0389    0.1316     6.4112 f
+  test_pe_comp/test_mult_add/n159 (net)         1       0.0006              0.0000     6.4112 f
+  test_pe_comp/test_mult_add/U241/CI (FA1D0BWPHVT)                0.0389    0.0000     6.4112 f
+  test_pe_comp/test_mult_add/U241/CO (FA1D0BWPHVT)                0.0389    0.1316     6.5429 f
+  test_pe_comp/test_mult_add/n158 (net)         1       0.0006              0.0000     6.5429 f
+  test_pe_comp/test_mult_add/U240/CI (FA1D0BWPHVT)                0.0389    0.0000     6.5429 f
+  test_pe_comp/test_mult_add/U240/CO (FA1D0BWPHVT)                0.0389    0.1316     6.6745 f
+  test_pe_comp/test_mult_add/n157 (net)         1       0.0006              0.0000     6.6745 f
+  test_pe_comp/test_mult_add/U239/CI (FA1D0BWPHVT)                0.0389    0.0000     6.6745 f
+  test_pe_comp/test_mult_add/U239/CO (FA1D0BWPHVT)                0.0389    0.1316     6.8061 f
+  test_pe_comp/test_mult_add/n156 (net)         1       0.0006              0.0000     6.8061 f
+  test_pe_comp/test_mult_add/U238/CI (FA1D0BWPHVT)                0.0389    0.0000     6.8061 f
+  test_pe_comp/test_mult_add/U238/CO (FA1D0BWPHVT)                0.0479    0.1403     6.9464 f
+  test_pe_comp/test_mult_add/n155 (net)         1       0.0011              0.0000     6.9464 f
+  test_pe_comp/test_mult_add/U237/B (FA1D0BWPHVT)                 0.0479    0.0000     6.9464 f
+  test_pe_comp/test_mult_add/U237/CO (FA1D0BWPHVT)                0.0388    0.1947     7.1411 f
+  test_pe_comp/test_mult_add/n151 (net)         1       0.0006              0.0000     7.1411 f
+  test_pe_comp/test_mult_add/U236/CI (FA1D0BWPHVT)                0.0388    0.0000     7.1411 f
+  test_pe_comp/test_mult_add/U236/CO (FA1D0BWPHVT)                0.0389    0.1316     7.2726 f
+  test_pe_comp/test_mult_add/n148 (net)         1       0.0006              0.0000     7.2726 f
+  test_pe_comp/test_mult_add/U235/CI (FA1D0BWPHVT)                0.0389    0.0000     7.2726 f
+  test_pe_comp/test_mult_add/U235/CO (FA1D0BWPHVT)                0.0389    0.1316     7.4042 f
+  test_pe_comp/test_mult_add/n488 (net)         1       0.0006              0.0000     7.4042 f
+  test_pe_comp/test_mult_add/U551/CI (FA1D0BWPHVT)                0.0389    0.0000     7.4042 f
+  test_pe_comp/test_mult_add/U551/S (FA1D0BWPHVT)                 0.0451    0.1418     7.5460 f
+  test_pe_comp/test_mult_add/res[31] (net)      2       0.0009              0.0000     7.5460 f
+  test_pe_comp/test_mult_add/res[31] (test_mult_add_DataWidth16_0)          0.0000     7.5460 f
+  test_pe_comp/mult_res[31] (net)                       0.0009              0.0000     7.5460 f
+  test_pe_comp/U166/B1 (AOI22D0BWPHVT)                            0.0451    0.0000     7.5460 f
+  test_pe_comp/U166/ZN (AOI22D0BWPHVT)                            0.0955    0.0875     7.6335 r
+  test_pe_comp/n91 (net)                        1       0.0004              0.0000     7.6335 r
+  test_pe_comp/U170/B (OAI211D0BWPHVT)                            0.0955    0.0000     7.6335 r
+  test_pe_comp/U170/ZN (OAI211D0BWPHVT)                           0.1441    0.1362     7.7697 f
+  test_pe_comp/n99 (net)                        2       0.0009              0.0000     7.7697 f
+  test_pe_comp/U174/A1 (OAI32D0BWPHVT)                            0.1441    0.0000     7.7697 f
+  test_pe_comp/U174/ZN (OAI32D0BWPHVT)                            0.1740    0.1568     7.9265 r
+  test_pe_comp/n100 (net)                       1       0.0004              0.0000     7.9265 r
+  test_pe_comp/U175/C (OAI211D0BWPHVT)                            0.1740    0.0000     7.9265 r
+  test_pe_comp/U175/ZN (OAI211D0BWPHVT)                           0.1369    0.1793     8.1057 f
+  test_pe_comp/res[15] (net)                    3       0.0012              0.0000     8.1057 f
+  test_pe_comp/res[15] (test_pe_comp_unq1_0)                                0.0000     8.1057 f
+  comp_res[15] (net)                                    0.0012              0.0000     8.1057 f
+  U239/I (CKND0BWPHVT)                                            0.1369    0.0000     8.1057 f
+  U239/ZN (CKND0BWPHVT)                                           0.1014    0.1130     8.2187 r
+  n312 (net)                                    5       0.0023              0.0000     8.2187 r
+  U240/A2 (MAOI22D0BWPHVT)                                        0.1014    0.0000     8.2187 r
+  U240/ZN (MAOI22D0BWPHVT)                                        0.1011    0.0893     8.3080 f
+  res[15] (net)                                 3       0.0008              0.0000     8.3080 f
+  res[15] (out)                                                   0.1011    0.0000     8.3080 f
+  data arrival time                                                                    8.3080
+  -------------------------------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: inp_code_reg[1]
+              (rising edge-triggered flip-flop)
+  Endpoint: res[14] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SNPS_CLOCK_GATE_HIGH_test_pe_0 ZeroWireload tcbn40lpbwphvttc
+  test_pe            ZeroWireload          tcbn40lpbwphvttc
+  test_opt_reg_DataWidth16_2 ZeroWireload  tcbn40lpbwphvttc
+  test_shifter_unq1_DataWidth16_0 ZeroWireload tcbn40lpbwphvttc
+  test_mult_add_DataWidth16_0 ZeroWireload tcbn40lpbwphvttc
+  test_full_add_DataWidth16_2 ZeroWireload tcbn40lpbwphvttc
+  test_pe_comp_unq1_0 ZeroWireload         tcbn40lpbwphvttc
+  test_debug_reg_DataWidth16_0 ZeroWireload tcbn40lpbwphvttc
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                       Fanout       Cap     Trans      Incr       Path      Attributes
+  -------------------------------------------------------------------------------------------------------------------
+  inp_code_reg[1]/CP (SDFCNQD0BWPHVT)                             0.2586    0.0000     0.0000 r
+  inp_code_reg[1]/Q (SDFCNQD0BWPHVT)                              0.0598    0.3249     0.3249 r
+  inp_code[1] (net)                             3       0.0014              0.0000     0.3249 r
+  test_opt_reg_a/mode[1] (test_opt_reg_DataWidth16_2)                       0.0000     0.3249 r
+  test_opt_reg_a/mode[1] (net)                          0.0014              0.0000     0.3249 r
+  test_opt_reg_a/U2/A1 (INR2XD1BWPHVT)                            0.0598    0.0000     0.3249 r
+  test_opt_reg_a/U2/ZN (INR2XD1BWPHVT)                            0.2689    0.2128     0.5377 r
+  test_opt_reg_a/n1 (net)                      16       0.0140              0.0000     0.5377 r
+  test_opt_reg_a/U8/S (MUX2D0BWPHVT)                              0.2689    0.0000     0.5377 r
+  test_opt_reg_a/U8/Z (MUX2D0BWPHVT)                              0.4788    0.4086     0.9463 r
+  test_opt_reg_a/res[2] (net)                  30       0.0159              0.0000     0.9463 r
+  test_opt_reg_a/res[2] (test_opt_reg_DataWidth16_2)                        0.0000     0.9463 r
+  op_a[2] (net)                                         0.0159              0.0000     0.9463 r
+  test_pe_comp/op_a[2] (test_pe_comp_unq1_0)                                0.0000     0.9463 r
+  test_pe_comp/op_a[2] (net)                            0.0159              0.0000     0.9463 r
+  test_pe_comp/test_mult_add/a[2] (test_mult_add_DataWidth16_0)             0.0000     0.9463 r
+  test_pe_comp/test_mult_add/a[2] (net)                 0.0159              0.0000     0.9463 r
+  test_pe_comp/test_mult_add/U14/I (CKND0BWPHVT)                  0.4788    0.0000     0.9463 r
+  test_pe_comp/test_mult_add/U14/ZN (CKND0BWPHVT)                 0.2903    0.3461     1.2925 f
+  test_pe_comp/test_mult_add/n487 (net)        23       0.0094              0.0000     1.2925 f
+  test_pe_comp/test_mult_add/U140/B2 (MOAI22D0BWPHVT)             0.2903    0.0000     1.2925 f
+  test_pe_comp/test_mult_add/U140/ZN (MOAI22D0BWPHVT)             0.1240    0.2105     1.5030 f
+  test_pe_comp/test_mult_add/n79 (net)          2       0.0008              0.0000     1.5030 f
+  test_pe_comp/test_mult_add/U141/A2 (NR2D0BWPHVT)                0.1240    0.0000     1.5030 f
+  test_pe_comp/test_mult_add/U141/ZN (NR2D0BWPHVT)                0.4598    0.3297     1.8327 r
+  test_pe_comp/test_mult_add/n484 (net)        17       0.0071              0.0000     1.8327 r
+  test_pe_comp/test_mult_add/U146/A2 (AOI222D0BWPHVT)             0.4598    0.0000     1.8327 r
+  test_pe_comp/test_mult_add/U146/ZN (AOI222D0BWPHVT)             0.1442    0.2279     2.0606 f
+  test_pe_comp/test_mult_add/n80 (net)          1       0.0009              0.0000     2.0606 f
+  test_pe_comp/test_mult_add/U147/S (MUX2ND0BWPHVT)               0.1442    0.0000     2.0606 f
+  test_pe_comp/test_mult_add/U147/ZN (MUX2ND0BWPHVT)              0.1121    0.1443     2.2050 f
+  test_pe_comp/test_mult_add/n201 (net)         1       0.0006              0.0000     2.2050 f
+  test_pe_comp/test_mult_add/U264/CI (FA1D0BWPHVT)                0.1121    0.0000     2.2050 f
+  test_pe_comp/test_mult_add/U264/CO (FA1D0BWPHVT)                0.0489    0.1773     2.3823 f
+  test_pe_comp/test_mult_add/n200 (net)         1       0.0011              0.0000     2.3823 f
+  test_pe_comp/test_mult_add/U263/B (FA1D0BWPHVT)                 0.0489    0.0000     2.3823 f
+  test_pe_comp/test_mult_add/U263/CO (FA1D0BWPHVT)                0.0487    0.2030     2.5852 f
+  test_pe_comp/test_mult_add/n197 (net)         1       0.0011              0.0000     2.5852 f
+  test_pe_comp/test_mult_add/U262/B (FA1D0BWPHVT)                 0.0487    0.0000     2.5852 f
+  test_pe_comp/test_mult_add/U262/CO (FA1D0BWPHVT)                0.0487    0.2028     2.7881 f
+  test_pe_comp/test_mult_add/n194 (net)         1       0.0011              0.0000     2.7881 f
+  test_pe_comp/test_mult_add/U261/B (FA1D0BWPHVT)                 0.0487    0.0000     2.7881 f
+  test_pe_comp/test_mult_add/U261/CO (FA1D0BWPHVT)                0.0487    0.2028     2.9909 f
+  test_pe_comp/test_mult_add/n191 (net)         1       0.0011              0.0000     2.9909 f
+  test_pe_comp/test_mult_add/U260/B (FA1D0BWPHVT)                 0.0487    0.0000     2.9909 f
+  test_pe_comp/test_mult_add/U260/CO (FA1D0BWPHVT)                0.0487    0.2028     3.1938 f
+  test_pe_comp/test_mult_add/n189 (net)         1       0.0011              0.0000     3.1938 f
+  test_pe_comp/test_mult_add/U259/B (FA1D0BWPHVT)                 0.0487    0.0000     3.1938 f
+  test_pe_comp/test_mult_add/U259/CO (FA1D0BWPHVT)                0.0487    0.2028     3.3966 f
+  test_pe_comp/test_mult_add/n187 (net)         1       0.0011              0.0000     3.3966 f
+  test_pe_comp/test_mult_add/U258/B (FA1D0BWPHVT)                 0.0487    0.0000     3.3966 f
+  test_pe_comp/test_mult_add/U258/CO (FA1D0BWPHVT)                0.0487    0.2028     3.5995 f
+  test_pe_comp/test_mult_add/n185 (net)         1       0.0011              0.0000     3.5995 f
+  test_pe_comp/test_mult_add/U257/B (FA1D0BWPHVT)                 0.0487    0.0000     3.5995 f
+  test_pe_comp/test_mult_add/U257/CO (FA1D0BWPHVT)                0.0487    0.2028     3.8023 f
+  test_pe_comp/test_mult_add/n183 (net)         1       0.0011              0.0000     3.8023 f
+  test_pe_comp/test_mult_add/U256/B (FA1D0BWPHVT)                 0.0487    0.0000     3.8023 f
+  test_pe_comp/test_mult_add/U256/CO (FA1D0BWPHVT)                0.0487    0.2028     4.0052 f
+  test_pe_comp/test_mult_add/n181 (net)         1       0.0011              0.0000     4.0052 f
+  test_pe_comp/test_mult_add/U255/B (FA1D0BWPHVT)                 0.0487    0.0000     4.0052 f
+  test_pe_comp/test_mult_add/U255/CO (FA1D0BWPHVT)                0.0487    0.2028     4.2080 f
+  test_pe_comp/test_mult_add/n179 (net)         1       0.0011              0.0000     4.2080 f
+  test_pe_comp/test_mult_add/U254/B (FA1D0BWPHVT)                 0.0487    0.0000     4.2080 f
+  test_pe_comp/test_mult_add/U254/CO (FA1D0BWPHVT)                0.0487    0.2028     4.4109 f
+  test_pe_comp/test_mult_add/n177 (net)         1       0.0011              0.0000     4.4109 f
+  test_pe_comp/test_mult_add/U253/B (FA1D0BWPHVT)                 0.0487    0.0000     4.4109 f
+  test_pe_comp/test_mult_add/U253/CO (FA1D0BWPHVT)                0.0487    0.2028     4.6137 f
+  test_pe_comp/test_mult_add/n175 (net)         1       0.0011              0.0000     4.6137 f
+  test_pe_comp/test_mult_add/U252/B (FA1D0BWPHVT)                 0.0487    0.0000     4.6137 f
+  test_pe_comp/test_mult_add/U252/CO (FA1D0BWPHVT)                0.0487    0.2028     4.8166 f
+  test_pe_comp/test_mult_add/n173 (net)         1       0.0011              0.0000     4.8166 f
+  test_pe_comp/test_mult_add/U251/B (FA1D0BWPHVT)                 0.0487    0.0000     4.8166 f
+  test_pe_comp/test_mult_add/U251/CO (FA1D0BWPHVT)                0.0487    0.2028     5.0194 f
+  test_pe_comp/test_mult_add/n171 (net)         1       0.0011              0.0000     5.0194 f
+  test_pe_comp/test_mult_add/U250/B (FA1D0BWPHVT)                 0.0487    0.0000     5.0194 f
+  test_pe_comp/test_mult_add/U250/CO (FA1D0BWPHVT)                0.0487    0.2028     5.2223 f
+  test_pe_comp/test_mult_add/n169 (net)         1       0.0011              0.0000     5.2223 f
+  test_pe_comp/test_mult_add/U249/B (FA1D0BWPHVT)                 0.0487    0.0000     5.2223 f
+  test_pe_comp/test_mult_add/U249/CO (FA1D0BWPHVT)                0.0398    0.1951     5.4173 f
+  test_pe_comp/test_mult_add/n167 (net)         1       0.0006              0.0000     5.4173 f
+  test_pe_comp/test_mult_add/U248/CI (FA1D0BWPHVT)                0.0398    0.0000     5.4173 f
+  test_pe_comp/test_mult_add/U248/CO (FA1D0BWPHVT)                0.0389    0.1321     5.5494 f
+  test_pe_comp/test_mult_add/n166 (net)         1       0.0006              0.0000     5.5494 f
+  test_pe_comp/test_mult_add/U247/CI (FA1D0BWPHVT)                0.0389    0.0000     5.5494 f
+  test_pe_comp/test_mult_add/U247/CO (FA1D0BWPHVT)                0.0479    0.1403     5.6897 f
+  test_pe_comp/test_mult_add/n165 (net)         1       0.0011              0.0000     5.6897 f
+  test_pe_comp/test_mult_add/U246/B (FA1D0BWPHVT)                 0.0479    0.0000     5.6897 f
+  test_pe_comp/test_mult_add/U246/CO (FA1D0BWPHVT)                0.0396    0.1947     5.8844 f
+  test_pe_comp/test_mult_add/n163 (net)         1       0.0006              0.0000     5.8844 f
+  test_pe_comp/test_mult_add/U245/CI (FA1D0BWPHVT)                0.0396    0.0000     5.8844 f
+  test_pe_comp/test_mult_add/U245/CO (FA1D0BWPHVT)                0.0389    0.1320     6.0164 f
+  test_pe_comp/test_mult_add/n162 (net)         1       0.0006              0.0000     6.0164 f
+  test_pe_comp/test_mult_add/U244/CI (FA1D0BWPHVT)                0.0389    0.0000     6.0164 f
+  test_pe_comp/test_mult_add/U244/CO (FA1D0BWPHVT)                0.0389    0.1316     6.1480 f
+  test_pe_comp/test_mult_add/n161 (net)         1       0.0006              0.0000     6.1480 f
+  test_pe_comp/test_mult_add/U243/CI (FA1D0BWPHVT)                0.0389    0.0000     6.1480 f
+  test_pe_comp/test_mult_add/U243/CO (FA1D0BWPHVT)                0.0389    0.1316     6.2796 f
+  test_pe_comp/test_mult_add/n160 (net)         1       0.0006              0.0000     6.2796 f
+  test_pe_comp/test_mult_add/U242/CI (FA1D0BWPHVT)                0.0389    0.0000     6.2796 f
+  test_pe_comp/test_mult_add/U242/CO (FA1D0BWPHVT)                0.0389    0.1316     6.4112 f
+  test_pe_comp/test_mult_add/n159 (net)         1       0.0006              0.0000     6.4112 f
+  test_pe_comp/test_mult_add/U241/CI (FA1D0BWPHVT)                0.0389    0.0000     6.4112 f
+  test_pe_comp/test_mult_add/U241/CO (FA1D0BWPHVT)                0.0389    0.1316     6.5429 f
+  test_pe_comp/test_mult_add/n158 (net)         1       0.0006              0.0000     6.5429 f
+  test_pe_comp/test_mult_add/U240/CI (FA1D0BWPHVT)                0.0389    0.0000     6.5429 f
+  test_pe_comp/test_mult_add/U240/CO (FA1D0BWPHVT)                0.0389    0.1316     6.6745 f
+  test_pe_comp/test_mult_add/n157 (net)         1       0.0006              0.0000     6.6745 f
+  test_pe_comp/test_mult_add/U239/CI (FA1D0BWPHVT)                0.0389    0.0000     6.6745 f
+  test_pe_comp/test_mult_add/U239/CO (FA1D0BWPHVT)                0.0389    0.1316     6.8061 f
+  test_pe_comp/test_mult_add/n156 (net)         1       0.0006              0.0000     6.8061 f
+  test_pe_comp/test_mult_add/U238/CI (FA1D0BWPHVT)                0.0389    0.0000     6.8061 f
+  test_pe_comp/test_mult_add/U238/CO (FA1D0BWPHVT)                0.0479    0.1403     6.9464 f
+  test_pe_comp/test_mult_add/n155 (net)         1       0.0011              0.0000     6.9464 f
+  test_pe_comp/test_mult_add/U237/B (FA1D0BWPHVT)                 0.0479    0.0000     6.9464 f
+  test_pe_comp/test_mult_add/U237/CO (FA1D0BWPHVT)                0.0388    0.1947     7.1411 f
+  test_pe_comp/test_mult_add/n151 (net)         1       0.0006              0.0000     7.1411 f
+  test_pe_comp/test_mult_add/U236/CI (FA1D0BWPHVT)                0.0388    0.0000     7.1411 f
+  test_pe_comp/test_mult_add/U236/CO (FA1D0BWPHVT)                0.0389    0.1316     7.2726 f
+  test_pe_comp/test_mult_add/n148 (net)         1       0.0006              0.0000     7.2726 f
+  test_pe_comp/test_mult_add/U235/CI (FA1D0BWPHVT)                0.0389    0.0000     7.2726 f
+  test_pe_comp/test_mult_add/U235/S (FA1D0BWPHVT)                 0.0450    0.1417     7.4143 f
+  test_pe_comp/test_mult_add/res[30] (net)      2       0.0008              0.0000     7.4143 f
+  test_pe_comp/test_mult_add/res[30] (test_mult_add_DataWidth16_0)          0.0000     7.4143 f
+  test_pe_comp/mult_res[30] (net)                       0.0008              0.0000     7.4143 f
+  test_pe_comp/U277/B1 (AOI22D0BWPHVT)                            0.0450    0.0000     7.4143 f
+  test_pe_comp/U277/ZN (AOI22D0BWPHVT)                            0.0960    0.0878     7.5021 r
+  test_pe_comp/n217 (net)                       1       0.0004              0.0000     7.5021 r
+  test_pe_comp/U280/A2 (AN4D0BWPHVT)                              0.0960    0.0000     7.5021 r
+  test_pe_comp/U280/Z (AN4D0BWPHVT)                               0.0554    0.1931     7.6952 r
+  test_pe_comp/n222 (net)                       1       0.0004              0.0000     7.6952 r
+  test_pe_comp/U282/B (OAI211D0BWPHVT)                            0.0554    0.0000     7.6952 r
+  test_pe_comp/U282/ZN (OAI211D0BWPHVT)                           0.1202    0.1015     7.7967 f
+  test_pe_comp/res[14] (net)                    1       0.0004              0.0000     7.7967 f
+  test_pe_comp/res[14] (test_pe_comp_unq1_0)                                0.0000     7.7967 f
+  comp_res[14] (net)                                    0.0004              0.0000     7.7967 f
+  U268/I (CKND0BWPHVT)                                            0.1202    0.0000     7.7967 f
+  U268/ZN (CKND0BWPHVT)                                           0.0700    0.0864     7.8830 r
+  n289 (net)                                    3       0.0013              0.0000     7.8830 r
+  U269/A2 (MAOI22D0BWPHVT)                                        0.0700    0.0000     7.8830 r
+  U269/ZN (MAOI22D0BWPHVT)                                        0.1013    0.0762     7.9592 f
+  res[14] (net)                                 3       0.0008              0.0000     7.9592 f
+  res[14] (out)                                                   0.1013    0.0000     7.9592 f
+  data arrival time                                                                    7.9592
+  -------------------------------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: inp_code_reg[1]
+              (rising edge-triggered flip-flop)
+  Endpoint: res[13] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SNPS_CLOCK_GATE_HIGH_test_pe_0 ZeroWireload tcbn40lpbwphvttc
+  test_pe            ZeroWireload          tcbn40lpbwphvttc
+  test_opt_reg_DataWidth16_2 ZeroWireload  tcbn40lpbwphvttc
+  test_shifter_unq1_DataWidth16_0 ZeroWireload tcbn40lpbwphvttc
+  test_mult_add_DataWidth16_0 ZeroWireload tcbn40lpbwphvttc
+  test_full_add_DataWidth16_2 ZeroWireload tcbn40lpbwphvttc
+  test_pe_comp_unq1_0 ZeroWireload         tcbn40lpbwphvttc
+  test_debug_reg_DataWidth16_0 ZeroWireload tcbn40lpbwphvttc
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                       Fanout       Cap     Trans      Incr       Path      Attributes
+  -------------------------------------------------------------------------------------------------------------------
+  inp_code_reg[1]/CP (SDFCNQD0BWPHVT)                             0.2586    0.0000     0.0000 r
+  inp_code_reg[1]/Q (SDFCNQD0BWPHVT)                              0.0598    0.3249     0.3249 r
+  inp_code[1] (net)                             3       0.0014              0.0000     0.3249 r
+  test_opt_reg_a/mode[1] (test_opt_reg_DataWidth16_2)                       0.0000     0.3249 r
+  test_opt_reg_a/mode[1] (net)                          0.0014              0.0000     0.3249 r
+  test_opt_reg_a/U2/A1 (INR2XD1BWPHVT)                            0.0598    0.0000     0.3249 r
+  test_opt_reg_a/U2/ZN (INR2XD1BWPHVT)                            0.2689    0.2128     0.5377 r
+  test_opt_reg_a/n1 (net)                      16       0.0140              0.0000     0.5377 r
+  test_opt_reg_a/U8/S (MUX2D0BWPHVT)                              0.2689    0.0000     0.5377 r
+  test_opt_reg_a/U8/Z (MUX2D0BWPHVT)                              0.4788    0.4086     0.9463 r
+  test_opt_reg_a/res[2] (net)                  30       0.0159              0.0000     0.9463 r
+  test_opt_reg_a/res[2] (test_opt_reg_DataWidth16_2)                        0.0000     0.9463 r
+  op_a[2] (net)                                         0.0159              0.0000     0.9463 r
+  test_pe_comp/op_a[2] (test_pe_comp_unq1_0)                                0.0000     0.9463 r
+  test_pe_comp/op_a[2] (net)                            0.0159              0.0000     0.9463 r
+  test_pe_comp/test_mult_add/a[2] (test_mult_add_DataWidth16_0)             0.0000     0.9463 r
+  test_pe_comp/test_mult_add/a[2] (net)                 0.0159              0.0000     0.9463 r
+  test_pe_comp/test_mult_add/U14/I (CKND0BWPHVT)                  0.4788    0.0000     0.9463 r
+  test_pe_comp/test_mult_add/U14/ZN (CKND0BWPHVT)                 0.2903    0.3461     1.2925 f
+  test_pe_comp/test_mult_add/n487 (net)        23       0.0094              0.0000     1.2925 f
+  test_pe_comp/test_mult_add/U140/B2 (MOAI22D0BWPHVT)             0.2903    0.0000     1.2925 f
+  test_pe_comp/test_mult_add/U140/ZN (MOAI22D0BWPHVT)             0.1240    0.2105     1.5030 f
+  test_pe_comp/test_mult_add/n79 (net)          2       0.0008              0.0000     1.5030 f
+  test_pe_comp/test_mult_add/U141/A2 (NR2D0BWPHVT)                0.1240    0.0000     1.5030 f
+  test_pe_comp/test_mult_add/U141/ZN (NR2D0BWPHVT)                0.4598    0.3297     1.8327 r
+  test_pe_comp/test_mult_add/n484 (net)        17       0.0071              0.0000     1.8327 r
+  test_pe_comp/test_mult_add/U146/A2 (AOI222D0BWPHVT)             0.4598    0.0000     1.8327 r
+  test_pe_comp/test_mult_add/U146/ZN (AOI222D0BWPHVT)             0.1442    0.2279     2.0606 f
+  test_pe_comp/test_mult_add/n80 (net)          1       0.0009              0.0000     2.0606 f
+  test_pe_comp/test_mult_add/U147/S (MUX2ND0BWPHVT)               0.1442    0.0000     2.0606 f
+  test_pe_comp/test_mult_add/U147/ZN (MUX2ND0BWPHVT)              0.1121    0.1443     2.2050 f
+  test_pe_comp/test_mult_add/n201 (net)         1       0.0006              0.0000     2.2050 f
+  test_pe_comp/test_mult_add/U264/CI (FA1D0BWPHVT)                0.1121    0.0000     2.2050 f
+  test_pe_comp/test_mult_add/U264/CO (FA1D0BWPHVT)                0.0489    0.1773     2.3823 f
+  test_pe_comp/test_mult_add/n200 (net)         1       0.0011              0.0000     2.3823 f
+  test_pe_comp/test_mult_add/U263/B (FA1D0BWPHVT)                 0.0489    0.0000     2.3823 f
+  test_pe_comp/test_mult_add/U263/CO (FA1D0BWPHVT)                0.0487    0.2030     2.5852 f
+  test_pe_comp/test_mult_add/n197 (net)         1       0.0011              0.0000     2.5852 f
+  test_pe_comp/test_mult_add/U262/B (FA1D0BWPHVT)                 0.0487    0.0000     2.5852 f
+  test_pe_comp/test_mult_add/U262/CO (FA1D0BWPHVT)                0.0487    0.2028     2.7881 f
+  test_pe_comp/test_mult_add/n194 (net)         1       0.0011              0.0000     2.7881 f
+  test_pe_comp/test_mult_add/U261/B (FA1D0BWPHVT)                 0.0487    0.0000     2.7881 f
+  test_pe_comp/test_mult_add/U261/CO (FA1D0BWPHVT)                0.0487    0.2028     2.9909 f
+  test_pe_comp/test_mult_add/n191 (net)         1       0.0011              0.0000     2.9909 f
+  test_pe_comp/test_mult_add/U260/B (FA1D0BWPHVT)                 0.0487    0.0000     2.9909 f
+  test_pe_comp/test_mult_add/U260/CO (FA1D0BWPHVT)                0.0487    0.2028     3.1938 f
+  test_pe_comp/test_mult_add/n189 (net)         1       0.0011              0.0000     3.1938 f
+  test_pe_comp/test_mult_add/U259/B (FA1D0BWPHVT)                 0.0487    0.0000     3.1938 f
+  test_pe_comp/test_mult_add/U259/CO (FA1D0BWPHVT)                0.0487    0.2028     3.3966 f
+  test_pe_comp/test_mult_add/n187 (net)         1       0.0011              0.0000     3.3966 f
+  test_pe_comp/test_mult_add/U258/B (FA1D0BWPHVT)                 0.0487    0.0000     3.3966 f
+  test_pe_comp/test_mult_add/U258/CO (FA1D0BWPHVT)                0.0487    0.2028     3.5995 f
+  test_pe_comp/test_mult_add/n185 (net)         1       0.0011              0.0000     3.5995 f
+  test_pe_comp/test_mult_add/U257/B (FA1D0BWPHVT)                 0.0487    0.0000     3.5995 f
+  test_pe_comp/test_mult_add/U257/CO (FA1D0BWPHVT)                0.0487    0.2028     3.8023 f
+  test_pe_comp/test_mult_add/n183 (net)         1       0.0011              0.0000     3.8023 f
+  test_pe_comp/test_mult_add/U256/B (FA1D0BWPHVT)                 0.0487    0.0000     3.8023 f
+  test_pe_comp/test_mult_add/U256/CO (FA1D0BWPHVT)                0.0487    0.2028     4.0052 f
+  test_pe_comp/test_mult_add/n181 (net)         1       0.0011              0.0000     4.0052 f
+  test_pe_comp/test_mult_add/U255/B (FA1D0BWPHVT)                 0.0487    0.0000     4.0052 f
+  test_pe_comp/test_mult_add/U255/CO (FA1D0BWPHVT)                0.0487    0.2028     4.2080 f
+  test_pe_comp/test_mult_add/n179 (net)         1       0.0011              0.0000     4.2080 f
+  test_pe_comp/test_mult_add/U254/B (FA1D0BWPHVT)                 0.0487    0.0000     4.2080 f
+  test_pe_comp/test_mult_add/U254/CO (FA1D0BWPHVT)                0.0487    0.2028     4.4109 f
+  test_pe_comp/test_mult_add/n177 (net)         1       0.0011              0.0000     4.4109 f
+  test_pe_comp/test_mult_add/U253/B (FA1D0BWPHVT)                 0.0487    0.0000     4.4109 f
+  test_pe_comp/test_mult_add/U253/CO (FA1D0BWPHVT)                0.0487    0.2028     4.6137 f
+  test_pe_comp/test_mult_add/n175 (net)         1       0.0011              0.0000     4.6137 f
+  test_pe_comp/test_mult_add/U252/B (FA1D0BWPHVT)                 0.0487    0.0000     4.6137 f
+  test_pe_comp/test_mult_add/U252/CO (FA1D0BWPHVT)                0.0487    0.2028     4.8166 f
+  test_pe_comp/test_mult_add/n173 (net)         1       0.0011              0.0000     4.8166 f
+  test_pe_comp/test_mult_add/U251/B (FA1D0BWPHVT)                 0.0487    0.0000     4.8166 f
+  test_pe_comp/test_mult_add/U251/CO (FA1D0BWPHVT)                0.0487    0.2028     5.0194 f
+  test_pe_comp/test_mult_add/n171 (net)         1       0.0011              0.0000     5.0194 f
+  test_pe_comp/test_mult_add/U250/B (FA1D0BWPHVT)                 0.0487    0.0000     5.0194 f
+  test_pe_comp/test_mult_add/U250/CO (FA1D0BWPHVT)                0.0487    0.2028     5.2223 f
+  test_pe_comp/test_mult_add/n169 (net)         1       0.0011              0.0000     5.2223 f
+  test_pe_comp/test_mult_add/U249/B (FA1D0BWPHVT)                 0.0487    0.0000     5.2223 f
+  test_pe_comp/test_mult_add/U249/CO (FA1D0BWPHVT)                0.0398    0.1951     5.4173 f
+  test_pe_comp/test_mult_add/n167 (net)         1       0.0006              0.0000     5.4173 f
+  test_pe_comp/test_mult_add/U248/CI (FA1D0BWPHVT)                0.0398    0.0000     5.4173 f
+  test_pe_comp/test_mult_add/U248/CO (FA1D0BWPHVT)                0.0389    0.1321     5.5494 f
+  test_pe_comp/test_mult_add/n166 (net)         1       0.0006              0.0000     5.5494 f
+  test_pe_comp/test_mult_add/U247/CI (FA1D0BWPHVT)                0.0389    0.0000     5.5494 f
+  test_pe_comp/test_mult_add/U247/CO (FA1D0BWPHVT)                0.0479    0.1403     5.6897 f
+  test_pe_comp/test_mult_add/n165 (net)         1       0.0011              0.0000     5.6897 f
+  test_pe_comp/test_mult_add/U246/B (FA1D0BWPHVT)                 0.0479    0.0000     5.6897 f
+  test_pe_comp/test_mult_add/U246/CO (FA1D0BWPHVT)                0.0396    0.1947     5.8844 f
+  test_pe_comp/test_mult_add/n163 (net)         1       0.0006              0.0000     5.8844 f
+  test_pe_comp/test_mult_add/U245/CI (FA1D0BWPHVT)                0.0396    0.0000     5.8844 f
+  test_pe_comp/test_mult_add/U245/CO (FA1D0BWPHVT)                0.0389    0.1320     6.0164 f
+  test_pe_comp/test_mult_add/n162 (net)         1       0.0006              0.0000     6.0164 f
+  test_pe_comp/test_mult_add/U244/CI (FA1D0BWPHVT)                0.0389    0.0000     6.0164 f
+  test_pe_comp/test_mult_add/U244/CO (FA1D0BWPHVT)                0.0389    0.1316     6.1480 f
+  test_pe_comp/test_mult_add/n161 (net)         1       0.0006              0.0000     6.1480 f
+  test_pe_comp/test_mult_add/U243/CI (FA1D0BWPHVT)                0.0389    0.0000     6.1480 f
+  test_pe_comp/test_mult_add/U243/CO (FA1D0BWPHVT)                0.0389    0.1316     6.2796 f
+  test_pe_comp/test_mult_add/n160 (net)         1       0.0006              0.0000     6.2796 f
+  test_pe_comp/test_mult_add/U242/CI (FA1D0BWPHVT)                0.0389    0.0000     6.2796 f
+  test_pe_comp/test_mult_add/U242/CO (FA1D0BWPHVT)                0.0389    0.1316     6.4112 f
+  test_pe_comp/test_mult_add/n159 (net)         1       0.0006              0.0000     6.4112 f
+  test_pe_comp/test_mult_add/U241/CI (FA1D0BWPHVT)                0.0389    0.0000     6.4112 f
+  test_pe_comp/test_mult_add/U241/CO (FA1D0BWPHVT)                0.0389    0.1316     6.5429 f
+  test_pe_comp/test_mult_add/n158 (net)         1       0.0006              0.0000     6.5429 f
+  test_pe_comp/test_mult_add/U240/CI (FA1D0BWPHVT)                0.0389    0.0000     6.5429 f
+  test_pe_comp/test_mult_add/U240/CO (FA1D0BWPHVT)                0.0389    0.1316     6.6745 f
+  test_pe_comp/test_mult_add/n157 (net)         1       0.0006              0.0000     6.6745 f
+  test_pe_comp/test_mult_add/U239/CI (FA1D0BWPHVT)                0.0389    0.0000     6.6745 f
+  test_pe_comp/test_mult_add/U239/CO (FA1D0BWPHVT)                0.0389    0.1316     6.8061 f
+  test_pe_comp/test_mult_add/n156 (net)         1       0.0006              0.0000     6.8061 f
+  test_pe_comp/test_mult_add/U238/CI (FA1D0BWPHVT)                0.0389    0.0000     6.8061 f
+  test_pe_comp/test_mult_add/U238/CO (FA1D0BWPHVT)                0.0479    0.1403     6.9464 f
+  test_pe_comp/test_mult_add/n155 (net)         1       0.0011              0.0000     6.9464 f
+  test_pe_comp/test_mult_add/U237/B (FA1D0BWPHVT)                 0.0479    0.0000     6.9464 f
+  test_pe_comp/test_mult_add/U237/CO (FA1D0BWPHVT)                0.0388    0.1947     7.1411 f
+  test_pe_comp/test_mult_add/n151 (net)         1       0.0006              0.0000     7.1411 f
+  test_pe_comp/test_mult_add/U236/CI (FA1D0BWPHVT)                0.0388    0.0000     7.1411 f
+  test_pe_comp/test_mult_add/U236/S (FA1D0BWPHVT)                 0.0452    0.1419     7.2829 f
+  test_pe_comp/test_mult_add/res[29] (net)      2       0.0009              0.0000     7.2829 f
+  test_pe_comp/test_mult_add/res[29] (test_mult_add_DataWidth16_0)          0.0000     7.2829 f
+  test_pe_comp/mult_res[29] (net)                       0.0009              0.0000     7.2829 f
+  test_pe_comp/U271/B1 (AOI22D0BWPHVT)                            0.0452    0.0000     7.2829 f
+  test_pe_comp/U271/ZN (AOI22D0BWPHVT)                            0.0960    0.0879     7.3708 r
+  test_pe_comp/n204 (net)                       1       0.0004              0.0000     7.3708 r
+  test_pe_comp/U11/A2 (AN4D0BWPHVT)                               0.0960    0.0000     7.3708 r
+  test_pe_comp/U11/Z (AN4D0BWPHVT)                                0.0554    0.1931     7.5639 r
+  test_pe_comp/n207 (net)                       1       0.0004              0.0000     7.5639 r
+  test_pe_comp/U275/B (OAI211D0BWPHVT)                            0.0554    0.0000     7.5639 r
+  test_pe_comp/U275/ZN (OAI211D0BWPHVT)                           0.1202    0.1015     7.6654 f
+  test_pe_comp/res[13] (net)                    1       0.0004              0.0000     7.6654 f
+  test_pe_comp/res[13] (test_pe_comp_unq1_0)                                0.0000     7.6654 f
+  comp_res[13] (net)                                    0.0004              0.0000     7.6654 f
+  U266/I (CKND0BWPHVT)                                            0.1202    0.0000     7.6654 f
+  U266/ZN (CKND0BWPHVT)                                           0.0697    0.0861     7.7515 r
+  n290 (net)                                    3       0.0013              0.0000     7.7515 r
+  U267/A2 (MAOI22D0BWPHVT)                                        0.0697    0.0000     7.7515 r
+  U267/ZN (MAOI22D0BWPHVT)                                        0.1011    0.0759     7.8274 f
+  res[13] (net)                                 3       0.0008              0.0000     7.8274 f
+  res[13] (out)                                                   0.1011    0.0000     7.8274 f
+  data arrival time                                                                    7.8274
+  -------------------------------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: inp_code_reg[1]
+              (rising edge-triggered flip-flop)
+  Endpoint: res[12] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SNPS_CLOCK_GATE_HIGH_test_pe_0 ZeroWireload tcbn40lpbwphvttc
+  test_pe            ZeroWireload          tcbn40lpbwphvttc
+  test_opt_reg_DataWidth16_2 ZeroWireload  tcbn40lpbwphvttc
+  test_shifter_unq1_DataWidth16_0 ZeroWireload tcbn40lpbwphvttc
+  test_mult_add_DataWidth16_0 ZeroWireload tcbn40lpbwphvttc
+  test_full_add_DataWidth16_2 ZeroWireload tcbn40lpbwphvttc
+  test_pe_comp_unq1_0 ZeroWireload         tcbn40lpbwphvttc
+  test_debug_reg_DataWidth16_0 ZeroWireload tcbn40lpbwphvttc
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                       Fanout       Cap     Trans      Incr       Path      Attributes
+  -------------------------------------------------------------------------------------------------------------------
+  inp_code_reg[1]/CP (SDFCNQD0BWPHVT)                             0.2586    0.0000     0.0000 r
+  inp_code_reg[1]/Q (SDFCNQD0BWPHVT)                              0.0598    0.3249     0.3249 r
+  inp_code[1] (net)                             3       0.0014              0.0000     0.3249 r
+  test_opt_reg_a/mode[1] (test_opt_reg_DataWidth16_2)                       0.0000     0.3249 r
+  test_opt_reg_a/mode[1] (net)                          0.0014              0.0000     0.3249 r
+  test_opt_reg_a/U2/A1 (INR2XD1BWPHVT)                            0.0598    0.0000     0.3249 r
+  test_opt_reg_a/U2/ZN (INR2XD1BWPHVT)                            0.2689    0.2128     0.5377 r
+  test_opt_reg_a/n1 (net)                      16       0.0140              0.0000     0.5377 r
+  test_opt_reg_a/U8/S (MUX2D0BWPHVT)                              0.2689    0.0000     0.5377 r
+  test_opt_reg_a/U8/Z (MUX2D0BWPHVT)                              0.4788    0.4086     0.9463 r
+  test_opt_reg_a/res[2] (net)                  30       0.0159              0.0000     0.9463 r
+  test_opt_reg_a/res[2] (test_opt_reg_DataWidth16_2)                        0.0000     0.9463 r
+  op_a[2] (net)                                         0.0159              0.0000     0.9463 r
+  test_pe_comp/op_a[2] (test_pe_comp_unq1_0)                                0.0000     0.9463 r
+  test_pe_comp/op_a[2] (net)                            0.0159              0.0000     0.9463 r
+  test_pe_comp/test_mult_add/a[2] (test_mult_add_DataWidth16_0)             0.0000     0.9463 r
+  test_pe_comp/test_mult_add/a[2] (net)                 0.0159              0.0000     0.9463 r
+  test_pe_comp/test_mult_add/U14/I (CKND0BWPHVT)                  0.4788    0.0000     0.9463 r
+  test_pe_comp/test_mult_add/U14/ZN (CKND0BWPHVT)                 0.2903    0.3461     1.2925 f
+  test_pe_comp/test_mult_add/n487 (net)        23       0.0094              0.0000     1.2925 f
+  test_pe_comp/test_mult_add/U140/B2 (MOAI22D0BWPHVT)             0.2903    0.0000     1.2925 f
+  test_pe_comp/test_mult_add/U140/ZN (MOAI22D0BWPHVT)             0.1240    0.2105     1.5030 f
+  test_pe_comp/test_mult_add/n79 (net)          2       0.0008              0.0000     1.5030 f
+  test_pe_comp/test_mult_add/U141/A2 (NR2D0BWPHVT)                0.1240    0.0000     1.5030 f
+  test_pe_comp/test_mult_add/U141/ZN (NR2D0BWPHVT)                0.4598    0.3297     1.8327 r
+  test_pe_comp/test_mult_add/n484 (net)        17       0.0071              0.0000     1.8327 r
+  test_pe_comp/test_mult_add/U146/A2 (AOI222D0BWPHVT)             0.4598    0.0000     1.8327 r
+  test_pe_comp/test_mult_add/U146/ZN (AOI222D0BWPHVT)             0.1442    0.2279     2.0606 f
+  test_pe_comp/test_mult_add/n80 (net)          1       0.0009              0.0000     2.0606 f
+  test_pe_comp/test_mult_add/U147/S (MUX2ND0BWPHVT)               0.1442    0.0000     2.0606 f
+  test_pe_comp/test_mult_add/U147/ZN (MUX2ND0BWPHVT)              0.1121    0.1443     2.2050 f
+  test_pe_comp/test_mult_add/n201 (net)         1       0.0006              0.0000     2.2050 f
+  test_pe_comp/test_mult_add/U264/CI (FA1D0BWPHVT)                0.1121    0.0000     2.2050 f
+  test_pe_comp/test_mult_add/U264/CO (FA1D0BWPHVT)                0.0489    0.1773     2.3823 f
+  test_pe_comp/test_mult_add/n200 (net)         1       0.0011              0.0000     2.3823 f
+  test_pe_comp/test_mult_add/U263/B (FA1D0BWPHVT)                 0.0489    0.0000     2.3823 f
+  test_pe_comp/test_mult_add/U263/CO (FA1D0BWPHVT)                0.0487    0.2030     2.5852 f
+  test_pe_comp/test_mult_add/n197 (net)         1       0.0011              0.0000     2.5852 f
+  test_pe_comp/test_mult_add/U262/B (FA1D0BWPHVT)                 0.0487    0.0000     2.5852 f
+  test_pe_comp/test_mult_add/U262/CO (FA1D0BWPHVT)                0.0487    0.2028     2.7881 f
+  test_pe_comp/test_mult_add/n194 (net)         1       0.0011              0.0000     2.7881 f
+  test_pe_comp/test_mult_add/U261/B (FA1D0BWPHVT)                 0.0487    0.0000     2.7881 f
+  test_pe_comp/test_mult_add/U261/CO (FA1D0BWPHVT)                0.0487    0.2028     2.9909 f
+  test_pe_comp/test_mult_add/n191 (net)         1       0.0011              0.0000     2.9909 f
+  test_pe_comp/test_mult_add/U260/B (FA1D0BWPHVT)                 0.0487    0.0000     2.9909 f
+  test_pe_comp/test_mult_add/U260/CO (FA1D0BWPHVT)                0.0487    0.2028     3.1938 f
+  test_pe_comp/test_mult_add/n189 (net)         1       0.0011              0.0000     3.1938 f
+  test_pe_comp/test_mult_add/U259/B (FA1D0BWPHVT)                 0.0487    0.0000     3.1938 f
+  test_pe_comp/test_mult_add/U259/CO (FA1D0BWPHVT)                0.0487    0.2028     3.3966 f
+  test_pe_comp/test_mult_add/n187 (net)         1       0.0011              0.0000     3.3966 f
+  test_pe_comp/test_mult_add/U258/B (FA1D0BWPHVT)                 0.0487    0.0000     3.3966 f
+  test_pe_comp/test_mult_add/U258/CO (FA1D0BWPHVT)                0.0487    0.2028     3.5995 f
+  test_pe_comp/test_mult_add/n185 (net)         1       0.0011              0.0000     3.5995 f
+  test_pe_comp/test_mult_add/U257/B (FA1D0BWPHVT)                 0.0487    0.0000     3.5995 f
+  test_pe_comp/test_mult_add/U257/CO (FA1D0BWPHVT)                0.0487    0.2028     3.8023 f
+  test_pe_comp/test_mult_add/n183 (net)         1       0.0011              0.0000     3.8023 f
+  test_pe_comp/test_mult_add/U256/B (FA1D0BWPHVT)                 0.0487    0.0000     3.8023 f
+  test_pe_comp/test_mult_add/U256/CO (FA1D0BWPHVT)                0.0487    0.2028     4.0052 f
+  test_pe_comp/test_mult_add/n181 (net)         1       0.0011              0.0000     4.0052 f
+  test_pe_comp/test_mult_add/U255/B (FA1D0BWPHVT)                 0.0487    0.0000     4.0052 f
+  test_pe_comp/test_mult_add/U255/CO (FA1D0BWPHVT)                0.0487    0.2028     4.2080 f
+  test_pe_comp/test_mult_add/n179 (net)         1       0.0011              0.0000     4.2080 f
+  test_pe_comp/test_mult_add/U254/B (FA1D0BWPHVT)                 0.0487    0.0000     4.2080 f
+  test_pe_comp/test_mult_add/U254/CO (FA1D0BWPHVT)                0.0487    0.2028     4.4109 f
+  test_pe_comp/test_mult_add/n177 (net)         1       0.0011              0.0000     4.4109 f
+  test_pe_comp/test_mult_add/U253/B (FA1D0BWPHVT)                 0.0487    0.0000     4.4109 f
+  test_pe_comp/test_mult_add/U253/CO (FA1D0BWPHVT)                0.0487    0.2028     4.6137 f
+  test_pe_comp/test_mult_add/n175 (net)         1       0.0011              0.0000     4.6137 f
+  test_pe_comp/test_mult_add/U252/B (FA1D0BWPHVT)                 0.0487    0.0000     4.6137 f
+  test_pe_comp/test_mult_add/U252/CO (FA1D0BWPHVT)                0.0487    0.2028     4.8166 f
+  test_pe_comp/test_mult_add/n173 (net)         1       0.0011              0.0000     4.8166 f
+  test_pe_comp/test_mult_add/U251/B (FA1D0BWPHVT)                 0.0487    0.0000     4.8166 f
+  test_pe_comp/test_mult_add/U251/CO (FA1D0BWPHVT)                0.0487    0.2028     5.0194 f
+  test_pe_comp/test_mult_add/n171 (net)         1       0.0011              0.0000     5.0194 f
+  test_pe_comp/test_mult_add/U250/B (FA1D0BWPHVT)                 0.0487    0.0000     5.0194 f
+  test_pe_comp/test_mult_add/U250/CO (FA1D0BWPHVT)                0.0487    0.2028     5.2223 f
+  test_pe_comp/test_mult_add/n169 (net)         1       0.0011              0.0000     5.2223 f
+  test_pe_comp/test_mult_add/U249/B (FA1D0BWPHVT)                 0.0487    0.0000     5.2223 f
+  test_pe_comp/test_mult_add/U249/CO (FA1D0BWPHVT)                0.0398    0.1951     5.4173 f
+  test_pe_comp/test_mult_add/n167 (net)         1       0.0006              0.0000     5.4173 f
+  test_pe_comp/test_mult_add/U248/CI (FA1D0BWPHVT)                0.0398    0.0000     5.4173 f
+  test_pe_comp/test_mult_add/U248/CO (FA1D0BWPHVT)                0.0389    0.1321     5.5494 f
+  test_pe_comp/test_mult_add/n166 (net)         1       0.0006              0.0000     5.5494 f
+  test_pe_comp/test_mult_add/U247/CI (FA1D0BWPHVT)                0.0389    0.0000     5.5494 f
+  test_pe_comp/test_mult_add/U247/CO (FA1D0BWPHVT)                0.0479    0.1403     5.6897 f
+  test_pe_comp/test_mult_add/n165 (net)         1       0.0011              0.0000     5.6897 f
+  test_pe_comp/test_mult_add/U246/B (FA1D0BWPHVT)                 0.0479    0.0000     5.6897 f
+  test_pe_comp/test_mult_add/U246/CO (FA1D0BWPHVT)                0.0396    0.1947     5.8844 f
+  test_pe_comp/test_mult_add/n163 (net)         1       0.0006              0.0000     5.8844 f
+  test_pe_comp/test_mult_add/U245/CI (FA1D0BWPHVT)                0.0396    0.0000     5.8844 f
+  test_pe_comp/test_mult_add/U245/CO (FA1D0BWPHVT)                0.0389    0.1320     6.0164 f
+  test_pe_comp/test_mult_add/n162 (net)         1       0.0006              0.0000     6.0164 f
+  test_pe_comp/test_mult_add/U244/CI (FA1D0BWPHVT)                0.0389    0.0000     6.0164 f
+  test_pe_comp/test_mult_add/U244/CO (FA1D0BWPHVT)                0.0389    0.1316     6.1480 f
+  test_pe_comp/test_mult_add/n161 (net)         1       0.0006              0.0000     6.1480 f
+  test_pe_comp/test_mult_add/U243/CI (FA1D0BWPHVT)                0.0389    0.0000     6.1480 f
+  test_pe_comp/test_mult_add/U243/CO (FA1D0BWPHVT)                0.0389    0.1316     6.2796 f
+  test_pe_comp/test_mult_add/n160 (net)         1       0.0006              0.0000     6.2796 f
+  test_pe_comp/test_mult_add/U242/CI (FA1D0BWPHVT)                0.0389    0.0000     6.2796 f
+  test_pe_comp/test_mult_add/U242/CO (FA1D0BWPHVT)                0.0389    0.1316     6.4112 f
+  test_pe_comp/test_mult_add/n159 (net)         1       0.0006              0.0000     6.4112 f
+  test_pe_comp/test_mult_add/U241/CI (FA1D0BWPHVT)                0.0389    0.0000     6.4112 f
+  test_pe_comp/test_mult_add/U241/CO (FA1D0BWPHVT)                0.0389    0.1316     6.5429 f
+  test_pe_comp/test_mult_add/n158 (net)         1       0.0006              0.0000     6.5429 f
+  test_pe_comp/test_mult_add/U240/CI (FA1D0BWPHVT)                0.0389    0.0000     6.5429 f
+  test_pe_comp/test_mult_add/U240/CO (FA1D0BWPHVT)                0.0389    0.1316     6.6745 f
+  test_pe_comp/test_mult_add/n157 (net)         1       0.0006              0.0000     6.6745 f
+  test_pe_comp/test_mult_add/U239/CI (FA1D0BWPHVT)                0.0389    0.0000     6.6745 f
+  test_pe_comp/test_mult_add/U239/CO (FA1D0BWPHVT)                0.0389    0.1316     6.8061 f
+  test_pe_comp/test_mult_add/n156 (net)         1       0.0006              0.0000     6.8061 f
+  test_pe_comp/test_mult_add/U238/CI (FA1D0BWPHVT)                0.0389    0.0000     6.8061 f
+  test_pe_comp/test_mult_add/U238/CO (FA1D0BWPHVT)                0.0479    0.1403     6.9464 f
+  test_pe_comp/test_mult_add/n155 (net)         1       0.0011              0.0000     6.9464 f
+  test_pe_comp/test_mult_add/U237/B (FA1D0BWPHVT)                 0.0479    0.0000     6.9464 f
+  test_pe_comp/test_mult_add/U237/S (FA1D0BWPHVT)                 0.0459    0.2056     7.1520 f
+  test_pe_comp/test_mult_add/res[28] (net)      2       0.0009              0.0000     7.1520 f
+  test_pe_comp/test_mult_add/res[28] (test_mult_add_DataWidth16_0)          0.0000     7.1520 f
+  test_pe_comp/mult_res[28] (net)                       0.0009              0.0000     7.1520 f
+  test_pe_comp/U264/B1 (AOI22D0BWPHVT)                            0.0459    0.0000     7.1520 f
+  test_pe_comp/U264/ZN (AOI22D0BWPHVT)                            0.0960    0.0882     7.2402 r
+  test_pe_comp/n197 (net)                       1       0.0004              0.0000     7.2402 r
+  test_pe_comp/U267/A2 (AN4D0BWPHVT)                              0.0960    0.0000     7.2402 r
+  test_pe_comp/U267/Z (AN4D0BWPHVT)                               0.0554    0.1931     7.4333 r
+  test_pe_comp/n200 (net)                       1       0.0004              0.0000     7.4333 r
+  test_pe_comp/U269/B (OAI211D0BWPHVT)                            0.0554    0.0000     7.4333 r
+  test_pe_comp/U269/ZN (OAI211D0BWPHVT)                           0.1202    0.1015     7.5348 f
+  test_pe_comp/res[12] (net)                    1       0.0004              0.0000     7.5348 f
+  test_pe_comp/res[12] (test_pe_comp_unq1_0)                                0.0000     7.5348 f
+  comp_res[12] (net)                                    0.0004              0.0000     7.5348 f
+  U264/I (CKND0BWPHVT)                                            0.1202    0.0000     7.5348 f
+  U264/ZN (CKND0BWPHVT)                                           0.0701    0.0864     7.6212 r
+  n291 (net)                                    3       0.0013              0.0000     7.6212 r
+  U265/A2 (MAOI22D0BWPHVT)                                        0.0701    0.0000     7.6212 r
+  U265/ZN (MAOI22D0BWPHVT)                                        0.1013    0.0762     7.6975 f
+  res[12] (net)                                 3       0.0008              0.0000     7.6975 f
+  res[12] (out)                                                   0.1013    0.0000     7.6975 f
+  data arrival time                                                                    7.6975
+  -------------------------------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: inp_code_reg[1]
+              (rising edge-triggered flip-flop)
+  Endpoint: res[11] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SNPS_CLOCK_GATE_HIGH_test_pe_0 ZeroWireload tcbn40lpbwphvttc
+  test_pe            ZeroWireload          tcbn40lpbwphvttc
+  test_opt_reg_DataWidth16_2 ZeroWireload  tcbn40lpbwphvttc
+  test_shifter_unq1_DataWidth16_0 ZeroWireload tcbn40lpbwphvttc
+  test_mult_add_DataWidth16_0 ZeroWireload tcbn40lpbwphvttc
+  test_full_add_DataWidth16_2 ZeroWireload tcbn40lpbwphvttc
+  test_pe_comp_unq1_0 ZeroWireload         tcbn40lpbwphvttc
+  test_debug_reg_DataWidth16_0 ZeroWireload tcbn40lpbwphvttc
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                       Fanout       Cap     Trans      Incr       Path      Attributes
+  -------------------------------------------------------------------------------------------------------------------
+  inp_code_reg[1]/CP (SDFCNQD0BWPHVT)                             0.2586    0.0000     0.0000 r
+  inp_code_reg[1]/Q (SDFCNQD0BWPHVT)                              0.0598    0.3249     0.3249 r
+  inp_code[1] (net)                             3       0.0014              0.0000     0.3249 r
+  test_opt_reg_a/mode[1] (test_opt_reg_DataWidth16_2)                       0.0000     0.3249 r
+  test_opt_reg_a/mode[1] (net)                          0.0014              0.0000     0.3249 r
+  test_opt_reg_a/U2/A1 (INR2XD1BWPHVT)                            0.0598    0.0000     0.3249 r
+  test_opt_reg_a/U2/ZN (INR2XD1BWPHVT)                            0.2689    0.2128     0.5377 r
+  test_opt_reg_a/n1 (net)                      16       0.0140              0.0000     0.5377 r
+  test_opt_reg_a/U8/S (MUX2D0BWPHVT)                              0.2689    0.0000     0.5377 r
+  test_opt_reg_a/U8/Z (MUX2D0BWPHVT)                              0.4788    0.4086     0.9463 r
+  test_opt_reg_a/res[2] (net)                  30       0.0159              0.0000     0.9463 r
+  test_opt_reg_a/res[2] (test_opt_reg_DataWidth16_2)                        0.0000     0.9463 r
+  op_a[2] (net)                                         0.0159              0.0000     0.9463 r
+  test_pe_comp/op_a[2] (test_pe_comp_unq1_0)                                0.0000     0.9463 r
+  test_pe_comp/op_a[2] (net)                            0.0159              0.0000     0.9463 r
+  test_pe_comp/test_mult_add/a[2] (test_mult_add_DataWidth16_0)             0.0000     0.9463 r
+  test_pe_comp/test_mult_add/a[2] (net)                 0.0159              0.0000     0.9463 r
+  test_pe_comp/test_mult_add/U14/I (CKND0BWPHVT)                  0.4788    0.0000     0.9463 r
+  test_pe_comp/test_mult_add/U14/ZN (CKND0BWPHVT)                 0.2903    0.3461     1.2925 f
+  test_pe_comp/test_mult_add/n487 (net)        23       0.0094              0.0000     1.2925 f
+  test_pe_comp/test_mult_add/U140/B2 (MOAI22D0BWPHVT)             0.2903    0.0000     1.2925 f
+  test_pe_comp/test_mult_add/U140/ZN (MOAI22D0BWPHVT)             0.1240    0.2105     1.5030 f
+  test_pe_comp/test_mult_add/n79 (net)          2       0.0008              0.0000     1.5030 f
+  test_pe_comp/test_mult_add/U141/A2 (NR2D0BWPHVT)                0.1240    0.0000     1.5030 f
+  test_pe_comp/test_mult_add/U141/ZN (NR2D0BWPHVT)                0.4598    0.3297     1.8327 r
+  test_pe_comp/test_mult_add/n484 (net)        17       0.0071              0.0000     1.8327 r
+  test_pe_comp/test_mult_add/U146/A2 (AOI222D0BWPHVT)             0.4598    0.0000     1.8327 r
+  test_pe_comp/test_mult_add/U146/ZN (AOI222D0BWPHVT)             0.1442    0.2279     2.0606 f
+  test_pe_comp/test_mult_add/n80 (net)          1       0.0009              0.0000     2.0606 f
+  test_pe_comp/test_mult_add/U147/S (MUX2ND0BWPHVT)               0.1442    0.0000     2.0606 f
+  test_pe_comp/test_mult_add/U147/ZN (MUX2ND0BWPHVT)              0.1121    0.1443     2.2050 f
+  test_pe_comp/test_mult_add/n201 (net)         1       0.0006              0.0000     2.2050 f
+  test_pe_comp/test_mult_add/U264/CI (FA1D0BWPHVT)                0.1121    0.0000     2.2050 f
+  test_pe_comp/test_mult_add/U264/CO (FA1D0BWPHVT)                0.0489    0.1773     2.3823 f
+  test_pe_comp/test_mult_add/n200 (net)         1       0.0011              0.0000     2.3823 f
+  test_pe_comp/test_mult_add/U263/B (FA1D0BWPHVT)                 0.0489    0.0000     2.3823 f
+  test_pe_comp/test_mult_add/U263/CO (FA1D0BWPHVT)                0.0487    0.2030     2.5852 f
+  test_pe_comp/test_mult_add/n197 (net)         1       0.0011              0.0000     2.5852 f
+  test_pe_comp/test_mult_add/U262/B (FA1D0BWPHVT)                 0.0487    0.0000     2.5852 f
+  test_pe_comp/test_mult_add/U262/CO (FA1D0BWPHVT)                0.0487    0.2028     2.7881 f
+  test_pe_comp/test_mult_add/n194 (net)         1       0.0011              0.0000     2.7881 f
+  test_pe_comp/test_mult_add/U261/B (FA1D0BWPHVT)                 0.0487    0.0000     2.7881 f
+  test_pe_comp/test_mult_add/U261/CO (FA1D0BWPHVT)                0.0487    0.2028     2.9909 f
+  test_pe_comp/test_mult_add/n191 (net)         1       0.0011              0.0000     2.9909 f
+  test_pe_comp/test_mult_add/U260/B (FA1D0BWPHVT)                 0.0487    0.0000     2.9909 f
+  test_pe_comp/test_mult_add/U260/CO (FA1D0BWPHVT)                0.0487    0.2028     3.1938 f
+  test_pe_comp/test_mult_add/n189 (net)         1       0.0011              0.0000     3.1938 f
+  test_pe_comp/test_mult_add/U259/B (FA1D0BWPHVT)                 0.0487    0.0000     3.1938 f
+  test_pe_comp/test_mult_add/U259/CO (FA1D0BWPHVT)                0.0487    0.2028     3.3966 f
+  test_pe_comp/test_mult_add/n187 (net)         1       0.0011              0.0000     3.3966 f
+  test_pe_comp/test_mult_add/U258/B (FA1D0BWPHVT)                 0.0487    0.0000     3.3966 f
+  test_pe_comp/test_mult_add/U258/CO (FA1D0BWPHVT)                0.0487    0.2028     3.5995 f
+  test_pe_comp/test_mult_add/n185 (net)         1       0.0011              0.0000     3.5995 f
+  test_pe_comp/test_mult_add/U257/B (FA1D0BWPHVT)                 0.0487    0.0000     3.5995 f
+  test_pe_comp/test_mult_add/U257/CO (FA1D0BWPHVT)                0.0487    0.2028     3.8023 f
+  test_pe_comp/test_mult_add/n183 (net)         1       0.0011              0.0000     3.8023 f
+  test_pe_comp/test_mult_add/U256/B (FA1D0BWPHVT)                 0.0487    0.0000     3.8023 f
+  test_pe_comp/test_mult_add/U256/CO (FA1D0BWPHVT)                0.0487    0.2028     4.0052 f
+  test_pe_comp/test_mult_add/n181 (net)         1       0.0011              0.0000     4.0052 f
+  test_pe_comp/test_mult_add/U255/B (FA1D0BWPHVT)                 0.0487    0.0000     4.0052 f
+  test_pe_comp/test_mult_add/U255/CO (FA1D0BWPHVT)                0.0487    0.2028     4.2080 f
+  test_pe_comp/test_mult_add/n179 (net)         1       0.0011              0.0000     4.2080 f
+  test_pe_comp/test_mult_add/U254/B (FA1D0BWPHVT)                 0.0487    0.0000     4.2080 f
+  test_pe_comp/test_mult_add/U254/CO (FA1D0BWPHVT)                0.0487    0.2028     4.4109 f
+  test_pe_comp/test_mult_add/n177 (net)         1       0.0011              0.0000     4.4109 f
+  test_pe_comp/test_mult_add/U253/B (FA1D0BWPHVT)                 0.0487    0.0000     4.4109 f
+  test_pe_comp/test_mult_add/U253/CO (FA1D0BWPHVT)                0.0487    0.2028     4.6137 f
+  test_pe_comp/test_mult_add/n175 (net)         1       0.0011              0.0000     4.6137 f
+  test_pe_comp/test_mult_add/U252/B (FA1D0BWPHVT)                 0.0487    0.0000     4.6137 f
+  test_pe_comp/test_mult_add/U252/CO (FA1D0BWPHVT)                0.0487    0.2028     4.8166 f
+  test_pe_comp/test_mult_add/n173 (net)         1       0.0011              0.0000     4.8166 f
+  test_pe_comp/test_mult_add/U251/B (FA1D0BWPHVT)                 0.0487    0.0000     4.8166 f
+  test_pe_comp/test_mult_add/U251/CO (FA1D0BWPHVT)                0.0487    0.2028     5.0194 f
+  test_pe_comp/test_mult_add/n171 (net)         1       0.0011              0.0000     5.0194 f
+  test_pe_comp/test_mult_add/U250/B (FA1D0BWPHVT)                 0.0487    0.0000     5.0194 f
+  test_pe_comp/test_mult_add/U250/CO (FA1D0BWPHVT)                0.0487    0.2028     5.2223 f
+  test_pe_comp/test_mult_add/n169 (net)         1       0.0011              0.0000     5.2223 f
+  test_pe_comp/test_mult_add/U249/B (FA1D0BWPHVT)                 0.0487    0.0000     5.2223 f
+  test_pe_comp/test_mult_add/U249/CO (FA1D0BWPHVT)                0.0398    0.1951     5.4173 f
+  test_pe_comp/test_mult_add/n167 (net)         1       0.0006              0.0000     5.4173 f
+  test_pe_comp/test_mult_add/U248/CI (FA1D0BWPHVT)                0.0398    0.0000     5.4173 f
+  test_pe_comp/test_mult_add/U248/CO (FA1D0BWPHVT)                0.0389    0.1321     5.5494 f
+  test_pe_comp/test_mult_add/n166 (net)         1       0.0006              0.0000     5.5494 f
+  test_pe_comp/test_mult_add/U247/CI (FA1D0BWPHVT)                0.0389    0.0000     5.5494 f
+  test_pe_comp/test_mult_add/U247/CO (FA1D0BWPHVT)                0.0479    0.1403     5.6897 f
+  test_pe_comp/test_mult_add/n165 (net)         1       0.0011              0.0000     5.6897 f
+  test_pe_comp/test_mult_add/U246/B (FA1D0BWPHVT)                 0.0479    0.0000     5.6897 f
+  test_pe_comp/test_mult_add/U246/CO (FA1D0BWPHVT)                0.0396    0.1947     5.8844 f
+  test_pe_comp/test_mult_add/n163 (net)         1       0.0006              0.0000     5.8844 f
+  test_pe_comp/test_mult_add/U245/CI (FA1D0BWPHVT)                0.0396    0.0000     5.8844 f
+  test_pe_comp/test_mult_add/U245/CO (FA1D0BWPHVT)                0.0389    0.1320     6.0164 f
+  test_pe_comp/test_mult_add/n162 (net)         1       0.0006              0.0000     6.0164 f
+  test_pe_comp/test_mult_add/U244/CI (FA1D0BWPHVT)                0.0389    0.0000     6.0164 f
+  test_pe_comp/test_mult_add/U244/CO (FA1D0BWPHVT)                0.0389    0.1316     6.1480 f
+  test_pe_comp/test_mult_add/n161 (net)         1       0.0006              0.0000     6.1480 f
+  test_pe_comp/test_mult_add/U243/CI (FA1D0BWPHVT)                0.0389    0.0000     6.1480 f
+  test_pe_comp/test_mult_add/U243/CO (FA1D0BWPHVT)                0.0389    0.1316     6.2796 f
+  test_pe_comp/test_mult_add/n160 (net)         1       0.0006              0.0000     6.2796 f
+  test_pe_comp/test_mult_add/U242/CI (FA1D0BWPHVT)                0.0389    0.0000     6.2796 f
+  test_pe_comp/test_mult_add/U242/CO (FA1D0BWPHVT)                0.0389    0.1316     6.4112 f
+  test_pe_comp/test_mult_add/n159 (net)         1       0.0006              0.0000     6.4112 f
+  test_pe_comp/test_mult_add/U241/CI (FA1D0BWPHVT)                0.0389    0.0000     6.4112 f
+  test_pe_comp/test_mult_add/U241/CO (FA1D0BWPHVT)                0.0389    0.1316     6.5429 f
+  test_pe_comp/test_mult_add/n158 (net)         1       0.0006              0.0000     6.5429 f
+  test_pe_comp/test_mult_add/U240/CI (FA1D0BWPHVT)                0.0389    0.0000     6.5429 f
+  test_pe_comp/test_mult_add/U240/CO (FA1D0BWPHVT)                0.0389    0.1316     6.6745 f
+  test_pe_comp/test_mult_add/n157 (net)         1       0.0006              0.0000     6.6745 f
+  test_pe_comp/test_mult_add/U239/CI (FA1D0BWPHVT)                0.0389    0.0000     6.6745 f
+  test_pe_comp/test_mult_add/U239/CO (FA1D0BWPHVT)                0.0389    0.1316     6.8061 f
+  test_pe_comp/test_mult_add/n156 (net)         1       0.0006              0.0000     6.8061 f
+  test_pe_comp/test_mult_add/U238/CI (FA1D0BWPHVT)                0.0389    0.0000     6.8061 f
+  test_pe_comp/test_mult_add/U238/S (FA1D0BWPHVT)                 0.0450    0.1418     6.9479 f
+  test_pe_comp/test_mult_add/res[27] (net)      2       0.0009              0.0000     6.9479 f
+  test_pe_comp/test_mult_add/res[27] (test_mult_add_DataWidth16_0)          0.0000     6.9479 f
+  test_pe_comp/mult_res[27] (net)                       0.0009              0.0000     6.9479 f
+  test_pe_comp/U257/B1 (AOI22D0BWPHVT)                            0.0450    0.0000     6.9479 f
+  test_pe_comp/U257/ZN (AOI22D0BWPHVT)                            0.0960    0.0878     7.0357 r
+  test_pe_comp/n190 (net)                       1       0.0004              0.0000     7.0357 r
+  test_pe_comp/U260/A2 (AN4D0BWPHVT)                              0.0960    0.0000     7.0357 r
+  test_pe_comp/U260/Z (AN4D0BWPHVT)                               0.0554    0.1931     7.2288 r
+  test_pe_comp/n193 (net)                       1       0.0004              0.0000     7.2288 r
+  test_pe_comp/U262/B (OAI211D0BWPHVT)                            0.0554    0.0000     7.2288 r
+  test_pe_comp/U262/ZN (OAI211D0BWPHVT)                           0.1202    0.1015     7.3303 f
+  test_pe_comp/res[11] (net)                    1       0.0004              0.0000     7.3303 f
+  test_pe_comp/res[11] (test_pe_comp_unq1_0)                                0.0000     7.3303 f
+  comp_res[11] (net)                                    0.0004              0.0000     7.3303 f
+  U262/I (CKND0BWPHVT)                                            0.1202    0.0000     7.3303 f
+  U262/ZN (CKND0BWPHVT)                                           0.0703    0.0865     7.4168 r
+  n292 (net)                                    3       0.0013              0.0000     7.4168 r
+  U263/A2 (MAOI22D0BWPHVT)                                        0.0703    0.0000     7.4168 r
+  U263/ZN (MAOI22D0BWPHVT)                                        0.1011    0.0762     7.4930 f
+  res[11] (net)                                 3       0.0008              0.0000     7.4930 f
+  res[11] (out)                                                   0.1011    0.0000     7.4930 f
+  data arrival time                                                                    7.4930
+  -------------------------------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: inp_code_reg[1]
+              (rising edge-triggered flip-flop)
+  Endpoint: res[10] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SNPS_CLOCK_GATE_HIGH_test_pe_0 ZeroWireload tcbn40lpbwphvttc
+  test_pe            ZeroWireload          tcbn40lpbwphvttc
+  test_opt_reg_DataWidth16_2 ZeroWireload  tcbn40lpbwphvttc
+  test_shifter_unq1_DataWidth16_0 ZeroWireload tcbn40lpbwphvttc
+  test_mult_add_DataWidth16_0 ZeroWireload tcbn40lpbwphvttc
+  test_full_add_DataWidth16_2 ZeroWireload tcbn40lpbwphvttc
+  test_pe_comp_unq1_0 ZeroWireload         tcbn40lpbwphvttc
+  test_debug_reg_DataWidth16_0 ZeroWireload tcbn40lpbwphvttc
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                       Fanout       Cap     Trans      Incr       Path      Attributes
+  -------------------------------------------------------------------------------------------------------------------
+  inp_code_reg[1]/CP (SDFCNQD0BWPHVT)                             0.2586    0.0000     0.0000 r
+  inp_code_reg[1]/Q (SDFCNQD0BWPHVT)                              0.0598    0.3249     0.3249 r
+  inp_code[1] (net)                             3       0.0014              0.0000     0.3249 r
+  test_opt_reg_a/mode[1] (test_opt_reg_DataWidth16_2)                       0.0000     0.3249 r
+  test_opt_reg_a/mode[1] (net)                          0.0014              0.0000     0.3249 r
+  test_opt_reg_a/U2/A1 (INR2XD1BWPHVT)                            0.0598    0.0000     0.3249 r
+  test_opt_reg_a/U2/ZN (INR2XD1BWPHVT)                            0.2689    0.2128     0.5377 r
+  test_opt_reg_a/n1 (net)                      16       0.0140              0.0000     0.5377 r
+  test_opt_reg_a/U8/S (MUX2D0BWPHVT)                              0.2689    0.0000     0.5377 r
+  test_opt_reg_a/U8/Z (MUX2D0BWPHVT)                              0.4788    0.4086     0.9463 r
+  test_opt_reg_a/res[2] (net)                  30       0.0159              0.0000     0.9463 r
+  test_opt_reg_a/res[2] (test_opt_reg_DataWidth16_2)                        0.0000     0.9463 r
+  op_a[2] (net)                                         0.0159              0.0000     0.9463 r
+  test_pe_comp/op_a[2] (test_pe_comp_unq1_0)                                0.0000     0.9463 r
+  test_pe_comp/op_a[2] (net)                            0.0159              0.0000     0.9463 r
+  test_pe_comp/test_mult_add/a[2] (test_mult_add_DataWidth16_0)             0.0000     0.9463 r
+  test_pe_comp/test_mult_add/a[2] (net)                 0.0159              0.0000     0.9463 r
+  test_pe_comp/test_mult_add/U14/I (CKND0BWPHVT)                  0.4788    0.0000     0.9463 r
+  test_pe_comp/test_mult_add/U14/ZN (CKND0BWPHVT)                 0.2903    0.3461     1.2925 f
+  test_pe_comp/test_mult_add/n487 (net)        23       0.0094              0.0000     1.2925 f
+  test_pe_comp/test_mult_add/U140/B2 (MOAI22D0BWPHVT)             0.2903    0.0000     1.2925 f
+  test_pe_comp/test_mult_add/U140/ZN (MOAI22D0BWPHVT)             0.1240    0.2105     1.5030 f
+  test_pe_comp/test_mult_add/n79 (net)          2       0.0008              0.0000     1.5030 f
+  test_pe_comp/test_mult_add/U141/A2 (NR2D0BWPHVT)                0.1240    0.0000     1.5030 f
+  test_pe_comp/test_mult_add/U141/ZN (NR2D0BWPHVT)                0.4598    0.3297     1.8327 r
+  test_pe_comp/test_mult_add/n484 (net)        17       0.0071              0.0000     1.8327 r
+  test_pe_comp/test_mult_add/U146/A2 (AOI222D0BWPHVT)             0.4598    0.0000     1.8327 r
+  test_pe_comp/test_mult_add/U146/ZN (AOI222D0BWPHVT)             0.1442    0.2279     2.0606 f
+  test_pe_comp/test_mult_add/n80 (net)          1       0.0009              0.0000     2.0606 f
+  test_pe_comp/test_mult_add/U147/S (MUX2ND0BWPHVT)               0.1442    0.0000     2.0606 f
+  test_pe_comp/test_mult_add/U147/ZN (MUX2ND0BWPHVT)              0.1121    0.1443     2.2050 f
+  test_pe_comp/test_mult_add/n201 (net)         1       0.0006              0.0000     2.2050 f
+  test_pe_comp/test_mult_add/U264/CI (FA1D0BWPHVT)                0.1121    0.0000     2.2050 f
+  test_pe_comp/test_mult_add/U264/CO (FA1D0BWPHVT)                0.0489    0.1773     2.3823 f
+  test_pe_comp/test_mult_add/n200 (net)         1       0.0011              0.0000     2.3823 f
+  test_pe_comp/test_mult_add/U263/B (FA1D0BWPHVT)                 0.0489    0.0000     2.3823 f
+  test_pe_comp/test_mult_add/U263/CO (FA1D0BWPHVT)                0.0487    0.2030     2.5852 f
+  test_pe_comp/test_mult_add/n197 (net)         1       0.0011              0.0000     2.5852 f
+  test_pe_comp/test_mult_add/U262/B (FA1D0BWPHVT)                 0.0487    0.0000     2.5852 f
+  test_pe_comp/test_mult_add/U262/CO (FA1D0BWPHVT)                0.0487    0.2028     2.7881 f
+  test_pe_comp/test_mult_add/n194 (net)         1       0.0011              0.0000     2.7881 f
+  test_pe_comp/test_mult_add/U261/B (FA1D0BWPHVT)                 0.0487    0.0000     2.7881 f
+  test_pe_comp/test_mult_add/U261/CO (FA1D0BWPHVT)                0.0487    0.2028     2.9909 f
+  test_pe_comp/test_mult_add/n191 (net)         1       0.0011              0.0000     2.9909 f
+  test_pe_comp/test_mult_add/U260/B (FA1D0BWPHVT)                 0.0487    0.0000     2.9909 f
+  test_pe_comp/test_mult_add/U260/CO (FA1D0BWPHVT)                0.0487    0.2028     3.1938 f
+  test_pe_comp/test_mult_add/n189 (net)         1       0.0011              0.0000     3.1938 f
+  test_pe_comp/test_mult_add/U259/B (FA1D0BWPHVT)                 0.0487    0.0000     3.1938 f
+  test_pe_comp/test_mult_add/U259/CO (FA1D0BWPHVT)                0.0487    0.2028     3.3966 f
+  test_pe_comp/test_mult_add/n187 (net)         1       0.0011              0.0000     3.3966 f
+  test_pe_comp/test_mult_add/U258/B (FA1D0BWPHVT)                 0.0487    0.0000     3.3966 f
+  test_pe_comp/test_mult_add/U258/CO (FA1D0BWPHVT)                0.0487    0.2028     3.5995 f
+  test_pe_comp/test_mult_add/n185 (net)         1       0.0011              0.0000     3.5995 f
+  test_pe_comp/test_mult_add/U257/B (FA1D0BWPHVT)                 0.0487    0.0000     3.5995 f
+  test_pe_comp/test_mult_add/U257/CO (FA1D0BWPHVT)                0.0487    0.2028     3.8023 f
+  test_pe_comp/test_mult_add/n183 (net)         1       0.0011              0.0000     3.8023 f
+  test_pe_comp/test_mult_add/U256/B (FA1D0BWPHVT)                 0.0487    0.0000     3.8023 f
+  test_pe_comp/test_mult_add/U256/CO (FA1D0BWPHVT)                0.0487    0.2028     4.0052 f
+  test_pe_comp/test_mult_add/n181 (net)         1       0.0011              0.0000     4.0052 f
+  test_pe_comp/test_mult_add/U255/B (FA1D0BWPHVT)                 0.0487    0.0000     4.0052 f
+  test_pe_comp/test_mult_add/U255/CO (FA1D0BWPHVT)                0.0487    0.2028     4.2080 f
+  test_pe_comp/test_mult_add/n179 (net)         1       0.0011              0.0000     4.2080 f
+  test_pe_comp/test_mult_add/U254/B (FA1D0BWPHVT)                 0.0487    0.0000     4.2080 f
+  test_pe_comp/test_mult_add/U254/CO (FA1D0BWPHVT)                0.0487    0.2028     4.4109 f
+  test_pe_comp/test_mult_add/n177 (net)         1       0.0011              0.0000     4.4109 f
+  test_pe_comp/test_mult_add/U253/B (FA1D0BWPHVT)                 0.0487    0.0000     4.4109 f
+  test_pe_comp/test_mult_add/U253/CO (FA1D0BWPHVT)                0.0487    0.2028     4.6137 f
+  test_pe_comp/test_mult_add/n175 (net)         1       0.0011              0.0000     4.6137 f
+  test_pe_comp/test_mult_add/U252/B (FA1D0BWPHVT)                 0.0487    0.0000     4.6137 f
+  test_pe_comp/test_mult_add/U252/CO (FA1D0BWPHVT)                0.0487    0.2028     4.8166 f
+  test_pe_comp/test_mult_add/n173 (net)         1       0.0011              0.0000     4.8166 f
+  test_pe_comp/test_mult_add/U251/B (FA1D0BWPHVT)                 0.0487    0.0000     4.8166 f
+  test_pe_comp/test_mult_add/U251/CO (FA1D0BWPHVT)                0.0487    0.2028     5.0194 f
+  test_pe_comp/test_mult_add/n171 (net)         1       0.0011              0.0000     5.0194 f
+  test_pe_comp/test_mult_add/U250/B (FA1D0BWPHVT)                 0.0487    0.0000     5.0194 f
+  test_pe_comp/test_mult_add/U250/CO (FA1D0BWPHVT)                0.0487    0.2028     5.2223 f
+  test_pe_comp/test_mult_add/n169 (net)         1       0.0011              0.0000     5.2223 f
+  test_pe_comp/test_mult_add/U249/B (FA1D0BWPHVT)                 0.0487    0.0000     5.2223 f
+  test_pe_comp/test_mult_add/U249/CO (FA1D0BWPHVT)                0.0398    0.1951     5.4173 f
+  test_pe_comp/test_mult_add/n167 (net)         1       0.0006              0.0000     5.4173 f
+  test_pe_comp/test_mult_add/U248/CI (FA1D0BWPHVT)                0.0398    0.0000     5.4173 f
+  test_pe_comp/test_mult_add/U248/CO (FA1D0BWPHVT)                0.0389    0.1321     5.5494 f
+  test_pe_comp/test_mult_add/n166 (net)         1       0.0006              0.0000     5.5494 f
+  test_pe_comp/test_mult_add/U247/CI (FA1D0BWPHVT)                0.0389    0.0000     5.5494 f
+  test_pe_comp/test_mult_add/U247/CO (FA1D0BWPHVT)                0.0479    0.1403     5.6897 f
+  test_pe_comp/test_mult_add/n165 (net)         1       0.0011              0.0000     5.6897 f
+  test_pe_comp/test_mult_add/U246/B (FA1D0BWPHVT)                 0.0479    0.0000     5.6897 f
+  test_pe_comp/test_mult_add/U246/CO (FA1D0BWPHVT)                0.0396    0.1947     5.8844 f
+  test_pe_comp/test_mult_add/n163 (net)         1       0.0006              0.0000     5.8844 f
+  test_pe_comp/test_mult_add/U245/CI (FA1D0BWPHVT)                0.0396    0.0000     5.8844 f
+  test_pe_comp/test_mult_add/U245/CO (FA1D0BWPHVT)                0.0389    0.1320     6.0164 f
+  test_pe_comp/test_mult_add/n162 (net)         1       0.0006              0.0000     6.0164 f
+  test_pe_comp/test_mult_add/U244/CI (FA1D0BWPHVT)                0.0389    0.0000     6.0164 f
+  test_pe_comp/test_mult_add/U244/CO (FA1D0BWPHVT)                0.0389    0.1316     6.1480 f
+  test_pe_comp/test_mult_add/n161 (net)         1       0.0006              0.0000     6.1480 f
+  test_pe_comp/test_mult_add/U243/CI (FA1D0BWPHVT)                0.0389    0.0000     6.1480 f
+  test_pe_comp/test_mult_add/U243/CO (FA1D0BWPHVT)                0.0389    0.1316     6.2796 f
+  test_pe_comp/test_mult_add/n160 (net)         1       0.0006              0.0000     6.2796 f
+  test_pe_comp/test_mult_add/U242/CI (FA1D0BWPHVT)                0.0389    0.0000     6.2796 f
+  test_pe_comp/test_mult_add/U242/CO (FA1D0BWPHVT)                0.0389    0.1316     6.4112 f
+  test_pe_comp/test_mult_add/n159 (net)         1       0.0006              0.0000     6.4112 f
+  test_pe_comp/test_mult_add/U241/CI (FA1D0BWPHVT)                0.0389    0.0000     6.4112 f
+  test_pe_comp/test_mult_add/U241/CO (FA1D0BWPHVT)                0.0389    0.1316     6.5429 f
+  test_pe_comp/test_mult_add/n158 (net)         1       0.0006              0.0000     6.5429 f
+  test_pe_comp/test_mult_add/U240/CI (FA1D0BWPHVT)                0.0389    0.0000     6.5429 f
+  test_pe_comp/test_mult_add/U240/CO (FA1D0BWPHVT)                0.0389    0.1316     6.6745 f
+  test_pe_comp/test_mult_add/n157 (net)         1       0.0006              0.0000     6.6745 f
+  test_pe_comp/test_mult_add/U239/CI (FA1D0BWPHVT)                0.0389    0.0000     6.6745 f
+  test_pe_comp/test_mult_add/U239/S (FA1D0BWPHVT)                 0.0450    0.1417     6.8162 f
+  test_pe_comp/test_mult_add/res[26] (net)      2       0.0008              0.0000     6.8162 f
+  test_pe_comp/test_mult_add/res[26] (test_mult_add_DataWidth16_0)          0.0000     6.8162 f
+  test_pe_comp/mult_res[26] (net)                       0.0008              0.0000     6.8162 f
+  test_pe_comp/U250/B1 (AOI22D0BWPHVT)                            0.0450    0.0000     6.8162 f
+  test_pe_comp/U250/ZN (AOI22D0BWPHVT)                            0.0960    0.0878     6.9040 r
+  test_pe_comp/n183 (net)                       1       0.0004              0.0000     6.9040 r
+  test_pe_comp/U253/A2 (AN4D0BWPHVT)                              0.0960    0.0000     6.9040 r
+  test_pe_comp/U253/Z (AN4D0BWPHVT)                               0.0554    0.1931     7.0970 r
+  test_pe_comp/n186 (net)                       1       0.0004              0.0000     7.0970 r
+  test_pe_comp/U255/B (OAI211D0BWPHVT)                            0.0554    0.0000     7.0970 r
+  test_pe_comp/U255/ZN (OAI211D0BWPHVT)                           0.1202    0.1015     7.1985 f
+  test_pe_comp/res[10] (net)                    1       0.0004              0.0000     7.1985 f
+  test_pe_comp/res[10] (test_pe_comp_unq1_0)                                0.0000     7.1985 f
+  comp_res[10] (net)                                    0.0004              0.0000     7.1985 f
+  U261/I (CKND0BWPHVT)                                            0.1202    0.0000     7.1985 f
+  U261/ZN (CKND0BWPHVT)                                           0.0700    0.0864     7.2849 r
+  n293 (net)                                    3       0.0013              0.0000     7.2849 r
+  U220/A2 (MAOI22D0BWPHVT)                                        0.0700    0.0000     7.2849 r
+  U220/ZN (MAOI22D0BWPHVT)                                        0.1013    0.0762     7.3611 f
+  res[10] (net)                                 3       0.0008              0.0000     7.3611 f
+  res[10] (out)                                                   0.1013    0.0000     7.3611 f
+  data arrival time                                                                    7.3611
+  -------------------------------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: inp_code_reg[1]
+              (rising edge-triggered flip-flop)
+  Endpoint: res[9] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SNPS_CLOCK_GATE_HIGH_test_pe_0 ZeroWireload tcbn40lpbwphvttc
+  test_pe            ZeroWireload          tcbn40lpbwphvttc
+  test_opt_reg_DataWidth16_2 ZeroWireload  tcbn40lpbwphvttc
+  test_shifter_unq1_DataWidth16_0 ZeroWireload tcbn40lpbwphvttc
+  test_mult_add_DataWidth16_0 ZeroWireload tcbn40lpbwphvttc
+  test_full_add_DataWidth16_2 ZeroWireload tcbn40lpbwphvttc
+  test_pe_comp_unq1_0 ZeroWireload         tcbn40lpbwphvttc
+  test_debug_reg_DataWidth16_0 ZeroWireload tcbn40lpbwphvttc
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                       Fanout       Cap     Trans      Incr       Path      Attributes
+  -------------------------------------------------------------------------------------------------------------------
+  inp_code_reg[1]/CP (SDFCNQD0BWPHVT)                             0.2586    0.0000     0.0000 r
+  inp_code_reg[1]/Q (SDFCNQD0BWPHVT)                              0.0598    0.3249     0.3249 r
+  inp_code[1] (net)                             3       0.0014              0.0000     0.3249 r
+  test_opt_reg_a/mode[1] (test_opt_reg_DataWidth16_2)                       0.0000     0.3249 r
+  test_opt_reg_a/mode[1] (net)                          0.0014              0.0000     0.3249 r
+  test_opt_reg_a/U2/A1 (INR2XD1BWPHVT)                            0.0598    0.0000     0.3249 r
+  test_opt_reg_a/U2/ZN (INR2XD1BWPHVT)                            0.2689    0.2128     0.5377 r
+  test_opt_reg_a/n1 (net)                      16       0.0140              0.0000     0.5377 r
+  test_opt_reg_a/U8/S (MUX2D0BWPHVT)                              0.2689    0.0000     0.5377 r
+  test_opt_reg_a/U8/Z (MUX2D0BWPHVT)                              0.4788    0.4086     0.9463 r
+  test_opt_reg_a/res[2] (net)                  30       0.0159              0.0000     0.9463 r
+  test_opt_reg_a/res[2] (test_opt_reg_DataWidth16_2)                        0.0000     0.9463 r
+  op_a[2] (net)                                         0.0159              0.0000     0.9463 r
+  test_pe_comp/op_a[2] (test_pe_comp_unq1_0)                                0.0000     0.9463 r
+  test_pe_comp/op_a[2] (net)                            0.0159              0.0000     0.9463 r
+  test_pe_comp/test_mult_add/a[2] (test_mult_add_DataWidth16_0)             0.0000     0.9463 r
+  test_pe_comp/test_mult_add/a[2] (net)                 0.0159              0.0000     0.9463 r
+  test_pe_comp/test_mult_add/U14/I (CKND0BWPHVT)                  0.4788    0.0000     0.9463 r
+  test_pe_comp/test_mult_add/U14/ZN (CKND0BWPHVT)                 0.2903    0.3461     1.2925 f
+  test_pe_comp/test_mult_add/n487 (net)        23       0.0094              0.0000     1.2925 f
+  test_pe_comp/test_mult_add/U140/B2 (MOAI22D0BWPHVT)             0.2903    0.0000     1.2925 f
+  test_pe_comp/test_mult_add/U140/ZN (MOAI22D0BWPHVT)             0.1240    0.2105     1.5030 f
+  test_pe_comp/test_mult_add/n79 (net)          2       0.0008              0.0000     1.5030 f
+  test_pe_comp/test_mult_add/U141/A2 (NR2D0BWPHVT)                0.1240    0.0000     1.5030 f
+  test_pe_comp/test_mult_add/U141/ZN (NR2D0BWPHVT)                0.4598    0.3297     1.8327 r
+  test_pe_comp/test_mult_add/n484 (net)        17       0.0071              0.0000     1.8327 r
+  test_pe_comp/test_mult_add/U146/A2 (AOI222D0BWPHVT)             0.4598    0.0000     1.8327 r
+  test_pe_comp/test_mult_add/U146/ZN (AOI222D0BWPHVT)             0.1442    0.2279     2.0606 f
+  test_pe_comp/test_mult_add/n80 (net)          1       0.0009              0.0000     2.0606 f
+  test_pe_comp/test_mult_add/U147/S (MUX2ND0BWPHVT)               0.1442    0.0000     2.0606 f
+  test_pe_comp/test_mult_add/U147/ZN (MUX2ND0BWPHVT)              0.1121    0.1443     2.2050 f
+  test_pe_comp/test_mult_add/n201 (net)         1       0.0006              0.0000     2.2050 f
+  test_pe_comp/test_mult_add/U264/CI (FA1D0BWPHVT)                0.1121    0.0000     2.2050 f
+  test_pe_comp/test_mult_add/U264/CO (FA1D0BWPHVT)                0.0489    0.1773     2.3823 f
+  test_pe_comp/test_mult_add/n200 (net)         1       0.0011              0.0000     2.3823 f
+  test_pe_comp/test_mult_add/U263/B (FA1D0BWPHVT)                 0.0489    0.0000     2.3823 f
+  test_pe_comp/test_mult_add/U263/CO (FA1D0BWPHVT)                0.0487    0.2030     2.5852 f
+  test_pe_comp/test_mult_add/n197 (net)         1       0.0011              0.0000     2.5852 f
+  test_pe_comp/test_mult_add/U262/B (FA1D0BWPHVT)                 0.0487    0.0000     2.5852 f
+  test_pe_comp/test_mult_add/U262/CO (FA1D0BWPHVT)                0.0487    0.2028     2.7881 f
+  test_pe_comp/test_mult_add/n194 (net)         1       0.0011              0.0000     2.7881 f
+  test_pe_comp/test_mult_add/U261/B (FA1D0BWPHVT)                 0.0487    0.0000     2.7881 f
+  test_pe_comp/test_mult_add/U261/CO (FA1D0BWPHVT)                0.0487    0.2028     2.9909 f
+  test_pe_comp/test_mult_add/n191 (net)         1       0.0011              0.0000     2.9909 f
+  test_pe_comp/test_mult_add/U260/B (FA1D0BWPHVT)                 0.0487    0.0000     2.9909 f
+  test_pe_comp/test_mult_add/U260/CO (FA1D0BWPHVT)                0.0487    0.2028     3.1938 f
+  test_pe_comp/test_mult_add/n189 (net)         1       0.0011              0.0000     3.1938 f
+  test_pe_comp/test_mult_add/U259/B (FA1D0BWPHVT)                 0.0487    0.0000     3.1938 f
+  test_pe_comp/test_mult_add/U259/CO (FA1D0BWPHVT)                0.0487    0.2028     3.3966 f
+  test_pe_comp/test_mult_add/n187 (net)         1       0.0011              0.0000     3.3966 f
+  test_pe_comp/test_mult_add/U258/B (FA1D0BWPHVT)                 0.0487    0.0000     3.3966 f
+  test_pe_comp/test_mult_add/U258/CO (FA1D0BWPHVT)                0.0487    0.2028     3.5995 f
+  test_pe_comp/test_mult_add/n185 (net)         1       0.0011              0.0000     3.5995 f
+  test_pe_comp/test_mult_add/U257/B (FA1D0BWPHVT)                 0.0487    0.0000     3.5995 f
+  test_pe_comp/test_mult_add/U257/CO (FA1D0BWPHVT)                0.0487    0.2028     3.8023 f
+  test_pe_comp/test_mult_add/n183 (net)         1       0.0011              0.0000     3.8023 f
+  test_pe_comp/test_mult_add/U256/B (FA1D0BWPHVT)                 0.0487    0.0000     3.8023 f
+  test_pe_comp/test_mult_add/U256/CO (FA1D0BWPHVT)                0.0487    0.2028     4.0052 f
+  test_pe_comp/test_mult_add/n181 (net)         1       0.0011              0.0000     4.0052 f
+  test_pe_comp/test_mult_add/U255/B (FA1D0BWPHVT)                 0.0487    0.0000     4.0052 f
+  test_pe_comp/test_mult_add/U255/CO (FA1D0BWPHVT)                0.0487    0.2028     4.2080 f
+  test_pe_comp/test_mult_add/n179 (net)         1       0.0011              0.0000     4.2080 f
+  test_pe_comp/test_mult_add/U254/B (FA1D0BWPHVT)                 0.0487    0.0000     4.2080 f
+  test_pe_comp/test_mult_add/U254/CO (FA1D0BWPHVT)                0.0487    0.2028     4.4109 f
+  test_pe_comp/test_mult_add/n177 (net)         1       0.0011              0.0000     4.4109 f
+  test_pe_comp/test_mult_add/U253/B (FA1D0BWPHVT)                 0.0487    0.0000     4.4109 f
+  test_pe_comp/test_mult_add/U253/CO (FA1D0BWPHVT)                0.0487    0.2028     4.6137 f
+  test_pe_comp/test_mult_add/n175 (net)         1       0.0011              0.0000     4.6137 f
+  test_pe_comp/test_mult_add/U252/B (FA1D0BWPHVT)                 0.0487    0.0000     4.6137 f
+  test_pe_comp/test_mult_add/U252/CO (FA1D0BWPHVT)                0.0487    0.2028     4.8166 f
+  test_pe_comp/test_mult_add/n173 (net)         1       0.0011              0.0000     4.8166 f
+  test_pe_comp/test_mult_add/U251/B (FA1D0BWPHVT)                 0.0487    0.0000     4.8166 f
+  test_pe_comp/test_mult_add/U251/CO (FA1D0BWPHVT)                0.0487    0.2028     5.0194 f
+  test_pe_comp/test_mult_add/n171 (net)         1       0.0011              0.0000     5.0194 f
+  test_pe_comp/test_mult_add/U250/B (FA1D0BWPHVT)                 0.0487    0.0000     5.0194 f
+  test_pe_comp/test_mult_add/U250/CO (FA1D0BWPHVT)                0.0487    0.2028     5.2223 f
+  test_pe_comp/test_mult_add/n169 (net)         1       0.0011              0.0000     5.2223 f
+  test_pe_comp/test_mult_add/U249/B (FA1D0BWPHVT)                 0.0487    0.0000     5.2223 f
+  test_pe_comp/test_mult_add/U249/CO (FA1D0BWPHVT)                0.0398    0.1951     5.4173 f
+  test_pe_comp/test_mult_add/n167 (net)         1       0.0006              0.0000     5.4173 f
+  test_pe_comp/test_mult_add/U248/CI (FA1D0BWPHVT)                0.0398    0.0000     5.4173 f
+  test_pe_comp/test_mult_add/U248/CO (FA1D0BWPHVT)                0.0389    0.1321     5.5494 f
+  test_pe_comp/test_mult_add/n166 (net)         1       0.0006              0.0000     5.5494 f
+  test_pe_comp/test_mult_add/U247/CI (FA1D0BWPHVT)                0.0389    0.0000     5.5494 f
+  test_pe_comp/test_mult_add/U247/CO (FA1D0BWPHVT)                0.0479    0.1403     5.6897 f
+  test_pe_comp/test_mult_add/n165 (net)         1       0.0011              0.0000     5.6897 f
+  test_pe_comp/test_mult_add/U246/B (FA1D0BWPHVT)                 0.0479    0.0000     5.6897 f
+  test_pe_comp/test_mult_add/U246/CO (FA1D0BWPHVT)                0.0396    0.1947     5.8844 f
+  test_pe_comp/test_mult_add/n163 (net)         1       0.0006              0.0000     5.8844 f
+  test_pe_comp/test_mult_add/U245/CI (FA1D0BWPHVT)                0.0396    0.0000     5.8844 f
+  test_pe_comp/test_mult_add/U245/CO (FA1D0BWPHVT)                0.0389    0.1320     6.0164 f
+  test_pe_comp/test_mult_add/n162 (net)         1       0.0006              0.0000     6.0164 f
+  test_pe_comp/test_mult_add/U244/CI (FA1D0BWPHVT)                0.0389    0.0000     6.0164 f
+  test_pe_comp/test_mult_add/U244/CO (FA1D0BWPHVT)                0.0389    0.1316     6.1480 f
+  test_pe_comp/test_mult_add/n161 (net)         1       0.0006              0.0000     6.1480 f
+  test_pe_comp/test_mult_add/U243/CI (FA1D0BWPHVT)                0.0389    0.0000     6.1480 f
+  test_pe_comp/test_mult_add/U243/CO (FA1D0BWPHVT)                0.0389    0.1316     6.2796 f
+  test_pe_comp/test_mult_add/n160 (net)         1       0.0006              0.0000     6.2796 f
+  test_pe_comp/test_mult_add/U242/CI (FA1D0BWPHVT)                0.0389    0.0000     6.2796 f
+  test_pe_comp/test_mult_add/U242/CO (FA1D0BWPHVT)                0.0389    0.1316     6.4112 f
+  test_pe_comp/test_mult_add/n159 (net)         1       0.0006              0.0000     6.4112 f
+  test_pe_comp/test_mult_add/U241/CI (FA1D0BWPHVT)                0.0389    0.0000     6.4112 f
+  test_pe_comp/test_mult_add/U241/CO (FA1D0BWPHVT)                0.0389    0.1316     6.5429 f
+  test_pe_comp/test_mult_add/n158 (net)         1       0.0006              0.0000     6.5429 f
+  test_pe_comp/test_mult_add/U240/CI (FA1D0BWPHVT)                0.0389    0.0000     6.5429 f
+  test_pe_comp/test_mult_add/U240/S (FA1D0BWPHVT)                 0.0452    0.1419     6.6848 f
+  test_pe_comp/test_mult_add/res[25] (net)      2       0.0009              0.0000     6.6848 f
+  test_pe_comp/test_mult_add/res[25] (test_mult_add_DataWidth16_0)          0.0000     6.6848 f
+  test_pe_comp/mult_res[25] (net)                       0.0009              0.0000     6.6848 f
+  test_pe_comp/U243/B1 (AOI22D0BWPHVT)                            0.0452    0.0000     6.6848 f
+  test_pe_comp/U243/ZN (AOI22D0BWPHVT)                            0.0960    0.0879     6.7727 r
+  test_pe_comp/n176 (net)                       1       0.0004              0.0000     6.7727 r
+  test_pe_comp/U246/A2 (AN4D0BWPHVT)                              0.0960    0.0000     6.7727 r
+  test_pe_comp/U246/Z (AN4D0BWPHVT)                               0.0554    0.1931     6.9657 r
+  test_pe_comp/n179 (net)                       1       0.0004              0.0000     6.9657 r
+  test_pe_comp/U248/B (OAI211D0BWPHVT)                            0.0554    0.0000     6.9657 r
+  test_pe_comp/U248/ZN (OAI211D0BWPHVT)                           0.1202    0.1015     7.0672 f
+  test_pe_comp/res[9] (net)                     1       0.0004              0.0000     7.0672 f
+  test_pe_comp/res[9] (test_pe_comp_unq1_0)                                 0.0000     7.0672 f
+  comp_res[9] (net)                                     0.0004              0.0000     7.0672 f
+  U259/I (CKND0BWPHVT)                                            0.1202    0.0000     7.0672 f
+  U259/ZN (CKND0BWPHVT)                                           0.0697    0.0861     7.1533 r
+  n294 (net)                                    3       0.0013              0.0000     7.1533 r
+  U260/A2 (MAOI22D0BWPHVT)                                        0.0697    0.0000     7.1533 r
+  U260/ZN (MAOI22D0BWPHVT)                                        0.1011    0.0759     7.2293 f
+  res[9] (net)                                  3       0.0008              0.0000     7.2293 f
+  res[9] (out)                                                    0.1011    0.0000     7.2293 f
+  data arrival time                                                                    7.2293
+  -------------------------------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: inp_code_reg[1]
+              (rising edge-triggered flip-flop)
+  Endpoint: res[8] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SNPS_CLOCK_GATE_HIGH_test_pe_0 ZeroWireload tcbn40lpbwphvttc
+  test_pe            ZeroWireload          tcbn40lpbwphvttc
+  test_opt_reg_DataWidth16_2 ZeroWireload  tcbn40lpbwphvttc
+  test_shifter_unq1_DataWidth16_0 ZeroWireload tcbn40lpbwphvttc
+  test_mult_add_DataWidth16_0 ZeroWireload tcbn40lpbwphvttc
+  test_full_add_DataWidth16_2 ZeroWireload tcbn40lpbwphvttc
+  test_pe_comp_unq1_0 ZeroWireload         tcbn40lpbwphvttc
+  test_debug_reg_DataWidth16_0 ZeroWireload tcbn40lpbwphvttc
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                       Fanout       Cap     Trans      Incr       Path      Attributes
+  -------------------------------------------------------------------------------------------------------------------
+  inp_code_reg[1]/CP (SDFCNQD0BWPHVT)                             0.2586    0.0000     0.0000 r
+  inp_code_reg[1]/Q (SDFCNQD0BWPHVT)                              0.0598    0.3249     0.3249 r
+  inp_code[1] (net)                             3       0.0014              0.0000     0.3249 r
+  test_opt_reg_a/mode[1] (test_opt_reg_DataWidth16_2)                       0.0000     0.3249 r
+  test_opt_reg_a/mode[1] (net)                          0.0014              0.0000     0.3249 r
+  test_opt_reg_a/U2/A1 (INR2XD1BWPHVT)                            0.0598    0.0000     0.3249 r
+  test_opt_reg_a/U2/ZN (INR2XD1BWPHVT)                            0.2689    0.2128     0.5377 r
+  test_opt_reg_a/n1 (net)                      16       0.0140              0.0000     0.5377 r
+  test_opt_reg_a/U8/S (MUX2D0BWPHVT)                              0.2689    0.0000     0.5377 r
+  test_opt_reg_a/U8/Z (MUX2D0BWPHVT)                              0.4788    0.4086     0.9463 r
+  test_opt_reg_a/res[2] (net)                  30       0.0159              0.0000     0.9463 r
+  test_opt_reg_a/res[2] (test_opt_reg_DataWidth16_2)                        0.0000     0.9463 r
+  op_a[2] (net)                                         0.0159              0.0000     0.9463 r
+  test_pe_comp/op_a[2] (test_pe_comp_unq1_0)                                0.0000     0.9463 r
+  test_pe_comp/op_a[2] (net)                            0.0159              0.0000     0.9463 r
+  test_pe_comp/test_mult_add/a[2] (test_mult_add_DataWidth16_0)             0.0000     0.9463 r
+  test_pe_comp/test_mult_add/a[2] (net)                 0.0159              0.0000     0.9463 r
+  test_pe_comp/test_mult_add/U14/I (CKND0BWPHVT)                  0.4788    0.0000     0.9463 r
+  test_pe_comp/test_mult_add/U14/ZN (CKND0BWPHVT)                 0.2903    0.3461     1.2925 f
+  test_pe_comp/test_mult_add/n487 (net)        23       0.0094              0.0000     1.2925 f
+  test_pe_comp/test_mult_add/U140/B2 (MOAI22D0BWPHVT)             0.2903    0.0000     1.2925 f
+  test_pe_comp/test_mult_add/U140/ZN (MOAI22D0BWPHVT)             0.1240    0.2105     1.5030 f
+  test_pe_comp/test_mult_add/n79 (net)          2       0.0008              0.0000     1.5030 f
+  test_pe_comp/test_mult_add/U141/A2 (NR2D0BWPHVT)                0.1240    0.0000     1.5030 f
+  test_pe_comp/test_mult_add/U141/ZN (NR2D0BWPHVT)                0.4598    0.3297     1.8327 r
+  test_pe_comp/test_mult_add/n484 (net)        17       0.0071              0.0000     1.8327 r
+  test_pe_comp/test_mult_add/U146/A2 (AOI222D0BWPHVT)             0.4598    0.0000     1.8327 r
+  test_pe_comp/test_mult_add/U146/ZN (AOI222D0BWPHVT)             0.1442    0.2279     2.0606 f
+  test_pe_comp/test_mult_add/n80 (net)          1       0.0009              0.0000     2.0606 f
+  test_pe_comp/test_mult_add/U147/S (MUX2ND0BWPHVT)               0.1442    0.0000     2.0606 f
+  test_pe_comp/test_mult_add/U147/ZN (MUX2ND0BWPHVT)              0.1121    0.1443     2.2050 f
+  test_pe_comp/test_mult_add/n201 (net)         1       0.0006              0.0000     2.2050 f
+  test_pe_comp/test_mult_add/U264/CI (FA1D0BWPHVT)                0.1121    0.0000     2.2050 f
+  test_pe_comp/test_mult_add/U264/CO (FA1D0BWPHVT)                0.0489    0.1773     2.3823 f
+  test_pe_comp/test_mult_add/n200 (net)         1       0.0011              0.0000     2.3823 f
+  test_pe_comp/test_mult_add/U263/B (FA1D0BWPHVT)                 0.0489    0.0000     2.3823 f
+  test_pe_comp/test_mult_add/U263/CO (FA1D0BWPHVT)                0.0487    0.2030     2.5852 f
+  test_pe_comp/test_mult_add/n197 (net)         1       0.0011              0.0000     2.5852 f
+  test_pe_comp/test_mult_add/U262/B (FA1D0BWPHVT)                 0.0487    0.0000     2.5852 f
+  test_pe_comp/test_mult_add/U262/CO (FA1D0BWPHVT)                0.0487    0.2028     2.7881 f
+  test_pe_comp/test_mult_add/n194 (net)         1       0.0011              0.0000     2.7881 f
+  test_pe_comp/test_mult_add/U261/B (FA1D0BWPHVT)                 0.0487    0.0000     2.7881 f
+  test_pe_comp/test_mult_add/U261/CO (FA1D0BWPHVT)                0.0487    0.2028     2.9909 f
+  test_pe_comp/test_mult_add/n191 (net)         1       0.0011              0.0000     2.9909 f
+  test_pe_comp/test_mult_add/U260/B (FA1D0BWPHVT)                 0.0487    0.0000     2.9909 f
+  test_pe_comp/test_mult_add/U260/CO (FA1D0BWPHVT)                0.0487    0.2028     3.1938 f
+  test_pe_comp/test_mult_add/n189 (net)         1       0.0011              0.0000     3.1938 f
+  test_pe_comp/test_mult_add/U259/B (FA1D0BWPHVT)                 0.0487    0.0000     3.1938 f
+  test_pe_comp/test_mult_add/U259/CO (FA1D0BWPHVT)                0.0487    0.2028     3.3966 f
+  test_pe_comp/test_mult_add/n187 (net)         1       0.0011              0.0000     3.3966 f
+  test_pe_comp/test_mult_add/U258/B (FA1D0BWPHVT)                 0.0487    0.0000     3.3966 f
+  test_pe_comp/test_mult_add/U258/CO (FA1D0BWPHVT)                0.0487    0.2028     3.5995 f
+  test_pe_comp/test_mult_add/n185 (net)         1       0.0011              0.0000     3.5995 f
+  test_pe_comp/test_mult_add/U257/B (FA1D0BWPHVT)                 0.0487    0.0000     3.5995 f
+  test_pe_comp/test_mult_add/U257/CO (FA1D0BWPHVT)                0.0487    0.2028     3.8023 f
+  test_pe_comp/test_mult_add/n183 (net)         1       0.0011              0.0000     3.8023 f
+  test_pe_comp/test_mult_add/U256/B (FA1D0BWPHVT)                 0.0487    0.0000     3.8023 f
+  test_pe_comp/test_mult_add/U256/CO (FA1D0BWPHVT)                0.0487    0.2028     4.0052 f
+  test_pe_comp/test_mult_add/n181 (net)         1       0.0011              0.0000     4.0052 f
+  test_pe_comp/test_mult_add/U255/B (FA1D0BWPHVT)                 0.0487    0.0000     4.0052 f
+  test_pe_comp/test_mult_add/U255/CO (FA1D0BWPHVT)                0.0487    0.2028     4.2080 f
+  test_pe_comp/test_mult_add/n179 (net)         1       0.0011              0.0000     4.2080 f
+  test_pe_comp/test_mult_add/U254/B (FA1D0BWPHVT)                 0.0487    0.0000     4.2080 f
+  test_pe_comp/test_mult_add/U254/CO (FA1D0BWPHVT)                0.0487    0.2028     4.4109 f
+  test_pe_comp/test_mult_add/n177 (net)         1       0.0011              0.0000     4.4109 f
+  test_pe_comp/test_mult_add/U253/B (FA1D0BWPHVT)                 0.0487    0.0000     4.4109 f
+  test_pe_comp/test_mult_add/U253/CO (FA1D0BWPHVT)                0.0487    0.2028     4.6137 f
+  test_pe_comp/test_mult_add/n175 (net)         1       0.0011              0.0000     4.6137 f
+  test_pe_comp/test_mult_add/U252/B (FA1D0BWPHVT)                 0.0487    0.0000     4.6137 f
+  test_pe_comp/test_mult_add/U252/CO (FA1D0BWPHVT)                0.0487    0.2028     4.8166 f
+  test_pe_comp/test_mult_add/n173 (net)         1       0.0011              0.0000     4.8166 f
+  test_pe_comp/test_mult_add/U251/B (FA1D0BWPHVT)                 0.0487    0.0000     4.8166 f
+  test_pe_comp/test_mult_add/U251/CO (FA1D0BWPHVT)                0.0487    0.2028     5.0194 f
+  test_pe_comp/test_mult_add/n171 (net)         1       0.0011              0.0000     5.0194 f
+  test_pe_comp/test_mult_add/U250/B (FA1D0BWPHVT)                 0.0487    0.0000     5.0194 f
+  test_pe_comp/test_mult_add/U250/CO (FA1D0BWPHVT)                0.0487    0.2028     5.2223 f
+  test_pe_comp/test_mult_add/n169 (net)         1       0.0011              0.0000     5.2223 f
+  test_pe_comp/test_mult_add/U249/B (FA1D0BWPHVT)                 0.0487    0.0000     5.2223 f
+  test_pe_comp/test_mult_add/U249/CO (FA1D0BWPHVT)                0.0398    0.1951     5.4173 f
+  test_pe_comp/test_mult_add/n167 (net)         1       0.0006              0.0000     5.4173 f
+  test_pe_comp/test_mult_add/U248/CI (FA1D0BWPHVT)                0.0398    0.0000     5.4173 f
+  test_pe_comp/test_mult_add/U248/CO (FA1D0BWPHVT)                0.0389    0.1321     5.5494 f
+  test_pe_comp/test_mult_add/n166 (net)         1       0.0006              0.0000     5.5494 f
+  test_pe_comp/test_mult_add/U247/CI (FA1D0BWPHVT)                0.0389    0.0000     5.5494 f
+  test_pe_comp/test_mult_add/U247/CO (FA1D0BWPHVT)                0.0479    0.1403     5.6897 f
+  test_pe_comp/test_mult_add/n165 (net)         1       0.0011              0.0000     5.6897 f
+  test_pe_comp/test_mult_add/U246/B (FA1D0BWPHVT)                 0.0479    0.0000     5.6897 f
+  test_pe_comp/test_mult_add/U246/CO (FA1D0BWPHVT)                0.0396    0.1947     5.8844 f
+  test_pe_comp/test_mult_add/n163 (net)         1       0.0006              0.0000     5.8844 f
+  test_pe_comp/test_mult_add/U245/CI (FA1D0BWPHVT)                0.0396    0.0000     5.8844 f
+  test_pe_comp/test_mult_add/U245/CO (FA1D0BWPHVT)                0.0389    0.1320     6.0164 f
+  test_pe_comp/test_mult_add/n162 (net)         1       0.0006              0.0000     6.0164 f
+  test_pe_comp/test_mult_add/U244/CI (FA1D0BWPHVT)                0.0389    0.0000     6.0164 f
+  test_pe_comp/test_mult_add/U244/CO (FA1D0BWPHVT)                0.0389    0.1316     6.1480 f
+  test_pe_comp/test_mult_add/n161 (net)         1       0.0006              0.0000     6.1480 f
+  test_pe_comp/test_mult_add/U243/CI (FA1D0BWPHVT)                0.0389    0.0000     6.1480 f
+  test_pe_comp/test_mult_add/U243/CO (FA1D0BWPHVT)                0.0389    0.1316     6.2796 f
+  test_pe_comp/test_mult_add/n160 (net)         1       0.0006              0.0000     6.2796 f
+  test_pe_comp/test_mult_add/U242/CI (FA1D0BWPHVT)                0.0389    0.0000     6.2796 f
+  test_pe_comp/test_mult_add/U242/CO (FA1D0BWPHVT)                0.0389    0.1316     6.4112 f
+  test_pe_comp/test_mult_add/n159 (net)         1       0.0006              0.0000     6.4112 f
+  test_pe_comp/test_mult_add/U241/CI (FA1D0BWPHVT)                0.0389    0.0000     6.4112 f
+  test_pe_comp/test_mult_add/U241/S (FA1D0BWPHVT)                 0.0459    0.1425     6.5538 f
+  test_pe_comp/test_mult_add/res[24] (net)      2       0.0009              0.0000     6.5538 f
+  test_pe_comp/test_mult_add/res[24] (test_mult_add_DataWidth16_0)          0.0000     6.5538 f
+  test_pe_comp/mult_res[24] (net)                       0.0009              0.0000     6.5538 f
+  test_pe_comp/U237/B1 (AOI22D0BWPHVT)                            0.0459    0.0000     6.5538 f
+  test_pe_comp/U237/ZN (AOI22D0BWPHVT)                            0.0960    0.0882     6.6420 r
+  test_pe_comp/n169 (net)                       1       0.0004              0.0000     6.6420 r
+  test_pe_comp/U10/A2 (AN4D0BWPHVT)                               0.0960    0.0000     6.6420 r
+  test_pe_comp/U10/Z (AN4D0BWPHVT)                                0.0554    0.1931     6.8351 r
+  test_pe_comp/n172 (net)                       1       0.0004              0.0000     6.8351 r
+  test_pe_comp/U241/B (OAI211D0BWPHVT)                            0.0554    0.0000     6.8351 r
+  test_pe_comp/U241/ZN (OAI211D0BWPHVT)                           0.1202    0.1015     6.9365 f
+  test_pe_comp/res[8] (net)                     1       0.0004              0.0000     6.9365 f
+  test_pe_comp/res[8] (test_pe_comp_unq1_0)                                 0.0000     6.9365 f
+  comp_res[8] (net)                                     0.0004              0.0000     6.9365 f
+  U257/I (CKND0BWPHVT)                                            0.1202    0.0000     6.9365 f
+  U257/ZN (CKND0BWPHVT)                                           0.0701    0.0864     7.0230 r
+  n295 (net)                                    3       0.0013              0.0000     7.0230 r
+  U258/A2 (MAOI22D0BWPHVT)                                        0.0701    0.0000     7.0230 r
+  U258/ZN (MAOI22D0BWPHVT)                                        0.1013    0.0762     7.0992 f
+  res[8] (net)                                  3       0.0008              0.0000     7.0992 f
+  res[8] (out)                                                    0.1013    0.0000     7.0992 f
+  data arrival time                                                                    7.0992
+  -------------------------------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

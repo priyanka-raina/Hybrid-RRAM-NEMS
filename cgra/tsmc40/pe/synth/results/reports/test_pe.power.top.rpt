@@ -1,0 +1,93 @@
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : test_pe
+Version: L-2016.03-SP5-5
+Date   : Wed May  8 21:22:15 2019
+****************************************
+
+
+Library(s) Used:
+
+    tcbn40lpbwphvttc (File: /cad/synopsys_EDK2/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn40lpbwphvt_110b/tcbn40lpbwphvttc.db)
+
+
+Operating Conditions: NCCOM   Library: tcbn40lpbwphvttc
+Wire Load Model Mode: segmented
+
+Design        Wire Load Model            Library
+------------------------------------------------
+test_pe                ZeroWireload      tcbn40lpbwphvttc
+test_opt_reg_DataWidth16_2
+                       ZeroWireload      tcbn40lpbwphvttc
+test_opt_reg_file_DataWidth16_0
+                       ZeroWireload      tcbn40lpbwphvttc
+test_opt_reg_DataWidth16_3
+                       ZeroWireload      tcbn40lpbwphvttc
+test_opt_reg_DataWidth1_3
+                       ZeroWireload      tcbn40lpbwphvttc
+test_opt_reg_DataWidth1_4
+                       ZeroWireload      tcbn40lpbwphvttc
+test_opt_reg_DataWidth1_5
+                       ZeroWireload      tcbn40lpbwphvttc
+test_pe_comp_unq1_0    ZeroWireload      tcbn40lpbwphvttc
+test_lut_DataWidth1_0  ZeroWireload      tcbn40lpbwphvttc
+test_debug_reg_DataWidth16_0
+                       ZeroWireload      tcbn40lpbwphvttc
+test_debug_reg_DataWidth1_0
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_test_pe_0
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_test_opt_reg_DataWidth16_0_2
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_test_opt_reg_file_DataWidth16_0
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_test_opt_reg_DataWidth16_0_3
+                       ZeroWireload      tcbn40lpbwphvttc
+test_full_add_DataWidth16_2
+                       ZeroWireload      tcbn40lpbwphvttc
+test_full_add_DataWidth16_3
+                       ZeroWireload      tcbn40lpbwphvttc
+test_cmpr_0            ZeroWireload      tcbn40lpbwphvttc
+test_mult_add_DataWidth16_0
+                       ZeroWireload      tcbn40lpbwphvttc
+test_shifter_unq1_DataWidth16_0
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_test_lut_DataWidth1_0
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_test_debug_reg_DataWidth16_0
+                       ZeroWireload      tcbn40lpbwphvttc
+
+
+Global Operating Voltage = 1.1  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+  Cell Internal Power  =  32.7639 uW   (91%)
+  Net Switching Power  =   3.0739 uW    (9%)
+                         ---------
+Total Dynamic Power    =  35.8378 uW  (100%)
+
+Cell Leakage Power     =  79.0091 nW
+
+Information: report_power power group summary does not include estimated clock tree power. (PWR-789)
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register           0.0000            0.0000            0.0000            0.0000  (   0.00%)
+sequential     2.4064e-02        9.7087e-06           14.4766        2.4088e-02  (  67.07%)
+combinational  8.6999e-03        3.0642e-03           64.5325        1.1829e-02  (  32.93%)
+--------------------------------------------------------------------------------------------------
+Total          3.2764e-02 mW     3.0739e-03 mW        79.0091 nW     3.5917e-02 mW
+1
