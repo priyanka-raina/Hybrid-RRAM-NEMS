@@ -92,11 +92,11 @@ $TSMC40_EDK_PATH \
 $ADDITIONAL_SEARCH_PATH]
 
 set_app_var target_library ${TARGET_LIBRARY_FILES}
-set_app_var synthetic_library dw_foundation.sldb
-set_app_var link_library "* $target_library $synthetic_library"
-foreach {max_library min_library} $MIN_LIBRARY_FILES {
-    set_min_library $max_library -min_version $min_library
-}
+#set_app_var synthetic_library dw_foundation.sldb
+#set_app_var link_library "* $target_library $synthetic_library"
+#foreach {max_library min_library} $MIN_LIBRARY_FILES {
+#    set_min_library $max_library -min_version $min_library
+#}
 
 #create_mw_lib mw_lib -technology $TECH_FILE -mw_reference_library $MW_REFERENCE_LIB_DIRS
 #open_mw_lib mw_lib
