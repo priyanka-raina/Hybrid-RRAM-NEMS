@@ -21,7 +21,7 @@ set MW_REFERENCE_CONTROL_FILE ""
 # Target technology logical libraries
 #########
 set TARGET_LIBRARY_FILES " \
-tcbn40lpbwphvttc.lib \
+tcbn40lpbwphvttc.db \
 "
 
 ########
