@@ -92,6 +92,7 @@ $TSMC40_EDK_PATH \
 $ADDITIONAL_SEARCH_PATH]
 
 set_app_var target_library ${TARGET_LIBRARY_FILES}
+set_app_var link_library "* $target_library"
 #set_app_var synthetic_library dw_foundation.sldb
 #set_app_var link_library "* $target_library $synthetic_library"
 #foreach {max_library min_library} $MIN_LIBRARY_FILES {
