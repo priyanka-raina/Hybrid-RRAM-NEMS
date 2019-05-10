@@ -1,0 +1,65 @@
+ 
+****************************************
+Report : area
+Design : test_pe_unq1
+Version: L-2016.03-SP5-5
+Date   : Fri May 10 12:24:26 2019
+****************************************
+
+Library(s) Used:
+
+    tcbn40lpbwphvttc (File: /cad/synopsys_EDK2/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn40lpbwphvt_110b/tcbn40lpbwphvttc.db)
+
+Number of ports:                          726
+Number of nets:                          2272
+Number of cells:                         1593
+Number of combinational cells:           1469
+Number of sequential cells:               106
+Number of macros/black boxes:               0
+Number of buf/inv:                        265
+Number of references:                      38
+
+Combinational area:               1984.323620
+Buf/Inv area:                      140.238005
+Noncombinational area:             505.385983
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                  2489.709603
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  ---------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-     Noncombi-  Black-
+                                  Total      Total    national   national   boxes   Design
+--------------------------------  ---------  -------  ---------  ---------  ------  ----------------------------------------------------
+test_pe_unq1                      2489.7096    100.0   202.5072   169.3440  0.0000  test_pe_unq1
+clk_gate_op_code_reg                 3.3516      0.1     0.0000     3.3516  0.0000  SNPS_CLOCK_GATE_HIGH_test_pe_unq1_0
+test_debug_bit                       8.9964      0.4     1.9404     7.0560  0.0000  test_debug_reg_DataWidth1_0
+test_debug_data                    122.2452      4.9    34.2216    84.6720  0.0000  test_debug_reg_DataWidth16_0
+test_debug_data/clk_gate_debug_val_reg
+                                     3.3516      0.1     0.0000     3.3516  0.0000  SNPS_CLOCK_GATE_HIGH_test_debug_reg_DataWidth16_0
+test_lut                            59.7996      2.4    14.1120    42.3360  0.0000  test_lut_DataWidth1_0
+test_lut/clk_gate_GEN_LUT[0].lut_reg
+                                     3.3516      0.1     0.0000     3.3516  0.0000  SNPS_CLOCK_GATE_HIGH_test_lut_DataWidth1_0
+test_opt_reg_a                     147.9996      5.9    59.9760    84.6720  0.0000  test_opt_reg_DataWidth16_0
+test_opt_reg_a/clk_gate_data_in_reg_reg
+                                     3.3516      0.1     0.0000     3.3516  0.0000  SNPS_CLOCK_GATE_HIGH_test_opt_reg_DataWidth16_0
+test_opt_reg_d                      12.8772      0.5     7.5852     5.2920  0.0000  test_opt_reg_DataWidth1_3
+test_opt_reg_e                      12.8772      0.5     7.5852     5.2920  0.0000  test_opt_reg_DataWidth1_4
+test_opt_reg_f                      12.8772      0.5     7.5852     5.2920  0.0000  test_opt_reg_DataWidth1_5
+test_opt_reg_file                  149.0580      6.0    61.0344    84.6720  0.0000  test_opt_reg_file_DataWidth16_0
+test_opt_reg_file/clk_gate_data_in_reg_reg[0]
+                                     3.3516      0.1     0.0000     3.3516  0.0000  SNPS_CLOCK_GATE_HIGH_test_opt_reg_file_DataWidth16_0
+test_pe_comp                      1587.7764     63.8   292.8240     0.0000  0.0000  test_pe_comp_unq1_0
+test_pe_comp/GEN_ADD[0].full_add    70.5600      2.8    70.5600     0.0000  0.0000  test_full_add_DataWidth16_0
+test_pe_comp/cmpr                    8.8200      0.4     8.8200     0.0000  0.0000  test_cmpr_0
+test_pe_comp/test_mult_add        1040.9364     41.8  1040.9364     0.0000  0.0000  test_mult_add_DataWidth16_0
+test_pe_comp/test_shifter          174.6360      7.0   174.6360     0.0000  0.0000  test_shifter_unq1_DataWidth16_0
+--------------------------------  ---------  -------  ---------  ---------  ------  ----------------------------------------------------
+Total                                                 1984.3236   505.3860  0.0000
+
+1

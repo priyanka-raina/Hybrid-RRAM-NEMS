@@ -1,0 +1,87 @@
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : test_pe_unq1
+Version: L-2016.03-SP5-5
+Date   : Fri May 10 12:24:26 2019
+****************************************
+
+
+Library(s) Used:
+
+    tcbn40lpbwphvttc (File: /cad/synopsys_EDK2/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn40lpbwphvt_110b/tcbn40lpbwphvttc.db)
+
+
+Operating Conditions: NCCOM   Library: tcbn40lpbwphvttc
+Wire Load Model Mode: segmented
+
+Design        Wire Load Model            Library
+------------------------------------------------
+test_pe_unq1           ZeroWireload      tcbn40lpbwphvttc
+test_opt_reg_DataWidth16_0
+                       ZeroWireload      tcbn40lpbwphvttc
+test_opt_reg_file_DataWidth16_0
+                       ZeroWireload      tcbn40lpbwphvttc
+test_opt_reg_DataWidth1_3
+                       ZeroWireload      tcbn40lpbwphvttc
+test_opt_reg_DataWidth1_4
+                       ZeroWireload      tcbn40lpbwphvttc
+test_opt_reg_DataWidth1_5
+                       ZeroWireload      tcbn40lpbwphvttc
+test_pe_comp_unq1_0    ZeroWireload      tcbn40lpbwphvttc
+test_lut_DataWidth1_0  ZeroWireload      tcbn40lpbwphvttc
+test_debug_reg_DataWidth16_0
+                       ZeroWireload      tcbn40lpbwphvttc
+test_debug_reg_DataWidth1_0
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_test_pe_unq1_0
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_test_opt_reg_DataWidth16_0
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_test_opt_reg_file_DataWidth16_0
+                       ZeroWireload      tcbn40lpbwphvttc
+test_full_add_DataWidth16_0
+                       ZeroWireload      tcbn40lpbwphvttc
+test_cmpr_0            ZeroWireload      tcbn40lpbwphvttc
+test_mult_add_DataWidth16_0
+                       ZeroWireload      tcbn40lpbwphvttc
+test_shifter_unq1_DataWidth16_0
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_test_lut_DataWidth1_0
+                       ZeroWireload      tcbn40lpbwphvttc
+SNPS_CLOCK_GATE_HIGH_test_debug_reg_DataWidth16_0
+                       ZeroWireload      tcbn40lpbwphvttc
+
+
+Global Operating Voltage = 1.1  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+  Cell Internal Power  =  26.5018 uW   (92%)
+  Net Switching Power  =   2.2101 uW    (8%)
+                         ---------
+Total Dynamic Power    =  28.7120 uW  (100%)
+
+Cell Leakage Power     =  67.1979 nW
+
+Information: report_power power group summary does not include estimated clock tree power. (PWR-789)
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register           0.0000            0.0000            0.0000            0.0000  (   0.00%)
+sequential     2.0449e-02        3.6502e-06           12.3222        2.0465e-02  (  71.11%)
+combinational  6.0525e-03        2.2065e-03           54.8758        8.3138e-03  (  28.89%)
+--------------------------------------------------------------------------------------------------
+Total          2.6502e-02 mW     2.2101e-03 mW        67.1979 nW     2.8779e-02 mW
+1

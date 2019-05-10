@@ -1,0 +1,177 @@
+ 
+****************************************
+check_design summary:
+Version:     L-2016.03-SP5-5
+Date:        Fri May 10 12:24:26 2019
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     97
+    Unconnected ports (LINT-28)                                    97
+
+Cells                                                              31
+    Connected to power or ground (LINT-32)                         30
+    Nets connected to multiple pins on same cell (LINT-33)          1
+--------------------------------------------------------------------------------
+
+Warning: In design 'test_pe_comp_unq1_0', port 'op_code[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'cfg_d[31]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'cfg_d[30]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'cfg_d[29]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'cfg_d[28]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'cfg_d[27]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'cfg_d[26]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'cfg_d[25]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'cfg_d[24]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'cfg_d[23]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'cfg_d[22]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'cfg_d[21]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'cfg_d[20]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'cfg_d[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'cfg_d[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'cfg_d[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'cfg_d[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'cfg_d[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'cfg_d[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'cfg_d[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'cfg_d[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'cfg_d[11]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'cfg_d[10]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'cfg_d[9]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'cfg_d[8]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'read_data[31]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'read_data[30]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'read_data[29]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'read_data[28]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'read_data[27]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'read_data[26]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'read_data[25]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'read_data[24]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'read_data[23]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'read_data[22]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'read_data[21]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'read_data[20]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'read_data[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'read_data[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'read_data[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'read_data[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'read_data[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'read_data[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'read_data[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'read_data[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'read_data[11]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'read_data[10]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'read_data[9]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_lut_DataWidth1_0', port 'read_data[8]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth16_0', port 'read_data[31]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth16_0', port 'read_data[30]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth16_0', port 'read_data[29]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth16_0', port 'read_data[28]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth16_0', port 'read_data[27]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth16_0', port 'read_data[26]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth16_0', port 'read_data[25]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth16_0', port 'read_data[24]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth16_0', port 'read_data[23]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth16_0', port 'read_data[22]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth16_0', port 'read_data[21]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth16_0', port 'read_data[20]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth16_0', port 'read_data[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth16_0', port 'read_data[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth16_0', port 'read_data[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth16_0', port 'read_data[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[31]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[30]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[29]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[28]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[27]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[26]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[25]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[24]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[23]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[22]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[21]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[20]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[11]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[10]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[9]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[8]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_debug_reg_DataWidth1_0', port 'read_data[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'test_mult_add_DataWidth16_0', port 'c_out' is not connected to any nets. (LINT-28)
+Warning: In design 'test_pe_unq1', a pin on submodule 'test_pe_comp' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'op_code[7]' is connected to logic 0. 
+Warning: In design 'test_pe_unq1', a pin on submodule 'test_lut' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cfg_d[31]' is connected to logic 0. 
+Warning: In design 'test_pe_unq1', a pin on submodule 'test_lut' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cfg_d[30]' is connected to logic 0. 
+Warning: In design 'test_pe_unq1', a pin on submodule 'test_lut' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cfg_d[29]' is connected to logic 0. 
+Warning: In design 'test_pe_unq1', a pin on submodule 'test_lut' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cfg_d[28]' is connected to logic 0. 
+Warning: In design 'test_pe_unq1', a pin on submodule 'test_lut' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cfg_d[27]' is connected to logic 0. 
+Warning: In design 'test_pe_unq1', a pin on submodule 'test_lut' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cfg_d[26]' is connected to logic 0. 
+Warning: In design 'test_pe_unq1', a pin on submodule 'test_lut' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cfg_d[25]' is connected to logic 0. 
+Warning: In design 'test_pe_unq1', a pin on submodule 'test_lut' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cfg_d[24]' is connected to logic 0. 
+Warning: In design 'test_pe_unq1', a pin on submodule 'test_lut' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cfg_d[23]' is connected to logic 0. 
+Warning: In design 'test_pe_unq1', a pin on submodule 'test_lut' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cfg_d[22]' is connected to logic 0. 
+Warning: In design 'test_pe_unq1', a pin on submodule 'test_lut' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cfg_d[21]' is connected to logic 0. 
+Warning: In design 'test_pe_unq1', a pin on submodule 'test_lut' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cfg_d[20]' is connected to logic 0. 
+Warning: In design 'test_pe_unq1', a pin on submodule 'test_lut' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cfg_d[19]' is connected to logic 0. 
+Warning: In design 'test_pe_unq1', a pin on submodule 'test_lut' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cfg_d[18]' is connected to logic 0. 
+Warning: In design 'test_pe_unq1', a pin on submodule 'test_lut' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cfg_d[17]' is connected to logic 0. 
+Warning: In design 'test_pe_unq1', a pin on submodule 'test_lut' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cfg_d[16]' is connected to logic 0. 
+Warning: In design 'test_pe_unq1', a pin on submodule 'test_lut' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cfg_d[15]' is connected to logic 0. 
+Warning: In design 'test_pe_unq1', a pin on submodule 'test_lut' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cfg_d[14]' is connected to logic 0. 
+Warning: In design 'test_pe_unq1', a pin on submodule 'test_lut' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cfg_d[13]' is connected to logic 0. 
+Warning: In design 'test_pe_unq1', a pin on submodule 'test_lut' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cfg_d[12]' is connected to logic 0. 
+Warning: In design 'test_pe_unq1', a pin on submodule 'test_lut' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cfg_d[11]' is connected to logic 0. 
+Warning: In design 'test_pe_unq1', a pin on submodule 'test_lut' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cfg_d[10]' is connected to logic 0. 
+Warning: In design 'test_pe_unq1', a pin on submodule 'test_lut' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cfg_d[9]' is connected to logic 0. 
+Warning: In design 'test_pe_unq1', a pin on submodule 'test_lut' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cfg_d[8]' is connected to logic 0. 
+Warning: In design 'test_pe_unq1', a pin on submodule 'clk_gate_op_code_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'test_opt_reg_DataWidth16_0', a pin on submodule 'clk_gate_data_in_reg_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'test_opt_reg_file_DataWidth16_0', a pin on submodule 'clk_gate_data_in_reg_reg[0]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'test_lut_DataWidth1_0', a pin on submodule 'clk_gate_GEN_LUT[0].lut_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'test_debug_reg_DataWidth16_0', a pin on submodule 'clk_gate_debug_val_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'test_pe_unq1', the same net is connected to more than one pin on submodule 'test_lut'. (LINT-33)
+   Net 'n154' is connected to pins 'cfg_d[31]', 'cfg_d[30]'', 'cfg_d[29]', 'cfg_d[28]', 'cfg_d[27]', 'cfg_d[26]', 'cfg_d[25]', 'cfg_d[24]', 'cfg_d[23]', 'cfg_d[22]', 'cfg_d[21]', 'cfg_d[20]', 'cfg_d[19]', 'cfg_d[18]', 'cfg_d[17]', 'cfg_d[16]', 'cfg_d[15]', 'cfg_d[14]', 'cfg_d[13]', 'cfg_d[12]', 'cfg_d[11]', 'cfg_d[10]', 'cfg_d[9]', 'cfg_d[8]'.
+1
