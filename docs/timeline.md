@@ -1,5 +1,7 @@
 # Timeline
 
+## Akash
+
 | Date    | Task                                |
 | ----    | ----                                |
 | Jun 6   | :white_check_mark: Review TSMC white paper |
@@ -10,6 +12,9 @@
 | Jul 5   | Develop parametrized model for NEM relay in Verilog |
 | Jul 12  | Convert SB/CB synthesized code to NEM relay code |
 | Jul 19  | System-level energy and delay analysis |
+|         | Complete techinical approach for proposal |
 | Aug 16  | Completed AlOx RRAM fabrication |
 | Aug 23  | Completed AlOx RRAM characterization |
 | Aug 26  | Begin AlOx 1T1R fabrication with splits |
+
+## Akhilesh
