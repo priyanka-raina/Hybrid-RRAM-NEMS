@@ -5,6 +5,7 @@
 #################################
 create_operating_condition op_cond_all
 add_opc_supplies op_cond_all vdd 1.1
+add_opc_supplies op_cond_all vb 0.5
 add_opc_grounds op_cond_all gnd 0
 set_opc_temperature op_cond_all 25
 set_opc_process op_cond_all [subst {
@@ -88,7 +89,7 @@ define_parameters default {
     
     # Controls which supplies are measured for power consumption
     #set power_meas_supplies { VDD VDDH VDDL }
-    set power_meas_supplies { vdd }
+    set power_meas_supplies { vdd vb }
 
     # list of ground supplies used (required for Functional Recognition)
     set power_meas_grounds { gnd }

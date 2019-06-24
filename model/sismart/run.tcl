@@ -4,6 +4,7 @@ create $charpoint
 set_log_file $charpoint/sis.log
 
 exec cp configure.tcl ${charpoint}/config/configure.tcl
+exec cp control/*.inst ${charpoint}/control/
 set_location  $charpoint 
 
 #FR with just netlists
