@@ -7,7 +7,9 @@ create_operating_condition op_cond_all
 add_opc_supplies op_cond_all vdd 1.1
 add_opc_grounds op_cond_all gnd 0
 set_opc_temperature op_cond_all 25
-set_opc_process op_cond_all
+set_opc_process op_cond_all [subst {
+      { .lib '[get_location]/../process/reference_models.lib' TT }
+}]
 
 #################################
 # GLOBAL CONFIGURATION PARAMETERS
