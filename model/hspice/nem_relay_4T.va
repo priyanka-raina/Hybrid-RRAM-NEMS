@@ -23,8 +23,9 @@ module NEM_4T(drain, gate, source, bridge);
     parameter real tf = 1e-18;                  // small nonzero value
     parameter real Cgbon = 2e-17;               // on-capacitance
     parameter real Cgboff = 1.5e-17;            // off-capacitance
-    parameter real on_flg = 0;                  // "1" when device is on
-
+    parameter real on_i = 0;                    // device initially on?
+    
+    real on_flg = 0;                            // "1" when device is on
     real Vgb;
     real Cgb;
     real td;                                    // switching delay
@@ -33,7 +34,7 @@ module NEM_4T(drain, gate, source, bridge);
     analog begin
         // Initialization
         @(initial_step("tran","dc")) begin
-            on_flg = 1;
+            on_flg = on_i;
             td = tdmec;
         end
 
