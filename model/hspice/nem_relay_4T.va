@@ -26,7 +26,7 @@ module NEM_4T(drain, gate, source, bridge);
 
     real Vgb;
     real Cgb;
-    real on_flg;                                // “1” when device is on
+    real on_flg;                                // "1" when device is on
     real td;                                    // switching delay
     inout drain, gate, source, bridge;
     electrical drain, gate, source, bridge;
