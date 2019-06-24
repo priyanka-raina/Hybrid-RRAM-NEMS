@@ -1,6 +1,5 @@
-set_netlist_file [get_location]/netlists/NEM4T.cdl
+set_netlist_file [get_location]/netlists/NEM4T_OFF.cdl
 add_pin Vsrc default -input
 add_pin Vdrn default -output
-add_function Vsrc Z
 create_parameter cut_netlist
-set_config_opt -opcond __default__ -- cut_netlist NEM4T.cdl
+set_config_opt -opcond __default__ -- cut_netlist NEM4T_OFF.cdl
