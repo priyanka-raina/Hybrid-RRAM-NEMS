@@ -16,6 +16,14 @@ set_opc_process op_cond_all [subst {
 #################################
 define_parameters default {
 
+    set nmos_model_names { N  N25 }
+    set pmos_model_names { P  P25 }
+
+    set constraint_mode independent
+    set smc_constraint_style relative-degradation
+    set smc_degrade 0.1
+    set path_constraint_mode off
+
     # List of operating conditions as defined by create_operation_condition
      set active_pvts { op_cond_all }
 

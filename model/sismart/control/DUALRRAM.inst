@@ -1,0 +1,5 @@
+set_netlist_file [get_location]/netlists/DUALRRAM.cdl
+add_pin Vout default -output
+add_function Vout {1}
+create_parameter cut_netlist
+set_config_opt -opcond __default__ -- cut_netlist DUALRRAM.cdl
