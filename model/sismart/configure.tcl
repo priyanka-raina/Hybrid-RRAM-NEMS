@@ -100,8 +100,8 @@ define_parameters default {
     # LOAD SHARE PARAMETERS
     #  job_scheduler: 'lsf' (Platform), 'grid' (SunGrid), or 'standalone' (local machine)
     set job_scheduler standalone
-    set run_list_maxsize 5
-    set normal_queue {bnormal -R rusage[mem=4000]} 
+    #set run_list_maxsize 5
+    #set normal_queue {bnormal -R rusage[mem=4000]} 
 }
 
 
