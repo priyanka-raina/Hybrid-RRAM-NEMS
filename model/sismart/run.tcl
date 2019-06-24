@@ -9,7 +9,7 @@ exec cp control/NEM4T.inst ${charpoint}/control/NEM4T.inst
 
 # Copy Verilog-A models
 exec cp netlists/rram_simple.va ${charpoint}/netlists/rram_simple.va
-exec cp netlists/NEM4T.va ${charpoint}/netlists/NEM4T.va
+exec cp netlists/nem_relay_4T.va ${charpoint}/netlists/nem_relay_4T.va
 
 exec cp configure.tcl ${charpoint}/config/configure.tcl
 set_location  $charpoint 
