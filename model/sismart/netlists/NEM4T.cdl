@@ -2,6 +2,7 @@
 *.LDD
 .GLOBAL gnd vdd vb
 
+***
 .hdl nem_relay_4T.va
 
 .subckt NEM4T Vsrc Vdrn
