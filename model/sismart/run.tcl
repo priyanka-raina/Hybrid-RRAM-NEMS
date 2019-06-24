@@ -14,7 +14,7 @@ import -fast -extension .cdl -netlist_dir netlists/ $cells
 #FR + Liberty input
 #import -fast -extension .cdl -netlist_dir netlists/ -liberty import.lib -recognize $cells
 
-exit
+#exit
 
 configure -fast -timing -power -ccs $cells
 characterize $cells
