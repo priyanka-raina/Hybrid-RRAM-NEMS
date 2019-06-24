@@ -1,4 +1,4 @@
-set cells {DUALRRAM INVX1} #NEM4T
+set cells {DUALRRAM INVX1}
 set charpoint devicetest
 create $charpoint 
 set_log_file $charpoint/sis.log
