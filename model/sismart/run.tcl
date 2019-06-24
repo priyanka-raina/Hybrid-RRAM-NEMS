@@ -4,8 +4,10 @@ create $charpoint
 set_log_file $charpoint/sis.log
 
 # Copy functional definitions
-exec cp control/DUALRRAM.inst ${charpoint}/control/DUALRRAM.inst
-exec cp control/NEM4T.inst ${charpoint}/control/NEM4T.inst
+exec cp control/DUALRRAM_ON.inst ${charpoint}/control/DUALRRAM_ON.inst
+exec cp control/DUALRRAM_OFF.inst ${charpoint}/control/DUALRRAM_OFF.inst
+exec cp control/NEM4T_ON.inst ${charpoint}/control/NEM4T_ON.inst
+exec cp control/NEM4T_OFF.inst ${charpoint}/control/NEM4T_OFF.inst
 
 # Copy Verilog-A models
 exec cp netlists/rram_simple.va ${charpoint}/netlists/rram_simple.va
