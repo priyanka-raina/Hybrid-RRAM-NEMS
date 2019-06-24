@@ -3,9 +3,15 @@ set charpoint devicetest
 create $charpoint 
 set_log_file $charpoint/sis.log
 
-exec cp configure.tcl ${charpoint}/config/configure.tcl
+# Copy functional definitions
 exec cp control/DUALRRAM.inst ${charpoint}/control/DUALRRAM.inst
 exec cp control/NEM4T.inst ${charpoint}/control/NEM4T.inst
+
+# Copy Verilog-A models
+exec cp netlists/rram_simple.va ${charpoint}/netlists/rram_simple.va
+exec cp netlists/NEM4T.va ${charpoint}/netlists/NEM4T.va
+
+exec cp configure.tcl ${charpoint}/config/configure.tcl
 set_location  $charpoint 
 
 #FR with just netlists
