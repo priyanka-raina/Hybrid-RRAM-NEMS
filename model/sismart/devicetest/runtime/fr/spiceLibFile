@@ -1,0 +1,7 @@
+.model P pmos level=49
+.model P25 pmos level=49
+.model p pmos level=49
+.model N nmos level=49
+.model N25 nmos level=49
+.model n nmos level=49
+ .lib '/home/akashl/Hybrid-RRAM-NEMS/model/sismart/devicetest/../process/reference_models.lib' TT 

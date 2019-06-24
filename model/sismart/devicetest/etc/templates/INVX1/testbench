@@ -1,0 +1,9 @@
+set vectors ""
+
+## delay__A__lh__Y__hl__ACQ_1
+append vectors " {pins { A } { Y }} 01  10  "
+
+## delay__A__hl__Y__lh__ACQ_1
+append vectors " {pins { A } { Y }} 10  01  "
+
+return $vectors

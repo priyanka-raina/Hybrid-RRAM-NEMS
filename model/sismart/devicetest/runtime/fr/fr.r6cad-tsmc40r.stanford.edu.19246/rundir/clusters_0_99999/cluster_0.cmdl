@@ -1,0 +1,28 @@
+cmdl cluster_0
+	port name = a ,  dir = input ,  type = data
+	port name = y ,  dir = output ,  type = static_cmos ,  unate =  a -
+	property name = cluster_0 , model_name = cluster_0
+	property name = cluster_0 , cell_name = cluster_0
+	property name = a , model_port = a
+	property name = y , model_port = y
+	property name = y , static_driver_path_pwr_0 = m_xcut/m_xcut/mx_sis_top.xnr1/mp1
+	property name = y , static_driver_path_pwr_1 = m_xcut/m_xcut/mx_sis_top.xnr1/mp1
+	property name = y , static_driver_path_gnd_0 = m_xcut/m_xcut/mx_sis_top.xnr1/mn1
+	property name = y , static_driver_path_gnd_1 = m_xcut/m_xcut/mx_sis_top.xnr1/mn1
+	property name = y , forbidden_1 = 1
+	property name = y , forbidden_0 = 0
+	property name = y , func = 0
+	property name = y , cmdl_type = comb_simple
+	property name = y , func_neg = 1
+	delay
+		value a f 200.000 , y r 0.000 = 10.000 , 10.000
+		vector 1 , 0 = - , 1
+	delay
+		value a r 200.000 , y f 0.000 = 10.000 , 10.000
+		vector 0 , 1 = - , 0
+	in_cap
+		value a r 200.000 = 2.000
+		value a f 200.000 = 2.000
+		sim_arc a
+		vector 0 = -
+end_cmdl

@@ -1,0 +1,2 @@
+.model p pmos level=49
+.model n nmos level=49

@@ -1,0 +1,11 @@
+*.SCALE METER
+*.LDD
+.GLOBAL gnd vdd
+
+*.hdl rram_v_2_0.va
+.hdl rram_simple.va
+
+.subckt DUALRRAM_ON Vout vset=1.5V vrst=-1.5V rl=1E7 rh=1E10
+Xrram1 vdd Vout RRAM Vset=vset Vrst=vrst Rl=rl Rh=rh on_i=1
+Xrram2 gnd Vout RRAM Vset=vset Vrst=vrst Rl=rl Rh=rh on_i=0
+.ends DUALRRAM_ON

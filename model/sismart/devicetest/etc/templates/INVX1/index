@@ -1,0 +1,114 @@
+capload0__delay__A__hl__Y__lh__ACQ_1 {
+  measType capload
+  pred {
+  } 
+  targets {
+    capload__A__hl__Y__lh
+  } 
+  template capload0__delay__A__hl__Y__lh__ACQ_1.t
+  test capload0__delay__A__hl__Y__lh
+  when {1}
+} 
+capload0__delay__A__lh__Y__hl__ACQ_1 {
+  measType capload
+  pred {
+  } 
+  targets {
+    capload__A__lh__Y__hl
+  } 
+  template capload0__delay__A__lh__Y__hl__ACQ_1.t
+  test capload0__delay__A__lh__Y__hl
+  when {1}
+} 
+delay__A__hl__Y__lh__ACQ_1 {
+  measType delay
+  pred {
+    min_max_load_Y {
+      capload__A__hl__Y__lh min_max_load_Y
+    } 
+  } 
+  targets {
+    delay__A__hl__Y__lh
+    Cin__A__hl
+    Tout__Y__lh
+    ccs_cin1__A__hl
+    ccs_cin2__A__hl
+    ccs_tin1__A__hl
+    ccs_tin2__A__hl
+    delay_ccs_native_current__A__hl__Y__lh
+    energy1__A__hl__Y__lh__gnd
+    energy1__A__hl__Y__lh__vb
+    energy1__A__hl__Y__lh__vdd
+    energy__A__hl__Y__lh
+    leakage_power1__gnd
+    leakage_power1__vb
+    leakage_power1__vdd
+    leakage_power2__gnd
+    leakage_power2__vb
+    leakage_power2__vdd
+    time_at_voltage__A__hl
+    cap_energy__Y__lh
+  } 
+  template delay__A__hl__Y__lh__ACQ_1.t
+  test delay__A__hl__Y__lh
+  when {1}
+} 
+delay__A__lh__Y__hl__ACQ_1 {
+  measType delay
+  pred {
+    min_max_load_Y {
+      capload__A__lh__Y__hl min_max_load_Y
+    } 
+  } 
+  targets {
+    delay__A__lh__Y__hl
+    Cin__A__lh
+    Tout__Y__hl
+    ccs_cin1__A__lh
+    ccs_cin2__A__lh
+    ccs_tin1__A__lh
+    ccs_tin2__A__lh
+    delay_ccs_native_current__A__lh__Y__hl
+    energy1__A__lh__Y__hl__gnd
+    energy1__A__lh__Y__hl__vb
+    energy1__A__lh__Y__hl__vdd
+    energy__A__lh__Y__hl
+    leakage_power1__gnd
+    leakage_power1__vb
+    leakage_power1__vdd
+    leakage_power2__gnd
+    leakage_power2__vb
+    leakage_power2__vdd
+    time_at_voltage__A__lh
+    cap_energy__Y__hl
+  } 
+  template delay__A__lh__Y__hl__ACQ_1.t
+  test delay__A__lh__Y__hl
+  when {1}
+} 
+leakage_power__ACQ_1 {
+  measType leakage_power
+  pred {
+  } 
+  targets {
+    leakage_power
+  } 
+  template leakage_power__ACQ_1.t
+  test leakage_power
+  when {1}
+} 
+min_max_load_Y {
+  function min
+  pred {
+    capload0__delay__A__hl__Y__lh__ACQ_1 {
+      capload__A__hl__Y__lh capload__A__hl__Y__lh
+    } 
+    capload0__delay__A__lh__Y__hl__ACQ_1 {
+      capload__A__lh__Y__hl capload__A__lh__Y__hl
+    } 
+  } 
+  targets {
+    min_max_load_Y
+  } 
+} 
+

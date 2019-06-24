@@ -1,0 +1,17 @@
+
+; configuration file
+lambda 0.1 
+capga   0.012 
+capda 0.00250
+capdp 0.00020
+cappda 0.00282
+cappdp 0.00024
+lowthresh  0.4
+highthresh 0.6
+diffext 1.0
+resistance n-channel dynamic-high       0.5     0.13    4886.0
+resistance n-channel dynamic-low        0.5     0.13    2029.0
+resistance n-channel static             0.5     0.13    1788.8
+resistance p-channel dynamic-high       0.6     0.13    4728.0
+resistance p-channel dynamic-low        0.6     0.13    14150.0
+resistance p-channel static             0.6     0.13    4889.0
