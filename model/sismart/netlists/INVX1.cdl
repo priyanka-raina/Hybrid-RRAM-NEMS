@@ -1,0 +1,34 @@
+*Custom Designer (TM) Version F-2011.09-SP3-2
+*Sun Aug 19 11:47:49 2012
+
+*.SCALE METER
+*.LDD
+.GLOBAL gnd vdd
+********************************************************************************
+* Library          : SiS_Demo_my
+* Cell             : __inv
+* View             : schematic
+* View Search List : auCdl schematic symbol
+* View Stop List   : auCdl
+********************************************************************************
+.subckt __inv A Y length=0.1u nfinger=1 pfinger=1 wn=1.9e-07 wp=1.9e-07
+Mp1 Y A vdd vdd P w='((int(((2e8*wp)/pfinger))/2e8)*pfinger)' l='length' nf='pfinger'
++  m=1
+Mn1 Y A gnd gnd N w='((int(((2e8*wn)/nfinger))/2e8)*nfinger)' l='length' nf='nfinger'
++  m=1
+.ends __inv
+
+********************************************************************************
+* Library          : SiS_Demo_my
+* Cell             : INVX1
+* View             : schematic
+* View Search List : auCdl schematic symbol
+* View Stop List   : auCdl
+********************************************************************************
+.subckt INVX1 A Y drive_x=1 max_finger_w=0.5u n_width=0.19u p_n_ratio=2.2
+Xnr1 A Y __inv nfinger='(int((((drive_x*n_width)/max_finger_w)-0.5))+1)'
++ pfinger='(int(((((drive_x*n_width)*p_n_ratio)/max_finger_w)-0.5))+1)' wn='(drive_x*n_width)'
++  wp='(int((((2e8*drive_x)*n_width)*p_n_ratio))/2e8)'
+.ends INVX1
+
+
