@@ -27,7 +27,6 @@ module NEM_4T(drain, gate, source, bridge);
     
     real on_flg = 0;                            // "1" when device is on
     real Vgb;
-    real Cgb;
     real td;                                    // switching delay
     inout drain, gate, source, bridge;
     electrical drain, gate, source, bridge;
@@ -42,22 +41,18 @@ module NEM_4T(drain, gate, source, bridge);
 
         if ((Vgb >= Vpi) && (on_flg == 0)) begin
             on_flg = 1;
-            Cgb = Cgbon;
             td = tdmec;
         end
         else if ((Vgb > Vpo) && (on_flg == 1)) begin
             on_flg = 1;
-            Cgb = Cgbon;
             td = tdmec;
         end
         else if ((Vgb <= Vpo) && (on_flg == 1)) begin
             on_flg = 0;
-            Cgb = Cgboff;
             td = 0;
         end
         else if ((Vgb < Vpi) && (on_flg == 0)) begin
             on_flg = 0;
-            Cgb = Cgboff;
             td = 0;
         end
         
