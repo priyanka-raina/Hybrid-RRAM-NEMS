@@ -5,6 +5,6 @@
 .hdl nem_relay_4T.va
 
 .subckt NEM4T Vsrc Vdrn
-Vb Vb gnd 0.5
+Vb Vb gnd 0.5V
 Xnem gnd gnd Vsrc Vb Vpi=0.8 Vpo=0.2 rch=1E3 tdmec=1E-9 Cgbon=2E-17 Cgboff=1.5E-17
 .ends NEM4T
